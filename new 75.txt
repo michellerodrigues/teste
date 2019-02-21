@@ -1,0 +1,61 @@
+30391
+
+31033 encaixe
+
+
+30394M
+
+ListarConflitosSobDemanda
+
+-		Model	Count = 4	System.Collections.Generic.List<VidalinkWebApi.DTO.ConflitosSobDemandaDTO> {VidalinkWebApi.DTO.ConflitosSobDemandaDTOCollection}
+-		[0]	{VidalinkWebApi.DTO.ConflitosSobDemandaDTO}	VidalinkWebApi.DTO.ConflitosSobDemandaDTO
+		AgendamentoDemanda	"N"	string
+		CustomerId	"CT000393"	string
+		DsPrestador	"ARNALDO SCHIZZI CAMBIAGHI/(REC:CONSULTORIO X)"	string
+		DsTipoProcecimento	"1ª CONSULTA PRÉ-NATAL"	string
++		DtAgenda	{26/04/2018 10:00:00}	System.DateTime
+		IdAgenda	26347	decimal
+		IdProcedimento	null	decimal?
+		IdTipoProcedimento	750	int
+		TipoConflito	"REC"	string
+-		[1]	{VidalinkWebApi.DTO.ConflitosSobDemandaDTO}	VidalinkWebApi.DTO.ConflitosSobDemandaDTO
+		AgendamentoDemanda	"N"	string
+		CustomerId	"CT000393"	string
+		DsPrestador	"ANA PAULA AQUINO"	string
+		DsTipoProcecimento	"1ª AVALIAÇÃO US-OD (DOADORAS)"	string
++		DtAgenda	{26/04/2018 10:30:00}	System.DateTime
+		IdAgenda	30394	decimal
+		IdProcedimento	12708	decimal?
+		IdTipoProcedimento	747	int
+		TipoConflito	"PREST"	string
+-		[2]	{VidalinkWebApi.DTO.ConflitosSobDemandaDTO}	VidalinkWebApi.DTO.ConflitosSobDemandaDTO
+		AgendamentoDemanda	"N"	string
+		CustomerId	"CT000393"	string
+		DsPrestador	"ANA PAULA AQUINO/(REC:CONSULTORIO X)"	string
+		DsTipoProcecimento	"1ª AVALIAÇÃO US-OD (DOADORAS)"	string
++		DtAgenda	{26/04/2018 10:30:00}	System.DateTime
+		IdAgenda	30394	decimal
+		IdProcedimento	12708	decimal?
+		IdTipoProcedimento	747	int
+		TipoConflito	"REC"	string
+-		[3]	{VidalinkWebApi.DTO.ConflitosSobDemandaDTO}	VidalinkWebApi.DTO.ConflitosSobDemandaDTO
+		AgendamentoDemanda	"N"	string
+		CustomerId	"CT000393"	string
+		DsPrestador	"ANA PAULA AQUINO"	string
+		DsTipoProcecimento	null	string
++		DtAgenda	{26/04/2018 11:00:00}	System.DateTime
+		IdAgenda	30395	decimal
+		IdProcedimento	null	decimal?
+		IdTipoProcedimento	0	int
+		TipoConflito	"PREST"	string
+
+		31034
+		AGENDAMENTO CANCELADO SEM PACIENTE",30395
+		
+		
+		CT000393	30394	26/04/18	472		161	1		30				N	323354	N
+CT000393	30395	26/04/18	472		161	1	23/04/18	30	184993			N		N
+CT000393	31034	26/04/18	472	747	161	1		60			SOLICITAMOS CHEGADA COM 15 MINUTOS DE ANTECEDÊNCIA.	S	323355	N
+CT000393	26347	26/04/18	469	750	161	1		60			SOLICITAMOS CHEGADA COM 15 MINUTOS DE ANTECEDÊNCIA.	N		N
+
+"30394#189635"

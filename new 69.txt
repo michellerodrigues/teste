@@ -1,0 +1,32 @@
+mapeamento planilha sinistro
+
+
+Apólice
+
+Causa
+
+Especificar "Demais Causas"
+
+Data da Ocorrência
+
+Responsável pelo Aviso de Sinistro
+
+Telefone do Responsável pelo Aviso de Sinistro (com DDD)
+
+Relação do Responsável pelo Aviso de Sinistro com o Segurado
+
+Especificar "Outros"
+
+Data estimada da Colheita
+
+Responsável por Acompanhar a Vistoria
+
+Telefone de Contato do Reponsável por Acompanhar a Vistoria (com DDD)
+
+E-mail de Contato do Reponsável por Acompanhar a Vistoria
+
+Descrição do Sinistro/Evento
+
+Descrição dos Danos
+
+Observações

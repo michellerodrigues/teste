@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<ArrayOfAppointment>
+    <Appointment>
+        <ID>374251</ID>
+        <Description>Dhiovanna Pinheiro Oliveira</Description>
+        <Patient_ID>61521</Patient_ID>
+        <Attendances_Code>521715</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/05/2018 11:00:00</InMaAgen>
+        <FiMaAgen>16/05/2018 11:30:00</FiMaAgen>
+        <DtMaAgen>14/05/2018 16:21:00</DtMaAgen>
+        <CreatedOn>14/05/2018 16:26:00</CreatedOn>
+        <ModifiedOn>14/05/2018 16:26:00</ModifiedOn>
+        <CreatedBy>967</CreatedBy>
+        <ModifiedBy>967</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>377651</ID>
+        <Description>Larissa Ribeiro Guimarães</Description>
+        <Patient_ID>62062</Patient_ID>
+        <Attendances_Code>527061</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/06/2018 09:00:00</InMaAgen>
+        <FiMaAgen>04/06/2018 09:15:00</FiMaAgen>
+        <DtMaAgen>04/06/2018 15:17:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+etiquetaetiqueta
+
+cancelado por Karen Pereira Leal em 04/06/2018 15:18:27
+*********************************************</ObseAgen>
+        <CreatedOn>04/06/2018 15:17:00</CreatedOn>
+        <ModifiedOn>04/06/2018 15:18:00</ModifiedOn>
+        <CanceledOn>04/06/2018 15:18:00</CanceledOn>
+        <CreatedBy>884</CreatedBy>
+        <ModifiedBy>884</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378402</ID>
+        <Description>Lisana Fernandes Massaine</Description>
+        <Patient_ID>62169</Patient_ID>
+        <Attendances_Code>528137</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>07/06/2018 08:20:00</InMaAgen>
+        <FiMaAgen>07/06/2018 08:35:00</FiMaAgen>
+        <DtMaAgen>07/06/2018 13:23:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+etiquetaetiqueta
+
+cancelado por Karen Pereira Leal em 07/06/2018 13:23:55
+*********************************************</ObseAgen>
+        <CreatedOn>07/06/2018 13:23:00</CreatedOn>
+        <ModifiedOn>07/06/2018 13:23:00</ModifiedOn>
+        <CanceledOn>07/06/2018 13:23:00</CanceledOn>
+        <CreatedBy>884</CreatedBy>
+        <ModifiedBy>884</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378558</ID>
+        <Description>FERNANDA LEANDRO CAMPOS DE OLIVEIRA</Description>
+        <Patient_ID>62188</Patient_ID>
+        <Attendances_Code>528403</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/06/2018 08:00:00</InMaAgen>
+        <FiMaAgen>08/06/2018 08:15:00</FiMaAgen>
+        <DtMaAgen>08/06/2018 11:15:00</DtMaAgen>
+        <CreatedOn>08/06/2018 11:21:00</CreatedOn>
+        <ModifiedOn>08/06/2018 11:21:00</ModifiedOn>
+        <CreatedBy>976</CreatedBy>
+        <ModifiedBy>976</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378559</ID>
+        <Description>Thais Barbosa Ferreira Cajueiro</Description>
+        <Patient_ID>62136</Patient_ID>
+        <Attendances_Code>528407</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/06/2018 08:30:00</InMaAgen>
+        <FiMaAgen>08/06/2018 08:45:00</FiMaAgen>
+        <DtMaAgen>08/06/2018 11:25:00</DtMaAgen>
+        <CreatedOn>08/06/2018 11:26:00</CreatedOn>
+        <ModifiedOn>08/06/2018 11:26:00</ModifiedOn>
+        <CreatedBy>976</CreatedBy>
+        <ModifiedBy>976</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378570</ID>
+        <Description>Daniela Martins Maia</Description>
+        <Patient_ID>62134</Patient_ID>
+        <Attendances_Code>528440</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/06/2018 09:30:00</InMaAgen>
+        <FiMaAgen>08/06/2018 09:45:00</FiMaAgen>
+        <DtMaAgen>08/06/2018 12:28:00</DtMaAgen>
+        <CreatedOn>08/06/2018 12:29:00</CreatedOn>
+        <ModifiedOn>08/06/2018 12:29:00</ModifiedOn>
+        <CreatedBy>976</CreatedBy>
+        <ModifiedBy>976</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>379232</ID>
+        <Description>Alice de Fatima da Silva Leal</Description>
+        <Patient_ID>62308</Patient_ID>
+        <Attendances_Code>529308</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/06/2018 11:00:00</InMaAgen>
+        <FiMaAgen>12/06/2018 11:15:00</FiMaAgen>
+        <DtMaAgen>12/06/2018 11:34:00</DtMaAgen>
+        <CreatedOn>12/06/2018 11:34:00</CreatedOn>
+        <ModifiedOn>12/06/2018 11:34:00</ModifiedOn>
+        <CreatedBy>792</CreatedBy>
+        <ModifiedBy>792</ModifiedBy>
+    </Appointment>
+</ArrayOfAppointment>

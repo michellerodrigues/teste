@@ -1,0 +1,1735 @@
+
+<style>
+    .panel-heading {
+        background-color: #DCE5E3!important;
+    }
+    .panel-acompanhamento {
+        background-color: #f8f8f8!important;
+    }
+    .ui-tooltip {
+        white-space: pre-line;
+        max-width: 400px;
+    }
+</style>
+
+    <input id="ActExcluirAgendas" name="ActExcluirAgendas" type="hidden" value="/WebAppAdminPSP/Agenda/ExcluirAgendas" />
+    <input id="ActConfirmarAusencia" name="ActConfirmarAusencia" type="hidden" value="/WebAppAdminPSP/Agenda/ConfirmarAusencia" />
+    <input id="ActConfirmarPresenca" name="ActConfirmarPresenca" type="hidden" value="/WebAppAdminPSP/Agenda/ConfirmarPresenca" />
+
+    <div class="row">
+        <div class="col-lg-12" style="text-align:right">
+                    <button type="button" id="btnExcluirAgenda" disabled style="visibility:hidden" class="btn btn-danger" data-toggle="tooltip" title="Selecione as datas para excluir"><span class="glyphicon glyphicon-remove"></span> EXCLUIR AGENDA</button>    
+                <button type="button" id="btnConfirmarPresenca" disabled style="display:none;" class="btn btn-info" data-toggle="tooltip" title="Selecione as datas para confirmar presença"><span class="glyphicon glyphicon-ok"></span> CONFIRMAR PRESENÇA</button>
+                <button type="button" id="btnConfirmarAusencia" disabled style="display:none;" class="btn btn-default" data-toggle="tooltip" title="Selecione as datas para confirmar ausência"><span class="glyphicon glyphicon-ban-circle"></span> CONFIRMAR AUSÊNCIA</button>
+        </div>
+    </div>
+        <span style="color: #43695B; font-size: large;">
+            ter&#231;a-feira, 24 de abril
+            - 
+(29) Dispon&#237;veis<span> - </span>(3) Agendados <span> - </span>(0) Acompanhamentos        </span>
+        <hr style="margin: 0; background-color: #43695B; margin-bottom: 20px;" />
+            <div class="row">
+                <div class="col-lg-12"><div class="alert alert-warning text-center"><strong>Local: UNIDADE VILA MARIANA</strong></div></div>
+            </div>
+            <div class="row">
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-info">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30327" class="form-control" value="30327#190826" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">08:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>AGENDADO[*]</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;">MARY PINHEIRO - 33 anos</div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CONSULT&#211;RIO 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; CONSULTA GINECOL&#211;GICA">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                                <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" title="&lt;strong&gt;Agendamento: &lt;/strong&gt;O PROCEDIMENTO SER&#193; REALIZADO PELO(A) DR(A). ANA PAULA AQUINO
+Agendamento -  1&#170; CONSULTA GINECOL&#211;GICA &gt;&gt; Local: UNIDADE VILA MARIANA&gt;&gt; Data e Hora: 24/04/2018 08:00">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-info">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30919" class="form-control" value="30919#189635" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">08:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>AGENDADO</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;">MARY RIBEIRO NICOLIELLO - 42 anos</div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULT&#211;RIO 2 (15min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; CONSULTA OBST&#201;TRICA">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                                <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" title="&lt;strong&gt;Agendamento: &lt;/strong&gt;encaixe outro paciente, outro procedimento, mesmo m&#233;dito mesmo hor&#225;rioo">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-info">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30328" class="form-control" value="30328#190826" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">08:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>AGENDADO[*]</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;">MARY PINHEIRO - 33 anos</div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CONSULT&#211;RIO 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; CONSULTA GINECOL&#211;GICA">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                                <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" title="&lt;strong&gt;Agendamento: &lt;/strong&gt;O PROCEDIMENTO SER&#193; REALIZADO PELO(A) DR(A). ANA PAULA AQUINO
+Agendamento - 1&#170; CONSULTA GINECOL&#211;GICA &gt;&gt; Local: UNIDADE VILA MARIANA&gt;&gt; Data e Hora: 24/04/2018 08:30">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30329" class="form-control" value="30329#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">09:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30330" class="form-control" value="30330#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">09:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30331" class="form-control" value="30331#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">10:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30332" class="form-control" value="30332#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">10:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30333" class="form-control" value="30333#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">11:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30334" class="form-control" value="30334#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">11:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30335" class="form-control" value="30335#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">12:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30336" class="form-control" value="30336#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">12:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30337" class="form-control" value="30337#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">13:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30338" class="form-control" value="30338#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">13:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30339" class="form-control" value="30339#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">14:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30340" class="form-control" value="30340#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">14:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30341" class="form-control" value="30341#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">15:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30342" class="form-control" value="30342#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">15:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30343" class="form-control" value="30343#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">16:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30344" class="form-control" value="30344#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">16:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30345" class="form-control" value="30345#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">17:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30346" class="form-control" value="30346#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">17:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30347" class="form-control" value="30347#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">18:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30348" class="form-control" value="30348#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">18:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30349" class="form-control" value="30349#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">19:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30350" class="form-control" value="30350#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">19:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30351" class="form-control" value="30351#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">20:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30352" class="form-control" value="30352#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">20:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30353" class="form-control" value="30353#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">21:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30354" class="form-control" value="30354#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">21:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30355" class="form-control" value="30355#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">22:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30356" class="form-control" value="30356#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">22:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30357" class="form-control" value="30357#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">23:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        <span style="color: #43695B; font-size: large;">
+            quarta-feira, 25 de abril
+            - 
+(31) Dispon&#237;veis<span> - </span>(0) Agendados <span> - </span>(0) Acompanhamentos        </span>
+        <hr style="margin: 0; background-color: #43695B; margin-bottom: 20px;" />
+            <div class="row">
+                <div class="col-lg-12"><div class="alert alert-warning text-center"><strong>Local: UNIDADE VILA MARIANA</strong></div></div>
+            </div>
+            <div class="row">
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30358" class="form-control" value="30358#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">08:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30359" class="form-control" value="30359#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">08:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30360" class="form-control" value="30360#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">09:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30361" class="form-control" value="30361#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">09:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30362" class="form-control" value="30362#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">10:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30363" class="form-control" value="30363#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">10:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30364" class="form-control" value="30364#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">11:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30365" class="form-control" value="30365#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">11:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30366" class="form-control" value="30366#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">12:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30367" class="form-control" value="30367#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">12:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30368" class="form-control" value="30368#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">13:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30369" class="form-control" value="30369#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">13:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30370" class="form-control" value="30370#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">14:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30371" class="form-control" value="30371#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">14:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30372" class="form-control" value="30372#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">15:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30373" class="form-control" value="30373#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">15:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30374" class="form-control" value="30374#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">16:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30375" class="form-control" value="30375#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">16:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30376" class="form-control" value="30376#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">17:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30377" class="form-control" value="30377#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">17:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30378" class="form-control" value="30378#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">18:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30379" class="form-control" value="30379#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">18:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30380" class="form-control" value="30380#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">19:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30381" class="form-control" value="30381#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">19:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30382" class="form-control" value="30382#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">20:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30383" class="form-control" value="30383#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">20:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30384" class="form-control" value="30384#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">21:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30385" class="form-control" value="30385#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">21:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="clear: left;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30386" class="form-control" value="30386#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">22:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30387" class="form-control" value="30387#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">22:30</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="">
+                        <div class="panel panel-default">
+                            <div class="panel-heading " style="text-align: center;">
+                                <div class="row">
+                                    <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30388" class="form-control" value="30388#" style="margin-left: 5px;" />                                    </div>
+                                    <div class="col-sm-3" style="padding: 0px;">23:00</div>
+                                    <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="padding: 0px;"> - </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm-10" style="padding: 0px;">
+                                            CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                        </div>
+                                        <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                                <i class="glyphicon glyphicon-info-sign"></i>
+                                            </div>
+                                        </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+    <!-- Modal Upload -->
+    <div class="modal fade" id="myModalFiltro"
+         tabindex="-1" role="dialog" aria-labelledby="myModalFiltroLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalFiltroLabel">  Confirmação</h4>
+                </div>
+                <div id="h4TitleModal"></div>
+                <div class="modal-body" id="myModalFiltroBody">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnModalFiltroSair" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove-circle"></span> NÃO</button>
+                    <button type="button" id="btnModalFiltroConcluir" class="btn btn-info" data-dismiss="modal"><span class="glyphicon glyphicon-share-alt"></span> SIM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input:checkbox[data-agenda]").click(function (e) {
+                $('#btnExcluirAgenda').prop("disabled", true);
+                $('#btnExcluirAgenda').css("visibility", "hidden");
+                $('#btnConfirmarPresenca').css("display", "none");
+                $('#btnConfirmarAusencia').css("display", "none");
+                $('#btnConfirmarPresenca').prop("disabled", true);
+                $('#btnConfirmarAusencia').prop("disabled", true);
+
+                var arr = $("input:checkbox[data-agenda]:checked");
+                if (arr.length > 0) {
+
+                    if ($("#IdStatus").val() != '6')
+                    {
+                        $('#btnExcluirAgenda').prop("disabled", false);
+                        $('#btnExcluirAgenda').css("visibility", "visible");
+                    }
+                    
+                    if ($("#IdStatus").val() == '6')
+                    {
+                        $('#btnConfirmarPresenca').prop("disabled", false);
+                        $('#btnConfirmarPresenca').show();
+
+                        $('#btnConfirmarAusencia').prop("disabled", false);
+                        $('#btnConfirmarAusencia').show();
+                    }
+                    
+                }
+            });
+
+            $('#btnExcluirAgenda').click(function (e) {
+                var arr = $("input:checkbox[data-agenda]:checked");
+                if (arr.length > 0) {
+                    //Exibir modal
+                    $('#myModalFiltroBody').html('Confirma a exclusão do(s) agendamento(s) selecionado(s)?');
+                    $("#myModalFiltro").modal({ backdrop: 'static' });
+                }
+            });
+
+
+
+
+
+            //$('.modal-backdrop').css('visibility', 'hidden'); pesquisar(this);
+            //$('#divDetalhes').delegate('#btnModalFiltroConcluir', 'click', function (e) {
+            //});
+            $('#btnModalFiltroConcluir').click(function (e) {
+                var removerAgd = '';
+                var arr = $("input:checkbox[data-agenda]:checked");
+                for (var i = 0; i < arr.length; i++) {
+                    removerAgd = removerAgd + $(arr[i]).val() + '|';
+                }
+                if (removerAgd != '') {
+                    var customerId = $('#CustomerId').val();
+                    var userId = $('#UserId').val();
+                    var idPrestador = $('#IdPrestador').val();
+
+                    var acao = $("#ActExcluirAgendas").val();
+                    $.ajax({
+                        url: acao,
+                        type: 'POST',
+                        data: { CustomerId: customerId, UserId: userId, IdPrestador: idPrestador, Agendas: removerAgd },
+                        success: function (response) {
+                            var myObject = eval('(' + JSON.stringify(response) + ')');
+                            if (myObject.Erro == '') {
+                                //alert(myObject.Mensagem);
+                                //Exibir modal
+                                showModal("Sucesso", myObject.Mensagem);
+                            }
+                        }
+                    });
+                }
+
+            });
+
+        });
+
+
+    </script>

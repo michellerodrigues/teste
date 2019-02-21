@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<hd_pt:XML_Data xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.healthdome.com/ns/patients file:/D:/Gentus/VERSION%205.4/Medsoft/Tools/MPDTS/Medsof_StandardXML/MSSF_PatientEnrollmentInfo_v_1_0_0.xsd" xmlns:hd_pt="http://www.healthdome.com/ns/patients">
+    <hd_pt:Patients>
+        <hd_pt:Patient>
+            <hd_pt:IDs>
+                <hd_pt:ID>
+                    <hd_pt:Type>BRAZILIAN_CPF</hd_pt:Type>
+                    <hd_pt:Number>08464460732</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+                <hd_pt:ID>
+                    <hd_pt:Type>BRAZILIAN_CI</hd_pt:Type>
+                    <hd_pt:Number>103783429</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+                <hd_pt:ID>
+                    <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                    <hd_pt:Number>36599</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+            </hd_pt:IDs>
+            <hd_pt:Name>
+                <hd_pt:Title />
+                <hd_pt:FirstName>Diana</hd_pt:FirstName>
+                <hd_pt:MiddleName>Alves de Almeida</hd_pt:MiddleName>
+                <hd_pt:LastName>Oliveira</hd_pt:LastName>
+                <hd_pt:FullName>Diana Alves de Almeida Oliveira</hd_pt:FullName>
+            </hd_pt:Name>
+            <hd_pt:DateOfBirth>1979-10-20T00:00:00</hd_pt:DateOfBirth>
+            <hd_pt:Race>UNKNOWN</hd_pt:Race>
+            <hd_pt:Sex>FEMALE</hd_pt:Sex>
+            <hd_pt:SexualOrientation>HETEROSEXUAL</hd_pt:SexualOrientation>
+            <hd_pt:Religion>.</hd_pt:Religion>
+            <hd_pt:Phones>
+                <hd_pt:Phone>
+                    <hd_pt:Type>HOME</hd_pt:Type>
+                    <hd_pt:Number>24 33488355</hd_pt:Number>
+                </hd_pt:Phone>
+                <hd_pt:Phone>
+                    <hd_pt:Type>COMMERCIAL</hd_pt:Type>
+                    <hd_pt:Number>24 9 9849 5416</hd_pt:Number>
+                </hd_pt:Phone>
+                <hd_pt:Phone>
+                    <hd_pt:Type>CELL1</hd_pt:Type>
+                    <hd_pt:Number>24 9 9822 3408</hd_pt:Number>
+                </hd_pt:Phone>
+            </hd_pt:Phones>
+            <hd_pt:Addresses>
+                <hd_pt:Address>
+                    <hd_pt:Type>HOME</hd_pt:Type>
+                    <hd_pt:AddressLine1>Rua Professor Afonso Leite</hd_pt:AddressLine1>
+                    <hd_pt:Number>380</hd_pt:Number>
+                    <hd_pt:Complement>apto 302</hd_pt:Complement>
+                    <hd_pt:District>Jardim Amália</hd_pt:District>
+                    <hd_pt:City>Volta Redonda</hd_pt:City>
+                    <hd_pt:State>RJ</hd_pt:State>
+                    <hd_pt:Zip>27251360</hd_pt:Zip>
+                    <hd_pt:Country>BRASIL</hd_pt:Country>
+                </hd_pt:Address>
+            </hd_pt:Addresses>
+            <hd_pt:Emails>
+                <hd_pt:Email>
+                    <hd_pt:Type>PERSONAL1</hd_pt:Type>
+                    <hd_pt:Email>diana.artcopy@hotmail.com</hd_pt:Email>
+                </hd_pt:Email>
+            </hd_pt:Emails>
+            <hd_pt:Occupations>
+                <hd_pt:Occupation>
+                    <hd_pt:ID>0</hd_pt:ID>
+                    <hd_pt:Description>Assistente administrativo</hd_pt:Description>
+                </hd_pt:Occupation>
+            </hd_pt:Occupations>
+            <hd_pt:HealthInsurances>
+                <hd_pt:HealthInsurance>
+                    <hd_pt:ID>1</hd_pt:ID>
+                    <hd_pt:Name>Particular</hd_pt:Name>
+                    <hd_pt:BillingRankingPosition>PRIMARY</hd_pt:BillingRankingPosition>
+                    <hd_pt:HealthInsurancePatientID />
+                    <hd_pt:Plan>
+                        <hd_pt:ID>1</hd_pt:ID>
+                        <hd_pt:Name>Particular - Integral</hd_pt:Name>
+                    </hd_pt:Plan>
+                    <hd_pt:GroupID />
+                </hd_pt:HealthInsurance>
+                <hd_pt:HealthInsurance>
+                    <hd_pt:ID>2</hd_pt:ID>
+                    <hd_pt:Name>(sem convênio)</hd_pt:Name>
+                    <hd_pt:BillingRankingPosition>SECONDARY</hd_pt:BillingRankingPosition>
+                    <hd_pt:HealthInsurancePatientID />
+                    <hd_pt:Plan>
+                        <hd_pt:ID>2</hd_pt:ID>
+                        <hd_pt:Name>(sem convênio)</hd_pt:Name>
+                    </hd_pt:Plan>
+                    <hd_pt:GroupID />
+                </hd_pt:HealthInsurance>
+            </hd_pt:HealthInsurances>
+            <hd_pt:PersonRelationships>
+                <hd_pt:PersonRelationship>
+                    <hd_pt:Type>IS_PHYSICIAN_OF_PATIENT</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:Number>17279</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>
+                        <hd_pt:FullName>Michele Quaranta Panzan</hd_pt:FullName>
+                    </hd_pt:Name>
+                    <hd_pt:DateOfBirth>0001-01-01T00:00:00</hd_pt:DateOfBirth>
+                    <hd_pt:EnrolledOn>0001-01-01T00:00:00</hd_pt:EnrolledOn>
+                </hd_pt:PersonRelationship>
+                <hd_pt:PersonRelationship>
+                    <hd_pt:Type>IS_WIFE_OF_PATIENT</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CPF</hd_pt:Type>
+                            <hd_pt:Number>00562986766</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CI</hd_pt:Type>
+                            <hd_pt:Number>08596476-5</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:Number>26112</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>
+                        <hd_pt:FirstName>Herlon</hd_pt:FirstName>
+                        <hd_pt:MiddleName>de Oliveira</hd_pt:MiddleName>
+                        <hd_pt:LastName>Silva</hd_pt:LastName>
+                        <hd_pt:FullName>Herlon de Oliveira Silva</hd_pt:FullName>
+                    </hd_pt:Name>
+                    <hd_pt:DateOfBirth>1970-10-01T00:00:00</hd_pt:DateOfBirth>
+                    <hd_pt:Phones>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>HOME</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>COMMERCIAL</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>CELL1</hd_pt:Type>
+                            <hd_pt:Number>24 - 9 9849-5416</hd_pt:Number>
+                        </hd_pt:Phone>
+                    </hd_pt:Phones>
+                    <hd_pt:Addresses>
+                        <hd_pt:Address>
+                            <hd_pt:Type>HOME</hd_pt:Type>
+                            <hd_pt:AddressLine1>Rua Professor Afonso Leite</hd_pt:AddressLine1>
+                            <hd_pt:Number>380</hd_pt:Number>
+                            <hd_pt:Complement />
+                            <hd_pt:District>Jardim Amália</hd_pt:District>
+                            <hd_pt:City>Volta Redonda</hd_pt:City>
+                            <hd_pt:State>RJ</hd_pt:State>
+                            <hd_pt:Zip>27251360</hd_pt:Zip>
+                            <hd_pt:Country>Brasil</hd_pt:Country>
+                        </hd_pt:Address>
+                    </hd_pt:Addresses>
+                    <hd_pt:Emails>
+                        <hd_pt:Email>
+                            <hd_pt:Type>PERSONAL1</hd_pt:Type>
+                            <hd_pt:Email>herlonsilva70@gmail.com</hd_pt:Email>
+                        </hd_pt:Email>
+                    </hd_pt:Emails>
+                    <hd_pt:EnrolledOn>2013-02-07T17:08:00</hd_pt:EnrolledOn>
+                </hd_pt:PersonRelationship>
+            </hd_pt:PersonRelationships>
+            <hd_pt:InstitutionRelationships>
+                <hd_pt:InstitutionRelationship>
+                    <hd_pt:Type>IS_HEALTHCARE_SERVICE_PROVIDER_OF</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:ID>4</hd_pt:ID>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CNPJ</hd_pt:Type>
+                            <hd_pt:ID /></hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>HUNTINGTON CAMPINAS</hd_pt:Name>
+                    <hd_pt:Phones>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>WORK</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>FAX</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                    </hd_pt:Phones>
+                    <hd_pt:Addresses>
+                        <hd_pt:Address>
+                            <hd_pt:Type>LOCAL</hd_pt:Type>
+                            <hd_pt:AddressLine1>Av. José de Souza Campos (Av. Norte Sul), 1321 - Ed Dahruj - 6º andar</hd_pt:AddressLine1>
+                            <hd_pt:Number />
+                            <hd_pt:Complement />
+                            <hd_pt:District />
+                            <hd_pt:City>Campinas</hd_pt:City>
+                            <hd_pt:State>SP</hd_pt:State>
+                            <hd_pt:Zip>13024001</hd_pt:Zip>
+                        </hd_pt:Address>
+                    </hd_pt:Addresses>
+                    <hd_pt:Emails>
+                        <hd_pt:Email>
+                            <hd_pt:Type>WORK1</hd_pt:Type>
+                            <hd_pt:Email /></hd_pt:Email>
+                    </hd_pt:Emails>
+                </hd_pt:InstitutionRelationship>
+            </hd_pt:InstitutionRelationships>
+            <hd_pt:EnrolledOn>2015-01-27T00:00:00</hd_pt:EnrolledOn>
+        </hd_pt:Patient>
+    </hd_pt:Patients>
+    <hd_pt:DataSubmissionDate>0001-01-01T00:00:00</hd_pt:DataSubmissionDate>
+</hd_pt:XML_Data>

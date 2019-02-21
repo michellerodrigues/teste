@@ -1,0 +1,17 @@
+StringContent Content = new StringContent("username=vidalink&password=vidalink2017&grant_type=password&client_id=
+
+
+bc2c519d-ff84-4e79-a6a5-d22bdc9a1270%3AhXBbTjZLHnte6I--6daTEa4KWTaYacoj_Uavmgemd6U
+bc2c519d-ff84-4e79-a6a5-d22bdc9a1270:hXBbTjZLHnte6I--6daTEa4KWTaYacoj_Uavmgemd6U
+",
+				Encoding.UTF8, bc2c519d-ff84-4e79-a6a5-d22bdc9a1270:hXBbTjZLHnte6I--6daTEa4KWTaYacoj_Uavmgemd6U
+				"application/x-www-form-urlencoded");//CONTENT-TYPE header
+				
+
+				Each package is licensed to you by its owner. NuGet is not responsible for, nor does it grant any licenses to, third-party packages. Some packages may include dependencies which are governed by additional licenses. Follow the package source (feed) URL to determine any dependencies.
+
+Package Manager Console Host Version 4.6.0.4964
+
+Type 'get-help NuGet' to see all available NuGet commands.
+
+An error occurred while reading file 'C:\Users\miche\Desktop\mica\tcc\vd_oficial\WebAppAdminPSP\packages.config': There are duplicate packages: Microsoft.AspNet.WebApi.Client

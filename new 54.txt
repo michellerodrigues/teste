@@ -1,0 +1,13 @@
+Message = "The provider is not compatible with the version of Oracle client"
+InnerException = {"The provider is not compatible with the version of Oracle client"}
+Oracle.DataAccess.x86.2.112.1.0
+Oracle.ManagedDataAccess.12.1.24160719
+
+
+StackTrace = "   em Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)\r\n   em Framework.Vidalink.Acessos.Utilitarios.ValidacoesAcessos.AutenticaUsuario(String login, String senha, Int32 SisId)\r\n   em WebAppAdminPSP.Controllers.HomeController.Lo...
+
+
+ C:\Users\miche\AppData\Local\Temp\OraInstall2018-04-17_01-14-49PM
+ 
+fbet241
+Fb2408!2

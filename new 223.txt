@@ -1,0 +1,38 @@
+[{"UsuId":350600,"Nome":"MARIO SOUZA RIBEIRO ||","NomeMedico":null,"Cpf":"80611125587","Endereco":"JACI SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"80611125587","ClientId":null,"ClientGroupId":null,"MiscData":"20906567","MemberIdConjuge":"80611125587","EffectiveDateOverride":20180219,"IdCliente":"59409","DataInicioBeneficioCliente":null,"UsuIdConjuge":356704,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+[{"UsuId":350600,"Nome":"KARLA CRISTINA VIANA BREGENSK","NomeMedico":"KARLA ZACHARIAS","Cpf":"10686653785","Endereco":"RUA JACY SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"10686653785","ClientId":null,"ClientGroupId":null,"MiscData":"20285848","MemberIdConjuge":"80611125587","EffectiveDateOverride":20180219,"IdCliente":"59409","DataInicioBeneficioCliente":null,"UsuIdConjuge":356704,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+		Session["pspcookie" + Request.UrlReferrer.Segments[1]]	"7njFln7rq0VGE52BhVFbQv+FftmHnxNLz14c/NaahAjugdeKwrKxCwljVs6mtojDa9ZzJUMai8R63obnHABrhKDDe1Q2DXwUPRGyzgzrCsAlD+VhOT6dUNcY81PUhR6Cd/+vTe5Hy2EZx0jT/O73WqdRLRMGRugS8xtybdF2ZUZcI8b76NBkGgwAXsHNX0c/8wr5WmYOwryx/HTIR9b9OlJm0CDEREG4JLsTODKw/w2YTZkP088nFQ/ITblptcRtthDn9Mcdm1zT/7tscD8cE2Y+3T5BUtcO3K6e61a4U/uSviSsNei/FalgNEKQHzpYvAxFGti8JGIa7ynKONQ82QueP5ouHq5XYrzdjUDqxKn/VsAb3d/wGG3uCvgA7ea3SwkcBhUL7CK2GiQyL8oh0KVOrhGnaTJFLpi6sUZWNTMZnKRVD9Nk83+7cLW4c+v9VJkxGtIzRZORhcZmGyOTQYocl40evOUHbvRLclJrAhdw2RxTf0OVPDAozz9vqXjxu8uDr2yXwJDEKx56yRrdPaGEh/bKHrr8aADjhBQWE0QMLSxe7NcuEArBB3G3zV7jJbWGVG3YwlxSNvPQdzhUIkJcjX5j8xKI0NSAYFHbKNpoEhr+H0f6UyouKYo1oA0MsUCN1rzczGwBaC0GynS8Yn1fmBblEBHR6wE4e3QDfz7QD33K1nC2tPCcqJsBCW2At0SL4/+fGZxhJEYVxMhTOX83O212dxxmw98zOFZEH0IJMe+L+umqZYhdx1+I3AbAoLN1HN+PFUPvUsS0ZJVHUYw9QiDkHD8M"	object {string}
+
+		
+		"ORA-20000: ERRO EM PSP.SP_PROCEDIMENTOS_INS\rCOD. ERRO     : -2291\rMENSAGEM. ERRO: ORA-02291: restrição de integridade (PSP.PROCEDIMENTOS_PACIENTE_FK) violada - chave mãe não localizada\rPARAMETROS: \rP_CUSTOMER_ID            = CT000519\rP_ID_TIPO_PROCEDIMENTO              = 2341\rP_ID_PRESTADOR           = 1121\rP_ID_TIPO_PROCEDIMENTO   = 2341\rP_ID_USU_PACIENTE         = 0\rP_MEMBER_ID = 80611125587\rP_CLIENT_ID = HUNTINGTON\rP_CLIENT_ID_GROUP = HUNTINGTON\rP_DT_PROCEDIMENTO = 18/06/18\rP_ID_AGENDA = 74212\r\nORA-06512: em \"PSP.SP_PROCEDIMENTOS_INS\", line 389\nORA-06512: em line 1"
+		
+		"Y6mTOWm9vCSEoDmUhEYj9u5HGrvvLid1jrohVb5p5caANjIT2-RpTCIhquuIosT_AKhmiO4e6MGaxHV43a4WmgdVBqVGBkiOG_rGPCoVY_ws9D5g1QFLadxV4IOs_ePonsHzbNgCNmTgVx9OLm-E80-Qv40dD7XJGnOtL3oq9-cuHftnnrt2SY2HaqT7BeKjqfMPqzTs_xvXIzwmBXhNdZY39mNSps9mi5YW7I2676t3v9NjmBuTdjsHEjdDRPXk4jIbBtEogl51kt-DgcL70bcqk4RMCXw3qtAmsr5fpiOhPJmyDXzHagJNPaXEz-Sy7jvH5P4rwZMEA0Zwn0Qrd4XPtmwJSJEox9q-YiQBrigTzzvaclds2p4Ngn6V-CZV6zb8aEJWQxVFbW5jX1IpLPvvtWDDvNRlSxxptVt5_EHntDvsoVgKxjWDA2Nk_CeSrZPt1EZVjLKJ0yv_Q7XZYrobQbyUMfbVTE60EE0i2vI|Karla Cristina Viana Bregensk|4C8056E2E8EE3969E053090A0A0AAE22|350600,0|CT000519|21,0||350600,0|10686653785|356704,0|80611125587|"
+		
+		
+		"QWhaz9juU2lbRaEmofePsXZ4O9ATT8WBV5EfI-UIuNomD2Qkn48wgZ5QMalhQZiFLKh3xm6QIxjUyutAtDduOkfQP7127sqDt41q2TjvxCqQUHMPuFv2zmYLPKOyyZA1-429IZEwxg1eCLMS3sb0f_wz97yb6rCzemXpWBFHf7r_uaeh5dBC3gPAxOANfF7mP-NAMhzObK4gF8p-QlhkbrRzius5kKyd8veDktMWCaB448N3nADFq4Rb3EvCfwF60ygpNMpFqB0jErVxGArO8FwQ6dtPyUxNxYk_eq-n_rXTrfQmRWQaIgVpp4Dl18lE2KLnb6sLljHP6C4eorV-NaSbJ8wKNBpCV_EspOYOnl4kEpOxr9c_edxS0_z5HMpAWOwbrsNA6AhpWLLZ953DW75jX9n9ktn7q82Bmg7xGrm8saNNg4GhI1Xq4WPFJj1DsOl66h6btDZNLXE9G9Ja2VoLup0fRMzYcbKpb3WSlnk|Karla Cristina Viana Bregensk|4C8056E2E8EE3969E053090A0A0AAE22|350600,0|CT000519|21,0||350600,0|10686653785|356704,0|80611125587|"
+		
+		
+		"QWhaz9juU2lbRaEmofePsXZ4O9ATT8WBV5EfI-UIuNomD2Qkn48wgZ5QMalhQZiFLKh3xm6QIxjUyutAtDduOkfQP7127sqDt41q2TjvxCqQUHMPuFv2zmYLPKOyyZA1-429IZEwxg1eCLMS3sb0f_wz97yb6rCzemXpWBFHf7r_uaeh5dBC3gPAxOANfF7mP-NAMhzObK4gF8p-QlhkbrRzius5kKyd8veDktMWCaB448N3nADFq4Rb3EvCfwF60ygpNMpFqB0jErVxGArO8FwQ6dtPyUxNxYk_eq-n_rXTrfQmRWQaIgVpp4Dl18lE2KLnb6sLljHP6C4eorV-NaSbJ8wKNBpCV_EspOYOnl4kEpOxr9c_edxS0_z5HMpAWOwbrsNA6AhpWLLZ953DW75jX9n9ktn7q82Bmg7xGrm8saNNg4GhI1Xq4WPFJj1DsOl66h6btDZNLXE9G9Ja2VoLup0fRMzYcbKpb3WSlnk|Karla Cristina Viana Bregensk|4C8056E2E8EE3969E053090A0A0AAE22|350600,0|CT000519|21,0||350600,0|10686653785|356704,0|80611125587|"
+		
+		"A4iwJjHj9BpLMMVCGuQOqRVxGRlnSyoPOdOqLPgQ7V38LAEfH_0VmUvMhyrfF5lFfXj7BkwLYPBdPT0V41vbSWgqO1Yl2Ng6uFy25yMQChAreBH6uIPHr4VAxfyXfPp3AlbhAGfy1bgQM_SUdrvrlThjLJGofv-x_KN3dUE033s3TI4YEDrJ5FRN1xNbQcyazc_SoJ5eHrFHN-BN53gi2lV-26hhxU-puQMq1spzG4Vztp2lDVZ4waFGoJgk3cAkdVCg3UTZx4iUxk2WfWYXCp_zkkVNIt6rDuibX9YGnMu2Ab2zMQIj03dXcKr11R2tG-6KCsDrsO-TBWU895NInvMlxZGnwq2m7QWKBWd-f1P94rA4GchzVWCalRhuUA7oVditd1uQdEXabf-rap8wcIyWcarc6v4Chyq0K19f4NIDoQNn2_zn1q-2-Fl3FoOFw99MS2Y8nJlzZZTtJSqrJg|Mario Souza Ribeiro |||4C8056E2E8EE3969E053090A0A0AAE22|356704,0|CT000519|21,0||350600,0|10686653785|356704,0|80611125587|"
+		
+	
+	http://localhost/WebAppAdminPSP/Paciente/ListarPacientes?Cpf=&Nome=MARIO%20SOUZA%20RIBEIRO%20%7C%7C&Medico=&FlSistema=P&_=1528680675291
+	
+	
+	
+	[{"UsuId":350600,"Nome":"MARIO SOUZA RIBEIRO ||","NomeMedico":null,"Cpf":"80611125587","Endereco":"JACI SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"80611125587","ClientId":null,"ClientGroupId":null,"MiscData":"20906567","MemberIdConjuge":"80611125587","EffectiveDateOverride":20180219,"IdCliente":"59409","DataInicioBeneficioCliente":null,"UsuIdConjuge":356704,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+	
+	
+	[{"UsuId":0.0,"Nome":"MARIO SOUZA RIBEIRO ||","NomeMedico":null,"Cpf":"80611125587","Endereco":"JACI SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":0.0,"SicHashCode":null,"MemberId":null,"ClientId":null,"ClientGroupId":null,"MiscData":null,"MemberIdConjuge":null,"EffectiveDateOverride":0,"IdCliente":"59448","DataInicioBeneficioCliente":"2018-03-08T00:00:00","UsuIdConjuge":0.0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+	
+	
+	--o paciente deveria vir com o id: 356704
+	
+	[{"UsuId":350600,"Nome":"MARIO SOUZA RIBEIRO ||","NomeMedico":null,"Cpf":"80611125587","Endereco":"JACI SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"80611125587","ClientId":null,"ClientGroupId":null,"MiscData":"20906567","MemberIdConjuge":"80611125587","EffectiveDateOverride":20180219,"IdCliente":"59409","DataInicioBeneficioCliente":null,"UsuIdConjuge":356704,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+	
+	
+	
+	
+	

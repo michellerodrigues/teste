@@ -1,0 +1,140 @@
+
+
+
+Cenários 1: Cancelar apenas 1 agendamento, sem encaixe
+
+1ª AVALIAÇÃO US-OD (DOADORAS) <hr> 1ª CONSULTA DE REPRODUÇÃO HUMANA <hr> 1ª CONSULTA OBSTÉTRICA
+1 - Fazer um Agendamento sem encaixe
+2 - Cancelar Agendamento
+3 - Deverá mostrar horário como disponível
+4 - ok. O horário foi completamente disponível
+
+Cenários 1: Cancelar 1 agendamento, com encaixe
+
+1 - Fazer um Agendamento
+14:00(1) DISPONÍVEL
+-
+1ª AVALIAÇÃO US-OD (DOADORAS) <hr> 1ª CONSULTA DE REPRODUÇÃO HUMANA <hr> 1ª CONSULTA OBSTÉTRICA
+
+
+2 - Cancelar Agendamento
+3 - Deverá mostrar horário como disponível
+4 - ok. O horário foi completamente disponível
+
+
+16:00(1) DISPONÍVEL
+-
+1ª AVALIAÇÃO US-OD (DOADORAS) <hr> 1ª CONSULTA DE REPRODUÇÃO HUMANA <hr> 1ª CONSULTA OBSTÉTRICA
+
+Provider=MSDAORAﾮ1;Password=xpto;User ID=USERTI;Data Source=DESENV;Persist Security Info=True
+
+
+
+19/04/2018 14:30:00	MARY JANE	ANA PAULA AQUINO	1ª CONSULTA DE REPRODUÇÃO HUMANA	PENDENTE REGISTRO	
+
+Agendamento: teste inclusão agendamento
+HMLG_Administrador	 
+
+19/04/2018 14:00:00	MARY JANE	ANA PAULA AQUINO	1ª AVALIAÇÃO US-OD (DOADORAS)	PENDENTE REGISTRO	
+
+Agendamento: teste agendamento que será cancelado
+HMLG_Administrador	 
+
+
+
+12:00(1) DISPONÍVEL - mooca 19
+1ª AVALIAÇÃO US-OD (DOADORAS) <hr> 1ª CONSULTA DE REPRODUÇÃO HUMANA <hr> 1ª CONSULTA OBSTÉTRICA
+
+agendamento -  AVALIAÇÃO US-OD (DOADORAS) - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:00, com o Dr(a). ANA PAULA AQUINO
+
+
+12:30(1) DISPONÍVEL - mooca 19
+1ª AVALIAÇÃO US-OD (DOADORAS) <hr> 1ª CONSULTA DE REPRODUÇÃO HUMANA <hr> 1ª CONSULTA OBSTÉTRICA
+
+agendamento - 1ª CONSULTA DE REPRODUÇÃO HUMANA  - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:30, com o Dr(a). ANA PAULA AQUINO
+ 
+
+
+
+
+19/04/2018 12:00:00	MARY JANE	ANA PAULA AQUINO	1ª AVALIAÇÃO US-OD (DOADORAS)	PENDENTE REGISTRO	
+
+Agendamento: Agentamento - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:00, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	
+
+
+
+19/04/2018 12:30:00	MARY JANE	ANA PAULA AQUINO	1ª CONSULTA DE REPRODUÇÃO HUMANA	PENDENTE REGISTRO	
+
+Agendamento: Agendamento - 1ª CONSULTA DE REPRODUÇÃO HUMANA - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:30, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	 
+
+
+Dados para teste
+
+19/04/2018 12:30:00	MARY JANE	ANA PAULA AQUINO	1ª CONSULTA DE REPRODUÇÃO HUMANA	PENDENTE REGISTRO	
+Agendamento: Agendamento - 1ª CONSULTA DE REPRODUÇÃO HUMANA - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:30, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	
+
+19/04/2018 12:30:00	MARY JANE	ANA PAULA AQUINO	1ª CONSULTA DE REPRODUÇÃO HUMANA	PENDENTE REGISTRO	
+
+Agendamento: Encaixe: 1ª CONSULTA DE REPRODUÇÃO HUMANA - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:30, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	 
+
+==> CANCELAR ENCAIXE PRIMEIRO
+deverá excluiro encaixe e manter o agendamento ==>ok
+
+
+Porque aparecerem 3 cards de cada horário. Está correto?
+
+
+
+19/04/2018 12:00:00	MARY JANE	ANA PAULA AQUINO	1ª AVALIAÇÃO US-OD (DOADORAS)	PENDENTE REGISTRO	
+
+Agendamento: Agentamento - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:00, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	 
+
+==> CANCELAR AGENDAMENTO PRIMEIRO
+
+Ocorreu erroO; o card do agendamento foi liberado como disponível e o encaixe, permaneceu agendado(ok)
+O Comportamento deveria ser: mostrar apenas um encaixe e remover o de agendamento. Ou: transformar o encaixe em agendamento, swap
+19/04/2018 12:00:00	MARY JANE	ANA PAULA AQUINO	1ª AVALIAÇÃO US-OD (DOADORAS)	PENDENTE REGISTRO	
+
+Agendamento: Encaixe - Quinta-feira, dia 19 de abril de 2018, na MOOCA, às 12:00, com o Dr(a). ANA PAULA AQUINO
+HMLG_Administrador	 
+
+
+
+==> REMOVENDO O AGENDAMENTO, APÓS CANCELAMENTO DO ENCAIXE ==> HORÁRIO TOTALMENTE DISPONÍVEL
+ENCAIXE, AGENDAMENTO==> HORÁRIO FREE (UMA CX APENAS)
+
+==> REMOVENDO ENCAIXE, APÓS CANCELAMENTO DO AGENDAMENTO ==> APENAS UMA GUIA DISPONÍVEL DEVERÁ CONSTAR (NESTE MOMENTO TEM O AGENDAMENTO DISPONÍVEL E O ENCAIXE PERMANECE)
+(AGENDAMENTO, ENCAIXE ==> DISPOINIBILIZOU O AGENDAMEMENTO E MANTEVE A CX DO ENCAIXE) ==>ERRADO
+MAS, AP[ÓS REMOVER O ENCAIXE: APENAS UM BOX MANTEVE
+
+O problema está então quando temos um agendamento cancelado com um sob demanda ainda agendado
+quando um agendamento for cancelado, se o mesmo possuir um encaixe, seu box não deverá ser liverado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

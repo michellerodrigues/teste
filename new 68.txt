@@ -1,0 +1,78 @@
+hdnIdAgenda: 30362
+
+DataAgenda: 25/04/2018 10:00
+TempoProcedimento: 60
+ArrayPrestadores: ,472
+ArrayRecursos: 341,
+
+horários disponíveis
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 09:00:00" data-idagenda="30360">09:00</td> ==>horário agendado
+
+
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 09:30:00" data-idagenda="30361">09:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 10:00:00" data-idagenda="30362">10:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 10:30:00" data-idagenda="30363">10:30</td>
+
+
+
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 11:00:00" data-idagenda="30364">11:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 11:30:00" data-idagenda="30365">11:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 12:00:00" data-idagenda="30366">12:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 12:30:00" data-idagenda="30367">12:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 13:00:00" data-idagenda="30368">13:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 13:30:00" data-idagenda="30369">13:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 14:00:00" data-idagenda="30370">14:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 14:30:00" data-idagenda="30371">14:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 15:00:00" data-idagenda="30372">15:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 15:30:00" data-idagenda="30373">15:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 16:00:00" data-idagenda="30374">16:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 16:30:00" data-idagenda="30375">16:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 17:00:00" data-idagenda="30376">17:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 17:30:00" data-idagenda="30377">17:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 18:00:00" data-idagenda="30378">18:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 18:30:00" data-idagenda="30379">18:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 19:00:00" data-idagenda="30380">19:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 19:30:00" data-idagenda="30381">19:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 20:00:00" data-idagenda="30382">20:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 20:30:00" data-idagenda="30383">20:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 21:00:00" data-idagenda="30384">21:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 21:30:00" data-idagenda="30385">21:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 22:00:00" data-idagenda="30386">22:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 22:30:00" data-idagenda="30387">22:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="25/04/2018 23:00:00" data-idagenda="30388">23:00</td>
+         
+		 
+
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 08:00:00" data-idagenda="30389">08:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 08:30:00" data-idagenda="30390">08:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 09:00:00" data-idagenda="30391">09:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 09:30:00" data-idagenda="30392">09:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 10:00:00" data-idagenda="30393">10:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 10:30:00" data-idagenda="30394">10:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 11:00:00" data-idagenda="30395">11:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 11:30:00" data-idagenda="30396">11:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 12:00:00" data-idagenda="30397">12:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 12:30:00" data-idagenda="30398">12:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 13:00:00" data-idagenda="30399">13:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 13:30:00" data-idagenda="30400">13:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 14:00:00" data-idagenda="30401">14:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 14:30:00" data-idagenda="30402">14:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 15:00:00" data-idagenda="30403">15:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 15:30:00" data-idagenda="30404">15:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 16:00:00" data-idagenda="30405">16:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 16:30:00" data-idagenda="30406">16:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 17:00:00" data-idagenda="30407">17:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 17:30:00" data-idagenda="30408">17:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 18:00:00" data-idagenda="30409">18:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 18:30:00" data-idagenda="30410">18:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 19:00:00" data-idagenda="30411">19:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 19:30:00" data-idagenda="30412">19:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 20:00:00" data-idagenda="30413">20:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 20:30:00" data-idagenda="30414">20:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 21:00:00" data-idagenda="30415">21:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 21:30:00" data-idagenda="30416">21:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 22:00:00" data-idagenda="30417">22:00</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 22:30:00" data-idagenda="30418">22:30</td>
+<td class="horario" data-idprestador='472' data-dtagenda="26/04/2018 23:00:00" data-idagenda="30419">23:00</td>
+																
+		 

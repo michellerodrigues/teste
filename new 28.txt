@@ -1,0 +1,24 @@
+179.54.86.109
+
+
+ 2.2.8
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    	 -> localhost:80
+Forwarding                    https://481ab432.ngrok.io -> localhost:80
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              0       0       0.00
+							  
+							  
+netsh http add urlacl url=http://179.54.86.109:8080/ user=administrators
+
+172.30.247.65
+
+netsh http add urlacl url=http://precificador:8080/Markel.Cotacao.Site user=everyone 
+
+http://precificador:8080/Markel.Cotacao.Site
+
+netsh http add urlacl url=http://precificador:8080/Markel.Cotacao.Site user=todos 
+
+netsh http add urlacl url=http://192.168.0.120:8080/ user=todos 

@@ -1,0 +1,46 @@
+
+
+
+Note' Michelle
+
+Meeting participants: (Francois, please add more?)
+	Eduardo Corazzin : USP, Statistic
+	Eduardo Paredes, Estácio RJ, Bacharel Network, Nowadays: Database DBA
+	Ricardo Alves : Graduado no ITA (TCC Analisys winds and storms), 
+	Alex (ouvinte): 
+	Victor (Estagiário Unicamp, forgot background)
+	Francois - Background Oil and Gas
+	Michelle Rodrigues: Bachelor's degree Systems' Information PUC-Rio, and graduate studies in Architecture Distributed Systems (PUC-Minas)
+
+AMBEV - 
+	Main Issue: What about behavior of DSS
+		How DSS show the best Model to Predictive Analysis?
+		How re-run automation the change scenarios database
+		How put an package to Production?
+		How DSS manager the role of users? 
+			How can view and change the models, etc?
+	Nowadays
+		Use ML Studio - Azure
+		Problems with Production and automation
+		Manual re-treinning
+		Manual evaluate of results generated
+	Scope that will can be used to POC:
+		Client : RH Ambev (IK2, Tallents Brazil)	
+		Turnovers indices
+		When the worker turnover Ambev, the model show the changes and the new dashboard
+		Flow:
+			Folder with excel file (BLOB format)
+			Upload the information on ML Studio
+			Run Manual Model
+			Make data Factory
+			Out SQL result
+			Website request SQL result
+			Website send the result by email to Inspection human (outsourcing)	
+	Work Distribuction Power BI and others Analysis
+		Ambev have Two or more companies that make the service (outsourcing)
+		Ricardo's teams have the annual cronogram projects with problem to solve (Analysis)
+		
+		
+	
+		
+	

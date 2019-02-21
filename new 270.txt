@@ -1,0 +1,74 @@
+ SELECT DECODE(A.USU_ID, A.USU_ID_TITULAR, A.USU_ID, A.USU_ID_TITULAR) AS USU_ID,
+           MEMBER_ID,
+           NOME,
+           NOMEMEDICO,
+           ALT_MEMBER_ID,
+           ENDERECO,
+           ENDERECONUMERO,
+           BAIRRO,
+           CIDADE,
+           SIS_ID,
+           SIC_HASH_CODE,
+           MEMBER_ID_CONJUGE,
+           MISC_DATA,
+           EFFECTIVE_DATE_OVERRIDE,
+           ID_CLIENTE,
+           USU_ID_CONJUGE
+
+      FROM (SELECT (SELECT UMT.USU_ID
+                      FROM MEMBER MT
+                     INNER JOIN ACESSO.USUARIO_MEMBER UMT
+                        ON UMT.MEMBER_ID = MT.MEMBER_ID
+                       AND UMT.CLIENT_GROUP_ID = MT.CLIENT_GROUP_ID
+                       AND UMT.CLIENT_ID = MT.CLIENT_ID
+                       AND UMT.CUSTOMER_ID = MT.CUSTOMER_ID
+                     WHERE MT.PATIENT_PIN_NUMBER = M.PATIENT_PIN_NUMBER
+                       AND MT.CUSTOMER_ID = M.CUSTOMER_ID
+                       AND MT.RELATIONSHIP = 1
+                       AND ROWNUM <= 1) AS USU_ID_TITULAR,
+                   UM.USU_ID,
+                   M.MEMBER_ID,
+                   M.MEMBER_FIRST_NAME || '' || M.MEMBER_LAST_NAME AS NOME,
+                   MG.NOME_MEDICO AS NOMEMEDICO,
+                   M.ALT_MEMBER_ID,
+                   M.ADDRESS_1 AS ENDERECO,
+                   MG.END_NUMERO AS ENDERECONUMERO,
+                   M.ADDRESS_2 AS BAIRRO,
+                   M.CITY AS CIDADE,
+                   UM.SIS_ID,
+                   SIC.SIC_HASH_CODE,
+                   CM.MEMBER_ID AS MEMBER_ID_CONJUGE,
+                   M.MISC_DATA,
+                   M.EFFECTIVE_DATE_OVERRIDE,
+                   M.PATIENT_PIN_NUMBER AS ID_CLIENTE,
+                   UCM.usu_id AS USU_ID_CONJUGE
+              FROM MEMBER M
+              JOIN IIS.MEMBER_GENERICO MG
+                ON MG.MEMBER_ID = M.MEMBER_ID
+               AND MG.CUSTOMER_ID = M.CUSTOMER_ID
+              LEFT JOIN ACESSO.USUARIO_MEMBER UM
+                ON M.CUSTOMER_ID = UM.CUSTOMER_ID
+               AND UM.CLIENT_ID = M.CLIENT_ID
+               AND UM.CLIENT_GROUP_ID = M.CLIENT_GROUP_ID
+               AND UM.MEMBER_ID = M.MEMBER_ID
+              LEFT JOIN DS.SISTEMA_CUSTOMER SIC
+                ON SIC.CUSTOMER_ID = UM.CUSTOMER_ID
+               AND SIC.SIS_ID = UM.SIS_ID
+              LEFT JOIN MEMBER CM
+                ON CM.CUSTOMER_ID = M.CUSTOMER_ID
+               AND CM.CLIENT_ID = M.CLIENT_ID
+               AND CM.CLIENT_GROUP_ID = M.CLIENT_GROUP_ID
+               AND CM.PATIENT_PIN_NUMBER = M.PATIENT_PIN_NUMBER
+               AND CM.RELATIONSHIP = 4
+              LEFT JOIN ACESSO.usuario_member UCM
+                ON UCM.CUSTOMER_ID = CM.CUSTOMER_ID
+               AND UCM.CLIENT_ID = CM.CLIENT_ID
+               AND UCM.CLIENT_GROUP_ID = CM.CLIENT_GROUP_ID
+               AND UCM.MEMBER_ID = CM.MEMBER_ID
+               AND UCM.MISC_DATA = CM.MISC_DATA
+
+             WHERE (M.MEMBER_FIRST_NAME || '' || M.MEMBER_LAST_NAME LIKE
+                   'LUCIMARA ANDRADE VIEIRA' || '%')
+               AND (M.ALT_MEMBER_ID = NULL OR NULL IS NULL)
+               --AND (MG.NOME_MEDICO LIKE P_MEDICO || '%' OR P_MEDICO IS NULL)
+               AND (M.CUSTOMER_ID = 'CT000519')) A;

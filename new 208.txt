@@ -1,0 +1,16 @@
+[
+
+{"UsuId":356742,"Nome":"DANIELA DOMINGUES DA SILVA LOPES","NomeMedico":null,"Cpf":"28490386870","Endereco":"RUA SANTOS DUMONT","EnderecoNumero":"27","Bairro":"BOA VISTA","Cidade":"SÃO CAETANO DO SUL","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"28490386870","ClientId":null,"ClientGroupId":null,"MiscData":"20906607","MemberIdConjuge":"28490386870","EffectiveDateOverride":20180214,"IdCliente":"59235","DataInicioBeneficioCliente":null,"UsuIdConjuge":356743,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},
+
+{"UsuId":365420,"Nome":"DANIELA DOMINGUES DA SILVA LOPES","NomeMedico":null,"Cpf":"SSID_61090","Endereco":"RUA SENA MADUREIRA","EnderecoNumero":"100","Bairro":"VILA CLEMENTINO","Cidade":"SÃO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"SSID_61090","ClientId":null,"ClientGroupId":null,"MiscData":"22067392","MemberIdConjuge":null,"EffectiveDateOverride":20180424,"IdCliente":"61090","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}
+
+]
+
+
+SQLCMD -S SERVERNAME\INSTANCENAME,1919 -U sa -P St0rangPa55w0rd
+
+SQLCMD -S tcp:markel-cotacao-server.database.windows.net,1433 -U sic_user@markel-cotacao-server.database.windows.net -P Engine@18
+sqlcmd -S tcp:markel-cotacao-server.database.windows.net,1433 -d markel_cotacao -i C:\Users\miche\Documents\script_precificador_dados.sql
+
+sqlcmd -S tcp:markel-cotacao-server.database.windows.net,1433 -d markel_cotacao -i C:\Users\miche\Documents\script_dados_precificador.sql
+

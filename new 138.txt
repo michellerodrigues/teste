@@ -1,0 +1,74 @@
+
+
+ParametrosMessageObterConfiguracoesServico("Generica");
+
+1 - IncluirAgendamentoProcedimento
+
+Localizador: 
+C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\VidalinkWebApi\Controllers\AgendamentoController.cs(229): 
+
+Chamada:
+new PacienteController().AlterarPacienteIntegracao(usuMem, UrlApi, usu, pacienteModel, tipoCampo, ref pinNumber, false);
+
+Comentário:
+--//CASO O MÉDICO TENHA SIDO ALTERADO ENVIA A ALTERAÇÃO PARA O MEDSOFT
+
+2 - Sincronizar AgendamentoSincronizacao
+  var integracaoDTO = dal.BuscarIntegracao(CustomerId, "AGENDAMENTO_SINCRONIZAR");
+  
+3 - CadastrarPaciente(PacienteModel paciente)
+
+AÇÃO: INSERIR
+insere no banco e depois chama
+ IncluirPacienteIntegracao(usuMem, UrlApi, usuModel, paciente, TipoCampo, ref patientPinNumber);
+ 
+AÇÃO ALTERAR:
+altera no banco e depois chama
+AlterarPacienteIntegracao(usuMem, UrlApi, usuModel, paciente, TipoCampo, ref patientPinNumber);
+
+4 - Sincronizar Agenda
+SincronizarAgenda(string CustomerId, string IdCliente)
+
+Referencia:
+AgendamentoService -->ListarNovosAgendamentos
+AgendamentoService -->Sincronizar
+	
+5 - CancelarAgendamentoProcedimentoPaciente
+IntegrarAgendamento
+
+6 - DisponibilizarAgenda
+IntegrarAgendamento
+
+Referencia:
+AgendamentoService -->ListarNovosAgendamentos
+AgendamentoService -->Sincronizar
+
+
+
+7 - ListarAgendasClientes
+CriarIntegracaoAgendamentoListar
+
+8 - ListarPacientesCliente
+CriarIntegracaoPacienteListar
+
+
+9 - Cadastrar Paciente
+CriarIntegracaoPacienteListar
+
+10 - SincronizarPaciente
+CriarIntegracaoPacienteSincronizar
+
+
+11 - SincronizarAgenda
+12 - SincronizarPaciente
+--CriarIntegracaoPacienteSincronizar
+
+13 -ListarAgendamentos
+CriarIntegracaoPacienteAgendamentos
+
+14 - BuscarParametroQuestionario
+CriarIntegracaoQuestionario
+
+15 - EnviarQuestionario
+CriarIntegracaoQuestionario
+

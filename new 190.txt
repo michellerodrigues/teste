@@ -1,0 +1,105 @@
+
+
+
+
+Senhores,
+
+Notei que o serviço:
+
+http://186.201.50.139:5000/Patient/Search
+
+{
+  "SearchParameters": [
+    {
+      "Field": "FullName",
+      "Content": "Antonia Gisela Coelho de Freitas",
+      "Match": 1
+    }
+  ]
+}
+
+Traz a informação de um paciente pelo seu nome completo, bem como posso utilizar outros campos para tal;
+
+1 - No serviço http://186.201.50.139:5000/Patient/33822, podemos pesquisar o paciente pelo SOURCE_SYSTEM_ID.
+
+2 - No serviço http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CI/103783429, podemos pesquisar o paciente pelo BRAZILIAN_CI (RG OU OUTRO DOCUMENTO)
+
+3 - No serviço http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/39933553852 podemos pesquisar o paciente pelo BRAZILIAN_CPF (CPF)
+
+4 - No caso de pacientes estrangeiros, temos algumas soluções propostas
+
+
+A) Simples e imediata, baixo impacto , apenas alteração no MED_SOFT
+1 - Incluir um identificador ÚNICO, com as mesmas características do CPF no campo de CPF para os pacientes estrangeiros
+2 - Incluir no RG do paciente estrangeiro o NRE do paciente
+3 - Assim, temos o cpf (fake) fazendo o papel do identificador único e conseguimos rastrear os pacientes estrangeiros, pois a informação chegará através do serviço 2;
+4 - Quando tivermos a solução definitiva, poderemos obter através do cpf fake mesmo qual é a segunda identificação deste paciente e assim, corrigimos o passado.
+
+
+
+B) Para Solução definitiva:
+
+1 - Alterações no MED_SOFT,nenhuma por enquanto, apenas verificar:
+
+1.1 - Apenas garantir que será colocado no campo do RG, o documento de RNE. (ITEM A2)
+1.2 - Garantir que o serviço paciente post (http://186.201.50.139:5001/docs/index#!/Patient/Patient_Post) gravará o BRAZILIAN_CI.
+Ver anexo o Json enviado; (trecho)
+" Type":null,
+      "IDs":[  
+        {  
+          "Type":"BRAZILIAN_CPF",
+          "Number":"33817526857"
+        }
+		"
+
+2 - ALTERAÇÕES NO PSP:
+
+Após colução do id único (pbi miccolis), 
+2.1 - Enviar na Criação do Paciente o BRAZILIAN_CI, para MED_SOFT
+2.2 - Disponibilizar a busca/criação de Paciente pelo documento (pode ser CPF OU BRAZILIAN_CI)
+
+Na recuperação do paciente, se ele possuir BRAZILIAN_CI e este número começar com 'N', marcar que é estrangeiro
+2.3 - Acrescentar campo de outro documento no psp
+2.4- incluir flag de estrangeiro no PSP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

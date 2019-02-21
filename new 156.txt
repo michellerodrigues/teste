@@ -1,0 +1,4 @@
+{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":7246,"vl_estimado":1.0,"dt_comunicacao":"2018-06-08","dt_ocorrencia":"2018-06-19","cd_uf":19,"id_local":108480,"nm_descricao_itens":"Descrição do Sinistro/Evento","nm_descricao_danos":"Descrição dos Danos","nm_observacao":"Observações | Causa (Demais Causas):  | Responsável pelo Aviso de Sinistro: Michelle Rodrigues | Telefone do Responsável pelo Aviso de Sinistro (com DDD): (21) 4565-46546 | Relação do Responsável pelo Aviso de Sinistro com o Segurado (Outros):  | Data Estimada da Colheita: 2018-06-22 | Responsável por Acompanhar a Vistoria: Xuxa Meneguel | Telefone de Contato do Reponsável por Acompanhar a Vistoria (com DDD): (25) 4545-43543 | E-mail de Contato do Reponsável por Acompanhar a Vistoria: xmeneguel@mailinator.com.br"}
+
+{"cd_retorno":1,"nm_retorno":"Usuário não cadastrado ou inativo."}
+

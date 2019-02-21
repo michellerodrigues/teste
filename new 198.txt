@@ -1,0 +1,27 @@
+Teste 27 03
+
+Data Source=tcp:markel-cotacao-server.database.windows.net,1433;Initial Catalog=markel_cotacao;User Id=sic_user@markel-cotacao-server.database.windows.net;Password=Engine@18;
+
+
+
+TÍTULO: Conectar ao Servidor
+------------------------------
+
+Não é possível conectar-se a tcp:markel-cotacao-server.database.windows.net,1433.
+
+------------------------------
+INFORMAÇÕES ADICIONAIS:
+
+Cannot open server 'markel-cotacao-server' requested by the login. Client with IP address '201.76.211.186' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. (Microsoft SQL Server, Erro: 40615)
+
+Para obter ajuda, clique em: http://go.microsoft.com/fwlink?ProdName=Microsoft%20SQL%20Server&EvtSrc=MSSQLServer&EvtID=40615&LinkId=20476
+
+------------------------------
+BOTÕES:
+
+OK
+------------------------------
+I offered myself to teach computer classes
+
+	
+

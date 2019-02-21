@@ -1,0 +1,32 @@
+    <!--== TEXTOS DOS EMAILS DE RESPOSTA COTACAO AO CLIENTE ==-->
+    
+    <!--Email enviado para o cliente em caso de erro na conversão da planilha-->
+    <add key="body_email_erro_cliente_planilha" value="Prezado(a), &lt;P&gt;sua cotação enviada no arquivo &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processada.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{2}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_erro_cliente_planilha" value="Cotação enviada no arquivo '{0}' não foi processada" />
+	
+	<add key="body_email_erro_cliente_planilha" value="Prezado(a), &lt;P&gt;{0} {1} enviad{2} no arquivo &lt;i&gt;&lt;b&gt;{3}&lt;/b&gt;&lt;/i&gt; não foi processad{4}.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{5}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{6}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_erro_cliente_planilha" value="{0} enviada no arquivo '{1}' não foi processad{2}" />
+	
+	
+    
+    <!--Email enviado para o cliente em caso de erro de anexo inválido ou email sem anexo-->
+    <add key="body_email_erro_cliente_anexo" value="Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de cotação.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Motivo:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe uma cotação válida e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_erro_cliente_anexo" value="Seu email foi descartado pelo motivo:{0}" />
+    
+	<add key="body_email_erro_cliente_anexo" value="Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de {0}.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Motivo:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe uma cotação válida e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_erro_cliente_anexo" value="Seu email foi descartado pelo motivo:{0}" />
+	
+	
+    <!--Email enviado para o cliente em caso de erro de anexo inválido ou email sem anexo-->
+    <add key="body_email_cotacao" value="Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos a cotação número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_cotacao" value="{0} enviad{1} no arquivo '{2}' processada com sucesso." />
+	
+	    <add key="body_email_cotacao" value="Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos {1} {2} número: &lt;i&gt;&lt;b&gt;{3}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_cotacao" value="{0} enviad{1} no arquivo '{2}' processada com sucesso." />
+
+	
+	
+
+    <add key="body_email_cotacao_erro" value="Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processado . Motivo : &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;" />
+    <add key="subject_email_cotacao_erro" value="Cotação enviada no arquivo '{0}' não foi processada." />
+    

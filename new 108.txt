@@ -1,0 +1,18 @@
+Find all " <add key="IdSistema"", Find Results 1, Entire Solution, ""
+  C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\VidalinkWebApi\Web.config(23):    <add key="IdSistema" value="21" />
+  C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\VidalinkConnectApi\Web.config(10):    <add key="IdSistema" value="19"/>
+  C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\WebAppAdminPSP\Web.config(16):    <add key="IdSistema" value="20" />
+  C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\PSPAgendamentoIntegracao\App.config(18):    <add key="IdSistema" value="21" />
+  C:\Users\miche\Desktop\mica\vidalink\Psp.OFICIAL\PSPPacienteIntegracao\App.config(19):    <add key="IdSistema" value="21" />
+  Matching lines: 5    Matching files: 5    Total files searched: 953
+
+  
+  Find all "<add key="IdSistema"", Find Results 1, Entire Solution, ""
+  C:\Users\miche\Desktop\mica\vidalink\desenvolvimento_Mica\VidalinkWebApi_PSP\VidalinkWebApi\Web.config(33):    <add key="IdSistema" value="21" />
+  C:\Users\miche\Desktop\mica\vidalink\desenvolvimento_Mica\VidalinkWebApi_PSP\VidalinkConnectApi\Web.config(15):    <add key="IdSistema" value="19"/>
+  C:\Users\miche\Desktop\mica\vidalink\desenvolvimento_Mica\VidalinkWebApi_PSP\WebAppAdminPSP\Web.config(19):    <add key="IdSistema" value="20" />
+  C:\Users\miche\Desktop\mica\vidalink\desenvolvimento_Mica\VidalinkWebApi_PSP\PSPAgendamentoIntegracao\App.config(24):    <add key="IdSistema" value="21" />
+  C:\Users\miche\Desktop\mica\vidalink\desenvolvimento_Mica\VidalinkWebApi_PSP\PSPPacienteIntegracao\App.config(27):    <add key="IdSistema" value="21" />
+  Matching lines: 5    Matching files: 5    Total files searched: 808
+  
+  184993M

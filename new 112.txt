@@ -1,0 +1,14 @@
+<div class="modal-dialog modal-lxg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="modalConfirmLabel">Aviso</h4>
+            </div>
+            <div id="h4TitleModal"></div>
+            <div class="modal-body" id="modalConfirmBody">Um encaixe será realizado na agenda de: ARNALDO SCHIZZI CAMBIAGHI/(REC:CONSULTORIO X), ANA PAULA AQUINO, ANA PAULA AQUINO/(REC:CONSULTORIO X)</div>
+            <div class="modal-footer">
+                <button type="button" id="btnModalConfirmSim" class="btn btn-info" data-dismiss="modal"><span class="glyphicon glyphicon-check"></span> OK</button>
+                <button type="button" id="btnModalConfirmNao" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove-circle"></span> CANCELAR</button>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,29 @@
+1. O que eu fiz ontem (ou desde a última reunião):
+-> Alteração da Procedure SP_PROCEDIMENTO_REL, CRIADA NOVA: SP_PROCEDIMENTO_LIST_REL
+-> Alteração da Procedure FN_VERIF_PRESTADOR_RECURSO, CRIADA NOVA: FN_VERIF_PREST_RECURSO_LIST 
+-> Adaptação Backend para (RelatorioController), para chamar nova Procedure (AGENDAMENTO.DAL)
+-> 
+
+2. O que eu vou fazer hoje:
+-> Teste do retorno da NOVA Procedure
+
+3. Algum impedimento que está impossibilitando prosseguir com as atividades
+
+-> Pendente Merge com Telas do Front end (Miccolis, em qual Branch está o front end?)
+-> Não consigo debugar a procedure. Celebrone, pode me ajudar?
+
+ERRO:
+Conectando ao banco de dados VIDA_DESEV_PSP.
+Executando PL/SQL: ALTER SESSION SET PLSQL_DEBUG=TRUE
+Executando PL/SQL: CALL DBMS_DEBUG_JDWP.CONNECT_TCP( '10.10.20.123', '3541' )
+ORA-30683: falha ao estabelecer conexão com o depurador
+ORA-12535: TNS:operação sofreu timeout
+ORA-06512: em "SYS.DBMS_DEBUG_JDWP", line 68
+ORA-06512: em line 1
+Processo encerrado.
+Desconectando do banco de dados VIDA_DESEV_PSP.
+
+-> Ainda estou testando a procedure, necessito do debugger, pois ainda não está retornando valor (para o mesmo intervalo de dados do relatório antigo)
+
+
+

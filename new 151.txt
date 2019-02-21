@@ -1,0 +1,68 @@
+private async static Task<AuthenticationHeaderValue> GetAuthentication()
+{
+	var byteArray =
+		new UTF8Encoding().GetBytes(
+			$"{applicationContext.UsuarioWebService}:{applicationContext.PasswordWebService}");
+	var authentication = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
+
+	using (var httpClient = new HttpClient())
+	{
+		httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+		httpClient.DefaultRequestHeaders.Authorization = authentication;
+
+		using (var response = await httpClient.GetAsync(applicationContext.ApiI4ProTokenURL))
+		{
+			var responseString = await response.Content.ReadAsStringAsync();
+			if (response.IsSuccessStatusCode)
+			{
+				var result = JsonConvert.DeserializeObject<AccessTokenI4Pro>(responseString);
+
+				return new AuthenticationHeaderValue(result.token_type, result.access_token);
+			}
+			else
+			{
+				Logger.ErrorElmah(
+					$"Não foi possível autenticar I4Pro- Erro: [{(int) response.StatusCode}] {responseString}");
+			}
+		}
+	}
+
+	return new AuthenticationHeaderValue("Bearer", null);
+}
+
+   public static async Task<T> GetAsync<T>(string url) where T : class
+        {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            try
+            {
+                using (var httpClient = new HttpClient())
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Add(
+                        new MediaTypeWithQualityHeaderValue("application/json"));
+
+                    if (applicationContext.UsaAutenticacao)
+                    {
+                        httpClient.DefaultRequestHeaders.Authorization =
+                            await GetAuthentication();
+                    }
+
+                    using (var response = await httpClient.GetAsync(url).ConfigureAwait(false))
+                    {
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var content = await response.Content.ReadAsStringAsync();
+                            return JsonConvert.DeserializeObject<T>(content);
+                        }
+
+                        return default(T);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.ErrorElmah($"erro na chamada GET {url} - {ex}");
+                return default(T);
+            }
+        }
+		
+		

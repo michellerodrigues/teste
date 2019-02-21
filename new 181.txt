@@ -1,0 +1,49 @@
+PROCEDURE        SP_RECUPERAR_USU_ID_SEL(P_SIS_ID          IN NUMBER,
+                                                           P_MEMBER_ID       IN MEMBER.MEMBER_ID%TYPE,
+                                                           P_CUSTOMER_ID     IN MEMBER.CUSTOMER_ID %TYPE,
+                                                           P_CLIENT_ID       IN VARCHAR2,
+                                                           P_CLIENT_GROUP_ID IN VARCHAR2,
+                                                           P_USU_ID          IN NUMBER,
+                                                           P_OUT_CURSOR      IN OUT SYS_REFCURSOR)
+/* ---------------------------------------------------------------------------------------------------------------------------
+    Autor:         Leonardo Viana Americano
+    Data Criac?o:  01/06/2017
+    Objetivo:      Procedure utilizada pelo webservice de consulta da ura para retornar os dados do Beneficiario
+    Ultimas Alterac?es:
+    Data       Nome              Objetivo
+  ----------------------------------------------------------------------------------------------------------------------------- */
+ IS
+BEGIN
+  OPEN P_OUT_CURSOR FOR
+    SELECT U.USU_ID, U.USU_LOGIN, U.USU_SENHA, sic.sic_hash_code CODIGOCUSTOMER, MC.EFFECTIVE_DATE, MC.TERMINATION_DATE
+      FROM MEMBER M
+     INNER JOIN ACESSO.USUARIO_MEMBER UM
+        ON M.CUSTOMER_ID = UM.CUSTOMER_ID
+       AND M.CLIENT_ID = UM.CLIENT_ID
+       AND M.CLIENT_GROUP_ID = UM.CLIENT_GROUP_ID
+       AND M.MEMBER_ID = UM.MEMBER_ID
+       AND M.MISC_DATA = UM.MISC_DATA
+     INNER JOIN ACESSO.USUARIO U
+        ON UM.USU_ID = U.USU_ID
+     INNER JOIN ds.sistema_customer sic
+     ON um.sis_id = sic.sis_id
+     INNER JOIN PHIDBA.MEMBER_COVERAGE MC
+        ON MC.PERSON_CODE = M.PERSON_CODE
+       AND MC.MEMBER_ID = M.MEMBER_ID
+       AND MC.CLIENT_GROUP_ID = M.CLIENT_GROUP_ID
+       AND MC.CLIENT_ID = M.CLIENT_ID
+       AND MC.CUSTOMER_ID = M.CUSTOMER_ID
+     WHERE (P_CLIENT_ID IS NULL OR M.CLIENT_ID = P_CLIENT_ID)
+       AND (P_CLIENT_GROUP_ID IS NULL OR
+           M.CLIENT_GROUP_ID = P_CLIENT_GROUP_ID)
+       AND (P_MEMBER_ID IS NULL OR M.MEMBER_ID = P_MEMBER_ID)
+       AND M.CUSTOMER_ID = P_CUSTOMER_ID
+       AND UM.SIS_ID = P_SIS_ID
+       --VIDA ATIVA
+       AND (MC.EFFECTIVE_DATE <= TO_NUMBER(TO_CHAR(SYSDATE,'YYYYMMDD'))
+            AND
+            MC.TERMINATION_DATE >= TO_NUMBER(TO_CHAR(SYSDATE,'YYYYMMDD'))
+           )
+       AND (P_USU_ID IS NULL OR U.USU_ID = P_USU_ID)
+       AND ROWNUM <= 1;
+END;

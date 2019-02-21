@@ -1,0 +1,15 @@
+if(pacientesCliente!=null && pacientesCliente.Count()>0)
+            {
+                foreach (PacienteDTO paciente in pacientesCliente)
+                {
+                    var dependentesCliente = new List<PacienteDTO>();
+
+                    dependentesCliente = pacienteDAL.ListarPacientes(GetCustomerId(), "", paciente.Cpf, "");
+
+                    if (dependentesCliente != null && dependentesCliente.Count() > 0)
+                    {
+                        paciente.MemberIdConjuge = dependentesCliente[0].MemberId;
+                    }
+                }
+
+            }

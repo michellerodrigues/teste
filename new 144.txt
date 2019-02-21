@@ -1,0 +1,43 @@
+UPDATE [markel_sic_mapa_hmg].[dbo].[Parametros]
+SET    ValorParametro = replace(ValorParametro, 'Salt', 'Olympic')
+WHERE  NomeParametro in (
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura',
+'body_email_erro_leitura',
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura'
+'body_email_erro_cliente_planilha')
+
+
+UPDATE [markel_sic_mapa_hmg].[dbo].[Parametros]
+SET    ValorParametro = replace(ValorParametro, 'Salt', 'Olympic')
+WHERE  NomeParametro in (
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura',
+'body_email_erro_leitura',
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura'
+'body_email_erro_cliente_planilha')
+
+UPDATE [markel_sic_mapa_hmg].[dbo].[Parametros]
+SET    ValorParametro = replace(ValorParametro, '&lt;', '<')
+WHERE  NomeParametro in (
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura',
+'body_email_erro_leitura',
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura'
+'body_email_erro_cliente_planilha')
+
+UPDATE [markel_sic_mapa_hmg].[dbo].[Parametros]
+SET    ValorParametro = replace(ValorParametro, '&gt;', '>')
+WHERE  NomeParametro in (
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura',
+'body_email_erro_leitura',
+'body_email_erro_cliente_anexo',
+'body_email_sucesso_leitura'
+'body_email_erro_cliente_planilha')
+
+
+

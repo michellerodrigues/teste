@@ -1,0 +1,7 @@
+<add key="ListaDestinatariosCC" value="destinatario1cc@mailinator.com" />
+<add key="ListaDestinatariosBC" value="destinatario1bc@mailinator.com|destinatario2bc@mailinator.com" />
+
+
+<add key="ReplyTo_job" value="replyto_job@mailinator.com" />
+<add key="ListaDestinatariosCC_job" value="falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com" />
+<add key="ListaDestinatariosBC_job" value="falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com" />

@@ -1,0 +1,20 @@
+1
+P I have a temperature and my body aches.
+D I think you have the flu
+2 
+P I’m tired and I don't have any energy.
+D It sounds like you have low
+bl___________ pr___________.  *Bloding problema (infection bacteria)
+3 
+P There’s a rash all over my body.
+D You probably had an a___________ r___________  *alergy rash
+to something.
+4 
+P I hurt my wrist playing tennis and it’s very swollen.
+D You might have spr___________it. *sprained
+5 
+P It hurts when I talk and when I eat.
+D You have a s___________thr____________.  *Sore Throat
+6 
+P fm really sick and I have diarrhea.
+D I think you have f___________ p___________. food problem

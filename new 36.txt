@@ -1,0 +1,56 @@
+            ExchangeService exchange = new ExchangeService(requestedServerVersion: ExchangeVersion.Exchange2013_SP1);
+            exchange.Timeout = 3000;
+            exchange.TraceEnabled = true;
+            exchange.Credentials = new WebCredentials(email, pwd);
+
+            try
+            {               
+                exchange.AutodiscoverUrl(email, RedirectionUrlValidationCallback);
+            }
+            catch (AutodiscoverLocalException)
+            {
+                exchange.Url = new Uri(urlServer);                
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao abrir conexao com a Exchange. Exceção " + ex.Message);
+            }
+                    
+
+            return exchange;
+			
+			
+			Agricultura@1
+			
+			O Proponente tem conhecimento sobre a existência, critérios de eligib e func do PSR 
+			O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Federal ?
+			O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR 
+			O Proponente tem conhecimento sobre a existência, critérios de eligib e func do PSR do Governo Fed?
+			O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR 
+			
+			O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unidade Segurada ? 
+			O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unida
+			O Proponente teve preju decorrentes de riscos climáticos nos últ 5 cicls agrícolas na Unid Segurada?
+			
+			
+			O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR?
+			O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR?
+			
+			O Proponente foi informado pelo corretor qual é a finalidade da Unidade Segurada para este seguro?
+			
+			O Proponente teve prejuízos nos últimos 5 ciclos agrícolas na Unidade Segurada?
+			
+			O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste s
+			
+			O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste s
+			O Prop tem conhec dos crits do ZOAGR do MAP e conseq à cobert deste segu caso n siga as bases deste?
+			
+			O Prop teve conh através do Corr de Seguros de qual a finalidade da Unid Segurada p/ este seguro?
+			O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste seguro caso não siga as bases preconizadas por este?
+
+			
+
+			
+			
+
+			

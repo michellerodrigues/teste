@@ -1,0 +1,20 @@
+PSP_ADMIN
+DESENV 
+jribeiro@vidalink.com.br
+1234
+
+HOMOLOG
+usuário: adminpsp@vidalink.com.br
+senha: RHTESTE
+
+
+
+5000 prod
+5001 - dev/hmg
+http://186.201.50.139:5001/docs/index#/
+
+me base de conhecimento
+
+
+http://10.10.10.38:8080/tfs
+

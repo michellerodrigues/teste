@@ -1,0 +1,24 @@
+http://localhost/WebAppAdminPSP/Relatorio/ProcedimentoPartial
+
+NomePrestador=&hdnCategoriaProcedimento=CONSULTA&hdnNomeProcedimento=1%C2%AA+AVALIA%C3%87%C3%83O+US-OD+(DOADORAS)&hdnNomeLocal=UNIDADE+VILA+MARIANA&hdnNomeRecurso=CONSULT%C3%93RIO+1&hdnNomePaciente=Todos&hdnNomePrestador=ANA+PAULA+AQUINO&hdnIdPrestadorEmissao=1&hdnStatus=AGENDADO&IdPrestador=102&IdCategoria=1&IdTipoProcedimento=1854&IdLocal=21&IdRecurso=41&IdStatus=1&DataInicio=17%2F06%2F2018&DataFim=02%2F07%2F2018&Paciente=
+
+01/04/2018
+
+procedimentos existentes
+BIÓPSIA EMBRIONÁRIA - NGS
+COLETA DE ÓVULOS COM ANESTESIA
+PREPARO SEMINAL P/ DESCON. ÓVULOS
+
+
+recursos existentes
+SALA DE COLETA SEMINAL
+CENTRO CIRÚRGICO
+
+2/4/2018
+SALA US 1
+FELIPE LAZAR
+CENTRO CIRÚRGICO
+MAURICIO BARBOUR CHEHIN
+BIÓPSIA EMBRIONÁRIA - NGS
+4º ULTRASSOM DE CICLO
+ULTRASSOM OUTROS

@@ -1,0 +1,9 @@
+"ldjson":"{"@context":"http://schema.org/","@type":"Recipe","name":"Pudim de leite em p\\u00f3","author":{"@type":"Person","name":"Lucimar A Saraiva"},"url":"http://tudogostoso.com.br/receita/143697-pudim-de-leite-em-po.html","image":"https://img.itdg.com.br/tdg/assets/default/recipe_original.png","description":"Receita de Pudim de leite em p\\u00f3. Enviada por Lucimar A Saraiva e demora apenas 60 minutos.","aggregateRating":{"@type":"AggregateRating","ratingValue":0,"reviewCount":0,"bestRating":"5","worstRating":"0"},"prepTime":"PT1H00M","totalTime":"PT1H00M","recipeYield":20,"recipeIngredient":["12 colheres de sopas rasas de a\\u00e7\\u00facar","2 copos de leite em p\\u00f3","2s copos de agu\\u00e1","4 ovos"],"recipeInstructions":["Bater tudo no liquidificador","Untar a forma do pudim com a calda de sua prefer\\u00eancia","Colocar o pudim sobre a calda","Levar ao forno em banho-maria"]}
+
+
+	Missing collection parameter
+	
+	mongodb://mica:1234@clusterpoc-shard-00-00-cscjt.mongodb.net:27017,clusterpoc-shard-00-01-cscjt.mongodb.net:27017,clusterpoc-shard-00-02-cscjt.mongodb.net:27017/dku?ssl=true&replicaSet=ClusterPOC-shard-0&authSource=admin&retryWrites=true
+	
+	
+

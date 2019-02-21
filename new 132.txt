@@ -1,0 +1,10 @@
+Prezado(a), <P>seu email foi rejeitado pelo nosso sistema de aviso de sinistro.<p> Assunto Email Enviado:<i><b>{0}</i></b><br> Nome Anexo Enviado:<i><b>{2}</i></b><br>Mensagem Retornada:<i><b>{3}</i></b><p>Por favor anexe um aviso válido e reenvie o email.<p>Atenciosamente,<br><b>Markel Seguros</b>
+
+Prezado(a), <P>seu email foi rejeitado pelo nosso sistema de inclusão de cotação.<p> Assunto Email Enviado:<i><b>{0}</i></b><br> Nome Anexo Enviado:<i><b>{2}</i></b><br>Mensagem Retornada:<i><b>{3}</i></b><p>Por favor anexe uma cotação válida e reenvie o email.<p>Atenciosamente,<br><b>Markel Seguros</b>
+
+
+body_email_erro_cliente_planilha
+
+delete from Parametros where NomeParametro='body_email_erro_cliente_planilha'
+
+

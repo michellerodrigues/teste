@@ -1,0 +1,29 @@
+1. O que eu fiz ontem (ou desde a última reunião); 
+->conversei com o Fab´ricio e com o Celebrone sobre relação de conjuge
+->atuei no problema de cadastro de paciente ==>resolvido
+->atuei no problema de cadastro de conjuge==>resolvido[
+->descoberto problema de relação entre titular e conjuge (INtegração não conecta, logo, não gera pincode para Titular e não associa para o cônjuge) 
+
+
+2. O que eu vou fazer hoje; 
+-> alterar a Classe de integração para tratamento de retornos quando o statusCode for !=200
+-> quebrar tasks do pbi de investigação do Pin number com problemas
+->atuar no pbi citado (incluir paciente novo e cadastrar um agendamento para o mesmo)
+->Enviar Retrospectiva para Fabrício
+
+3. Algum impedimento que está impossibilitando prosseguir com as atividades
+nenhum
+3.1 - Impedimento no problema da relação do titular com o cônjuge:
+Credenciais não conectam:
+----------------
+celebrone
+"CT000393|http://186.201.50.139:5001"
+"http://186.201.50.139:5001"
+esse ct está dando não autorizado na integração, está correto?
+não gera nem token...
+username=vidalink&password=vidalink2017&grant_type=password&client_id=bc2c519d-ff84-4e79-a6a5-d22bdc9a1270%3AhXBbTjZLHnte6I--6daTEa4KWTaYacoj_Uavmgemd6U",
+
+-----------
+3.2 - Conversar sobre qual tratamento será dado nas telas em caso de integração fora do ar. 
+Deixar Cadastro de Paciente acontecer? Bloquear apenas cônjuge?
+Existe sincronia para recuperar pinnumber em caso de medsoft offline no momento do cadastro

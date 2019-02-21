@@ -1,0 +1,6 @@
+[{"UsuId":334316,"Nome":"CASSANDRA SARMANHO DE DEUS","NomeMedico":null,"Cpf":"74582275249","Endereco":"RUA FREI CANECA","EnderecoNumero":"972","Bairro":"PARQUE RIZZO","Cidade":"COTIA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"74582275249","ClientId":null,"ClientGroupId":null,"MiscData":"18940401","MemberIdConjuge":null,"EffectiveDateOverride":20171219,"IdCliente":"57973","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+http://localhost/Vidalink.API.Services
+
+[{"UsuId":334316,"Nome":"CASSANDRA SARMANHO DE DEUS","NomeMedico":null,"Cpf":"74582275249","Endereco":"RUA FREI CANECA","EnderecoNumero":"972","Bairro":"PARQUE RIZZO","Cidade":"COTIA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"74582275249","ClientId":null,"ClientGroupId":null,"MiscData":"18940401","MemberIdConjuge":null,"EffectiveDateOverride":20171219,"IdCliente":"57973","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+

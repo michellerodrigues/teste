@@ -1,0 +1,12 @@
+
+
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/10914039709
+/Patient/ByPersonId/Patient/
+
+BEARER TOKEN
+
+
+
+
+
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/10914039709

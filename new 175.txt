@@ -1,0 +1,20 @@
+begin
+
+  statement_zero;
+
+  savepoint my_savepoint;
+
+  begin
+    -- if either of these fail, then exception section will be executed
+    statement_one;
+    statement_two;
+  exception
+     when others then
+       rollback to my_savepoint;
+  end;
+
+  statement_three;
+
+  commit;
+
+end;

@@ -1,0 +1,1 @@
+Message = "ORA-12154: TNS:não foi possível resolver o identificador de conexão especificado"

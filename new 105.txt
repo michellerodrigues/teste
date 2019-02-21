@@ -1,0 +1,30 @@
+
+
+
+
+
+PSP.OFICIAL ANTIGO - VidalinkConnectApi - ACESSA normal
+
+<add key="CONEXAO" value="Ïñîõèãäñ¼ÌÒÃÀÎÑÀ-°ºÏàòòöîñã¼÷ïóîºÔòäñŸÈÃ¼ÔÒÄÑÓÈºÃàóàŸÒîôñâä¼ÃÄÒÄÍÕºÏäñòèòóŸÒäâôñèóøŸÈíåî¼Óñôä"/>
+Provider=MSDAORAﾮ1;Password=xpto;User ID=USERTI;Data Source=DESENV;Persist Security Info=True
+
+
+
+PSP.OFICIAL - NOVO
+<add key="CONEXAO" value="Ïñîõèãäñ¼ÌÒÃÀÎÑÀ-°ºÏàòòöîñã¼÷ïóîºÔòäñŸÈÃ¼àâäòòîºÃàóàŸÒîôñâä¼ÃÄÒÄÍÕºÏäñòèòóŸÒäâôñèóøŸÈíåî¼Óñôä"/>
+Provider=MSDAORAﾮ1;Password=xpto;User ID=acesso;Data Source=DESENV;Persist Security Info=True
+
+
+What is the minimal age to drive in Brazil?
+
+In Brazil., the minimum age to drive is eighteen years. So many people start oldest to drive because the prove of the try (Department of Transit in Brazil)  is very hard and she has a many, high, level of reprovations.
+So the minimum age to drink officially is eighteen too, but many people starting drink so early, so much early and some case, sometimes the people start drink with a thirteen, no, thirteen nao, , é thirteen years or twelve. I’m start with 20, twenty years… 
+The minimum age to marriage is not.. officially … maybe… is a eighteen years, but some people can marriage on 15, 16, and since that  the woman or the man or the girl or boy have a has a permission with your fathers, and between, through one procuração, procuration or official document, authorization, I don't know how can I say, was commonly marriage the age of marriage the normal convencion is 25, 26…
+
+
+What is the minimal age to drive in Brazil?
+
+In Brazil., the minimum age to drive is eighteen years. So many people start oldest to drive because the prove of the try (Department of Transit in Brazil)  is very hard and she has a many, high, level of reprovations.
+So the minimum age to drink officially is eighteen too, but many people starting drink so early, so much early and some case, sometimes the people start drink with a thirteen, no, thirteen nao, , é thirteen years or twelve. I’m start with 20, twenty years… 
+The minimum age to marriage is not.. officially … maybe… is a eighteen years, but some people can marriage on 15, 16, and since that  the woman or the man or the girl or boy have a has a permission with your fathers, and between, through one procuração, procuration or official document, authorization, I don't know how can I say, was commonly marriage the age of marriage the normal convencion is 25, 26…
+

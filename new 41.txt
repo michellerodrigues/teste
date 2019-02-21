@@ -1,0 +1,13 @@
+Computador\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile
+Computador\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+
+
+
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		NuGet Package restore failed for project VidalinkWebApi: Unable to find version '1.3.0' of package 'Framework.Vidalink.Acessos'.
+  C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\: Package 'Framework.Vidalink.Acessos.1.3.0' is not found on source 'C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\'.
+  https://api.nuget.org/v3/index.json: Package 'Framework.Vidalink.Acessos.1.3.0' is not found on source 'https://api.nuget.org/v3/index.json'.
+. Please see Error List window for detailed warnings and errors.				
+
+

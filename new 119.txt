@@ -1,0 +1,60 @@
+using Newtonsoft.Json;
+using SIC.WebApi.DTO.I4PRO;
+using SIC.WebApi.Messages;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
+
+namespace SIC.WebApi.DTO
+{
+[DataContract]
+public class SinistroPlanilhaMessageRequest
+{        
+[DataMember(Name = "num_apolice", IsRequired = true)]
+public string Num_apolice { get; set; }
+
+//colocar de-para no banco ou web config
+[DataMember(Name = "causa", IsRequired = true)]
+public string Causa { get; set; }
+
+//em caso de outras causas selecionadas acima
+[DataMember(Name = "demais_causas", IsRequired = true)]
+public string DemaisCausas { get; set; }
+
+//validar campo data
+[DataMember(Name = "data_ocorrencia", IsRequired = true)]
+public string DataOcorrencia { get; set; }
+
+[DataMember(Name = "responsavel_aviso", IsRequired = true)]
+public string Responsavel_aviso { get; set; }
+
+[DataMember(Name = "telefone", IsRequired = true)]
+public string Telefone { get; set; }
+
+[DataMember(Name = "relacao_resp_aviso_com_segurado", IsRequired = true)]
+public string RelacaoRespAvisoComSegurado { get; set; }
+
+[DataMember(Name = "relacao_resp_aviso_com_segurado_outras", IsRequired = true)]
+public string RelacaoRespAvisoComSeguradoOutras { get; set; }
+
+[DataMember(Name = "data_estimada_colheita", IsRequired = true)]
+public string DataEstimadaColheita { get; set; }
+
+[DataMember(Name = "responsavel_acomp_vistoria", IsRequired = true)]
+public string ResponsavelAcompVistoria { get; set; }
+
+[DataMember(Name = "responsavel_acomp_vistoria_tel", IsRequired = true)]
+public string ResponsavelAcompVistoriaTel { get; set; }
+
+[DataMember(Name = "responsavel_acomp_vistoria_email", IsRequired = true)]
+public string ResponsavelAcompVistoriaEmail { get; set; }
+
+[DataMember(Name = "descricao_sinistro_evento", IsRequired = true)]
+public string DescricaoSinsistroEvento { get; set; }
+
+[DataMember(Name = "descricao_danos", IsRequired = true)]
+public string DescricaoDanos { get; set; }
+
+[DataMember(Name = "observacao", IsRequired = true)]
+public string Observacao { get; set; }
+}
+}

@@ -1,0 +1,8 @@
+lista_destinatarios_cc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1cc@mailinator.com
+lista_destinatarios_bc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1bc@mailinator.com|destinatario2bc@mailinator.com
+replyTo_job	<!--Emails que receberão as comunicações de Falha do Job-->	replyto_job@mailinator.com
+lista_destinatarios_cc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com
+lista_destinatarios_bc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com
+
+
+Abc12345

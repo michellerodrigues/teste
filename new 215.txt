@@ -1,0 +1,26 @@
+https://www.vidalink.com.br/PSP_Admin/Prestador/CadastroDetalhe?IdPrestador=1541
+
+
+[{"Menus":null,"CustomerId":"CT000519","IdPrestador":1541,"DsNomePrestador":"FABÍOLA SOUZA GUIMARÃES","FiltroDsNomePrestador":null,"IdCategoriaPrestador":5,"DsCategoriaPrestador":"BACKOFFICE","FiltroIdCategoriaPrestador":null,"Especialidades":"BACKOFFICE","DsNomePrestador_Especialidades":"FABÍOLA SOUZA GUIMARÃES - BACKOFFICE","MedCod":0,"MedCRM":0,"MedUF":"XX","MedNome":"SEM RECEITA","UsuId":364589,"SisId":0,"IniJornada":"07:00","FimJornada":"19:00","Procedimentos":null,"ArrayProcedimentos":null,"IdTipoProcedimento":null,"ArrayEspecialidades":"1","IdEspecialidade":null,"FiltroIdEspecialidade":null,"ListaEspecialidades":null,"Categorias":[],"UFs":null,"usuario":null,"TipoDocumento":"CPF","Documento":"42205125869","UsuLogin":"FABIOLAGUIMARAES1@HOTMAIL.COM","UsuNome":"FABÍOLA SOUZA GUIMARÃES","Sexo":"F","Email":"FABIOLAGUIMARAES1@HOTMAIL.COM","TelefoneCom":"1130596100","Celular":"00000000000","strDtNascTmp":"03/21/1995","DataNascimento":"\/Date(795754800000)\/","CEP":"04101100","Numero":"2253","Complemento":null,"Endereco":"RUA VERGUEIRO","Bairro":"VILA MARIANA","Cidade":"SAO PAULO","Estado":"SP","FlStatus":"A","FlTipoMedico":null,"dsFlStatus":"Ativo","UsuIdCriador":0,"DtCriacao":"\/Date(-62135589600000)\/","UsuIdEditor":0,"DtEdicao":"\/Date(-62135589600000)\/","IdCliente":null,"IdAgendaCliente":null,"IdTipoRecursoCliente":1,"TiposRecursoCliente":null,"ArrayTipoProcedimento":null,"UrlImgTituloPagina":null,"TituloPagina":null,"PaginaPai":null}]
+
+
+1 - Alterar Email para o meu gmail
+2 - dizer que esqueci a senha
+3 - ver se vou recebe a senha
+4 - voltar para o email da paciente
+
+
+https://www.vidalink.com.br/VidalinkConnectApi/Seguranca/RecuperarSenha
+
+RecuperarEmail=FABIOLAGUIMARAES1%40HOTMAIL.COM&hdnSisIdRecuperarSenha=21&hdnUrlResetSenha=
+RecuperarEmail=MICA.MSR%40GMAIL.COM&hdnSisIdRecuperarSenha=20&hdnUrlResetSenha=
+RecuperarEmail=MICA.MSR%40GMAIL.COM&hdnSisIdRecuperarSenha=21&hdnUrlResetSenha=
+RecuperarEmail=MICA.MSR%40GMAIL.COM&hdnSisIdRecuperarSenha=21&hdnUrlResetSenha=
+
+{"Message":"E-mail com a solicitação enviado com sucesso","IsValid":true,"colecao":null}
+
+
+https://www.vidalink.com.br/VidalinkConnectApi/Seguranca/RecuperarSenha
+
+--teste
+ds.sistema customer

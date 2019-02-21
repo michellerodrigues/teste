@@ -1,0 +1,6 @@
+1 - incluir um agendamento
+2 - print screem tabela agenda e log
+3 - print consulta agenda
+3 - incluir um encaixe
+2 - print screem tabela agenda e log
+6 - print screeem tela de consulta agenda

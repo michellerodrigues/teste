@@ -1,0 +1,21 @@
+[{"id_tp_subvencao":4,"nm_tp_subvencao":"Estadual"},{"id_tp_subvencao":1,"nm_tp_subvencao":"Federal"},{"id_tp_subvencao":2,"nm_tp_subvencao":"Federal / Estadual"}]
+
+
+
+
+
+<tr>
+	<th class="col-md-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tipo de Subvenção</font></font></th>
+	<td class="col-md-4" ng-class="{'danger': cotacaoForm.tipoDeSubvencao.$invalid &amp;&amp; vm.validated}">
+		<select name="tipoDeSubvencao" style="width:100%" ng-model="vm.Cotacao.tipoDeSubvencao" ng-options="r.nm_tp_subvencao for r in vm.tipoDeSubvencao |  track by r.id_tp_subvencao" ng-disabled="vm.Bloqueado" required="" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"><option value="" class="" selected="selected"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Selecione</font></font></option></select>
+	</td>
+</tr>
+						
+
+[{"id_tp_subvencao":4,"nm_tp_subvencao":"Estadual"},{"id_tp_subvencao":1,"nm_tp_subvencao":"Federal"},{"id_tp_subvencao":2,"nm_tp_subvencao":"Federal / Estadual"}]
+
+
+{"idCotacao":0,"descricaoSegurado":null,"idUsuarioInclusao":1,"dataHoraInclusao":"2018-04-02T12:32:33.2210243-03:00","exibeDataHoraInclusao":"","moeda":{"idMoeda":1,"nomeMoeda":"Real","sigla":"R$","isAtivo":true,"isReal":true},"dataVigenciaApoliceInicial":"0001-01-01T00:00:00-02:00","dataVigenciaApoliceFinal":"0001-01-01T00:00:00-02:00","valorPrecoCultivo":0.0,"valorProdutividadeReferencia":null,"dataVigenciaRiscoInicial":"0001-01-01T00:00:00-02:00","dataVigenciaRiscoFinal":"0001-01-01T00:00:00-02:00","valorCustoVariavelProducao":0.0,"percentualPerdaIdentidade":null,"percentualReplantio":null,"valorRendaMensalTemporaria":null,"valorPremioCoberturaBasica":null,"valorLimiteCoberturaBasica":null,"valorPremioCoberturaIdentidade":null,"valorPremioCoberturaReplantio":null,"valorPremioCoberturaRendaTemporariaMensal":null,"valorLimiteCoberturaRendaTemporariaMensal":null,"valorPremioComercialAvista":null,"isRendaMensalTemporaria":false,"isPerdaIdentidade":false,"isReplantio":false,"isVeracidade":false,"uf":null,"microRegiao":null,"isPdfGerado":false,"usuario":null,"endereco":null,"diaProximaParcela":null,"dataPrimeiraParcela":null,"itens":[],"perguntas":[],"cultivo":null,"municipio":null,"fatorCultivo":null,"tipoDeSubvencao":null,"formaDePagamento":null,"formaDeParcelamento":null,"produtoI4Pro":null,"dataDeValidade":"2018-04-17T12:32:33.2210243-03:00","diferencaVigencia":0,"produtividadeEsperada":null,"produtividadeSegurada":null,"produtividadeSeguradaUnidade":null,"totalMedidaUnidadeSegurada":0.0,"totalLMI":0.0,"valorPremioCoberturaBasicaUnidade":null,"valorPremioCoberturaIdentidadeUnidade":null,"valorPremioCoberturaReplantioUnidade":null,"valorPremioCoberturaRendaTemporariaMensalUnidade":null}
+
+[{"id_forma_pagamento_produto":198,"cd_produto":329,"cd_forma_pagamento":1000009,"nm_forma_pagamento":"FICHA DE COMPENSAÇÃO - BRADESCO"},{"id_forma_pagamento_produto":199,"cd_produto":330,"cd_forma_pagamento":1000009,"nm_forma_pagamento":"FICHA DE COMPENSAÇÃO - BRADESCO"},{"id_forma_pagamento_produto":200,"cd_produto":331,"cd_forma_pagamento":1000009,"nm_forma_pagamento":"FICHA DE COMPENSAÇÃO - BRADESCO"},{"id_forma_pagamento_produto":202,"cd_produto":332,"cd_forma_pagamento":1000009,"nm_forma_pagamento":"FICHA DE COMPENSAÇÃO - BRADESCO"},{"id_forma_pagamento_produto":203,"cd_produto":333,"cd_forma_pagamento":1000009,"nm_forma_pagamento":"FICHA DE COMPENSAÇÃO - BRADESCO"}]
+

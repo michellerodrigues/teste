@@ -1,0 +1,16 @@
+{
+  "nm_tabela":"corp_fruta_grao_itens",
+  "nm_campo_chave":"id_endosso",
+  "nm_campo_descricao":"nm_propriedade, nm_endereco,nm_bairro,nm_cidade,nm_complemento,id_fruta_grao_variedade,id_local, cd_uf, id_endosso,id_item, nr_item",
+  "nm_campo_condicao1":"id_endosso",
+  "nm_conteudo_condicao1":"2179",
+  "nm_campo_condicao2":"",
+  "nm_conteudo_condicao2":""
+}
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-12T06:20:28","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","numero":null,"complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":null,"cep":"86920000"}}}
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-12T06:24:14","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","numero":null,"complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":"Kaloré","cep":"86920000"}}}
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010000409.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1474,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-12T06:24:49","dt_ocorrencia":null,"cd_uf":17,"id_local":104889,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"DIOGO TUDELA","cpfCnpj":"56984383900"},"dadosPropriedadeItemApolice":{"nomeFazenda":"FAZENDA SANTA RITA","logradouro":"INTERIOR","numero":null,"complemento":null,"bairro":"ZONA RURAL","uf":"MG","cidade":"Abadia dos Dourados","cep":"38540000"}}}
+

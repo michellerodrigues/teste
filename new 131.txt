@@ -1,0 +1,201 @@
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(0 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+Mensagem 547, Nível 16, Estado 0, Linha 59
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 60
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 61
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 62
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 63
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 64
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 65
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 66
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 67
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 68
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 69
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 70
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 71
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 72
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+Mensagem 547, Nível 16, Estado 0, Linha 73
+A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK__CelulasSi__MapaI__5165187F". O conflito ocorreu no banco de dados "markel_sic_mapa_hmg", tabela "dbo.Mapa", column 'MapaId'.
+A instrução foi finalizada.
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)
+
+(1 linha(s) afetadas)

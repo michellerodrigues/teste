@@ -1,0 +1,6 @@
+admin
+Agricultura@1
+
+
+http://localhost:17778/Markel.Cotacao.Site/WebApi/api/security/token
+ https://impeto.markelseguros.com.br/Markel.Cotacao.Site/WebApi/api/security/token 

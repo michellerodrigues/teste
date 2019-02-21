@@ -1,0 +1,2 @@
+http://localhost/WebApi/api/security/token
+http://localhost/Markel.Cotacao.Site/WebApi/api/security/token

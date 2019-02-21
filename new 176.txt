@@ -1,0 +1,90 @@
+rollback;
+select *
+from MEMBER M
+where M.MEMBER_ID = '28655353809' AND M.alt_member_id=M.MEMBER_ID AND patient_pin_number IS NULL AND relationship=1  AND customer_id='CT000519'
+
+select * from IIS.MEMBER_GENERICO MG
+WHERE MG.member_id='28655353809' AND MG.patient_pin_number IS NULL AND MG.relationship=1 AND customer_id='CT000519'
+
+select * from ACESSO.USUARIO_MEMBER M
+where M.MEMBER_ID = '28655353809' AND customer_id='CT000519';
+commit;
+
+select * from ACESSO.USUARIO_MEMBER M
+where m.usu_id=317607 AND customer_id='CT000519';
+
+
+update ACESSO.USUARIO_MEMBER M SET M.MEMBER_ID = 56188 
+where M.MEMBER_ID = '28655353809' AND customer_id='CT000519';
+commit;
+
+update IIS.MEMBER_GENERICO MG SET MG.MEMBER_ID = 56188,MG.patient_pin_number=56188
+WHERE MG.member_id='28655353809' AND MG.patient_pin_number IS NULL AND MG.relationship=1 AND MG.customer_id='CT000519'
+commit;
+
+update MEMBER M SET M.MEMBER_ID=56188,M.patient_pin_number=56188
+where M.MEMBER_ID = '28655353809' AND M.alt_member_id=M.MEMBER_ID AND patient_pin_number IS NULL AND relationship=1  AND customer_id='CT000519'
+commit;
+
+select * from IIS.MEMBER_GENERICO MG
+WHERE MG.member_id='56188' AND MG.relationship=1 AND mg.customer_id='CT000519'
+
+select * from ACESSO.USUARIO_MEMBER M
+where M.MEMBER_ID = '56188' AND customer_id='CT000519'
+
+
+select *
+from MEMBER M
+where M.MEMBER_ID ='56188' AND relationship=1  AND customer_id='CT000519'
+
+
+[{"UsuId":0,"Nome":"LUCIMARA ANDRADE VIEIRA","NomeMedico":"ANA PAULA AQUINO","Cpf":"28655353809","Endereco":"AVENIDA ALEXIOS JAFET","EnderecoNumero":"1982","Bairro":"JARDIM AURORA (ZONA OESTE","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"28655353809","ClientId":null,"ClientGroupId":null,"MiscData":"17003310","MemberIdConjuge":null,"EffectiveDateOverride":20171004,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+
+---ALTERAÇÃO DO CÔNJUGE
+select * from IIS.MEMBER_GENERICO MG
+WHERE MG.patient_pin_number='56188' AND MG.relationship!=1 AND customer_id='CT000519'
+
+
+select *
+from MEMBER M
+where M.MEMBER_ID = '29518833826' AND M.alt_member_id=M.MEMBER_ID AND patient_pin_number='56188' AND relationship!=1  AND customer_id='CT000519'
+
+select * from IIS.MEMBER_GENERICO MG
+WHERE MG.member_id='29518833826' AND MG.patient_pin_number='56188' AND MG.relationship!=1 AND customer_id='CT000519'
+
+select * from ACESSO.USUARIO_MEMBER M
+where M.MEMBER_ID = '29518833826' AND customer_id='CT000519'
+
+
+
+
+
+
+update ACESSO.USUARIO_MEMBER M SET M.MEMBER_ID = 56189 
+where M.MEMBER_ID = '29518833826'
+commit;
+
+update IIS.MEMBER_GENERICO MG SET MG.MEMBER_ID = 56189
+WHERE MG.MEMBER_ID='29518833826' AND MG.patient_pin_number=56188 AND MG.relationship!=1 AND MG.customer_id='CT000519'
+commit;
+
+update MEMBER M SET M.MEMBER_ID=56189
+where M.MEMBER_ID = '29518833826' AND M.alt_member_id=M.MEMBER_ID AND M.patient_pin_number=56188 AND relationship!=1  AND customer_id='CT000519'
+commit;
+
+
+select * from IIS.MEMBER_GENERICO MG
+WHERE MG.member_id='56189' AND MG.relationship!=1 AND mg.customer_id='CT000519'
+
+select * from ACESSO.USUARIO_MEMBER M
+where M.MEMBER_ID = '56189' AND customer_id='CT000519'
+
+
+select *
+from MEMBER M
+where M.MEMBER_ID ='56189' AND relationship!=1  AND customer_id='CT000519'
+
+
+	

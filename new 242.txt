@@ -1,0 +1,50 @@
+DELETE FROM acesso.usuario_perfil u
+WHERE u.USU_ID = 364224;
+
+DELETE FROM acesso.usuario_sistema u
+WHERE u.USI_ID = 363518;
+
+select * FROM acesso.usuario_sistema u
+WHERE u.USI_ID = 363518;
+
+
+
+DELETE FROM acesso.usuario_member um
+WHERE um.customer_id = 'CT000519'
+AND um.member_id = 'SSID_60923';
+
+DELETE FROM acesso.usuario u
+WHERE u.customer_id = 'CT000519'
+AND u.USU_ID = 364224;
+
+DELETE FROM acesso.member_optin m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM acesso.member_historico m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM acesso.member_adicional m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM IIS.MEMBER_GENERICO_MEDICAMENTO m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM DS.MEMBER_WEB_UPDATE m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM MEMBER_COVERAGE m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM MEMBER_GENERICO m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';
+
+DELETE FROM MEMBER m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_60923';

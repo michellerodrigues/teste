@@ -1,0 +1,4 @@
+Sobre pbi de orientações ao paciente no agendamento sob demanda:
+
+1 - falta incluir ação de imprimir ao botão
+2 - ajustar layout (ver print gerado de ultima posição do psp_oficial)

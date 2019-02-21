@@ -1,0 +1,34 @@
+Obrigada pelo print.
+
+Agora confirmados os dados, o problema na api da MEDSOFT prossegue.
+
+Sendo assim, por mais que atualizemos os dados aqui, se a api da MEDSOFT não retorna o paciente através de pelo menos um método abaixo, não temos como resolver o problema.
+
+Sobre o ticket 50906
+
+Nathália, 
+
+O Sistema do PSP utiliza um serviço de integração para buscar o paciente via MEDSOFT. 
+Neste caso, existe um problema com o MEDSOFT, pois ao tentar recuperar o cliente, uma mensagem de erro é retornada. 
+
+1 - Pelo cpf : http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/8464460732 
+Retorno: <?xml version="1.0"?> <string>Patient not found</string> 
+
+2 - Tentei pelo CPF inteiro, 
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/08464460732 
+<?xml version="1.0"?><string>Object reference not set to an instance of an object.</string>
+
+3 -  http://186.201.50.139:5000/Patient/Search
+
+{
+  "SearchParameters": [
+    {
+      "Field": "FullName",
+      "Content": "Diana Alves de almeida Oliveira",
+      "Match": 1
+    }
+  ]
+}
+
+<?xml version="1.0"?>
+<string>Object reference not set to an instance of an object.</string>

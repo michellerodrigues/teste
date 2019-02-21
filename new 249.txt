@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<ArrayOfAppointment>
+    <Appointment>
+        <ID>363539</ID>
+        <Description>Mariana Brunelli Romano Borges</Description>
+        <Patient_ID>35147</Patient_ID>
+        <Attendances_Code>504537</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/07/2018 14:00:00</InMaAgen>
+        <FiMaAgen>10/07/2018 15:00:00</FiMaAgen>
+        <DtMaAgen>10/03/2018 10:22:00</DtMaAgen>
+        <ObseAgen>Ciente do valor/PDF enviado
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+Reagendou para 12/04
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Juliana Peixoto Nery em 03/04/2018 14:06:48
+*********************************************</ObseAgen>
+        <CreatedOn>10/03/2018 10:24:00</CreatedOn>
+        <ModifiedOn>03/04/2018 14:06:00</ModifiedOn>
+        <CanceledOn>03/04/2018 14:06:00</CanceledOn>
+        <CreatedBy>886</CreatedBy>
+        <ModifiedBy>886</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368765</ID>
+        <Description>DR. EM EM CAMPINAS - 18/04 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>18/04/2018 06:00:00</InMaAgen>
+        <FiMaAgen>18/04/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:16:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:17:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:17:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368768</ID>
+        <Description>DR. EM EM CAMPINAS - 02/05  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>02/05/2018 06:00:00</InMaAgen>
+        <FiMaAgen>02/05/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:18:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:19:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:19:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368769</ID>
+        <Description>DR. EM EM CAMPINAS - 16/05  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/05/2018 06:00:00</InMaAgen>
+        <FiMaAgen>16/05/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:20:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:20:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:20:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368770</ID>
+        <Description>DR. EM EM CAMPINAS - 30/05  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>30/05/2018 06:00:00</InMaAgen>
+        <FiMaAgen>30/05/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:21:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:21:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:21:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368774</ID>
+        <Description>DR. EM EM CAMPINAS - 13/06  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/06/2018 06:00:00</InMaAgen>
+        <FiMaAgen>13/06/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:41:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:42:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:42:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368775</ID>
+        <Description>DR. EM EM CAMPINAS - 27/06  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/06/2018 06:00:00</InMaAgen>
+        <FiMaAgen>27/06/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:42:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:42:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:42:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368776</ID>
+        <Description>DR. EM EM CAMPINAS - 11/07  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>11/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>11/07/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:43:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:43:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:43:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368777</ID>
+        <Description>DR. EM EM CAMPINAS - 25//07  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>25/07/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:43:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:43:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:43:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368778</ID>
+        <Description>DR. EM EM CAMPINAS - 08/08  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>08/08/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:44:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:44:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:44:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368781</ID>
+        <Description>DR. EM EM CAMPINAS - 22/08  PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>22/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>22/08/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:55:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:55:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:55:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368782</ID>
+        <Description>DR. EM EM CAMPINAS - 05/09 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>05/09/2018 06:00:00</InMaAgen>
+        <FiMaAgen>05/09/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:55:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:56:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:56:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368783</ID>
+        <Description>DR. EM EM CAMPINAS - 19/09 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>19/09/2018 06:00:00</InMaAgen>
+        <FiMaAgen>19/09/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:56:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:56:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:56:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368784</ID>
+        <Description>DR. EM EM CAMPINAS - 03/10 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>03/10/2018 06:00:00</InMaAgen>
+        <FiMaAgen>03/10/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:57:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:57:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:57:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368785</ID>
+        <Description>DR. EM EM CAMPINAS - 17/10 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/10/2018 06:00:00</InMaAgen>
+        <FiMaAgen>17/10/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:58:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:58:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:58:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368786</ID>
+        <Description>DR. EM EM CAMPINAS - 31/10 PELA MANHÃ</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>31/10/2018 06:00:00</InMaAgen>
+        <FiMaAgen>31/10/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 16:59:00</DtMaAgen>
+        <CreatedOn>10/04/2018 16:59:00</CreatedOn>
+        <ModifiedOn>10/04/2018 16:59:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369284</ID>
+        <Description>Adriana Zampieri Albuquerque</Description>
+        <Patient_ID>60818</Patient_ID>
+        <Attendances_Code>513651</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>19/07/2018 15:00:00</InMaAgen>
+        <FiMaAgen>19/07/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>13/04/2018 10:31:00</DtMaAgen>
+        <ObseAgen>Ciente do valor de 600,00 PDF
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+Vai agendar com outro médico
+
+cancelado por Irene Oliveira Rocha em 13/04/2018 10:37:45
+*********************************************</ObseAgen>
+        <CreatedOn>13/04/2018 10:36:00</CreatedOn>
+        <ModifiedOn>13/04/2018 10:37:00</ModifiedOn>
+        <CanceledOn>13/04/2018 10:37:00</CanceledOn>
+        <CreatedBy>704</CreatedBy>
+        <ModifiedBy>704</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371628</ID>
+        <Description>Lidiane Vanessa Benato</Description>
+        <Patient_ID>61179</Patient_ID>
+        <Attendances_Code>517549</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/08/2018 07:00:00</InMaAgen>
+        <FiMaAgen>14/08/2018 08:00:00</FiMaAgen>
+        <DtMaAgen>27/04/2018 16:39:00</DtMaAgen>
+        <ObseAgen>Ciente do valor da consulta 300,00, envio de pdf.
+*********************************************
+FABÍOLA REMANEJAR
+Silmara Silvestre da Silva em 27/04/2018 17:51:33
+*********************************************
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+Passará em consulta dia 25/07 em CP.
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Aline Crispim Rios em 02/05/2018 12:52:00
+*********************************************</ObseAgen>
+        <CreatedOn>27/04/2018 16:44:00</CreatedOn>
+        <ModifiedOn>02/05/2018 12:52:00</ModifiedOn>
+        <CanceledOn>02/05/2018 12:52:00</CanceledOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>952</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372169</ID>
+        <Description>Ana Carolina Ruiz</Description>
+        <Patient_ID>61227</Patient_ID>
+        <Attendances_Code>518348</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/08/2018 15:00:00</InMaAgen>
+        <FiMaAgen>14/08/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>02/05/2018 14:00:00</DtMaAgen>
+        <ObseAgen>Ciente do valor, envio de pdf.</ObseAgen>
+        <CreatedOn>02/05/2018 14:01:00</CreatedOn>
+        <ModifiedOn>02/05/2018 14:01:00</ModifiedOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>968</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372197</ID>
+        <Description>Kelly Menezes de Souza</Description>
+        <Patient_ID>60382</Patient_ID>
+        <Attendances_Code>518393</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>28/08/2018 14:00:00</InMaAgen>
+        <FiMaAgen>28/08/2018 15:00:00</FiMaAgen>
+        <DtMaAgen>02/05/2018 15:13:00</DtMaAgen>
+        <CreatedOn>02/05/2018 15:14:00</CreatedOn>
+        <ModifiedOn>02/05/2018 15:14:00</ModifiedOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>968</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373112</ID>
+        <Description>Juliana Barbeito Dragone</Description>
+        <Patient_ID>60584</Patient_ID>
+        <Attendances_Code>519813</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/05/2018 08:30:00</InMaAgen>
+        <FiMaAgen>08/05/2018 09:30:00</FiMaAgen>
+        <DtMaAgen>08/05/2018 08:43:00</DtMaAgen>
+        <ObseAgen>Ciente do valor. 
+*********************************************
+confirmado pela a própria paciente
+Irene Oliveira Rocha em 05/05/2018 10:19:50
+*********************************************</ObseAgen>
+        <CreatedOn>08/05/2018 08:43:00</CreatedOn>
+        <ModifiedOn>08/05/2018 08:43:00</ModifiedOn>
+        <CreatedBy>699</CreatedBy>
+        <ModifiedBy>699</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>362036</ID>
+        <Description>Karina Bittencourt Chilelli</Description>
+        <Patient_ID>59751</Patient_ID>
+        <Attendances_Code>502030</Attendances_Code>
+        <Organizer_ID>13</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/06/2018 15:00:00</InMaAgen>
+        <FiMaAgen>04/06/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>01/03/2018 10:22:00</DtMaAgen>
+        <ObseAgen>ciente do valor, pdf ok.
+*********************************************
+ENVIEI WTZP SOL CONF DA CONS
+Fabiana da Silva Bergami em 23/05/2018 11:52:27
+*********************************************
+*********************************************
+confirmado pela a própria paciente por wtzp
+Fabiana da Silva Bergami em 29/05/2018 11:09:15
+*********************************************</ObseAgen>
+        <CreatedOn>01/03/2018 10:27:00</CreatedOn>
+        <ModifiedOn>29/05/2018 11:09:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>308</ModifiedBy>
+    </Appointment>
+</ArrayOfAppointment>

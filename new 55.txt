@@ -1,0 +1,22 @@
+3>  Todos os pacotes listados em C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\WebAppAdminPSP\packages.config já estão instalados.
+3>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+
+
+Sysmanager@17
+
+1234
+senha oracle (todos os usuários)
+Abc1234#
+
+Causa - O método de execução do plug-in falhou  Ação - Consulte os logs ou entre em contato com os Serviços de Suporte da Oracle.  Localização do Arquivo de Log
+C:\Program Files (x86)\Oracle\Inventory\logs\installActions2018-04-17_10-46-27PM.log
+
+
+
+Causa - O método de execução do plug-in falhou  Ação - Consulte os logs ou entre em contato com os Serviços de Suporte da Oracle.  Localização do Arquivo de Log
+C:\Program Files (x86)\Oracle\Inventory\logs\installActions2018-04-17_10-46-27PM.log
+ 
+ Os seus arquivos de configuração de banco de dados foram instalados em C:\app\miche, enquanto outros componentes selecionados para instalação foram instalados em C:\app\miche\product\11.2.0\dbhome_1. Tenha cuidado para não deletar acidentalmente esses arquivos de configuração.
+Os seus arquivos de configuração de banco de dados foram instalados em C:\app\miche, enquanto outros componentes selecionados para instalação foram instalados em C:\app\miche\product\11.2.0\dbhome_1. Tenha cuidado para não deletar acidentalmente esses arquivos de configuração.
+Os seus arquivos de configuração de banco de dados foram instalados em C:\app\miche, enquanto outros componentes selecionados para instalação foram instalados em C:\app\miche\product\11.2.0\dbhome_1. Tenha cuidado para não deletar acidentalmente esses arquivos de configuração.
+

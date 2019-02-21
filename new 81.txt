@@ -1,0 +1,13 @@
+Changeset 22232 successfully checked in.
+Product Backlog Item 55849:Melhorias consultar agenda - Cancelar agenda
+
+Changeset 22233 successfully checked in.
+Close
+Bug 55831:Liberação indevida de agenda
+
+{"Erro":"Falha na exclusão das agendas","Mensagem":"No MediaTypeFormatter is available to read an object of type \u0027String\u0027 from content with media type \u0027text/html\u0027."}
+
+
+https://produto.mercadolivre.com.br/MLB-766284219-bicarbonato-sodio-pacloreto-magnesio-synth-pa-sal-todos1kg-_JM
+
+	

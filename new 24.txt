@@ -1,0 +1,46 @@
+
+
+0 - Publicado com sucesso em Homologação e Produção: o erro se referia a um arquivo app-module.js que foi ajustado. Os webConfigs serão versionados.
+Após esta publicação, o Betazzi notou e reportou as seguintes necessidades, algumas já foram ajustadas e seguirão no próximo publish.
+
+1 - Ajuste de calculo da Produtividade Esperada ("qt_produto_kilo_alqueire_estimado":52.37)
+   Antes: 
+   if (soma == 0 || NumeroDeObservacoesDoFazendeiro <= 2)
+	{
+		_valorProdutividadeEsperada = this.CalculadoraBasicaCotacao.ProdutividadeDeReferencia;/// Parametros.FatorCultivo.ValorFator;
+	}
+ Depois:
+    if (soma == 0 || NumeroDeObservacoesDoFazendeiro <= 2)
+	{
+	_valorProdutividadeEsperada = this.CalculadoraBasicaCotacao.ProdutividadeDeReferencia;
+	}
+
+2 - Ajuste no cálculo da produtividade garantida ("qt_produto_kilo_alqueire":1056000.00)
+    Antes:
+	   ValorProdutividadeSegurada = itemCotacao.ValorImportanciaSegurada.Value,
+    Depois:
+	ValorProdutividadeSegurada = dto.ValorCustoVariavelProducao / dto.ValorPrecoCultivo,
+           
+	
+3 - Pendente: Ajustar o Cálculo da vl_is do Replantio para considerar:
+    Antes:
+		valorIS = limitesDeCobertura.FirstOrDefault(x => x.CodigoTipo == "R" && x.PercentualLimite == dto.PercentualReplantio)?.ValorMaximoIS;
+	Alterar Para:
+	//se o vl_is da cobertura básica percentual limite do replantigoo for maior que o ValorMaximoIS, deverá seguir o valor de ValorMaximoIS do replantio
+    
+
+4 - Pendente: Ajustar o Cálculo da vl_is da Perda Identidade (chuva excessiva) para considerar:
+
+	Antes:
+		valorIS = limitesDeCobertura.FirstOrDefault(x => x.CodigoTipo == "P" && x.PercentualLimite == dto.PercentualPerdaIdentidade)?.ValorMaximoIS;
+
+	Alterar Para:
+	//se o vl_is da cobertura básica percentual limite do chuva for maior que o ValorMaximoIS, deverá seguir o valor de ValorMaximoIS da chuva
+				
+
+Amanhã, serão feitos os itens 3 e 4 e será publicado novamente nos ambientes.
+
+att
+
+Michelle Rodrigues
+         	

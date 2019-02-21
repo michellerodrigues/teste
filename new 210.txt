@@ -1,0 +1,69 @@
+Find all "alerting.addWarning(", Find Results 1, Entire Solution, ""
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\consulta.controller.js(98):                    alerting.addWarning("Documento não encontrado.");
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\consulta.controller.js(112):                    alerting.addWarning("Documento não encontrado.");
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\cotacao.controller.js(287):                    alerting.addWarning('Contatar Markel para a realização da cotação. Código 01.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\cotacao.controller.js(506):                        alerting.addWarning('Contatar Markel para a realização da cotação. Código 24.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\cotacao.controller.js(517):                        alerting.addWarning('Contatar Markel para a realização da cotação. Código 24.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\cotacao.controller.js(886):                    alerting.addWarning('Existem itens com a mesma descrição. Favor verificar.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\cotacao\cotacao.controller.js(905):                    alerting.addWarning('Existe(m) campo(s) obrigatório(s) não preenchido(s) no item: ' + (index + 1));
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\login\login.controller.js(38):                    else alerting.addWarning(result.data.error_description);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\login\login.controller.js(60):                            alerting.addWarning(result.data.messageDetail);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\login\login.controller.js(86):                    alerting.addWarning('Não foi possível aceitar o termo de uso. Contate o Administrador');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\login\termoDeUso.controller.js(21):                   alerting.addWarning(result.data.messageDetail);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\blend-por-uf.controller.js(58):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\estatisticas.controller.js(110):                    alerting.addWarning("Não foi possível exportar para Excel.");
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\estatisticas.controller.js(139):                    alerting.addWarning(result);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\globais\constante.controller.js(83):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\globais\credibilidade.controller.js(53):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\globais\cultivoFator.controller.js(98):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\globais\limitesCobertura.controller.js(57):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\municipioDePara.controller.js(53):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\produto.controller.js(74):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\produto.controller.js(136):                //    alerting.addWarning('Informe a Vigência.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\questionarioRisco.controller.js(64):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\questionarioRisco.controller.js(129):                    alerting.addWarning('Informe a Vigência.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\parametros\ufAutorizadas.controller.js(49):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\seguranca\revenda.controller.js(67):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\seguranca\trocaDeSenha.controller.js(42):                                alerting.addWarning(result.data.mensagemErro);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\seguranca\trocaDeSenha.controller.js(56):                                alerting.addWarning(result.data.mensagemErro);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\seguranca\trocaDeSenha.controller.js(69):                        alerting.addWarning('Usuário ou token inválido.');
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\seguranca\usuario.controller.js(83):                    alerting.addWarning(result.data.BrokenRules[0]);
+  C:\Users\miche\Desktop\mica\Precificador-Impeto-Markel\Markel.Cotacao.Site\app\shared\download-pdf-cotacao.directive.js(36):                        alerting.addWarning("Documento não encontrado.");
+  Matching lines: 30    Matching files: 18    Total files searched: 1325
+
+  
+  
+  
+  Críticas de Calculos encontradas
+  
+   enum CriticaCalculoEnum
+    {
+        Critica_01 = 1,    // Se o usuário escolher um estado não autorizado, o sistema não permitirá a seleção, dando mensagem “Contatar Markel para a realização da cotação. Código 01.”. 
+        Critica_02 = 2,    // Verifica se há custo médio para o estado/cultivo selecionado. Se não houver, dar mensagem “ Consultar Markel. Código 02.”
+        Critica_03 = 3,    // Verifica se “Variable Cost of Production (R$)/ (ha)” / “Regional Variable cost of Production - Reference(R$) / (ha)” > 1,5.Mensagem “Consultar Markel. Código 03”
+        Critica_04 = 4,    // Verifica se Número de Observações do Fazendeiro < 6 e(Número de Observações do município < 3 ou número de observações da microrregião < 3). Mensagem: “Por favor, consultar Markel.Código 04.”. 
+        Critica_05 = 5,    // Verifica se “Produtividade de Referência (saca/ha)” < “Regional Variable cost of Production - Reference(R$)/(há)” / “Preço do Cultivo”. Se for, dar mensagem “Consultar Markel. Código 05.”
+        Critica_06 = 6,    // Para cada item, verifica se ((“Variable Cost of Production (R$)/(ha)” + 6 * “Renda Temporária Mensal”/ “Unidade segurada (ha)”) / “Preço do Cultivo”) / “Produtividade de Referência (saca/ha)” > 1. Se for, dar mensagem “Consultar Markel. Código 06.”.
+        Critica_07 = 7,    // Não foi possível calcular ProdutividadeDeReferencia pois não há EstatisticaMunicipio nem EstatisticaMicrorregiao
+        Critica_08 = 8,    // Erro cálculo 'TaxaMinimaParaCultivoEstado': Não há TaxaMinimaEstado cujo nível de cobertura seja menor que "costs"
+        Critica_09 = 9,    // Erro cálculo 'TaxaMinimaParaCultivoEstado': Não há TaxaMinimaEstado cujo nível de cobertura seja maior que "costs"
+        Critica_10 = 10,   // Erro cálculo 'SelectionWeightDoFazendeiro': Não há Credibilidade para o nº de observações do fazendeiro
+        Critica_11 = 11,   // Erro cálculo 'CalcularPremissaReferenteAoCultivoEstado()': Limites Inferior e Superior preenchidos.
+        Critica_12 = 12,   // Não há 'Constantes' vigente.
+        Critica_13 = 13,   // Importância Segurada deve ser menor que parâmetro global “SI Limit”
+        Critica_14 = 14,   // Prêmio Total à Vista deve ser menor que parâmetro Global “Premium Limit”
+        Critica_15 = 15,   // Não há 'TaxaMinimaEstado' vigentes para o estado/cultivo da cotação.
+        Critica_16 = 16,   // Não há 'Credibilidade' vigentes.
+        Critica_17 = 17,   // Não há 'Premissa' vigente para o estado/cultivo da cotação.
+        Critica_18 = 18,   // Não há 'FatorCultivoDTO' vigente para o cultivo da cotação.
+        Critica_19 = 19,   // Usuário respondeu alguma pergunta do questionário de risco utilizando alguma opção com o flag “Impedir”.
+        Critica_20 = 20,   //"Preço deve ser entre {Parametros.UnidadeProduto.ValorPrecoMinimo} e {Parametros.UnidadeProduto.ValorPrecoMaximo}."
+        Critica_21 = 21,   //"Área do item {item.NumItem} inferior ao mínimo permitido ({Parametros.Constante.ValorMinimumArea}). Consultar Markel.
+        Critica_22 = 22,   //Não há 'Blend' cadastrado para a UF
+        Critica_23 = 23,   // Não há 'Limite de cobertura' vigente para a cotação.
+        Critica_24 = 24,   // Não há município I4Pro mapeado para este município 
+
+        Critica_99 = 99    // Cálculo para Distribution Model = 'LogNormal' não implementado
+    }
+	
+	

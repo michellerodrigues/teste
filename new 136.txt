@@ -1,0 +1,28 @@
+PACIENTE ANTIGO: VEIO O CPF DA PACIENTE
+
+
+
+
+[{"UsuId":196607,"Nome":"ALICE AMARAL GOMES","NomeMedico":null,"Cpf":"37086469408","Endereco":null,"EnderecoNumero":null,"Bairro":null,"Cidade":null,"SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"37086469408","ClientId":null,"ClientGroupId":null,"MiscData":"10890634","MemberIdConjuge":null,"EffectiveDateOverride":20180520,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+
+[{"UsuId":188311,"Nome":"MARY BENZECRY","NomeMedico":null,"Cpf":"91087996287","Endereco":"ALAMEDA TURMALINA","EnderecoNumero":"99","Bairro":"ALPHAVILLE","Cidade":"SANTANA DE PARNAIBA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"91087996287","ClientId":null,"ClientGroupId":null,"MiscData":"8489669","MemberIdConjuge":"27668942840","EffectiveDateOverride":20140425,"IdCliente":"32290","DataInicioBeneficioCliente":null,"UsuIdConjuge":188312,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},{"UsuId":189635,"Nome":"MARY RIBEIRO NICOLIELLO","NomeMedico":null,"Cpf":"03094640648","Endereco":"RUA JACQUES FELIX","EnderecoNumero":"326","Bairro":"VILA NOVA CONCEIÇÃO","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"03094640648","ClientId":null,"ClientGroupId":null,"MiscData":"8490992","MemberIdConjuge":"13390305866","EffectiveDateOverride":20161019,"IdCliente":"48096","DataInicioBeneficioCliente":null,"UsuIdConjuge":189636,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},{"UsuId":192129,"Nome":"MARY SIMONE REIS","NomeMedico":null,"Cpf":"10112211879","Endereco":"RUA ISOLINA ALVES MARTINS","EnderecoNumero":"21","Bairro":"SIBIPIRUNA","Cidade":"ARAGUARI","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"10112211879","ClientId":null,"ClientGroupId":null,"MiscData":"10276903","MemberIdConjuge":null,"EffectiveDateOverride":20170216,"IdCliente":"50784","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},{"UsuId":190826,"Nome":"MARY PINHEIRO","NomeMedico":null,"Cpf":"SSID_50061","Endereco":"RUA VERGUEIRO","EnderecoNumero":"0","Bairro":"VILA MARIANA","Cidade":"SÃO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"SSID_50061","ClientId":null,"ClientGroupId":null,"MiscData":"10275600","MemberIdConjuge":null,"EffectiveDateOverride":20170123,"IdCliente":"50061","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+[{"UsuId":196607,"Nome":"ALICE AMARAL GOMES","NomeMedico":null,"Cpf":"37086469408","Endereco":null,"EnderecoNumero":null,"Bairro":null,"Cidade":null,"SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"37086469408","ClientId":null,"ClientGroupId":null,"MiscData":"10890634","MemberIdConjuge":null,"EffectiveDateOverride":20180520,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+"CT000393|http://186.201.50.139:5001"
+"http://186.201.50.139:5001"
+
+{http://186.201.50.139:5001/security/Token}
+
+{http://186.201.50.139:5001/security/Token
+
+new StringContent("username=vidalink&password=vidalink2017&grant_type=password&client_id=bc2c519d-ff84-4e79-a6a5-d22bdc9a1270%3AhXBbTjZLHnte6I--6daTEa4KWTaYacoj_Uavmgemd6U",
+                                                        Encoding.UTF8,
+                                                        "application/x-www-form-urlencoded");//CONTENT-TYPE header
+														
+													 var response = client.PostAsync(UriServiceApi + "/security/Token", Content).Result;
+													 
+													 

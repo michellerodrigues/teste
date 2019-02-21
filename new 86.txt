@@ -1,0 +1,127 @@
+[DataMember(Name = "fileName { get; set; }
+public string FileName { get; set; }
+
+[DataMember(Name = "contentAttached { get; set; }
+public byte[] ContentAttached { get; set; }
+
+[DataMember(Name = "sizeFile", IsRequired = false, EmitDefaultValue =false)]
+public int SizeFile { get; set; }
+
+[DataMember(Name = "fileName { get; set; }body_email_erro_cliente_anexo
+[DataMember(Name = "fileName { get; set; }body_email_erro_cliente_planilha
+[DataMember(Name = "fileName { get; set; }body_email_erro_leitura
+[DataMember(Name = "fileName { get; set; }body_email_sucesso_leitura
+[DataMember(Name = "fileName { get; set; }cd_forma_pagamento_pparcela
+[DataMember(Name = "fileName { get; set; }cd_produto
+[DataMember(Name = "fileName { get; set; }cd_unidade
+[DataMember(Name = "fileName { get; set; }enviar_somente_cobertura_basica
+[DataMember(Name = "fileName { get; set; }id_fruta_grao
+[DataMember(Name = "fileName { get; set; }id_grp_cultivo
+[DataMember(Name = "fileName { get; set; }id_produto_parc_premio
+[DataMember(Name = "fileName { get; set; }id_tp_subvencao
+[DataMember(Name = "fileName { get; set; }id_usuario
+[DataMember(Name = "fileName { get; set; }lista_destinatarios_bc
+[DataMember(Name = "fileName { get; set; }lista_destinatarios_bc_job
+[DataMember(Name = "fileName { get; set; }lista_destinatarios_cc
+[DataMember(Name = "fileName { get; set; }lista_destinatarios_cc_job
+[DataMember(Name = "fileName { get; set; }nome_cobertura_basica
+[DataMember(Name = "fileName { get; set; }nome_cobertura_replantio
+[DataMember(Name = "fileName { get; set; }Password
+[DataMember(Name = "fileName { get; set; }replyTo_job
+[DataMember(Name = "fileName { get; set; }subject_email_erro_cliente_anexo
+[DataMember(Name = "fileName { get; set; }subject_email_erro_cliente_planilha
+[DataMember(Name = "fileName { get; set; }subject_email_erro_leitura
+[DataMember(Name = "fileName { get; set; }subject_email_sucesso_leitura
+[DataMember(Name = "fileName { get; set; }user_email
+
+
+[DataMember(Name = "body_email_erro_cliente_anexo { get; set; }
+[DataMember(Name = "body_email_erro_cliente_planilha { get; set; }
+[DataMember(Name = "body_email_erro_leitura { get; set; }
+[DataMember(Name = "body_email_sucesso_leitura { get; set; }
+[DataMember(Name = "cd_forma_pagamento_pparcela { get; set; }
+[DataMember(Name = "cd_produto { get; set; }
+[DataMember(Name = "cd_unidade { get; set; }
+[DataMember(Name = "enviar_somente_cobertura_basica { get; set; }
+[DataMember(Name = "id_fruta_grao { get; set; }
+[DataMember(Name = "id_grp_cultivo { get; set; }
+[DataMember(Name = "id_produto_parc_premio { get; set; }
+[DataMember(Name = "id_tp_subvencao { get; set; }
+[DataMember(Name = "id_usuario { get; set; }
+[DataMember(Name = "lista_destinatarios_bc { get; set; }
+[DataMember(Name = "lista_destinatarios_bc_job { get; set; }
+[DataMember(Name = "lista_destinatarios_cc { get; set; }
+[DataMember(Name = "lista_destinatarios_cc_job { get; set; }
+[DataMember(Name = "nome_cobertura_basica { get; set; }
+[DataMember(Name = "nome_cobertura_replantio { get; set; }
+[DataMember(Name = "Password { get; set; }
+[DataMember(Name = "replyTo_job { get; set; }
+[DataMember(Name = "subject_email_erro_cliente_anexo { get; set; }
+[DataMember(Name = "subject_email_erro_cliente_planilha { get; set; }
+[DataMember(Name = "subject_email_erro_leitura { get; set; }
+[DataMember(Name = "subject_email_sucesso_leitura { get; set; }
+[DataMember(Name = "user_email { get; set; }
+
+
+
+
+
+
+
+
+
+
+
+public string body_email_erro_cliente_anexo { get; set; }
+public string body_email_erro_cliente_planilha
+public string body_email_erro_leitura { get; set; }
+public string body_email_sucesso_leitura
+public string cd_forma_pagamento_pparcela
+public string cd_produto
+public string cd_unidade
+public string enviar_somente_cobertura_basica
+public string id_fruta_grao
+public string id_grp_cultivo
+public string id_produto_parc_premio
+public string id_tp_subvencao
+public string id_usuario
+public string lista_destinatarios_bc
+public string lista_destinatarios_bc_job
+public string lista_destinatarios_cc
+public string lista_destinatarios_cc_job
+public string nome_cobertura_basica
+public string nome_cobertura_replantio
+public string Password
+public string replyTo_job
+public string subject_email_erro_cliente_anexo
+public string subject_email_erro_cliente_planilha
+public string subject_email_erro_leitura
+public string subject_email_sucesso_leitura
+public string user_email
+
+public string body_email_erro_cliente_anexo { get; set; }
+public string body_email_erro_cliente_planilha { get; set; }
+public string body_email_erro_leitura { get; set; }
+public string body_email_sucesso_leitura { get; set; }
+public string cd_forma_pagamento_pparcela { get; set; }
+public string cd_produto { get; set; }
+public string cd_unidade { get; set; }
+public string enviar_somente_cobertura_basica { get; set; }
+public string id_fruta_grao { get; set; }
+public string id_grp_cultivo { get; set; }
+public string id_produto_parc_premio { get; set; }
+public string id_tp_subvencao { get; set; }
+public string id_usuario { get; set; }
+public string lista_destinatarios_bc { get; set; }
+public string lista_destinatarios_bc_job { get; set; }
+public string lista_destinatarios_cc { get; set; }
+public string lista_destinatarios_cc_job { get; set; }
+public string nome_cobertura_basica { get; set; }
+public string nome_cobertura_replantio { get; set; }
+public string Password { get; set; }
+public string replyTo_job { get; set; }
+public string subject_email_erro_cliente_anexo { get; set; }
+public string subject_email_erro_cliente_planilha { get; set; }
+public string subject_email_erro_leitura { get; set; }
+public string subject_email_sucesso_leitura { get; set; }
+public string user_email { get; set; }

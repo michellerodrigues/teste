@@ -1,0 +1,91 @@
+
+
+
+método para tratar observação procedimento
+ nvl2(PRO.OBSERVACAO_AGENDAMENTO,
+                          '<b>Agendamento:</b> ' ||
+                          PRO.OBSERVACAO_AGENDAMENTO,
+                          '') || NVL2(PRO.OBSERVACAO_AGENDAMENTO,
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           ' <br/><b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           ''),
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           '<b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           '')) AS OBSERVACAO_AGENDAMENTO,
+										   
+										   
+método para tratar idStatus
+CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        'AGENDADO' --1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        'PENDENTE CONFIRMAÇÃO' --6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        'CANCELADO SMS' --9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        'CANCELADO' --2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        'PRESENTE' --4-- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        'AUSENTE' --5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        'EXPIRADO' --8
+
+                       ELSE
+
+                        'PRESENTE' --4
+
+                     END AS DS_STATUS,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        4 -- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        8
+
+                       ELSE
+
+                        4
+                     END AS ID_STATUS,
+
+--tratar idade do Paciente
+                     TRUNC(MONTHS_BETWEEN(TRUNC(SYSDATE),
+                                          TO_DATE(TO_CHAR(M.DATE_OF_BIRTH),
+                                                  'YYYYMMDD')) / 12) AS IDADE_PACIENTE,
+
+--tratar nome do paciente
+ M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME AS DS_NOME_PACIENTE,
+ 

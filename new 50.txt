@@ -1,0 +1,9 @@
+
+StackTrace = "   em Vidalink.API.Services.Providers.ApplicationOAuthProvider.GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext c) na C:\\Users\\miche\\Desktop\\mica\\vidalink\\Psp.OFICIAL\\VidalinkWebApi\\Providers\\ApplicationOAuthProvider.cs:linh...
+
+[{"UsuId":0,"Nome":"HELENA MACHADO AMARAL","NomeMedico":"ANA PAULA AQUINO","Cpf":"48119180100","Endereco":null,"EnderecoNumero":null,"Bairro":null,"Cidade":null,"SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"48119180100","ClientId":null,"ClientGroupId":null,"MiscData":"10890632","MemberIdConjuge":null,"EffectiveDateOverride":20180520,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+Alice Amaral Gomes
+Carlos Teixeira Ducati
+
+[{"UsuId":196607,"Nome":"ALICE AMARAL GOMES","NomeMedico":null,"Cpf":"37086469408","Endereco":null,"EnderecoNumero":null,"Bairro":null,"Cidade":null,"SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"37086469408","ClientId":null,"ClientGroupId":null,"MiscData":"10890634","MemberIdConjuge":null,"EffectiveDateOverride":20180520,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]

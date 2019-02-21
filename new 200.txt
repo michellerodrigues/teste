@@ -1,0 +1,28 @@
+Critério de aceitação
+
+1- Verificar que agendamentos e agendamentos sob demanda efetuados no mesmo período de tempo não disponibilizam a agenda (visualização e agendamento) quando cancelados isoladamente.
+
+2- Verificar que a agenda só se torna disponível (visualização e agendamento) quando o agendamento e o agendamento sob demanda efetuados no mesmo período de tempo são  ambos cancelados.
+
+3- Verificar que quando um agendamento ou agendamento sob demanda é cancelado esta informação é atualizada no sistema e apresentada corretamente. OK
+
+4- Verificar que os itens 1, 2 e 3 acima ocorrem com sucesso mesmo quando são feitos múltiplos agendamentos sob demanda no mesmo período de tempo de um agendamento. Nesse caso, a agenda só é liberada quando o agendamento e todos agendamentos sob demanda são cancelados.
+
+5- Verificar que os itens 1, 2, 3 e 4 acima ocorrem com sucesso mesmo quando os agendamentos, agendamentos sob demanda, cancelamentos e verificações são feitos usando qualquer combinação dos procedimentos exibidos na seção Descrição do painel Bug Description acima.
+
+6- Verificar que os itens 1, 2, 3, 4 e 5 acima também são verdadeiros quando existe mais de um prestador no agendamento sob demanda (considerar os efeitos nas agendas dos prestadores adicionais).
+
+7- Verificar que os itens 1, 2, 3, 4, 5 e 6 acima também são verdadeiros quando quando apenas o agendamento é confirmado, quando apenas o agendamento sob demanda é confirmado e quando ambos são confirmados.
+
+Definition of Done
+
+Análise: OK
+Desenvolvimento:
+Testes unitários:
+Critério de aceitação:
+QA Planejamento:
+QA Execução:
+Regressivo:
+Publicação em produção:
+Checklist Produção:
+CONSULTA DE REPRODUÇÃO HUMANA 08 5/6 consultorio 3

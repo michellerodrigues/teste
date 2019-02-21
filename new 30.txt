@@ -1,0 +1,1152 @@
+{
+    "cd_retorno": 0,
+    "nm_retorno": "Código 0: Processamento efetuado com sucesso",
+    "QuestionarioProdutoListarTable1": [
+        {
+            "id_pergunta": 60,
+            "nr_questao": 1,
+            "nm_pergunta": "Alarme monitorado?",
+            "cd_produto": 13,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 61,
+            "nr_questao": 2,
+            "nm_pergunta": "Brigada contra incêndio ?",
+            "cd_produto": 13,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 58,
+            "nr_questao": 1,
+            "nm_pergunta": "Existe seguro auto ?",
+            "cd_produto": 20,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 70,
+            "nr_questao": 1,
+            "nm_pergunta": "O condomínio possui alarme monitorado?",
+            "cd_produto": 25,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 62,
+            "nr_questao": 1,
+            "nm_pergunta": "Alarme monitorado?",
+            "cd_produto": 34,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 63,
+            "nr_questao": 2,
+            "nm_pergunta": "Brigada contra incêndio ?",
+            "cd_produto": 34,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 71,
+            "nr_questao": 1,
+            "nm_pergunta": "Existe seguro auto ?",
+            "cd_produto": 36,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 74,
+            "nr_questao": 1,
+            "nm_pergunta": "1",
+            "cd_produto": 37,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 75,
+            "nr_questao": 1,
+            "nm_pergunta": "1",
+            "cd_produto": 41,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 77,
+            "nr_questao": 1,
+            "nm_pergunta": "1",
+            "cd_produto": 42,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 81,
+            "nr_questao": 1,
+            "nm_pergunta": "1",
+            "cd_produto": 46,
+            "dt_inicio_vigencia": "2012-04-12T00:00:00"
+        },
+        {
+            "id_pergunta": 110,
+            "nr_questao": 123,
+            "nm_pergunta": "teste quest",
+            "cd_produto": 189,
+            "dt_inicio_vigencia": "2016-01-06T00:00:00",
+            "dt_fim_vigencia": "2016-01-06T00:00:00"
+        },
+        {
+            "id_pergunta": 90,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00",
+            "id_tp_pergunta": 1
+        },
+        {
+            "id_pergunta": 91,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 92,
+            "nr_questao": 3,
+            "nm_pergunta": "A lavoura encontra-se plantada ? Caso positivo, será necessária uma inspeção prévia do risco.",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 93,
+            "nr_questao": 4,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, ela sofreu algum tipo de dano? ",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 94,
+            "nr_questao": 5,
+            "nm_pergunta": "Há outros seguros sobre este item? Caso positivo, não temos aceitação.",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 133,
+            "nr_questao": 6,
+            "nm_pergunta": "teste",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2016-07-31T00:00:00",
+            "dt_fim_vigencia": "2016-11-17T00:00:00"
+        },
+        {
+            "id_pergunta": 136,
+            "nr_questao": 7,
+            "nm_pergunta": "É um teste?",
+            "cd_produto": 306,
+            "dt_inicio_vigencia": "2016-10-20T00:00:00",
+            "dt_fim_vigencia": "2016-11-17T00:00:00"
+        },
+        {
+            "id_pergunta": 99,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 311,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 100,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 311,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 101,
+            "nr_questao": 3,
+            "nm_pergunta": "A lavoura encontra-se plantada ? Caso positivo, será necessária uma inspeção prévia do risco.",
+            "cd_produto": 311,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 102,
+            "nr_questao": 4,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, ela sofreu algum tipo de dano? ",
+            "cd_produto": 311,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 103,
+            "nr_questao": 5,
+            "nm_pergunta": "Há outros seguros sobre este item? Caso positivo, não temos aceitação.",
+            "cd_produto": 311,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 112,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 312,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 113,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 312,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 114,
+            "nr_questao": 3,
+            "nm_pergunta": "A lavoura encontra-se plantada ? Caso positivo, será necessária uma inspeção prévia do risco.",
+            "cd_produto": 312,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 115,
+            "nr_questao": 4,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, ela sofreu algum tipo de dano? ",
+            "cd_produto": 312,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 116,
+            "nr_questao": 5,
+            "nm_pergunta": "Há outros seguros sobre este item? Caso positivo, não temos aceitação.",
+            "cd_produto": 312,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 122,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 313,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 123,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 313,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 124,
+            "nr_questao": 3,
+            "nm_pergunta": "A lavoura encontra-se plantada ? Caso positivo, será necessária uma inspeção prévia do risco.",
+            "cd_produto": 313,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 125,
+            "nr_questao": 4,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, ela sofreu algum tipo de dano? ",
+            "cd_produto": 313,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 126,
+            "nr_questao": 5,
+            "nm_pergunta": "Há outros seguros sobre este item? Caso positivo, não temos aceitação.",
+            "cd_produto": 313,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 132,
+            "nr_questao": 1,
+            "nm_pergunta": "Usa SvençãoFeeal",
+            "cd_produto": 314,
+            "dt_inicio_vigencia": "2016-07-31T00:00:00",
+            "dt_fim_vigencia": "2016-07-31T00:00:00"
+        },
+        {
+            "id_pergunta": 134,
+            "nr_questao": 1,
+            "nm_pergunta": "GOSTARIA DE CONTAR COM O BENEFÍCIO DO PROGRAMA DE SUBVENÇÃO AO PRÊMIO DO SEGURO RURAL (PSR) DO GOVERNO FEDERAL?",
+            "cd_produto": 315,
+            "dt_inicio_vigencia": "2016-10-20T00:00:00",
+            "dt_fim_vigencia": "2016-10-20T00:00:00",
+            "id_tp_pergunta": 1
+        },
+        {
+            "id_pergunta": 135,
+            "nr_questao": 2,
+            "nm_pergunta": "GOSTARIA DE CONTAR COM O BENEFÍCIO DO PROGRAMA DE SUBVENÇÃO AO PRÊMIO DO SEGURO RURAL (PSR) DO GOVERNO ESTADUAL? QUAL?",
+            "cd_produto": 315,
+            "dt_inicio_vigencia": "2016-10-20T00:00:00",
+            "id_tp_pergunta": 1
+        },
+        {
+            "id_pergunta": 137,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 138,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 139,
+            "nr_questao": 3,
+            "nm_pergunta": "A lavoura encontra-se plantada ? Caso positivo, será necessária uma inspeção prévia do risco.",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 140,
+            "nr_questao": 4,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, ela sofreu algum tipo de dano? ",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 141,
+            "nr_questao": 5,
+            "nm_pergunta": "Há outros seguros sobre este item? Caso positivo, não temos aceitação.",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2015-03-27T00:00:00"
+        },
+        {
+            "id_pergunta": 142,
+            "nr_questao": 6,
+            "nm_pergunta": "teste",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2016-07-31T00:00:00",
+            "dt_fim_vigencia": "2016-11-17T00:00:00"
+        },
+        {
+            "id_pergunta": 143,
+            "nr_questao": 7,
+            "nm_pergunta": "É um teste?",
+            "cd_produto": 316,
+            "dt_inicio_vigencia": "2016-10-20T00:00:00",
+            "dt_fim_vigencia": "2016-11-17T00:00:00"
+        },
+        {
+            "id_pergunta": 150,
+            "nr_questao": 1,
+            "nm_pergunta": "O Proponente segue as normas vigentes do Zoneamento Agrícola ? Caso negativo, não temos aceitação.",
+            "cd_produto": 319,
+            "dt_inicio_vigencia": "2017-01-02T00:00:00"
+        },
+        {
+            "id_pergunta": 151,
+            "nr_questao": 2,
+            "nm_pergunta": "É o primeiro ano de plantio pós-pastagem / cerrado / mata nativa ? Caso positivo, não temos aceitação.",
+            "cd_produto": 319,
+            "dt_inicio_vigencia": "2017-01-02T00:00:00"
+        },
+        {
+            "id_pergunta": 152,
+            "nr_questao": 1,
+            "nm_pergunta": "PEN TEST QUESTION 1",
+            "cd_produto": 320,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 153,
+            "nr_questao": 2,
+            "nm_pergunta": "PEN TEST QUESTION 2",
+            "cd_produto": 320,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 154,
+            "nr_questao": 3,
+            "nm_pergunta": "PEN TEST QUESTION 3",
+            "cd_produto": 320,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 155,
+            "nr_questao": 1,
+            "nm_pergunta": "PEN TEST QUESTION 1",
+            "cd_produto": 321,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 156,
+            "nr_questao": 2,
+            "nm_pergunta": "PEN TEST QUESTION 2",
+            "cd_produto": 321,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 157,
+            "nr_questao": 3,
+            "nm_pergunta": "PEN TEST QUESTION 3",
+            "cd_produto": 321,
+            "dt_inicio_vigencia": "2017-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 158,
+            "nr_questao": 1,
+            "nm_pergunta": "Adere a subvenção federal",
+            "cd_produto": 323,
+            "dt_inicio_vigencia": "2017-01-24T00:00:00",
+            "id_tp_pergunta": 1
+        },
+        {
+            "id_pergunta": 1158,
+            "nr_questao": 1,
+            "nm_pergunta": "Adere a subvenção federal",
+            "cd_produto": 325,
+            "dt_inicio_vigencia": "2017-01-24T00:00:00"
+        },
+        {
+            "id_pergunta": 1159,
+            "nr_questao": 1,
+            "nm_pergunta": "Adere a subvenção federal",
+            "cd_produto": 326,
+            "dt_inicio_vigencia": "2017-01-24T00:00:00"
+        },
+        {
+            "id_pergunta": 1160,
+            "nr_questao": 1,
+            "nm_pergunta": "Adere a subvenção federal",
+            "cd_produto": 327,
+            "dt_inicio_vigencia": "2017-01-24T00:00:00"
+        },
+        {
+            "id_pergunta": 1161,
+            "nr_questao": 1,
+            "nm_pergunta": "Adere a subvenção federal",
+            "cd_produto": 328,
+            "dt_inicio_vigencia": "2017-01-24T00:00:00"
+        },
+        {
+            "id_pergunta": 1162,
+            "nr_questao": 1,
+            "nm_pergunta": "Qual tipo de sementes será utilizado?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1163,
+            "nr_questao": 2,
+            "nm_pergunta": "Qual nível de declividade média do solo?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00"
+        },
+        {
+            "id_pergunta": 1164,
+            "nr_questao": 3,
+            "nm_pergunta": "Qual a tecnologia de Plantio utilizada?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00"
+        },
+        {
+            "id_pergunta": 1165,
+            "nr_questao": 4,
+            "nm_pergunta": "Utiliza sistema de irrigação artificial?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00"
+        },
+        {
+            "id_pergunta": 1166,
+            "nr_questao": 5,
+            "nm_pergunta": "Qual o tipo de solo predominante na Unidade Segurada?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00"
+        },
+        {
+            "id_pergunta": 1167,
+            "nr_questao": 6,
+            "nm_pergunta": "Qual o Percentual da área total cultivada está sendo objeto deste seguro?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-03-13T00:00:00"
+        },
+        {
+            "id_pergunta": 1168,
+            "nr_questao": 7,
+            "nm_pergunta": "Plantio pós pastagem / cerrado / mata nativa?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1195,
+            "nr_questao": 8,
+            "nm_pergunta": "Se a resposta anterior for NÃO, informar cultura anterior",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1169,
+            "nr_questao": 9,
+            "nm_pergunta": "Lavoura encontra-se plantada ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1170,
+            "nr_questao": 10,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, sofreu algum tipo de dano?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1171,
+            "nr_questao": 11,
+            "nm_pergunta": "Existe outro seguro para este item ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1172,
+            "nr_questao": 12,
+            "nm_pergunta": "A cultura será implantada com sementes registradas e/ou certificadas?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1173,
+            "nr_questao": 13,
+            "nm_pergunta": "A área segurada possui deficiência de drenagem?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1174,
+            "nr_questao": 14,
+            "nm_pergunta": "A Unidade Segurada foi atinginda por Inundação ou Alagamento nos últimos 5 ciclos agrícolas?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1175,
+            "nr_questao": 15,
+            "nm_pergunta": "Existem áreas na Unidade Segurada sujeitas ao acúmulo de ar frio ? ",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1176,
+            "nr_questao": 16,
+            "nm_pergunta": "O Proponente teve conhecimento através do Corretor de Seguros de qual a finalidade da Unidade Segurada para este seguro ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1177,
+            "nr_questao": 17,
+            "nm_pergunta": "A Unidade Segurada é composta por áreas arrendadas? (Favor observar que será solicitado o comprovante do arrendamento na regulação do sinistro).",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1178,
+            "nr_questao": 18,
+            "nm_pergunta": "Com contrato de arrendamento ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1179,
+            "nr_questao": 19,
+            "nm_pergunta": "O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste seguro caso não siga as bases preconizadas por este?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1180,
+            "nr_questao": 20,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Federal ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1181,
+            "nr_questao": 21,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Estadual ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1182,
+            "nr_questao": 22,
+            "nm_pergunta": "O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unidade Segurada ?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00"
+        },
+        {
+            "id_pergunta": 1183,
+            "nr_questao": 23,
+            "nm_pergunta": "Informar o evento causador",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00",
+            "dt_fim_vigencia": "2017-08-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1184,
+            "nr_questao": 24,
+            "nm_pergunta": "Deseja que a Markel Seg. do Brasil consulte o CADIN e adote providências a sua elegibilidade ao PSR?",
+            "cd_produto": 329,
+            "dt_inicio_vigencia": "2017-06-06T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1185,
+            "nr_questao": 1,
+            "nm_pergunta": "Qual tipo de sementes será utilizado? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00",
+            "dt_fim_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1186,
+            "nr_questao": 2,
+            "nm_pergunta": "Qual nível de declividade média do solo?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1187,
+            "nr_questao": 3,
+            "nm_pergunta": "Qual a tecnologia de Plantio utilizada? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1188,
+            "nr_questao": 4,
+            "nm_pergunta": "Utiliza Sistema de Irrigação Artificial?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1189,
+            "nr_questao": 5,
+            "nm_pergunta": "Qual o Tipo de Solo Predominante na Unidade Segurada?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1190,
+            "nr_questao": 6,
+            "nm_pergunta": "Qual o Percentual da área total cultivada está sendo objeto deste seguro?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1191,
+            "nr_questao": 7,
+            "nm_pergunta": "Plantio pós pastagem / cerrado / mata nativa?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1196,
+            "nr_questao": 8,
+            "nm_pergunta": "Se a resposta da pergunta anterior for NÃO, informar cultura anterior",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1192,
+            "nr_questao": 9,
+            "nm_pergunta": "Lavoura encontra-se plantada? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1193,
+            "nr_questao": 10,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, sofreu algum tipo de dano? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1194,
+            "nr_questao": 11,
+            "nm_pergunta": "Existe outro seguro para este item ? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-04T00:00:00"
+        },
+        {
+            "id_pergunta": 1197,
+            "nr_questao": 12,
+            "nm_pergunta": "A cultura será implantada com sementes registradas e/ou certificadas?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1198,
+            "nr_questao": 13,
+            "nm_pergunta": "A área segurada possui deficiência de drenagem?",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1199,
+            "nr_questao": 14,
+            "nm_pergunta": "A Unidade Segurada foi atinginda por Inundação ou Alagamento nos últimos 5 ciclos agrícolas? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1200,
+            "nr_questao": 15,
+            "nm_pergunta": "Existem áreas na Unidade Segurada sujeitas ao acúmulo de ar frio ? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1201,
+            "nr_questao": 16,
+            "nm_pergunta": "O Proponente teve conhecimento através do Corretor de Seguros de qual a finalidade da Unidade Segurada para este seguro ? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1202,
+            "nr_questao": 17,
+            "nm_pergunta": "A Unidade Segurada é composta por áreas arrendadas? (Favor observar que será solicitado o comprovante do arrendamento na regulação do sinistro).",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1203,
+            "nr_questao": 18,
+            "nm_pergunta": "O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste seguro caso não siga as bases preconizadas por este? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1204,
+            "nr_questao": 20,
+            "nm_pergunta": "O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unidade Segurada ? ",
+            "cd_produto": 330,
+            "dt_inicio_vigencia": "2017-08-29T00:00:00"
+        },
+        {
+            "id_pergunta": 1205,
+            "nr_questao": 1,
+            "nm_pergunta": "Qual tipo de sementes será utilizado?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-17T00:00:00",
+            "dt_fim_vigencia": "2018-01-22T00:00:00"
+        },
+        {
+            "id_pergunta": 1206,
+            "nr_questao": 2,
+            "nm_pergunta": "Qual nível de declividade média do solo?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-17T00:00:00"
+        },
+        {
+            "id_pergunta": 1207,
+            "nr_questao": 3,
+            "nm_pergunta": "Qual a tecnologia de Plantio utilizada?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1208,
+            "nr_questao": 4,
+            "nm_pergunta": "Utiliza sistema de irrigação artificial? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1209,
+            "nr_questao": 5,
+            "nm_pergunta": "Qual o tipo de solo predominante na Unidade Segurada?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1210,
+            "nr_questao": 6,
+            "nm_pergunta": "Qual o Percentual da área total cultivada está sendo objeto deste seguro? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1211,
+            "nr_questao": 7,
+            "nm_pergunta": "Plantio pós pastagem / cerrado / mata nativa?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1212,
+            "nr_questao": 8,
+            "nm_pergunta": "Se a resposta anterior for NÃO, informar cultura anterior ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1213,
+            "nr_questao": 9,
+            "nm_pergunta": "Lavoura encontra-se plantada ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1214,
+            "nr_questao": 10,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, sofreu algum tipo de dano?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1215,
+            "nr_questao": 11,
+            "nm_pergunta": "Existe outro seguro para este item ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1216,
+            "nr_questao": 12,
+            "nm_pergunta": "A cultura será implantada com sementes registradas e/ou certificadas?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1217,
+            "nr_questao": 13,
+            "nm_pergunta": "A área segurada possui deficiência de drenagem?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1218,
+            "nr_questao": 14,
+            "nm_pergunta": "A Unidade Segurada foi atinginda por Inundação ou Alagamento nos últimos 5 ciclos agrícolas? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1219,
+            "nr_questao": 15,
+            "nm_pergunta": "Existem áreas na Unidade Segurada sujeitas ao acúmulo de ar frio ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1220,
+            "nr_questao": 16,
+            "nm_pergunta": "O Proponente teve conhecimento através do Corretor de Seguros de qual a finalidade da Unidade Segurada para este seguro ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1221,
+            "nr_questao": 17,
+            "nm_pergunta": "A Unidade Segurada é composta por áreas arrendadas? (Favor observar que será solicitado o comprovante do arrendamento na regulação do sinistro). ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-02-12T00:00:00"
+        },
+        {
+            "id_pergunta": 1222,
+            "nr_questao": 18,
+            "nm_pergunta": "Com contrato de arrendamento ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 1223,
+            "nr_questao": 19,
+            "nm_pergunta": "O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste seguro caso não siga as bases preconizadas por este?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1224,
+            "nr_questao": 20,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Federal ?",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1225,
+            "nr_questao": 21,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Estadual ? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1226,
+            "nr_questao": 22,
+            "nm_pergunta": "O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unidade Segurada ? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1227,
+            "nr_questao": 23,
+            "nm_pergunta": "Informar o evento causador ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 1228,
+            "nr_questao": 24,
+            "nm_pergunta": "Deseja que a Markel Seg. do Brasil consulte o CADIN e adote providências a sua elegibilidade ao PSR? ",
+            "cd_produto": 331,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1229,
+            "nr_questao": 1,
+            "nm_pergunta": "Qual sistema de plantio Utilizado?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1230,
+            "nr_questao": 2,
+            "nm_pergunta": "Área total plantada será segurada?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1231,
+            "nr_questao": 3,
+            "nm_pergunta": "Plantio pós pastagem / cerrado / mata nativa?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1232,
+            "nr_questao": 4,
+            "nm_pergunta": "Lavoura encontra-se plantada?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1233,
+            "nr_questao": 5,
+            "nm_pergunta": "Possui outro seguro sobre mesma área segurada?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1234,
+            "nr_questao": 6,
+            "nm_pergunta": "A cultura será implantada c/ sementes certificadas",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1235,
+            "nr_questao": 7,
+            "nm_pergunta": "A área segurada possui deficiência de drenagem?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1236,
+            "nr_questao": 8,
+            "nm_pergunta": "A unidade segurada foi atingida por inundação ou alagamento nos últimos 5 ciclos agrícolas?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1237,
+            "nr_questao": 9,
+            "nm_pergunta": "Você tem conhecimento dos critérios ZOAGRO do MAPA?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1238,
+            "nr_questao": 10,
+            "nm_pergunta": "Você adotou todas as recomendações do Zoneamento Agrícola?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1239,
+            "nr_questao": 11,
+            "nm_pergunta": "O proponente teve prejuízos decorrentes de riscos climáticos nos ultimos 5 ciclos agrícolas na Unidade Segurada?",
+            "cd_produto": 332,
+            "dt_inicio_vigencia": "2018-02-26T00:00:00"
+        },
+        {
+            "id_pergunta": 1240,
+            "nr_questao": 1,
+            "nm_pergunta": "Qual tipo de sementes será utilizado?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-17T00:00:00",
+            "dt_fim_vigencia": "2018-01-22T00:00:00"
+        },
+        {
+            "id_pergunta": 1241,
+            "nr_questao": 2,
+            "nm_pergunta": "Qual nível de declividade média do solo?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-17T00:00:00"
+        },
+        {
+            "id_pergunta": 1242,
+            "nr_questao": 3,
+            "nm_pergunta": "Qual a tecnologia de Plantio utilizada?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1243,
+            "nr_questao": 4,
+            "nm_pergunta": "Utiliza sistema de irrigação artificial? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1244,
+            "nr_questao": 5,
+            "nm_pergunta": "Qual o tipo de solo predominante na Unidade Segurada?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1245,
+            "nr_questao": 6,
+            "nm_pergunta": "Qual o Percentual da área total cultivada está sendo objeto deste seguro? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1246,
+            "nr_questao": 7,
+            "nm_pergunta": "Plantio pós pastagem / cerrado / mata nativa?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1247,
+            "nr_questao": 8,
+            "nm_pergunta": "Se a resposta anterior for NÃO, informar cultura anterior ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1248,
+            "nr_questao": 9,
+            "nm_pergunta": "Lavoura encontra-se plantada ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1249,
+            "nr_questao": 10,
+            "nm_pergunta": "Se a lavoura encontra-se plantada, sofreu algum tipo de dano?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1250,
+            "nr_questao": 11,
+            "nm_pergunta": "Existe outro seguro para este item ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1251,
+            "nr_questao": 12,
+            "nm_pergunta": "A cultura será implantada com sementes registradas e/ou certificadas?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1252,
+            "nr_questao": 13,
+            "nm_pergunta": "A área segurada possui deficiência de drenagem?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1253,
+            "nr_questao": 14,
+            "nm_pergunta": "A Unidade Segurada foi atinginda por Inundação ou Alagamento nos últimos 5 ciclos agrícolas? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1254,
+            "nr_questao": 15,
+            "nm_pergunta": "Existem áreas na Unidade Segurada sujeitas ao acúmulo de ar frio ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1255,
+            "nr_questao": 16,
+            "nm_pergunta": "O Proponente teve conhecimento através do Corretor de Seguros de qual a finalidade da Unidade Segurada para este seguro ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1256,
+            "nr_questao": 17,
+            "nm_pergunta": "A Unidade Segurada é composta por áreas arrendadas? (Favor observar que será solicitado o comprovante do arrendamento na regulação do sinistro). ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-02-12T00:00:00"
+        },
+        {
+            "id_pergunta": 1257,
+            "nr_questao": 18,
+            "nm_pergunta": "Com contrato de arrendamento ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 1258,
+            "nr_questao": 19,
+            "nm_pergunta": "O Proponente tem conhecimento dos critérios do ZOAGRO do MAPA e as consequencias à cobertura deste seguro caso não siga as bases preconizadas por este?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1259,
+            "nr_questao": 20,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Federal ?",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1260,
+            "nr_questao": 21,
+            "nm_pergunta": "O Proponente tem conhecimento sobre a existência, critérios de eligibilidade e funcionamento do PSR do Governo Estadual ? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1261,
+            "nr_questao": 22,
+            "nm_pergunta": "O Proponente teve prejuízos decorrentes de riscos climáticos nos últimos 5 ciclos agrícolas na Unidade Segurada ? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1262,
+            "nr_questao": 23,
+            "nm_pergunta": "Informar o evento causador ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00",
+            "dt_fim_vigencia": "2018-01-19T00:00:00"
+        },
+        {
+            "id_pergunta": 1263,
+            "nr_questao": 24,
+            "nm_pergunta": "Deseja que a Markel Seg. do Brasil consulte o CADIN e adote providências a sua elegibilidade ao PSR? ",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-01-18T00:00:00"
+        },
+        {
+            "id_pergunta": 1264,
+            "nr_questao": 25,
+            "nm_pergunta": "Forma de pagamento",
+            "cd_produto": 333,
+            "dt_inicio_vigencia": "2018-03-27T00:00:00"
+        }
+    ]
+}

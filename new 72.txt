@@ -1,0 +1,426 @@
+
+<style>
+    .panel-heading {
+        background-color: #DCE5E3 !important;
+    }
+
+    .panel-acompanhamento {
+        background-color: #f8f8f8 !important;
+    }
+
+    .ui-tooltip {
+        white-space: pre-line;
+        max-width: 400px;
+    }
+</style>
+
+    <input id="ActExcluirAgendas" name="ActExcluirAgendas" type="hidden" value="/WebAppAdminPSP/Agenda/ExcluirAgendas" />
+    <input id="ActExcluirEscalas" name="ActExcluirEscalas" type="hidden" value="/WebAppAdminPSP/Agenda/ExcluirEscalas" />
+    <input id="ActConfirmarAusencia" name="ActConfirmarAusencia" type="hidden" value="/WebAppAdminPSP/Agenda/ConfirmarAusencia" />
+    <input id="ActConfirmarPresenca" name="ActConfirmarPresenca" type="hidden" value="/WebAppAdminPSP/Agenda/ConfirmarPresenca" />
+
+<div class="row">
+    <div class="col-lg-12" style="text-align:right">
+                <button type="button" id="btnExcluirAgenda" disabled style="visibility:hidden" class="btn btn-danger" data-toggle="tooltip" title="Selecione pelo menos um agendamento para cancelar"><span class="glyphicon glyphicon-remove"></span> CANCELAR AGENDA</button>
+                <button type="button" id="btnExcluirEscala" disabled style="visibility:hidden" class="btn btn-danger" data-toggle="tooltip" title="Selecione pelo menos um horário disponível (escala) para indisponibilizar"><span class="glyphicon glyphicon-remove"></span> INDISPONIBILIZAR ESCALA</button>
+            <button type="button" id="btnConfirmarPresenca" disabled style="display:none;" class="btn btn-info" data-toggle="tooltip" title="Selecione as datas para confirmar presença"><span class="glyphicon glyphicon-ok"></span> CONFIRMAR PRESENÇA</button>
+            <button type="button" id="btnConfirmarAusencia" disabled style="display:none;" class="btn btn-default" data-toggle="tooltip" title="Selecione as datas para confirmar ausência"><span class="glyphicon glyphicon-ban-circle"></span> CONFIRMAR AUSÊNCIA</button>
+    </div>
+</div>
+    <span style="color: #43695B; font-size: large;">
+        sexta-feira, 20 de abril
+        - 
+(7) Dispon&#237;veis<span> - </span>(0) Agendados <span> - </span>(0) Acompanhamentos    </span>
+    <hr style="margin: 0; background-color: #43695B; margin-bottom: 20px;" />
+        <div class="row">
+            <div class="col-lg-12"><div class="alert alert-warning text-center"><strong>Local: UNIDADE VILA MARIANA</strong></div></div>
+        </div>
+        <div class="row">
+                <div class="col-md-3" style="clear: left;">
+                    <div class="panel panel-Warming">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30945" class="form-control" value="30945#190826" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">09:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>PENDENTE REGISTRO</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;">MARY PINHEIRO - 33 anos</div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CONSULTORIO X (60min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" title="&lt;strong&gt;Agendamento: &lt;/strong&gt;encaixe - 30392,30393, 30394 (mesmo procedimento)">
+                                                <i class="glyphicon glyphicon-comment"></i>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-Warming">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30944" class="form-control" value="30944#189635" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">09:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>PENDENTE REGISTRO</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;">MARY RIBEIRO NICOLIELLO - 42 anos</div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CONSULT&#211;RIO 1 (60min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; CONSULTA GINECOL&#211;GICA">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                            <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" title="&lt;strong&gt;Agendamento: &lt;/strong&gt;encaixe de 60 minutos (09:30, 10:00, 10:30 (30392,30393, 30394)">
+                                                <i class="glyphicon glyphicon-comment"></i>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-Warming">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30942" class="form-control" value="30942#190826" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">09:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>PENDENTE REGISTRO</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;">MARY PINHEIRO - 33 anos</div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CONSULTORIO X (60min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30289" class="form-control" value="30289#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">20:00</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="clear: left;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30290" class="form-control" value="30290#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">20:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30291" class="form-control" value="30291#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">21:00</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30292" class="form-control" value="30292#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">21:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30293" class="form-control" value="30293#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">22:00</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="clear: left;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30294" class="form-control" value="30294#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">22:30</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="">
+                    <div class="panel panel-default">
+                        <div class="panel-heading " style="text-align: center;">
+                            <div class="row">
+                                <div class="col-sm-1" style="padding: 0px;">
+<input type="checkbox" data-sisId="0" data-agenda="30295" class="form-control" value="30295#" style="margin-left: 5px;" />                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">23:00</div>
+                                <div class="col-sm-8" style="padding: 0px;"><strong>(1) DISPON&#205;VEL</strong></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12" style="padding: 0px;"> - </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm-10" style="padding: 0px;">
+                                        CENTRO CIR&#218;RGICO / CONSULTORIO X / CONSULT&#211;RIO 1 / SALA US 1 (30min.)
+                                    </div>
+                                    <div class="col-sm-2" style="padding: 0px; cursor: pointer;">
+                                        <div class="pull-right" style="margin-right: 8px;" data-toggle="tooltip" data-html="true" title="1&#170; AVALIA&#199;&#195;O US-OD (DOADORAS) &lt;hr&gt; 1&#170; CONSULTA GINECOL&#211;GICA &lt;hr&gt; 1&#170; CONSULTA OBST&#201;TRICA &lt;hr&gt; 1&#170; CONSULTA REPRODU&#199;&#195;O HUMANA &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (FETO &#218;NICO) &lt;hr&gt; 1&#186; ULTRASSOM OBST&#201;TRICO (GEMELAR/ TRIGEMELAR)">
+                                            <i class="glyphicon glyphicon-info-sign"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+<!-- Modal Upload -->
+<div class="modal fade" id="myModalFiltro"
+     tabindex="-1" role="dialog" aria-labelledby="myModalFiltroLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalFiltroLabel">  Confirmação</h4>
+            </div>
+            <div id="h4TitleModal"></div>
+            <div class="modal-body" id="myModalFiltroBody">
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnModalFiltroSair" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove-circle"></span> NÃO</button>
+                <button type="button" id="btnModalFiltroConcluir" class="btn btn-info" data-dismiss="modal"><span class="glyphicon glyphicon-share-alt"></span> SIM</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("input:checkbox[data-agenda]").click(function (e) {
+            $('#btnExcluirAgenda').prop("disabled", true);
+            $('#btnExcluirAgenda').css("visibility", "hidden");
+            //PBI - 55849:Melhorias consultar agenda - Cancelar agenda
+            $('#btnExcluirEscala').prop("disabled", true);
+            $('#btnExcluirEscala').css("visibility", "hidden");
+            $('#btnConfirmarPresenca').css("display", "none");
+            $('#btnConfirmarAusencia').css("display", "none");
+            $('#btnConfirmarPresenca').prop("disabled", true);
+            $('#btnConfirmarAusencia').prop("disabled", true);
+
+            var arr = $("input:checkbox[data-agenda]:checked");
+            if (arr.length > 0) {
+                ////PBI - 55849: Melhorias consultar agenda - Indisponibilizar escala  { IdStatus = 3, DsStatus = "Disponíveis" });
+                //O botão "Indispobnibilizar Agenda" só é habilitado quando pelo menos uma escala ou agendamento é selecionado. 
+
+                if ($("#IdStatus").val() == '3') {
+                    $('#btnExcluirAgenda').prop("disabled", true);
+                    $('#btnExcluirAgenda').css("visibility", "hidden");
+                    $('#btnExcluirEscala').prop("disabled", false);
+                    $('#btnExcluirEscala').css("visibility", "visible");
+                }
+                else
+                {
+                     
+                    if ($("#IdStatus").val() == '6') {
+                        $('#btnConfirmarPresenca').prop("disabled", false);
+                        $('#btnConfirmarPresenca').show();
+
+                        $('#btnConfirmarAusencia').prop("disabled", false);
+                        $('#btnConfirmarAusencia').show();
+                    }
+                    ////PBI - 55849:Melhorias consultar agenda - Cancelar agenda
+                    //O botão "Cancelar Agenda" só é habilitado quando pelo menos um agendamento é selecionado. 
+                    else {//$("#IdStatus").val() != '6'
+                        $('#btnExcluirAgenda').prop("disabled", false);
+                        $('#btnExcluirAgenda').css("visibility", "visible");
+                        $('#btnExcluirEscala').prop("disabled", true);
+                        $('#btnExcluirEscala').css("visibility", "hidden")
+                    }
+                }
+            }
+        });
+
+        ////PBI - 55849: Melhorias consultar agenda
+        //Cancelar agendamento -> Caso seja selecionado o popup de confirmação deve exibir o texto: "Confirma o cancelamento do(s ) agendamento(s) selecionado(s)?".
+        $('#btnExcluirAgenda').click(function (e) {
+            var arr = $("input:checkbox[data-agenda]:checked");
+            if (arr.length > 0) {
+                $('#myModalFiltroBody').html('Confirma o cancelamento do(s ) agendamento(s) selecionado(s)?');
+                $("#myModalFiltro").modal({ backdrop: 'static' });
+            }
+        });
+
+        ////PBI - 55849: Melhorias consultar agenda
+        //Indisponibilizar escala  -> Caso seja selecionado o popup de confirmação deve exibir o texto: "Confirma a indisponibilização do(s ) agendamento(s) e/ou escala(s) selecionado(s)?".
+        
+        $('#btnExcluirEscala').click(function (e) {
+            var arr = $("input:checkbox[data-agenda]:checked");
+            if (arr.length > 0) {
+                $('#myModalFiltroBody').html('Confirma a indisponibilização do(s ) agendamento(s) e/ou escala(s) selecionado(s)?');
+                $("#myModalFiltro").modal({ backdrop: 'static' });
+            }
+        });
+
+
+
+
+
+        //$('.modal-backdrop').css('visibility', 'hidden'); pesquisar(this);
+        //$('#divDetalhes').delegate('#btnModalFiltroConcluir', 'click', function (e) {
+        //});
+        $('#btnModalFiltroConcluir').click(function (e) {
+            var removerAgd = '';
+            var arr = $("input:checkbox[data-agenda]:checked");
+            for (var i = 0; i < arr.length; i++) {
+                removerAgd = removerAgd + $(arr[i]).val() + '|';
+            }
+            if (removerAgd != '') {
+                var customerId = $('#CustomerId').val();
+                var userId = $('#UserId').val();
+                var idPrestador = $('#IdPrestador').val();
+
+                var acao = $("#ActExcluirAgendas").val();
+                $.ajax({
+                    url: acao,
+                    type: 'POST',
+                    data: { CustomerId: customerId, UserId: userId, IdPrestador: idPrestador, Agendas: removerAgd },
+                    success: function (response) {
+                        var myObject = eval('(' + JSON.stringify(response) + ')');
+                        if (myObject.Erro == '') {
+                            //alert(myObject.Mensagem);
+                            //Exibir modal
+                            showModal("Sucesso", myObject.Mensagem);
+                        }
+                    }
+                });
+            }
+
+        });
+
+    });
+
+
+</script>

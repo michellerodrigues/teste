@@ -1,0 +1,142 @@
+
+	4718578	
+	AGENDAMENTO	(ENVIADO) 
+	{"TimeSlotLists":[{"IDs":[{"Type":"PLAYER","ID":"47","Description":null}],"Owner":{"Name":"ANA PAULA AQUINO","ID":"129306"},"Type":null,"Label":null,"Name":null,"StartedOn":null,"EndedOn":null,"TimeSlotLists":[{"IDs":[{"Type":"NONE","ID":"","Description":null}],"Owner":null,"Type":"TIME_FRAME","Label":"Day:14/06/2018","Name":null,"StartedOn":"2018-06-14T00:00:00","EndedOn":"2018-06-14T23:59:59","TimeSlotLists":null,"TimeSlots":[{"TimeSlotListID":{"Type":"NONE","ID":null,"Description":null},"Type":"APPOINTMENT","ScheduleStartOnDate":"2018-06-14","ScheduleStartOnTime":"17:00","AccomplishmentStartedOn":null,"AccomplishmentEndedOn":null,"Duration":"60","AppointmentStatus":"WAITING","Patients":[{"Type":null,"IDs":[{"Type":"SOURCE_SYSTEM_ID","Number":"61713"}],"Name":null,"DateOfBirth":null,"EnrolledOn":null,"Race":null,"Religion":null,"SexualOrientation":null,"Sex":null,"Phones":null,"Addresses":null,"Emails":null,"PersonRelationships":null,"InstitutionRelationships":null}],"Resources":[{"Type":"ROOM","ID":"119184","Description":null},{"Type":"PLAYER","ID":"129306","Description":null}],"Attendances":[{"Description":"Criado pelo agendamento de 14/06/2018, Agenda: ANA PAULA AQUINO","Type":"NOT_APPLICABLE","Events":[{"Type":"APPOINTMENT","StartOnDate":"2018-06-14T17:00:00","EndOnDate":"2018-06-14T18:00:00","InterventionInstances":[{"Quantity":"1","InterventionClinicalTerms":[{"ClinicalTerm":{"IDs":[{"Type":"SOURCE_SYSTEM","ID":"105053","Description":null}],"FullySpecifiedName":null}}],"Participations":[{"PlayerId":"129306","PlayerName":"ANA PAULA AQUINO","Task":"PRINCIPAL","StartedOn":"2018-06-14T17:00:00"}]}]}],"CheckinOn":"2018-06-14T17:00:00","CheckinOutOn":"2018-06-14T18:00:00"}],"Comments":null,"Description":null}]}],"TimeSlots":null}],"FileInfo":{"ID":null,"Name":null,"Role":null,"Version":null,"SourceSystemName":null,"SourceSystemVersion":null,"SourceSystemITSupportContactName":null,"SourceSystemITSupportContactEmail":null,"DataLanguage":null,"CreatedOn":null,"CreatedBy":null,"EditionStartedOn":null,"EditionConcludedOn":null},"SourceInstitution":{"IDType":null,"ID":null,"Name":null,"ITSupportContactName":null,"ITSupportContactEmail":null},"FormFillingSurvey":{"Easiness":null}}	
+	
+	AGENDAMENTO(RECEBIDO)
+	{"FileInfo":{"CreatedOn":"0001-01-01T00:00:00","EditionStartedOn":"0001-01-01T00:00:00","EditionConcludedOn":"0001-01-01T00:00:00"},"SourceInstitution":{"IDType":0},"TimeSlotLists":[{"IDs":[{"Type":"PLAYER","ID":"47"}],"Owner":{"Name":"ANA PAULA AQUINO","ID":"129306"},"StartedOn":"0001-01-01T00:00:00","EndedOn":"0001-01-01T00:00:00","TimeSlotLists":[{"IDs":[{"Type":"NONE","ID":""}],"Type":"TIME_FRAME","Label":"Day:14/06/2018","StartedOn":"2018-06-14T00:00:00","EndedOn":"2018-06-14T23:59:59","TimeSlotLists":[],"TimeSlots":[{"TimeSlotListID":{"Type":"NONE","ID":"379741"},"Type":"APPOINTMENT","ScheduleStartOnDate":"2018-06-14","ScheduleStartOnTime":"17:00","Duration":60.0,"AccomplishmentStartedOn":"0001-01-01T00:00:00","AccomplishmentEndedOn":"0001-01-01T00:00:00","AppointmentStatus":"WAITING","Patients":[{"IDs":[{"Type":"SOURCE_SYSTEM_ID","Number":"61713","ExpirationDate":"0001-01-01T00:00:00"}],"DateOfBirth":"0001-01-01T00:00:00","Phones":[],"Addresses":[],"Emails":[],"Occupations":[],"HealthInsurances":[],"PersonRelationships":[],"InstitutionRelationships":[],"EnrolledOn":"0001-01-01T00:00:00"}],"Resources":[{"Id":119184,"Type":"ROOM"},{"Id":129306,"Type":"PLAYER"}],"Attendances":[{"Description":"Criado pelo agendamento de 14/06/2018, Agenda: ANA PAULA AQUINO","Type":"NOT_APPLICABLE","Patients":[],"Events":[{"Type":"APPOINTMENT","StartOnDate":"2018-06-14T17:00:00","EndOnDate":"2018-06-14T18:00:00","InterventionInstances":[{"Quantity":1,"InterventionClinicalTerms":[{"ClinicalTerm":{"IDs":[{"Type":"SOURCE_SYSTEM","Id":"105053"}],"ClinicalTermGroups":[]}}],"Participations":[{"PlayerId":"129306","PlayerName":"ANA PAULA AQUINO","Task":"PRINCIPAL","StartedOn":"2018-06-14T17:00:00"}]}]}],"CheckinOn":"2018-06-14T17:00:00","CheckinOutOn":"2018-06-14T18:00:00"}]}]}],"TimeSlots":[]}],"FormFillingSurvey":{"Easiness":0},"DataSubmissionDate":"0001-01-01T00:00:00"}
+
+	
+	4718577	CADASTRO_PACIENTE	(JSON ENVIADO) {"FileInfo":{"ID":null,"Name":null,"Role":null,"Version":null,"SourceSystemName":null,"SourceSystemVersion":null,"SourceSystemITSupportContactName":null,"SourceSystemITSupportContactEmail":null,"DataLanguage":null,"CreatedOn":null,"CreatedBy":null,"EditionStartedOn":null,"EditionConcludedOn":null},"SourceInstitution":{"IDType":null,"ID":null,"Name":null,"ITSupportContactName":null,"ITSupportContactEmail":null},"Patients":[{"Type":null,"IDs":[{"Type":"BRAZILIAN_CPF","Number":"06799186630"},{"Type":"DESTINATION_SYSTEM_ID","Number":"CT000519|06799186630"}],"Name":{"Title":"","FirstName":"JANAINA","MiddleName":"","LastName":"VEDOLIN","FullName":"JANAINA VEDOLIN"},"DateOfBirth":"1984-12-27T00:00:00.00Z","Race":"NONE","Sex":"FEMALE","Religion":"NONE","SexualOrientation":"NONE","Phones":[{"Type":"CELL1","Number":"11997344354"},{"Type":"HOME","Number":""},{"Type":"COMMERCIAL","Number":""}],"Addresses":[],"Emails":[{"Type":"PERSONAL1","Email":"JVEDOLIN@VIDALINK.COM.BR"}],"Occupations":[{"ID":"0"}],"PersonRelationships":[],"InstitutionRelationships":[{"Type":"IS_HEALTHCARE_SERVICE_PROVIDER_OF","IDs":[{"Type":"SOURCE_SYSTEM_ID","ID":"3"}],"Name":"UNIDADE VILA MARIANA","Phones":[{"Type":"WORK","Number":"1130596100"}],"Addresses":[{"Type":"LOCAL","AddressLine1":"RUA SENA MADUREIRA, 100 - VILA MARIANA","Number":"100","Complement":null,"District":"SÃO PAULO","City":"SÃO PAULO","State":"SP","Zip":"04021000","Country":null}],"Emails":[]}]}],"FormFillingSurvey":{"Easiness":null},"DataSubmissionDate":"0001-01-01T00:00:00.00Z"}	
+	
+	--FORMATADO
+	{  
+   "FileInfo":{  
+      "ID":null,
+      "Name":null,
+      "Role":null,
+      "Version":null,
+      "SourceSystemName":null,
+      "SourceSystemVersion":null,
+      "SourceSystemITSupportContactName":null,
+      "SourceSystemITSupportContactEmail":null,
+      "DataLanguage":null,
+      "CreatedOn":null,
+      "CreatedBy":null,
+      "EditionStartedOn":null,
+      "EditionConcludedOn":null
+   },
+   "SourceInstitution":{  
+      "IDType":null,
+      "ID":null,
+      "Name":null,
+      "ITSupportContactName":null,
+      "ITSupportContactEmail":null
+   },
+   "Patients":[  
+      {  
+         "Type":null,
+         "IDs":[  
+            {  
+               "Type":"BRAZILIAN_CI",
+               "Number":"N123456"
+            },
+            {  
+               "Type":"DESTINATION_SYSTEM_ID",
+               "Number":"CT000519|N123456"
+            }
+         ],
+         "Name":{  
+            "Title":"",
+            "FirstName":"MICHELLE",
+            "MiddleName":"",
+            "LastName":"RODRIGUES",
+            "FullName":"MICHELLE RODRIGUES"
+         },
+         "DateOfBirth":"1984-12-27T00:00:00.00Z",
+         "Race":"NONE",
+         "Sex":"FEMALE",
+         "Religion":"NONE",
+         "SexualOrientation":"NONE",
+         "Phones":[  
+            {  
+               "Type":"CELL1",
+               "Number":"21982266269"
+            },
+            {  
+               "Type":"HOME",
+               "Number":""
+            },
+            {  
+               "Type":"COMMERCIAL",
+               "Number":""
+            }
+         ],
+         "Addresses":[  
+
+         ],
+         "Emails":[  
+            {  
+               "Type":"PERSONAL1",
+               "Email":"MICA.MSR@MAILINATOR.COM"
+            }
+         ],
+         "Occupations":[  
+            {  
+               "ID":"0"
+            }
+         ],
+         "PersonRelationships":[  
+
+         ],
+         "InstitutionRelationships":[  
+            {  
+               "Type":"IS_HEALTHCARE_SERVICE_PROVIDER_OF",
+               "IDs":[  
+                  {  
+                     "Type":"SOURCE_SYSTEM_ID",
+                     "ID":"3"
+                  }
+               ],
+               "Name":"UNIDADE VILA MARIANA",
+               "Phones":[  
+                  {  
+                     "Type":"WORK",
+                     "Number":"1130596100"
+                  }
+               ],
+               "Addresses":[  
+                  {  
+                     "Type":"LOCAL",
+                     "AddressLine1":"RUA SENA MADUREIRA, 100 - VILA MARIANA",
+                     "Number":"100",
+                     "Complement":null,
+                     "District":"SÃO PAULO",
+                     "City":"SÃO PAULO",
+                     "State":"SP",
+                     "Zip":"04021000",
+                     "Country":null
+                  }
+               ],
+               "Emails":[  
+
+               ]
+            }
+         ]
+      }
+   ],
+   "FormFillingSurvey":{  
+      "Easiness":null
+   },
+   "DataSubmissionDate":"0001-01-01T00:00:00.00Z"
+}
+
+
+	(JSON RECEBIDO)  {"FileInfo":{"CreatedOn":"0001-01-01T00:00:00","EditionStartedOn":"0001-01-01T00:00:00","EditionConcludedOn":"0001-01-01T00:00:00"},"SourceInstitution":{"IDType":0},"Patients":[{"IDs":[{"Type":"BRAZILIAN_CPF","Number":"06799186630","ExpirationDate":"0001-01-01T00:00:00"},{"Type":"DESTINATION_SYSTEM_ID","Number":"CT000519|06799186630","ExpirationDate":"0001-01-01T00:00:00"},{"Type":"SOURCE_SYSTEM_ID","Number":"61713","ExpirationDate":"0001-01-01T00:00:00"}],"Name":{"Title":"","FirstName":"JANAINA","MiddleName":"","LastName":"VEDOLIN","FullName":"JANAINA VEDOLIN"},"DateOfBirth":"1984-12-27T00:00:00Z","Race":"NONE","Sex":"FEMALE","SexualOrientation":"NONE","Religion":"NONE","Phones":[{"Type":"CELL1","Number":"11997344354"},{"Type":"HOME","Number":""},{"Type":"COMMERCIAL","Number":""}],"Addresses":[],"Emails":[{"Type":"PERSONAL1","Email":"JVEDOLIN@VIDALINK.COM.BR"}],"Occupations":[{"ID":"0"}],"HealthInsurances":[],"PersonRelationships":[],"InstitutionRelationships":[{"Type":"IS_HEALTHCARE_SERVICE_PROVIDER_OF","IDs":[{"Type":"SOURCE_SYSTEM_ID","ID":"3"}],"Name":"UNIDADE VILA MARIANA","Phones":[{"Type":"WORK","Number":"1130596100"}],"Addresses":[{"Type":"LOCAL","AddressLine1":"RUA SENA MADUREIRA, 100 - VILA MARIANA","Number":"100","District":"SÃO PAULO","City":"SÃO PAULO","State":"SP","Zip":"04021000"}],"Emails":[]}],"EnrolledOn":"2018-06-14T15:34:45.6662819-03:00"}],"FormFillingSurvey":{"Easiness":0},"DataSubmissionDate":"0001-01-01T00:00:00Z"}
+	
+4718576	PACIENTE_LISTAR	(CLOB) 
+{"Field":null,"Content":null,"Match":0,"SearchParameters":[{"Field":"CPFClie","Content":"06799186630","Match":0,"SearchParameters":null}]}	
+(CLOB) "No patients found"
+
+(CLOB) {"Field":null,"Content":null,"Match":0,"SearchParameters":[{"Field":"CPFClie","Content":"13307417738","Match":0,"SearchParameters":null}]}	(CLOB) Lista
+

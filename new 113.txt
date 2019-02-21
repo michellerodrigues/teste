@@ -1,0 +1,6 @@
+Existem alguns cadastros que quando alterados na MedSoft, o cadastro é duplicado na vidalink. Isso acontece pois o IdMedSoft que é único, não tem um vinculo com a vida no ambiente vidalink. Então, quando chega uma alteração, os cadastros duplicam. 
+
+em que classe/serviço está esta funcionalidade? ( alteração de cadastro? (Sincronia)). Seria possível usar o cpf como chave para evitar o DE-PARA?
+
+
+

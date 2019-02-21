@@ -1,0 +1,2 @@
+"{\"cd_retorno\":0,\"nm_retorno\":\"Código 0: Processamento efetuado com sucesso\",\"ConsultaDominioTable1\":[{\"nm_conteudo_chave\":\"86920000\",\"nm_conteudo_descricao\":108480,\"CEP8_LOCAL\":\"86920000\",\"NOME_LOCAL\":\"Kaloré\",\"UF_LOCAL\":\"PR\",\"ID_LOCAL\":108480}]}"
+

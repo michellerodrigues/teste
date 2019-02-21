@@ -1,0 +1,64 @@
+Michele Rodrigues (Assignee) added a comment
+29-05-2018 at 21:11:56
+
+1 - Dois Cadastros podem ser visualizados através da busca: 
+https://www.vidalink.com.br/PSP_Admin/Paciente/ConsultaPaciente?Nome=ALICE%GOMA 
+
+2 - ALICE FERN_EXCANDO QUIFUMBA GOMA	CPF PSP: SSID_38257 
+2.1 Busca pelo paciente na MEDSOFT através do ID 38257 retornou: 
+http://186.201.50.139:5000/Patient/38257 
+<?xml version="1.0"?> 
+<string>Object reference not set to an instance of an object.</string> 
+
+2.2 Busca pelo nome na MedSoft 
+http://186.201.50.139:5000/Patient/Search 
+
+{ 
+"SearchParameters": [ 
+{ 
+"Field": "FullName", 
+"Content": "ALICE FERN_EXCANDO QUIFUMBA GOMA", 
+"Match": 1 
+} 
+] 
+} 
+
+Retornou: 
+<?xml version="1.0"?> 
+<string>No patients found</string> 
+
+3 - ALICE FERNANDO QUIFUMBA GOMA CPF PSP: 99236193030 
+
+3.1 Busca pelo paciente na MEDSOFT através do CPF 99236193030 retornou: 
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/99236193030 
+
+Retornou: 
+<?xml version="1.0"?> 
+<string>Patient not found</string> 
+
+3.2 Busca pelo nome na MedSoft 
+http://186.201.50.139:5000/Patient/Search 
+
+{ 
+"SearchParameters": [ 
+{ 
+"Field": "FullName", 
+"Content": "ALICE FERNANDO QUIFUMBA GOMA", 
+"Match": 1 
+} 
+] 
+} 
+
+Retornou: 
+<?xml version="1.0"?> 
+<string>Object reference not set to an instance of an object.</string> 
+
+
+4 - Favor enviar print da Tela do MEDsoft o o cadastro deste paciente 
+
+5 - Uma vez confirmados os dados no print, faremos novamente a pesquisa na api da MED_SOFT 
+
+6 - Uma vez encontrado paciente: 
+6.1 - Decidir qual paciente permanecerá cadastrado no PSP 
+
+7 - Para Ajuste temporário do paciente ESTRANGEIRO no PSP, teremos que incluir um IDENTIFICADOR ÚNICO IDENTICO AO CPF nos dois lados: PSP E MED_SOFT

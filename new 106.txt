@@ -1,0 +1,20 @@
+	
+tring baseUrl	= ConfigurationManager.AppSettings["Host_Job_Applicacao"];
+ string baseUrl	= ConfigurationManager.AppSettings["Host_Job_Applicacao"];
+ quantidadeDiasExpiracaoJob	= ConfigurationManager.AppSettings["days_duration_queue_job"];
+s	= ConfigurationManager.AppSettings["retries_job"];
+s	= ConfigurationManager.AppSettings["intervalo_leitura_email"];
+ing testeMode	= ConfigurationManager.AppSettings["test_mode"];
+es	= ConfigurationManager.AppSettings["intervalo_leitura_email"];
+usa	= ConfigurationManager.AppSettings[planilha.Causa];
+lacao	= ConfigurationManager.AppSettings[planilha.RelacaoRespAvisoComSegurado];
+g ApiI4ProBaseURL	= ConfigurationManager.AppSettings["ApiI4ProBaseURL"];
+g EmissaoPortalRuralURL	= ConfigurationManager.AppSettings["EmissaoPortalRuralURL"];
+g ConsultaDominioURL	= ConfigurationManager.AppSettings["ConsultaDominio"];
+g InserirSinistroURL	= ConfigurationManager.AppSettings["InserirSinistro"];
+g UsuarioWebService	= ConfigurationManager.AppSettings["UsuarioWebService"];
+g PasswordWebService	= ConfigurationManager.AppSettings["PasswordWebService"];
+g testeMode	= ConfigurationManager.AppSettings["test_mode"];
+atic string ApiI4ProTokenURL	= ConfigurationManager.AppSettings["ApiI4ProTokenURL"];
+atic string UsuarioWebService	= ConfigurationManager.AppSettings["UsuarioWebService"];
+atic string PasswordWebService	= ConfigurationManager.AppSettings["PasswordWebService"];

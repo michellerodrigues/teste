@@ -1,0 +1,46 @@
+{  
+   "nomeArquivo":"C:\\temp\\20180523115527_Formulario Aviso de Sinistro_DataComunicacao.xlsx",
+   "dataRecebimento":"2018-05-23",
+   "assuntoEmail":"sinistro data Comunicacao",
+   "from":"mica.msr@gmail.com",
+   "nomeAnexo":"20180523115527_Formulario Aviso de Sinistro_DataComunicacao.xlsx",
+   "mensagem":"Esta é uma mensagem de erro",
+   "parametros":{  
+      "body_email_erro_cliente_anexo":"Prezado(a), <P>seu pedido enviado no arquivo: <i><b>{0}</b></i> foi processado com sucesso e geramos o aviso de sinistro número: <i><b>{1}</b></i>.<p>Atenciosamente,<br><b>Markel Seguros</b>",
+      "body_email_erro_cliente_planilha":"Prezado(a), <P>seu email foi rejeitado pelo nosso sistema de aviso de sinistro.<p> Assunto Email Enviado:<i><b>{0}</i></b><br> Nome Anexo Enviado:<i><b>{1}</i></b><br>Mensagem Retornada:<i><b>{2}</i></b><p>Por favor anexe um aviso válido e reenvie o email.<p>Atenciosamente,<br><b>Markel Seguros</b>",
+      "body_email_erro_leitura":"Prezado(a), <P>seu pedido enviado no arquivo: <i><b>{0}</b></i> não foi processado . Motivo : <i><b>{1}</b></i>.<p>Atenciosamente,<br><b>Markel Seguros</b>",
+      "body_email_sucesso_leitura":"Prezado(a), <P>seu pedido enviado no arquivo: <i><b>{0}</b></i> foi processado com sucesso e geramos o aviso de sinistro número: <i><b>{1}</b></i>.<p>Atenciosamente,<br><b>Markel Seguros</b>",
+      "cd_forma_pagamento_pparcela":null,
+      "cd_produto":0,
+      "cd_unidade":0,
+      "enviar_somente_cobertura_basica":null,
+      "id_fruta_grao":0,
+      "id_grp_cultivo":0,
+      "id_produto_parc_premio":0,
+      "id_tp_subvencao":0,
+      "id_usuario":1,
+      "lista_destinatarios_bc":"destinatario1bc@mailinator.com|destinatario2bc@mailinator.com",
+      "lista_destinatarios_bc_job":"falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com",
+      "lista_destinatarios_cc":"destinatario1cc@mailinator.com",
+      "lista_destinatarios_cc_job":"falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com",
+      "nome_cobertura_basica":null,
+      "nome_cobertura_replantio":null,
+      "Password":"Alterar2018",
+      "replyTo_job":"replyto_job@mailinator.com",
+      "subject_email_erro_cliente_anexo":"Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.",
+      "subject_email_erro_cliente_planilha":"Aviso de Sinistro enviado no arquivo {0} não foi processado",
+      "subject_email_erro_leitura":"Aviso de Sinistro enviado no arquivo '{0}' não foi processado.",
+      "subject_email_sucesso_leitura":"Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.",
+      "user_email":"michelle.rodrigues@sysmi.com.br",
+      "server_url":"https://outlook.office365.com/EWS/Exchange.asmx",
+      "usuario_email":"teste",
+      "nome_planilha":"sinistro"
+   }
+}
+
+
+
+
+ "body_email_erro_job":"Prezado(a), <P> O Job de link <i><b>{0}</b></i> <br>Retornou erro: <i><b>{1}</b></i>.<p>Atenciosamente,<br><b>Markel Seguros</b>",
+ 
+ "Prezado(a), <P>seu email foi rejeitado pelo nosso sistema de aviso de importacao<p> Nome Anexo:<i><b>{0}</i></b><br>Mensagem Retornada:<i><b>{1}</i></b><br><p>Por favor reenvie o email com os ajustes.<br><p>Atenciosamente,<br><b>Markel Seguros</b>",

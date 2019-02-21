@@ -1,0 +1,20 @@
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-14T01:43:12","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":"Kaloré","cep":"86920000"}}}
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-14T01:55:39","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":"Kaloré","cep":"86920000"}}}
+
+"{\"id_usuario\":378,\"cd_apolice\":10001010002605.0,\"nr_ramo\":1,\"nr_endosso\":0,\"nr_item\":0,\"id_produto_cobertura\":1481,\"cd_causa\":7257,\"vl_estimado\":1.0,\"dt_comunicacao\":\"2018-06-14\",\"dt_ocorrencia\":\"2018-06-12\",\"cd_uf\":19,\"id_local\":108480,\"nm_descricao_itens\":\"sdgfdgfd\",\"nm_descricao_danos\":\"dfgfdg\",\"nm_observacao\":\"dfgdfgfd | Causa (Demais Causas):  | Responsável pelo Aviso de Sinistro: Michelle Rodrigues | Telefone do Responsável pelo Aviso de Sinistro (com DDD): (21) 5465-46546 | Relação do Responsável pelo Aviso de Sinistro com o Segurado (Outros):  | Data Estimada da Colheita: 2018-06-20 | Responsável por Acompanhar a Vistoria: Xuxa Meneguel | Telefone de Contato do Reponsável por Acompanhar a Vistoria (com DDD): (21) 4365-46546 | E-mail de Contato do Reponsável por Acompanhar a Vistoria: xmeneguel@mailinator.com.br\"}"
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-14T01:55:39","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":"Kaloré","cep":"86920000"}}}
+
+Srs,
+
+Detectamos que houve uma falha na integração do nosso serviço com a MED_SOFT (instabilidade/serviço psp inativo)
+Para a solução do problema, reintegramos o mês inteiro de maio  01/05/2018 até 14/06/2018. Por motivos de segurança.
+
+Estamos estudando uma solução definitiva para quando existe instabilidade de rede na integração.
+
+No mais, segue evidências de solução.
+
+att
+
+Michelle Rodrigues

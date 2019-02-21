@@ -1,0 +1,440 @@
+"<div style="width:900px; display:table">
+
+    <!--Informações COTAÇÃO, CLIENTE, LOCAL E ESTIMATIVA -->
+    <table style="font-family:arial;font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+
+        <!--HEADER-->
+        <tr>
+            <!--nao mudar a  posicap do scr-->
+            <th><img src="img/logo.png" alt="" width="75" height="98" class="no-border" /></th>
+            <th colspan="9" style="font-size:20px; text-align:center">Cotação - Seguro Agrícola - {{vm.Cotacao.cultivo.nm_fruta_grao}}</th>
+        </tr>
+        <tr>
+            <td colspan="10" style="height:10px;"></td>
+        </tr>
+
+        <!--DADOS DA COTAÇÃO-->
+        <tr>
+            <td colspan="10" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Dados da Cotação
+            </td>
+        </tr>
+        <tr style="font-weight:bold;">
+            <td colspan="2" style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px">Número da Cotação</td>
+            <td colspan="2" style="border-right:2px solid #000; padding:10px 5px">Data da Cotação</td>
+            <td colspan="2" style="border-right:2px solid #000; padding:10px 5px">Validade da Cotação</td>
+            <td colspan="3" style="border-right:2px solid #000; padding:10px 5px">Corretor</td>
+            <td style="border-right:2px solid #000; padding:10px 5px">Processo Produto SUSEP</td>
+        </tr>
+        <tr style="text-align:center">
+            <td colspan="2" style="border-left:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.idCotacao}}</td>
+            <td colspan="2" style="border-right:2px solid #000;">{{vm.Cotacao.dataHoraInclusao | date:'dd/MM/yyyy'}}</td>
+            <td colspan="2" style="border-right:2px solid #000;">{{vm.Cotacao.dataDeValidade | date:'dd/MM/yyyy'}}</td>
+            <td colspan="3" style="border-right:2px solid #000;">{{ vm.Cotacao.usuario.nome }}</td>
+            <td style="border-right:2px solid #000;">{{ vm.Cotacao.tipoDeSubvencao != null ? '15414.900516/2017-18' : '15414.900515/2017-73' }}</td>
+        </tr><!--fim dados COTAÇÃO-->
+        <!--DADOS DO CLIENTE-->
+        <tr>
+            <td colspan="10" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Dados do Segurado
+            </td>
+        </tr>
+        <tr style="font-weight:bold;">
+            <td colspan="4" style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px">Nome/Razão Social</td>
+            <td colspan="2" style="border-right:2px solid #000; padding:10px 5px">Tipo de Pessoa</td>
+            <td colspan="4" style="border-right:2px solid #000; padding:10px 5px">CPF/CNPJ</td>
+        </tr>
+        <tr style="text-align:center">
+            <td colspan="4" style="border-bottom:2px solid #000; border-left:2px solid #000; border-right:2px solid #000; text-align:center">{{vm.Cotacao.descricaoSegurado}}</td>
+            <td colspan="2" style="border-bottom:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.endereco.cpfCnpj.length == 11?"PF":"PJ"}}</td>
+            <td colspan="4" style="border-bottom:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.endereco.cpfCnpj|cpfCnpj}}</td>
+        </tr>
+        <tr style="font-weight:bold;">
+            <td style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px" colspan="4">Endereço</td>
+            <td style="border-right:2px solid #000; padding:10px 5px">N&ordm;</td>
+            <td style="border-right:2px solid #000; padding:10px 5px">Compl.</td>
+            <td style="border-right:2px solid #000; padding:10px 5px" colspan="2">Município</td>
+            <td style="border-right:2px solid #000; border-right:2px solid #000; padding:10px 5px" colspan="2">UF</td>
+        </tr>
+        <tr style="text-align:center">
+            <td style="border-left:2px solid #000; border-right:2px solid #000; text-align:center" colspan="4">{{vm.Cotacao.endereco.logradouro}}</td>
+            <td style="border-right:2px solid #000; text-align:center" >{{vm.Cotacao.endereco.numero}}</td>
+            <td style="border-right:2px solid #000; text-align:center" >{{vm.Cotacao.endereco.complemento}}</td>
+            <td style="border-right:2px solid #000; text-align:center"  colspan="2">{{vm.Cotacao.endereco.municipio.nomeMunicipio}}</td>
+            <td style="border-right:2px solid #000; border-right:2px solid #000; text-align:center"  colspan="2">{{vm.Cotacao.endereco.uf.nm_uf}}</td>
+        </tr>
+        <!--fim dados do CLIENTE-->
+        <!--Dados do Local de Risco (Principal)-->
+        <tr>
+            <td colspan="10" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Dados do Local de Risco (Principal)
+            </td>
+        </tr>
+        <tr style="font-weight:bold;">
+            <td colspan="4" style="border-left:2px solid #000; padding:10px 5px">Nome/Razão Social</td>
+            <td colspan="2" style="border-left:2px solid #000; padding:10px 5px">Area Total da Propriedade (ha)</td>
+            <td colspan="2" style="border-left:2px solid #000; padding:10px 5px">Município</td>
+            <td colspan="2" style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px">UF</td>
+        </tr>
+        <tr style="text-align:center">
+            <td colspan="4" style="border-left:2px solid #000; padding-right:5px">{{vm.Cotacao.descricaoSegurado}}</td>
+            <td colspan="2" style="border-left:2px solid #000; padding-right:5px">{{vm.Cotacao.totalMedidaUnidadeSegurada | number:2}}</td>
+            <td colspan="2" style="border-left:2px solid #000;">{{vm.Cotacao.municipio.nomeMunicipio}}</td>
+            <td colspan="2" style="border-left:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.uf.nm_uf}}</td>
+        </tr><!--fim Dados do Local de Risco (Principal)-->
+        <!--Estimativa de Vigência-->
+        <tr>
+            <td colspan="10" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Estimativa de Vigência
+            </td>
+        </tr>
+        <tr style="font-weight:bold;">
+            <td colspan="3" style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px">Início de Vigência</td>
+            <td colspan="3" style="border-right:2px solid #000; padding:10px 5px">Fim de Vigência</td>
+            <td colspan="4" style="border-right:2px solid #000; padding:10px 5px">Prazo em dias</td>
+        </tr>
+        <tr style="text-align:center">
+            <td colspan="3" style="border-left:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.dataVigenciaApoliceInicial | date:'dd/MM/yyyy'}}</td>
+            <td colspan="3" style="border-right:2px solid #000;">{{vm.Cotacao.dataVigenciaApoliceFinal | date:'dd/MM/yyyy'}}</td>
+            <td colspan="4" style="border-right:2px solid #000; padding-right:5px"> {{vm.Cotacao.diferencaVigencia}}</td>
+        </tr><!--fim Estimativa de Vigência-->
+
+    </table><!--Fim Informações COTAÇÃO, CLIENTE, LOCAL E ESTIMATIVA-->
+    <!--Itens Cobertura Básica-->
+    <table style="width: 100%; font-family: arial; font-size: 13px;" cellspacing="0" cellpadding="0">
+
+        <tbody>
+            <tr>
+                <td style="border: 2px solid rgb(0, 0, 0); border-image: none; height: 25px; text-align: center; font-size: 16px; font-weight: bold; background-color: #ddd9c4;" colspan="10">
+                    Itens Cobertos
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--titulo-->
+    <table style="width: 100%; font-family: arial; font-size: 13px;" cellspacing="0" cellpadding="0" ng-repeat="linha in vm.Cotacao.itens">
+        <tbody>
+            <tr style="font-weight: bold;">
+                <td rowspan="8" style="padding: 10px 5px; text-align: center;  border-left:2px solid #000;border-right:2px solid #000;"> Item: <br>{{linha.numItem}}</td>
+                <td style="padding: 10px 5px; border-right:2px solid #000;">Área (ha)</td>
+                <td style="padding: 10px 5px; border-right:2px solid #000;">Cultura</td>
+                <td colspan="2" style="padding: 10px 5px; border-right:2px solid #000;">Preço da {{vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}}</td>
+                <td style="padding: 10px 5px; border-right:2px solid #000;">LMG (R$)</td>
+                <td colspan="2" style="padding: 10px 5px; border-right:2px solid #000;">Município</td>
+                <td colspan="2" style="padding: 10px 5px; border-right:2px solid #000;">UF</td>
+            </tr><!--fim titulo-->
+            <!--ng repeat Item valores-->
+            <tr>
+                <td style="padding: 5px; text-align: right; border-right:2px solid #000;">{{linha.medidaUnidadeSegurada | number:2}}</td>
+                <td style="padding: 5px; border-right:2px solid #000;">{{vm.Cotacao.cultivo.nm_fruta_grao}}</td>
+                <td colspan="2" style="padding: 5px; text-align: right; border-right:2px solid #000;">{{vm.Cotacao.valorPrecoCultivo | number:2}}</td>
+                <td style="padding: 5px; text-align: right; border-right:2px solid #000;">{{(vm.Cotacao.valorCustoVariavelProducao * linha.medidaUnidadeSegurada) | number:2}}</td>
+                <td colspan="2" style="padding: 5px; text-align: center; border-right:2px solid #000;">{{vm.Cotacao.municipio.nomeMunicipio}}</td>
+                <td colspan="2" style="padding: 5px; border-right:2px solid #000;">{{vm.Cotacao.uf.nm_uf}}</td>
+            </tr>
+            <tr style="font-weight: bold;">
+                <td style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Nível de Cobertura Mínimo</td>
+                <td style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Nível de Cobertura Máximo</td>
+                <td colspan="2" style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Produtividade Esperada (kg/ha)</td>
+                <td style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Produtividade Segurada (kg/ha)</td>
+                <td colspan="2" style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Custo/ha (R$)</td>
+                <td colspan="2" style="padding: 10px 5px; border-top:2px solid #000; border-right:2px solid #000;">Produt. Segurada ({{vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}})</td>
+            </tr>
+            <tr>
+                <td style="padding:5px;border-right:2px solid #000; text-align:center">-</td>
+                <td style="padding:5px;border-right:2px solid #000; text-align:center">{{linha.valorNivelCobertura | number:2}}%</td>
+                <td colspan="2" style="text-align:right;padding:5px;border-right:2px solid #000;">{{vm.Cotacao.produtividadeEsperada | number:2}}</td>
+                <td style="text-align:right;padding:5px;border-right:2px solid #000;">{{vm.Cotacao.produtividadeSegurada | number:2}}</td>
+                <td colspan="2" style="text-align:right;padding:5px;border-right:2px solid #000;">{{vm.Cotacao.valorCustoVariavelProducao | number:2}}</td>
+                <td colspan="2" style="text-align:right;padding:5px;border-right:2px solid #000;">{{vm.Cotacao.produtividadeSeguradaUnidade | number:2}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;border-top:2px solid #000; border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">Prêmio Cob. Básica</td>
+                <td colspan="7" style="text-align:center;border-top:2px solid #000; border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">{{linha.valorPremioCoberturaBasica | number:2}}</td>
+            </tr>
+            <tr ng-if="vm.Cotacao.isRendaMensalTemporaria">
+                <td colspan="2" style="text-align:center;border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">Prêmio Cob. RMES</td>
+                <td colspan="7" style="text-align:center;border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">{{linha.valorPremioCoberturaRendaTemporariaMensal | number:2}}</td>
+            </tr>
+            <tr ng-if="vm.Cotacao.isReplantio">
+                <td colspan="2" style="text-align:center;border-bottom:2px solid #000;border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">Prêmio Cob. Replantio</td>
+                <td colspan="7" style="text-align:center;border-bottom:2px solid #000; border-bottom:2px solid #000;border-right:2px solid #000;padding:10px 5px">{{linha.valorPremioCoberturaReplantio | number:2}}</td>
+            </tr>
+            <tr ng-if="vm.Cotacao.isPerdaIdentidade">
+                <td colspan="2" style="text-align:center;border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">Chuva Excessiva na Colheita de Soja</td>
+                <td colspan="7" style="text-align:center;border-bottom:2px solid #000; border-right:2px solid #000;padding:10px 5px">{{linha.valorPremioCoberturaIdentidade | number:2}}</td>
+            </tr>
+            <tr>
+                <td colspan="9">
+                    <!--Histórico de Produtividade -->
+                    <table style="font-family:arial;font-size:13px; width:100%; text-align:center;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td colspan="10" style="height:25px; font-size:16px; border-right:2px solid #000; border-bottom:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                                Histórico de Produtividade - {{::vm.Cotacao.fatorCultivo.unidadeCultivo.descricaoUnidade}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 9}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 8}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 7}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 6}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 5}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 4}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 3}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 2}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1 - 1}}</label>
+                            </td>
+                            <td style="border-left:2px solid #000; border-right:2px solid #000; border-bottom:2px solid #000; padding:10px 5px;">
+                                <label style="font-weight:bold;">{{linha.valorAno1}}</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding:10px 5px;">
+                                {{linha.valorProdutividade10 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade9 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade8 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade7 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade6 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade5 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade4 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade3 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade2 | number:2}}
+                            </td>
+                            <td style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px;">
+                                {{linha.valorProdutividade1 | number:2}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--fim ng-repeat item valores-->
+        </tbody>
+    </table>
+
+    <!-- total-->
+    <table style="width: 100%; font-family: arial; font-size: 13px;" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="3" style="width:27.1%; border-top:2px solid #000; border-left:2px solid #000; border-right:2px solid #000; text-align:center; background-color:#ddd9c4; font-weight:bold">Total:</td>
+                <td colspan="2" style="font-weight:bold; padding:5px; border-top:2px solid #000;  border-bottom:2px solid #000;  border-right:2px solid #000; background-color:#ddd9c4; text-align:center">Unidade Segurada (ha)</td>
+                <td colspan="2" style="font-weight:bold; padding:5px; border-top:2px solid #000;  border-bottom:2px solid #000;  border-right:2px solid #000; background-color:#ddd9c4; text-align:center">LMI (Cobertura Básica)</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding:5px;border-right:2px solid #000; text-align:right">{{vm.Cotacao.totalMedidaUnidadeSegurada | number:2}}</td>
+                <td colspan="2" style="padding:5px;border-right:2px solid #000; text-align:right">{{vm.Cotacao.totalLMI | number:2}}</td>
+            </tr>
+
+            <!--fim total-->
+        </tbody>
+    </table><!--FIM cobertura basica-->
+    <!--Resumo das Coberturas-->
+    <table style="font-family:arial;font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="4" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Resumo das Coberturas
+            </td>
+        </tr>
+
+        <tr style="text-align:center; font-weight:bold">
+            <td style="padding:5px; border-left:2px solid #000; border-right:2px solid #000">Cobertura</td>
+            <td style="padding:5px; border-right:2px solid #000">LMI</td>
+            <td style="padding:5px; border-right:2px solid #000">Prêmio</td>
+            <td style="padding:5px; border-right:2px solid #000">Prêmio {{::vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}}</td>
+        </tr>
+        <tr style="text-align:center">
+            <td style="padding:5px; border-left: 2px solid #000;border-right:2px solid #000;border-bottom:2px solid #000">Básica</td>
+            <td style="padding:5px; border-right: 2px solid #000; text-align:right;border-bottom:2px solid #000">{{vm.Cotacao.valorLimiteCoberturaBasica | number:2}}</td>
+            <td style="padding:5px; border-right: 2px solid #000; text-align:right;border-bottom:2px solid #000">{{vm.Cotacao.valorPremioCoberturaBasica | number:2}}</td>
+            <td style="padding:5px; border-right: 2px solid #000; text-align:right;border-bottom:2px solid #000">{{vm.Cotacao.valorPremioCoberturaBasicaUnidade | number:2}}</td>
+        </tr>
+        <tr style="text-align:center; font-weight:bold" ng-if="vm.Cotacao.isRendaMensalTemporaria">
+            <td style="padding:5px; border-left:2px solid #000; border-right:2px solid #000">Cobertura</td>
+            <td style="padding:5px; border-right: 2px solid #000;">LMI</td>
+            <td style="padding:5px; border-right: 2px solid #000;">Prêmio</td>
+            <td style="padding:5px; border-right:2px solid #000">Prêmio {{::vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}}</td>
+        </tr>
+        <tr style="text-align:center" ng-if="vm.Cotacao.isRendaMensalTemporaria">
+            <td style="border-left:2px solid #000; border-right:2px solid #000;border-bottom:2px solid #000">Ressarcimento da Renda Mensal Estimada do Segurado</td>
+            <td style="border-right:2px solid #000; text-align:right;border-bottom:2px solid #000; padding:5px;">{{vm.Cotacao.valorLimiteCoberturaRendaTemporariaMensal | number:2}}</td>
+            <td style="padding:5px; border-right:2px solid #000; text-align:right; border-bottom:2px solid #000; padding:5px;">{{vm.Cotacao.valorPremioCoberturaRendaTemporariaMensal | number:2}}</td>
+            <td style="padding:5px; border-right:2px solid #000; text-align:right; border-bottom:2px solid #000; padding:5px;">{{vm.Cotacao.valorPremioCoberturaRendaTemporariaMensalUnidade | number:2}}</td>
+        </tr>
+        <tr style="text-align:center; font-weight:bold" ng-if="vm.Cotacao.isReplantio">
+            <td style="padding:5px; border-left:2px solid #000; border-right:2px solid #000;">Cobertura</td>
+            <td style="padding:5px; border-right:2px solid #000;">LMI</td>
+            <td style="padding:5px; border-right:2px solid #000;">Prêmio</td>
+            <td style="padding:5px; border-right:2px solid #000">Prêmio {{::vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}}</td>
+        </tr>
+        <tr style="text-align:center" ng-if="vm.Cotacao.isReplantio">
+            <td style="padding:5px;border-left:2px solid #000;border-right:2px solid #000; border-bottom:2px solid #000">Replantio</td>
+            <td style="padding:5px; border-right:2px solid #000;border-bottom:2px solid #000"> {{vm.Cotacao.percentualReplantio}}% da Cobertura Básica</td>
+            <td style="padding:5px; border-right:2px solid #000; text-align:right; border-bottom:2px solid #000">{{vm.Cotacao.valorPremioCoberturaReplantio | number:2}}</td>
+            <td style="padding:5px; border-right:2px solid #000; text-align:right; border-bottom:2px solid #000">{{vm.Cotacao.valorPremioCoberturaReplantioUnidade | number:2}}</td>
+        </tr>
+        <tr style="text-align:center; font-weight:bold" ng-if="vm.Cotacao.isPerdaIdentidade">
+            <td style="padding:5px; border-left:2px solid #000; border-right:2px solid #000;">Cobertura</td>
+            <td style="padding:5px; border-right:2px solid #000;">LMI</td>
+            <td style="padding:5px; border-right:2px solid #000;">Prêmio</td>
+            <td style="padding:5px; border-right:2px solid #000">Prêmio {{::vm.Cotacao.fatorCultivo.unidadeCultivo.nm_unidade}}</td>
+        </tr>
+        <tr style="text-align:center" ng-if="vm.Cotacao.isPerdaIdentidade">
+            <td style="padding:5px;  border-left:2px solid #000;border-right:2px solid #000; border-bottom:2px solid #000">Chuva Excessiva Na Colheita de Soja</td>
+            <td style="padding:5px; border-right:2px solid #000;border-bottom:2px solid #000"> {{vm.Cotacao.percentualPerdaIdentidade}}% da Cobertura Básica</td>
+            <td style="padding:5px; border-right:2px solid #000;border-bottom:2px solid #000;text-align:right;">{{vm.Cotacao.valorPremioCoberturaIdentidade | number:2}}</td>
+            <td style="padding:5px; border-right:2px solid #000;border-bottom:2px solid #000;text-align:right;">{{vm.Cotacao.valorPremioCoberturaIdentidadeUnidade | number:2}}</td>
+        </tr>
+
+        <!--total-->
+        <tr>
+            <td colspan="3" rowspan="2" style="border-left:2px solid #000; border-right:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">Total:</td>
+            <td style="padding:5px; border-right:2px solid #000; border-bottom:2px solid #000; text-align:center;background-color:#ddd9c4; font-weight:bold">Prêmio</td>
+        </tr>
+        <tr>
+            <td style="text-align:right; padding:5px; border-right:2px solid #000">{{vm.Cotacao.valorPremioComercialAvista | number:2}}</td>
+        </tr>
+    </table><!-- fim resumo da cobertura-->
+    <table style="font-family:arial;font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="4" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Dados do Pagamento
+            </td>
+        </tr>
+        <tr style="font-weight:bold">
+            <td style="border-left:2px solid #000; border-right:2px solid #000; padding:10px 5px">Forma de Pagamento</td>
+            <td style="border-right:2px solid #000; padding:10px 5px">Parcelamento</td>
+            <td style="border-right:2px solid #000; padding:10px 5px" ng-if="vm.Cotacao.tipoDeSubvencao != null">Tipo de Subvenção</td>
+        </tr>
+        <tr style="text-align:center">
+            <td style="border-left:2px solid #000; border-right:2px solid #000;">{{vm.Cotacao.formaDePagamento.nm_forma_pagamento}}</td>
+            <td style="border-right:2px solid #000;">{{vm.Cotacao.formaDeParcelamento.ds_parcelamento}}</td>
+            <td style="border-right:2px solid #000;" ng-if="vm.Cotacao.tipoDeSubvencao != null">{{vm.Cotacao.tipoDeSubvencao.nm_tp_subvencao}}</td>
+        </tr>
+    </table>
+    <!--Questionário de Avaliação de Risco-->
+    <table style="font-family:arial;font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="2" style="height:25px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">
+                Questionário de Avaliação de Risco
+            </td>
+        </tr>
+    </table>
+    <table style="font-family:arial; font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr ng-repeat="pergunta in vm.Cotacao.perguntas">
+            <td style="padding:5px; border-left:2px solid #000;border-right:2px solid #000;border-bottom:2px solid #000">{{pergunta.valorOrdem}}. {{pergunta.descricaoPergunta}}</td>
+            <td style="text-align:center;padding:5px; font-weight:bold;border-right:2px solid #000;border-bottom:2px solid #000">{{pergunta.resposta.descricaoResposta || pergunta.descricaoRespostaLivre}}</td>
+        </tr>
+    </table><!--fim Questionário de Avaliação de Risco-->
+    <table style="font-family:arial; font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="2" style="word-break: keep-all; height:50px;border-left:2px solid #000;border-right:2px solid #000; padding:5px; overflow-y:auto">
+                7. Comentários:
+            </td>
+        </tr>
+    </table>
+
+    <!--Notas-->
+    <table style="font-family:arial;font-size:13px; width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="height:45px; vertical-align:bottom; padding:5px;font-size:16px;border:2px solid #000; background-color:#ddd9c4; text-align:center; font-weight:bold">Notas</td>
+        </tr>
+        <tr>
+            <td style="word-break: keep-all; border-left:2px solid #000; border-right:2px solid #000;border-bottom:2px solid #000; line-height:1.5; padding:5px">
+                1. A apresentação desta cotação não é garantia de cobertura do risco e nem garantia da participação do proponente nos programans de PSR junto as autarquias Federal e Estadual . Esse cálculo é meramente ilustrativo. Somente será analisada a proposição de cobertura após a apresentação de proposta e de todos os documentos obrigatórios. Se a Proposição for aceita a Seguradora enviará aprovação por escrito e boleto para pagamento de primeira parcela. A cobertura só será valida após o cumprimento de todos os passos mencionados e o efetivo pagamento de prêmio.
+                <br /><br />
+                2. O prêmio e condições aqui apresentados serão ratificados pela Markel Seguradora do Brasil se atendidas integralmente as condições dispostas nesta cotação. Qualquer alteração nas bases apresentadas poderá resultar na revisão e alteração da cotação.
+                <br /><br />
+                3. Até a data de início de vigência do seguro, as condições apresentadas estarão sujeitas  a alterações, caso sejam constatadas divergências nos dados do seguro e/ou sinistros conhecidos ou informados a esta Seguradora.
+                <br /><br />
+                4. Quaisquer informações, tais como pedidos de cobertura, inclusões de riscos, ou qualquer outra solicitação que incorra no aumento de responsabilidade desta Seguradora, somente serão analisados dentro do horário de expediente (9:00 às 18:00), e aceitas mediante ratificação por escrito.
+                <br /><br />
+                5. A Markel Seguradora do Brasil estará desobrigada à emissão da apólice em caso de impedimento legal ou por exigência do orgão regulador de seguros.
+                <br /><br />
+                6. A aceitação do seguro estará sujeita a análise do risco.
+                <br /><br />
+                7. O registro desse plano na SUSEP não implica, por parte da Autarquia, incentivo ou recomendação a sua comercialização.
+                <br /><br />
+                8. O Segurado poderá consultar a situação cadastral de seu corretor de seguros, no site www.susep.gov.br, por meio do número de seu registro na SUSEP, nome completo, CNPJ ou CPF
+                <br /><br /><br />
+                <strong>
+                    *PROGRAMA DE SUBVENÇÃO:
+                    A MANIFESTAÇÃO POSITIVA ACIMA, EM RELAÇÃO AOS PROGRAMAS DE SUBVENÇÃO, NÃO GARANTEM A PARTICIPAÇÃO DO PROPONENTE NOS PROGRAMAS, JÁ QUE AS CONFIRMAÇÕES ESTÃO SUJEITAS AS APROVAÇÕES DO MINISTÉRIO DA AGRICULTURA E DAS SECRETARIAS DE ESTADO EM RELAÇÃO A AUTORIZAÇÃO E INÍCIO DE TAIS PROGRAMAS, BEM COMO DEFINIÇÃO E DISPONIBILIDADE DE RECURSOS (ORÇAMENTO) E O RESULTADO DA PESQUISA DO CPF/CNPJ NO CADIN. NO CASO DE NÃO HAVER LIBERAÇÃO DE RECURSOS E ACESSO OU RESERVA AOS PROGRAMAS DE SUBVENÇÃO, DECLARO ESTAR CIENTE, RESPONSABILIZANDO-ME PELO PAGAMENTO DA PARCELA CORRESPONDENTE AO CÁLCULO ESTIMATIVO DE SUBVENÇÃO, ATRAVÉS DE FICHA DE COMPENSAÇÃO A SER ENVIADA PELA SEGURADORA.
+                </strong>
+            </td>
+        </tr>
+    </table><!--fim Notas-->
+    <!--rodapé-->
+    <table style="width:100%; margin:2em 0">
+        <tr>
+            <td style="height:100px"></td>
+            <td style=""></td>
+            <td style=""></td>
+            <td style="width:520px"></td>
+        </tr>
+        <tr style="height:20px;">
+            <td>Corretor:</td>
+            <td style="text-align:center; ">{{ vm.Cotacao.usuario.nome }}</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height:20px;">
+            <td>SUSEP Nº:</td>
+            <td style="text-align:center; ">{{ vm.Cotacao.usuario.codigoDaSusep }}</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height:20px;">
+            <td>Telefone:</td>
+            <td style="text-align:center;">{{vm.Cotacao.usuario.telefone}}</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr style="height:20px">
+            <td>e-mail 1:</td>
+            <td style="text-align:center;">{{ vm.Cotacao.usuario.email1 }}</td>
+            <td></td>
+            <td style="text-align:center; border-bottom:1px solid #000"></td>
+        </tr>
+        <tr style="height:20px;">
+            <td> e-mail 2:</td>
+            <td style="text-align:center; ">{{ vm.Cotacao.usuario.email2 }}</td>
+            <td></td>
+            <td style="text-align:center;">Rúbrica</td>
+        </tr>
+
+    </table><!--fim rodapé-->
+
+</div>"

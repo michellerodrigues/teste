@@ -1,0 +1,31 @@
+
+
+1. O que eu fiz ontem (ou desde a última reunião);  -->02/06/2018  (daily de segunda 4/6/2018)
+->Ajuste ambiente; Atuação nos pbis pendentes;
+
+Done:
+
+1.1 - PBI: 57574:Double check das entregas após merges
+
+	Task 57848:55831 - Liberação indevida de agenda
+		   Bug 55831:Liberação indevida de agenda
+		   
+	Task 57851:55849 - Melhorias consultar agenda - Cancelar agenda
+			PBI 55849:Melhorias consultar agenda - Cancelar agenda
+
+
+	Task 57852:55832 - Orientações ao paciente não é exibida - Tela de confirmação de agendamento sob demanda
+		PBI 55832 - Bug 55832:Orientações ao paciente não é exibida - Tela de confirmação de agendamento sob demand
+
+1.2 -Product Backlog Item 57577 - Spike - Investigação sequences patient_pin_number
+
+
+2. O que eu vou fazer hoje; 
+-> PUBLICAR EM TST (CELEBRONE, pode me ajudar?)
+-> Iniciar Atuação em 
+56583:Melhorias Relatórios de Procedimento - Seleção de múltiplas opções nos filtros
+
+3. Algum impedimento que está impossibilitando prosseguir com as atividades
+
+-> Sem permissão para criação de TIPOS no Oracle ( necessário para prosseguir com 56583)
+

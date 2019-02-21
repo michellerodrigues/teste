@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<hd_pt:XML_Data xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.healthdome.com/ns/patients file:/D:/Gentus/VERSION%205.4/Medsoft/Tools/MPDTS/Medsof_StandardXML/MSSF_PatientEnrollmentInfo_v_1_0_0.xsd" xmlns:hd_pt="http://www.healthdome.com/ns/patients">
+    <hd_pt:Patients>
+        <hd_pt:Patient>
+            <hd_pt:IDs>
+                <hd_pt:ID>
+                    <hd_pt:Type>BRAZILIAN_CPF</hd_pt:Type>
+                    <hd_pt:Number>99236193030</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+                <hd_pt:ID>
+                    <hd_pt:Type>BRAZILIAN_CI</hd_pt:Type>
+                    <hd_pt:Number>N1942932</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+                <hd_pt:ID>
+                    <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                    <hd_pt:Number>61529</hd_pt:Number>
+                    <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                </hd_pt:ID>
+            </hd_pt:IDs>
+            <hd_pt:Name>
+                <hd_pt:Title />
+                <hd_pt:FirstName>Alice</hd_pt:FirstName>
+                <hd_pt:MiddleName>Fernando Quifumba</hd_pt:MiddleName>
+                <hd_pt:LastName>Goma</hd_pt:LastName>
+                <hd_pt:FullName>Alice Fernando Quifumba Goma</hd_pt:FullName>
+            </hd_pt:Name>
+            <hd_pt:DateOfBirth>1974-10-25T00:00:00</hd_pt:DateOfBirth>
+            <hd_pt:Race>UNKNOWN</hd_pt:Race>
+            <hd_pt:Sex>FEMALE</hd_pt:Sex>
+            <hd_pt:Religion />
+            <hd_pt:Phones>
+                <hd_pt:Phone>
+                    <hd_pt:Type>HOME</hd_pt:Type>
+                    <hd_pt:Number />
+                </hd_pt:Phone>
+                <hd_pt:Phone>
+                    <hd_pt:Type>COMMERCIAL</hd_pt:Type>
+                    <hd_pt:Number />
+                </hd_pt:Phone>
+                <hd_pt:Phone>
+                    <hd_pt:Type>CELL1</hd_pt:Type>
+                    <hd_pt:Number>11950204438</hd_pt:Number>
+                </hd_pt:Phone>
+            </hd_pt:Phones>
+            <hd_pt:Addresses>
+                <hd_pt:Address>
+                    <hd_pt:Type>HOME</hd_pt:Type>
+                    <hd_pt:AddressLine1>Rua Sílvia</hd_pt:AddressLine1>
+                    <hd_pt:Number />
+                    <hd_pt:Complement />
+                    <hd_pt:District>Piedade</hd_pt:District>
+                    <hd_pt:City>Rio de Janeiro</hd_pt:City>
+                    <hd_pt:State>RJ</hd_pt:State>
+                    <hd_pt:Zip>20740180</hd_pt:Zip>
+                    <hd_pt:Country>BRASIL</hd_pt:Country>
+                </hd_pt:Address>
+            </hd_pt:Addresses>
+            <hd_pt:Emails>
+                <hd_pt:Email>
+                    <hd_pt:Type>PERSONAL1</hd_pt:Type>
+                    <hd_pt:Email>alicefergoma@gmail.com</hd_pt:Email>
+                </hd_pt:Email>
+            </hd_pt:Emails>
+            <hd_pt:Occupations>
+                <hd_pt:Occupation>
+                    <hd_pt:ID>0</hd_pt:ID>
+                </hd_pt:Occupation>
+            </hd_pt:Occupations>
+            <hd_pt:HealthInsurances>
+                <hd_pt:HealthInsurance>
+                    <hd_pt:ID>1</hd_pt:ID>
+                    <hd_pt:Name>Particular</hd_pt:Name>
+                    <hd_pt:BillingRankingPosition>PRIMARY</hd_pt:BillingRankingPosition>
+                    <hd_pt:HealthInsurancePatientID />
+                    <hd_pt:Plan>
+                        <hd_pt:ID>1</hd_pt:ID>
+                        <hd_pt:Name>Particular - Integral</hd_pt:Name>
+                    </hd_pt:Plan>
+                    <hd_pt:GroupID />
+                </hd_pt:HealthInsurance>
+            </hd_pt:HealthInsurances>
+            <hd_pt:PersonRelationships>
+                <hd_pt:PersonRelationship>
+                    <hd_pt:Type>IS_PHYSICIAN_OF_PATIENT</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:Number>17265</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>
+                        <hd_pt:FullName>Arnaldo Schizzi Cambiaghi</hd_pt:FullName>
+                    </hd_pt:Name>
+                    <hd_pt:DateOfBirth>0001-01-01T00:00:00</hd_pt:DateOfBirth>
+                    <hd_pt:EnrolledOn>0001-01-01T00:00:00</hd_pt:EnrolledOn>
+                </hd_pt:PersonRelationship>
+                <hd_pt:PersonRelationship>
+                    <hd_pt:Type>IS_HUSBAND_OF_PATIENT</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CPF</hd_pt:Type>
+                            <hd_pt:Number>28589041034</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CI</hd_pt:Type>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:Number>61530</hd_pt:Number>
+                            <hd_pt:ExpirationDate>0001-01-01T00:00:00</hd_pt:ExpirationDate>
+                        </hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>
+                        <hd_pt:FirstName>PEDRO</hd_pt:FirstName>
+                        <hd_pt:MiddleName>CHICAIA SIMBA</hd_pt:MiddleName>
+                        <hd_pt:LastName>MAMUBA</hd_pt:LastName>
+                        <hd_pt:FullName>PEDRO CHICAIA SIMBA MAMUBA</hd_pt:FullName>
+                    </hd_pt:Name>
+                    <hd_pt:DateOfBirth>1974-03-28T00:00:00</hd_pt:DateOfBirth>
+                    <hd_pt:Phones>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>HOME</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>COMMERCIAL</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>CELL1</hd_pt:Type>
+                            <hd_pt:Number>11972627320</hd_pt:Number>
+                        </hd_pt:Phone>
+                    </hd_pt:Phones>
+                    <hd_pt:Addresses>
+                        <hd_pt:Address>
+                            <hd_pt:Type>HOME</hd_pt:Type>
+                            <hd_pt:AddressLine1>ANGOLA- LUANDA</hd_pt:AddressLine1>
+                            <hd_pt:Number />
+                            <hd_pt:Complement />
+                            <hd_pt:District />
+                            <hd_pt:City />
+                            <hd_pt:State />
+                            <hd_pt:Zip />
+                            <hd_pt:Country>BRASIL</hd_pt:Country>
+                        </hd_pt:Address>
+                    </hd_pt:Addresses>
+                    <hd_pt:Emails>
+                        <hd_pt:Email>
+                            <hd_pt:Type>PERSONAL1</hd_pt:Type>
+                            <hd_pt:Email>PEYE33@LIVE.COM</hd_pt:Email>
+                        </hd_pt:Email>
+                    </hd_pt:Emails>
+                    <hd_pt:EnrolledOn>2018-05-14T18:15:00</hd_pt:EnrolledOn>
+                </hd_pt:PersonRelationship>
+            </hd_pt:PersonRelationships>
+            <hd_pt:InstitutionRelationships>
+                <hd_pt:InstitutionRelationship>
+                    <hd_pt:Type>IS_HEALTHCARE_SERVICE_PROVIDER_OF</hd_pt:Type>
+                    <hd_pt:IDs>
+                        <hd_pt:ID>
+                            <hd_pt:Type>SOURCE_SYSTEM_ID</hd_pt:Type>
+                            <hd_pt:ID>3</hd_pt:ID>
+                        </hd_pt:ID>
+                        <hd_pt:ID>
+                            <hd_pt:Type>BRAZILIAN_CNPJ</hd_pt:Type>
+                            <hd_pt:ID /></hd_pt:ID>
+                    </hd_pt:IDs>
+                    <hd_pt:Name>HUNTINGTON VILA MARIANA</hd_pt:Name>
+                    <hd_pt:Phones>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>WORK</hd_pt:Type>
+                            <hd_pt:Number>11- 3059 -6100</hd_pt:Number>
+                        </hd_pt:Phone>
+                        <hd_pt:Phone>
+                            <hd_pt:Type>FAX</hd_pt:Type>
+                            <hd_pt:Number />
+                        </hd_pt:Phone>
+                    </hd_pt:Phones>
+                    <hd_pt:Addresses>
+                        <hd_pt:Address>
+                            <hd_pt:Type>LOCAL</hd_pt:Type>
+                            <hd_pt:AddressLine1>RUA SENA MADUREIRA, 100 - VILA MARIANA</hd_pt:AddressLine1>
+                            <hd_pt:Number />
+                            <hd_pt:Complement />
+                            <hd_pt:District />
+                            <hd_pt:City>SÃO PAULO</hd_pt:City>
+                            <hd_pt:State>SP</hd_pt:State>
+                            <hd_pt:Zip>04.021-000</hd_pt:Zip>
+                        </hd_pt:Address>
+                    </hd_pt:Addresses>
+                    <hd_pt:Emails>
+                        <hd_pt:Email>
+                            <hd_pt:Type>WORK1</hd_pt:Type>
+                            <hd_pt:Email>recep-vilamariana@huntington.com.br</hd_pt:Email>
+                        </hd_pt:Email>
+                    </hd_pt:Emails>
+                </hd_pt:InstitutionRelationship>
+            </hd_pt:InstitutionRelationships>
+            <hd_pt:EnrolledOn>2018-05-14T18:13:00</hd_pt:EnrolledOn>
+        </hd_pt:Patient>
+    </hd_pt:Patients>
+    <hd_pt:DataSubmissionDate>0001-01-01T00:00:00</hd_pt:DataSubmissionDate>
+</hd_pt:XML_Data>

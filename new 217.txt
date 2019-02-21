@@ -1,0 +1,6 @@
+http://localhost/WebApi/api/security/token
+http://localhost/Markel.Cotacao.Site/#!/login
+
+http://localhost/Markel.Cotacao.Site/#!/login
+
+http://localhost/Markel.Cotacao.Site/app/error/404.html

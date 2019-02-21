@@ -1,0 +1,29 @@
+CREATE OR REPLACE PACKAGE BODY my_package AS
+
+   FUNCTION getListOfNumbers RETURN someList IS
+      l_list someList;
+   BEGIN
+      SELECT SID BULK COLLECT INTO l_list FROM V$SESSION;
+      RETURN l_list;
+   END;
+
+   PROCEDURE soSomeStuff IS
+      l_list someList;
+   BEGIN
+      l_list := getListOfNumbers;
+      FOR i IN 1..l_list.count LOOP
+         dbms_output.put_line(l_list(i));
+      END LOOP;
+   END;
+
+END my_package;
+
+
+ FUNCTION getListOfNumbers RETURN someList IS
+      l_list someList;
+   BEGIN
+      SELECT SID BULK COLLECT INTO l_list FROM V$SESSION;
+      RETURN l_list;
+   END;
+   
+   

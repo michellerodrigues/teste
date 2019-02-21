@@ -1,0 +1,2233 @@
+<?xml version="1.0"?>
+<ArrayOfAppointment>
+    <Appointment>
+        <ID>354527</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>03/04/2018 15:00:00</InMaAgen>
+        <FiMaAgen>03/04/2018 19:00:00</FiMaAgen>
+        <DtMaAgen>12/01/2018 10:30:00</DtMaAgen>
+        <ObseAgen>NÃO AGENDAR</ObseAgen>
+        <CreatedOn>12/01/2018 10:30:00</CreatedOn>
+        <ModifiedOn>02/04/2018 08:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>367407</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/04/2018 17:00:00</InMaAgen>
+        <FiMaAgen>12/04/2018 17:15:00</FiMaAgen>
+        <DtMaAgen>03/04/2018 08:12:00</DtMaAgen>
+        <ObseAgen>Reunião com advogados - caso MB
+12/4 às 17:00 na Unidade Santa Joana</ObseAgen>
+        <CreatedOn>03/04/2018 08:12:00</CreatedOn>
+        <ModifiedOn>03/04/2018 08:12:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>360108</ID>
+        <Description>Elizabete Geremias</Description>
+        <Patient_ID>59361</Patient_ID>
+        <Attendances_Code>498809</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>28/09/2018 13:00:00</InMaAgen>
+        <FiMaAgen>28/09/2018 14:30:00</FiMaAgen>
+        <DtMaAgen>16/02/2018 15:47:00</DtMaAgen>
+        <ObseAgen>agendado por e mail, ciente de valor e de possível alteração devido data distante
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+antecipado para 16/08
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 04/04/2018 14:27:20
+*********************************************</ObseAgen>
+        <CreatedOn>16/02/2018 15:50:00</CreatedOn>
+        <ModifiedOn>04/04/2018 14:27:00</ModifiedOn>
+        <CanceledOn>04/04/2018 14:27:00</CanceledOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>367853</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>24/04/2018 08:00:00</InMaAgen>
+        <FiMaAgen>24/04/2018 11:00:00</FiMaAgen>
+        <DtMaAgen>05/04/2018 08:10:00</DtMaAgen>
+        <ObseAgen>Prezados Doutores,
+Informamos que a Comissão de Pós-Graduação da FMUSP aprovou a composição da Comissão Examinadora para o Exame de Qualificação  do(a) aluno(a) de Doutorado Marcos Eiji Shiroma, que está agendado para ocorrer no dia 24 de Abril de 2018, 3ª feira, às 08:00h, na Sala de Reunião da Disciplina de Ginecologia da FMUSP (Sala 10 165) localizada no 10º andar do Instituto Central do HCFMUSP,  Av. Dr. Enéas de Carvalho Aguiar, 255, São Paulo, SP. 
+A banca ficou assim constituída:
+Titulares
+Prof. Dr. Paulo Cesar Serafini
+Dra. Kátia Cândido Carvalho
+Prof. Dr. José Cipolla Neto
+Suplentes
+Prof. Dr. Gustavo Arantes Rosa Maciel 
+Prof. Dr. Nilson Roberto de Melo
+</ObseAgen>
+        <CreatedOn>05/04/2018 08:10:00</CreatedOn>
+        <ModifiedOn>05/04/2018 08:10:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368701</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>06/09/2018 14:00:00</InMaAgen>
+        <FiMaAgen>06/09/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:05:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:06:00</CreatedOn>
+        <ModifiedOn>10/04/2018 14:06:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368296</ID>
+        <Description>Maria Cláudia da Fonseca Silva</Description>
+        <Patient_ID>58778</Patient_ID>
+        <Attendances_Code>512097</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/05/2018 15:30:00</InMaAgen>
+        <FiMaAgen>04/05/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>07/04/2018 12:00:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+alterado para 15/06. contato via email
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 10/04/2018 15:47:41
+*********************************************</ObseAgen>
+        <CreatedOn>07/04/2018 12:01:00</CreatedOn>
+        <ModifiedOn>10/04/2018 15:47:00</ModifiedOn>
+        <CanceledOn>10/04/2018 15:47:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368464</ID>
+        <Description>Carla Lima Moreira</Description>
+        <Patient_ID>31725</Patient_ID>
+        <Attendances_Code>512403</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>10/07/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>09/04/2018 12:16:00</DtMaAgen>
+        <ObseAgen>Deseja encaixe, se possível.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+passará em consulta dia 14/5
+00.00.000-0-Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Aline Crispim Rios em 11/04/2018 07:02:50
+*********************************************</ObseAgen>
+        <CreatedOn>09/04/2018 12:18:00</CreatedOn>
+        <ModifiedOn>11/04/2018 07:02:00</ModifiedOn>
+        <CanceledOn>11/04/2018 07:02:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>952</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361479</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>11/04/2018 11:00:00</InMaAgen>
+        <FiMaAgen>11/04/2018 11:45:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:06:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:06:00</CreatedOn>
+        <ModifiedOn>11/04/2018 11:34:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369108</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>19/04/2018 11:00:00</InMaAgen>
+        <FiMaAgen>19/04/2018 12:00:00</FiMaAgen>
+        <DtMaAgen>12/04/2018 11:02:00</DtMaAgen>
+        <ObseAgen>REUNIÃO OVODOAÇÃO</ObseAgen>
+        <CreatedOn>12/04/2018 11:02:00</CreatedOn>
+        <ModifiedOn>12/04/2018 11:02:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369758</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>20/04/2018 17:00:00</InMaAgen>
+        <FiMaAgen>20/04/2018 17:15:00</FiMaAgen>
+        <DtMaAgen>17/04/2018 08:15:00</DtMaAgen>
+        <ObseAgen>REUNIÃO - ADVOGADOS TRABALHISTAS</ObseAgen>
+        <CreatedOn>17/04/2018 08:16:00</CreatedOn>
+        <ModifiedOn>17/04/2018 08:16:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368695</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>12/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 13:58:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 13:58:00</CreatedOn>
+        <ModifiedOn>17/04/2018 10:18:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368696</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>19/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>19/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 13:58:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 13:58:00</CreatedOn>
+        <ModifiedOn>17/04/2018 10:19:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368697</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>26/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>26/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 13:58:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 13:58:00</CreatedOn>
+        <ModifiedOn>17/04/2018 10:20:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365935</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/04/2018 16:00:00</InMaAgen>
+        <FiMaAgen>25/04/2018 16:15:00</FiMaAgen>
+        <DtMaAgen>23/03/2018 15:37:00</DtMaAgen>
+        <ObseAgen>REUNIÃO CIENTIFICA
+Quando: 25/04/2018
+Horário: das 16h às 18h
+Local: Ed. Octávio de Carvalho, sala 152 - 1º andar.
+Endereço: Rua Botucatu, 740.
+</ObseAgen>
+        <CreatedOn>23/03/2018 15:37:00</CreatedOn>
+        <ModifiedOn>18/04/2018 14:10:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>360333</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/04/2018 11:00:00</InMaAgen>
+        <FiMaAgen>25/04/2018 13:00:00</FiMaAgen>
+        <DtMaAgen>19/02/2018 10:39:00</DtMaAgen>
+        <ObseAgen>CONFERÊNCIA HUNTINGTON E EUGIN</ObseAgen>
+        <CreatedOn>19/02/2018 10:39:00</CreatedOn>
+        <ModifiedOn>20/04/2018 12:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368627</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/04/2018 14:00:00</InMaAgen>
+        <FiMaAgen>25/04/2018 14:15:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 10:04:00</DtMaAgen>
+        <ObseAgen>REUNIÃO CONGRESSO HUNTINGTON - PARTICIPAR?</ObseAgen>
+        <CreatedOn>10/04/2018 10:04:00</CreatedOn>
+        <ModifiedOn>24/04/2018 07:36:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>360337</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/06/2018 10:00:00</InMaAgen>
+        <FiMaAgen>27/06/2018 12:00:00</FiMaAgen>
+        <DtMaAgen>19/02/2018 10:40:00</DtMaAgen>
+        <ObseAgen>CONFERÊNCIA HUNTINGTON E EUGIN</ObseAgen>
+        <CreatedOn>19/02/2018 10:40:00</CreatedOn>
+        <ModifiedOn>24/04/2018 14:49:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371264</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>18/05/2018 15:30:00</InMaAgen>
+        <FiMaAgen>18/05/2018 15:45:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:15:00</DtMaAgen>
+        <ObseAgen>Nao agendar este horario</ObseAgen>
+        <CreatedOn>26/04/2018 09:15:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:15:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371267</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>27/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:18:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR 14H30 E 15H30 - AGENDAR PRIMEIRA CONSULTA AS 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 09:18:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:18:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371268</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>17/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:19:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR 14H30 E 15H30 - AGENDAR PRIMEIRA CONSULTA AS 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 09:19:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:19:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371269</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>24/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>24/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:20:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR 14H30 E 15H30 - AGENDAR PRIMEIRA CONSULTA AS 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 09:20:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:20:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371270</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>31/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>31/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:21:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR 14H30 E 15H30 - AGENDAR PRIMEIRA CONSULTA 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 09:21:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:21:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371271</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>06/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>06/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 09:21:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR AS 14H30 E 15H30 - AGENDAR PRIMEIRA CONSULTA AS 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 09:22:00</CreatedOn>
+        <ModifiedOn>26/04/2018 09:22:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371306</ID>
+        <Description>1ªCRH DR. PS - 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>06/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>06/07/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 10:54:00</DtMaAgen>
+        <ObseAgen>ATENÇÃO: 1ª CRH DR. PS - 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 10:54:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:54:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368694</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>02/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>02/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 13:57:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 13:57:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:56:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368698</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>23/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>23/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 13:59:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:00:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:56:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368699</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>30/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>30/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:00:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:00:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:56:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369807</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/08/2018 14:30:00</InMaAgen>
+        <FiMaAgen>16/08/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>17/04/2018 10:38:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>17/04/2018 10:39:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:56:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368700</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>13/09/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:01:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:02:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:57:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368702</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>20/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>20/09/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:06:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:06:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:57:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368703</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>27/09/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:06:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:06:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:57:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368704</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/10/2018 14:30:00</InMaAgen>
+        <FiMaAgen>04/10/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:07:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:07:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:58:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368705</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>18/10/2018 14:30:00</InMaAgen>
+        <FiMaAgen>18/10/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:07:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:07:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:58:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368706</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/10/2018 14:30:00</InMaAgen>
+        <FiMaAgen>25/10/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:07:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:08:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:58:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368707</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>01/11/2018 14:30:00</InMaAgen>
+        <FiMaAgen>01/11/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:08:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:08:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:59:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368708</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/11/2018 14:30:00</InMaAgen>
+        <FiMaAgen>08/11/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:08:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:08:00</CreatedOn>
+        <ModifiedOn>26/04/2018 10:59:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368709</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>22/11/2018 14:30:00</InMaAgen>
+        <FiMaAgen>22/11/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>10/04/2018 14:09:00</DtMaAgen>
+        <ObseAgen>para encaixe</ObseAgen>
+        <CreatedOn>10/04/2018 14:09:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:00:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365905</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/11/2018 11:00:00</InMaAgen>
+        <FiMaAgen>16/11/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>23/03/2018 14:30:00</DtMaAgen>
+        <ObseAgen>EMENDA FERIADO OU ATENDERÁ DE MANHÃ?</ObseAgen>
+        <CreatedOn>23/03/2018 14:30:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:00:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371309</ID>
+        <Description>1ª CRH - DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>20/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>20/07/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:00:00</DtMaAgen>
+        <ObseAgen>ATENÇÃO - DR. PS ATENDERÁ 1 CRH ÀS 11H E 13H</ObseAgen>
+        <CreatedOn>26/04/2018 11:00:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:00:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>352924</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>23/11/2018 11:00:00</InMaAgen>
+        <FiMaAgen>23/11/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>03/01/2018 07:59:00</DtMaAgen>
+        <ObseAgen>RSNA 2018 - 25 A 30/11</ObseAgen>
+        <CreatedOn>03/01/2018 07:59:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:00:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>352940</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>05/10/2018 11:00:00</InMaAgen>
+        <FiMaAgen>05/10/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>03/01/2018 08:06:00</DtMaAgen>
+        <ObseAgen>ASRM 2018 - 06 A 10/10</ObseAgen>
+        <CreatedOn>03/01/2018 08:06:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:01:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>358555</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/10/2018 11:00:00</InMaAgen>
+        <FiMaAgen>12/10/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>06/02/2018 09:47:00</DtMaAgen>
+        <ObseAgen>FERIADO</ObseAgen>
+        <CreatedOn>06/02/2018 09:48:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:01:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365902</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>07/09/2018 11:00:00</InMaAgen>
+        <FiMaAgen>07/09/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>23/03/2018 14:29:00</DtMaAgen>
+        <ObseAgen>FERIADO - INDEPENDÊNCIA DO BRASIL</ObseAgen>
+        <CreatedOn>23/03/2018 14:29:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:01:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>359011</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>03/08/2018 11:00:00</InMaAgen>
+        <FiMaAgen>03/08/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>08/02/2018 15:12:00</DtMaAgen>
+        <ObseAgen>DR. PAULO ATENDERÁ NO PERÍODO DA MANHÃ - CONGRESSO CANCUN</ObseAgen>
+        <CreatedOn>08/02/2018 15:12:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:02:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>356084</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/08/2018 11:00:00</InMaAgen>
+        <FiMaAgen>10/08/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>22/01/2018 10:20:00</DtMaAgen>
+        <ObseAgen>CONGRESSO CANCUN DE 04 A 12/08</ObseAgen>
+        <CreatedOn>22/01/2018 10:20:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:02:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371313</ID>
+        <Description>1ªCRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>13/07/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:01:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:02:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:02:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371314</ID>
+        <Description>1ª CRH DR. PS ÀS 11H E 13H</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/07/2018 06:00:00</InMaAgen>
+        <FiMaAgen>27/07/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:02:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:02:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:02:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371315</ID>
+        <Description>1ªCRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>03/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>03/08/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:02:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:03:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:03:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371316</ID>
+        <Description>1ª CRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>10/08/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:03:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:03:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:03:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365916</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>01/06/2018 11:00:00</InMaAgen>
+        <FiMaAgen>01/06/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>23/03/2018 14:36:00</DtMaAgen>
+        <ObseAgen>EMENDA FERIADO OU ATENDERÁ DE MANHÃ?</ObseAgen>
+        <CreatedOn>23/03/2018 14:36:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:03:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371317</ID>
+        <Description>1ª CRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>17/08/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:03:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:04:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:04:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371318</ID>
+        <Description>1ªCRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>24/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>24/08/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:04:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:05:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:05:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371319</ID>
+        <Description>1ªCRH DR. PS ÀS 11H E 13H00</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>31/08/2018 06:00:00</InMaAgen>
+        <FiMaAgen>31/08/2018 06:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 11:05:00</DtMaAgen>
+        <CreatedOn>26/04/2018 11:05:00</CreatedOn>
+        <ModifiedOn>26/04/2018 11:05:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371357</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>27/04/2018 14:00:00</InMaAgen>
+        <FiMaAgen>27/04/2018 14:15:00</FiMaAgen>
+        <DtMaAgen>26/04/2018 12:07:00</DtMaAgen>
+        <ObseAgen>Ligacao para Eduardo Colello Ribeiro esposo de Ana Claudia Brisola Ribeiro Tel. (15) 9 9758-9216.
+Escolheram e reservaram doadora e desejam contato para falar sobre o perfil.</ObseAgen>
+        <CreatedOn>26/04/2018 12:09:00</CreatedOn>
+        <ModifiedOn>26/04/2018 12:09:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371481</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/05/2018 15:00:00</InMaAgen>
+        <FiMaAgen>10/05/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>27/04/2018 09:14:00</DtMaAgen>
+        <ObseAgen>REUNIÃO COM DANIELA MANOLE, MARIANA KUPFER E DRA. LUCIANA CHAMIÉ</ObseAgen>
+        <CreatedOn>27/04/2018 09:15:00</CreatedOn>
+        <ModifiedOn>27/04/2018 09:15:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>371860</ID>
+        <Description>Ana Cláudia Brisola Ribeiro</Description>
+        <Patient_ID>52889</Patient_ID>
+        <Attendances_Code>517903</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>30/04/2018 10:30:00</InMaAgen>
+        <FiMaAgen>30/04/2018 10:45:00</FiMaAgen>
+        <DtMaAgen>30/04/2018 11:52:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+atualização de cadastro
+
+cancelado por Jordana Arcanjo Reimberg Heim em 30/04/2018 11:53:31
+*********************************************</ObseAgen>
+        <CreatedOn>30/04/2018 11:53:00</CreatedOn>
+        <ModifiedOn>30/04/2018 11:53:00</ModifiedOn>
+        <CanceledOn>30/04/2018 11:53:00</CanceledOn>
+        <CreatedBy>892</CreatedBy>
+        <ModifiedBy>892</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>370042</ID>
+        <Description>Milena Rossi Buosi</Description>
+        <Patient_ID>48278</Patient_ID>
+        <Attendances_Code>514986</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/05/2018 15:30:00</InMaAgen>
+        <FiMaAgen>04/05/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/04/2018 12:15:00</DtMaAgen>
+        <ObseAgen>Ciente do valor, pdf ok. Indicação de Janine Borba, autorizado por Daniela.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+cancelou via whatsapp com Silmara
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 02/05/2018 12:05:34
+*********************************************</ObseAgen>
+        <CreatedOn>18/04/2018 12:18:00</CreatedOn>
+        <ModifiedOn>02/05/2018 12:05:00</ModifiedOn>
+        <CanceledOn>02/05/2018 12:05:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372273</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>13/07/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>03/05/2018 08:52:00</DtMaAgen>
+        <ObseAgen>reservado</ObseAgen>
+        <CreatedOn>03/05/2018 08:53:00</CreatedOn>
+        <ModifiedOn>03/05/2018 08:55:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372313</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>11/05/2018 09:00:00</InMaAgen>
+        <FiMaAgen>11/05/2018 10:00:00</FiMaAgen>
+        <DtMaAgen>03/05/2018 10:36:00</DtMaAgen>
+        <ObseAgen>Reunião com Rita Vassena e Aline Lorenzon</ObseAgen>
+        <CreatedOn>03/05/2018 10:36:00</CreatedOn>
+        <ModifiedOn>03/05/2018 10:36:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372182</ID>
+        <Description>Debora Waldman</Description>
+        <Patient_ID>45874</Patient_ID>
+        <Attendances_Code>518370</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>29/05/2018 16:30:00</InMaAgen>
+        <FiMaAgen>29/05/2018 17:30:00</FiMaAgen>
+        <DtMaAgen>02/05/2018 14:32:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+FABÍOLA EFETUAR CORREÇÃO
+Silmara Silvestre da Silva em 03/05/2018 13:31:02
+*********************************************
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+Mudança no horário da consulta.
+00.00.000-0-Avaliação Clinica ( sem cobrança ) (Particular - Particular - Integral)
+cancelado por Fabiola Souza Guimaraes em 03/05/2018 13:51:09
+*********************************************</ObseAgen>
+        <CreatedOn>02/05/2018 14:34:00</CreatedOn>
+        <ModifiedOn>03/05/2018 13:51:00</ModifiedOn>
+        <CanceledOn>03/05/2018 13:51:00</CanceledOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>968</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369570</ID>
+        <Description>Adriana Yuri Ueti</Description>
+        <Patient_ID>60462</Patient_ID>
+        <Attendances_Code>514154</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/07/2018 13:00:00</InMaAgen>
+        <FiMaAgen>16/07/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>16/04/2018 09:24:00</DtMaAgen>
+        <ObseAgen>ciente do valor, pdf ok. 
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+antecipado 08/05
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 04/05/2018 10:48:12
+*********************************************</ObseAgen>
+        <CreatedOn>16/04/2018 09:26:00</CreatedOn>
+        <ModifiedOn>04/05/2018 10:48:00</ModifiedOn>
+        <CanceledOn>04/05/2018 10:48:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361480</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>09/05/2018 11:00:00</InMaAgen>
+        <FiMaAgen>09/05/2018 11:30:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:06:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:06:00</CreatedOn>
+        <ModifiedOn>07/05/2018 11:06:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>370751</ID>
+        <Description>Katia Cipriani de Almeida Dias</Description>
+        <Patient_ID>41094</Patient_ID>
+        <Attendances_Code>516147</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>18/05/2018 14:30:00</InMaAgen>
+        <FiMaAgen>18/05/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>23/04/2018 14:01:00</DtMaAgen>
+        <ObseAgen>Ciente do valor.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+antecipado para 09/05
+00.00.000-0-Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 07/05/2018 12:33:19
+*********************************************</ObseAgen>
+        <CreatedOn>23/04/2018 14:15:00</CreatedOn>
+        <ModifiedOn>07/05/2018 12:33:00</ModifiedOn>
+        <CanceledOn>07/05/2018 12:33:00</CanceledOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373169</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>06/07/2018 08:00:00</InMaAgen>
+        <FiMaAgen>06/07/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>08/05/2018 11:01:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDERÁ</ObseAgen>
+        <CreatedOn>08/05/2018 11:01:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:01:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373171</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/07/2018 08:00:00</InMaAgen>
+        <FiMaAgen>04/07/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>08/05/2018 11:02:00</DtMaAgen>
+        <ObseAgen>DR. PAULO NÃO ATENDERÁ</ObseAgen>
+        <CreatedOn>08/05/2018 11:02:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:03:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>352947</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>05/07/2018 08:00:00</InMaAgen>
+        <FiMaAgen>05/07/2018 16:00:00</FiMaAgen>
+        <DtMaAgen>03/01/2018 08:09:00</DtMaAgen>
+        <ObseAgen>DR. PAULO NÃO ATENDERÁ</ObseAgen>
+        <CreatedOn>03/01/2018 08:09:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:03:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373174</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>07/07/2018 08:00:00</InMaAgen>
+        <FiMaAgen>07/07/2018 08:15:00</FiMaAgen>
+        <DtMaAgen>08/05/2018 11:04:00</DtMaAgen>
+        <ObseAgen>DR. PAULO AUSENTE</ObseAgen>
+        <CreatedOn>08/05/2018 11:04:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:04:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373176</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>08/07/2018 08:00:00</InMaAgen>
+        <FiMaAgen>08/07/2018 08:15:00</FiMaAgen>
+        <DtMaAgen>08/05/2018 11:04:00</DtMaAgen>
+        <ObseAgen>DR. PAULO AUSENTE</ObseAgen>
+        <CreatedOn>08/05/2018 11:05:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:05:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>364479</ID>
+        <Description>Camila Noé Robortella</Description>
+        <Patient_ID>60133</Patient_ID>
+        <Attendances_Code>506009</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/05/2018 13:00:00</InMaAgen>
+        <FiMaAgen>10/05/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>15/03/2018 15:59:00</DtMaAgen>
+        <ObseAgen>Ciente do valor, pdf ok. 
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+não poderá comparecer compromisso no trabalho
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 08/05/2018 11:54:14
+*********************************************</ObseAgen>
+        <CreatedOn>15/03/2018 16:02:00</CreatedOn>
+        <ModifiedOn>08/05/2018 11:54:00</ModifiedOn>
+        <CanceledOn>08/05/2018 11:54:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365706</ID>
+        <Description>Elaina Altheman Panzetti</Description>
+        <Patient_ID>60295</Patient_ID>
+        <Attendances_Code>507964</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>15/06/2018 13:00:00</InMaAgen>
+        <FiMaAgen>15/06/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>22/03/2018 16:11:00</DtMaAgen>
+        <ObseAgen>Indicação de seu ginecologista Dr. Mauricio Kitamura. Solicita encaixe, se possível. Paciente não consegue preencher pdf.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+fará uma viagem longa, agendará qdo voltar
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 08/05/2018 13:38:05
+*********************************************</ObseAgen>
+        <CreatedOn>22/03/2018 16:14:00</CreatedOn>
+        <ModifiedOn>08/05/2018 13:38:00</ModifiedOn>
+        <CanceledOn>08/05/2018 13:38:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361482</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>11/07/2018 10:00:00</InMaAgen>
+        <FiMaAgen>11/07/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:07:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:07:00</CreatedOn>
+        <ModifiedOn>09/05/2018 11:16:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361483</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/09/2018 10:00:00</InMaAgen>
+        <FiMaAgen>12/09/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:07:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:08:00</CreatedOn>
+        <ModifiedOn>09/05/2018 11:53:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361484</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/10/2018 10:00:00</InMaAgen>
+        <FiMaAgen>10/10/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:08:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:08:00</CreatedOn>
+        <ModifiedOn>09/05/2018 11:53:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361485</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/11/2018 10:00:00</InMaAgen>
+        <FiMaAgen>14/11/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:08:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:08:00</CreatedOn>
+        <ModifiedOn>09/05/2018 11:54:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361486</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>12/12/2018 10:00:00</InMaAgen>
+        <FiMaAgen>12/12/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:09:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+The following and final proposed dates will be: 
+
+
+28.02.2018
+14.03.2018
+11.04.2018
+09.05.2018
+13.06.2018
+11.07.2018
+12.09.2018
+10.10.2018
+14.11.2018
+12.12.2018
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:09:00</CreatedOn>
+        <ModifiedOn>09/05/2018 11:54:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372193</ID>
+        <Description>Nayana Nadler Rizzo Sampaio</Description>
+        <Patient_ID>61235</Patient_ID>
+        <Attendances_Code>518387</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/05/2018 09:00:00</InMaAgen>
+        <FiMaAgen>17/05/2018 10:00:00</FiMaAgen>
+        <DtMaAgen>02/05/2018 14:56:00</DtMaAgen>
+        <ObseAgen>Agendamento autorizada pela Secretaria Daniela.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+antecipada para 10/05
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 09/05/2018 12:13:57
+*********************************************</ObseAgen>
+        <CreatedOn>02/05/2018 15:01:00</CreatedOn>
+        <ModifiedOn>09/05/2018 12:13:00</ModifiedOn>
+        <CanceledOn>09/05/2018 12:13:00</CanceledOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372805</ID>
+        <Description>Liliana de Liberato e Batista</Description>
+        <Patient_ID>61317</Patient_ID>
+        <Attendances_Code>519419</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/06/2018 15:30:00</InMaAgen>
+        <FiMaAgen>25/06/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>07/05/2018 08:08:00</DtMaAgen>
+        <ObseAgen>Ciente do valor, pdf ok.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+antecipado para 10/05
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 09/05/2018 12:43:56
+*********************************************</ObseAgen>
+        <CreatedOn>07/05/2018 08:11:00</CreatedOn>
+        <ModifiedOn>09/05/2018 12:43:00</ModifiedOn>
+        <CanceledOn>09/05/2018 12:43:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>370733</ID>
+        <Description>Andreza Tobias</Description>
+        <Patient_ID>60924</Patient_ID>
+        <Attendances_Code>516119</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>20/07/2018 13:00:00</InMaAgen>
+        <FiMaAgen>20/07/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>23/04/2018 13:08:00</DtMaAgen>
+        <ObseAgen>
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+Paciente reagendou para Setembro.
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Fabiola Souza Guimaraes em 09/05/2018 15:07:56
+*********************************************</ObseAgen>
+        <CreatedOn>23/04/2018 13:08:00</CreatedOn>
+        <ModifiedOn>09/05/2018 15:07:00</ModifiedOn>
+        <CanceledOn>09/05/2018 15:07:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>968</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373660</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>28/05/2018 10:30:00</InMaAgen>
+        <FiMaAgen>28/05/2018 12:00:00</FiMaAgen>
+        <DtMaAgen>10/05/2018 13:54:00</DtMaAgen>
+        <ObseAgen>CONFERÊNCIA EUGIN</ObseAgen>
+        <CreatedOn>10/05/2018 13:54:00</CreatedOn>
+        <ModifiedOn>10/05/2018 13:54:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373784</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>02/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>02/07/2018 14:45:00</FiMaAgen>
+        <DtMaAgen>11/05/2018 10:16:00</DtMaAgen>
+        <ObseAgen>Reservado: Lidia Marques - Tel. 71 9 9974-4167
+Me liga no máximo no dia 04/06 para confirmar</ObseAgen>
+        <CreatedOn>11/05/2018 10:17:00</CreatedOn>
+        <ModifiedOn>11/05/2018 10:17:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>373800</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/05/2018 15:30:00</InMaAgen>
+        <FiMaAgen>17/05/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>11/05/2018 10:36:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE </ObseAgen>
+        <CreatedOn>11/05/2018 10:37:00</CreatedOn>
+        <ModifiedOn>11/05/2018 10:37:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>374100</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>22/06/2018 11:00:00</InMaAgen>
+        <FiMaAgen>22/06/2018 12:00:00</FiMaAgen>
+        <DtMaAgen>14/05/2018 09:38:00</DtMaAgen>
+        <ObseAgen>NAO AGENDAR ESTE HORARIO NESTA DATA</ObseAgen>
+        <CreatedOn>14/05/2018 09:38:00</CreatedOn>
+        <ModifiedOn>14/05/2018 09:38:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>368829</ID>
+        <Description>Carla Lima Moreira</Description>
+        <Patient_ID>31725</Patient_ID>
+        <Attendances_Code>512894</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>14/05/2018 14:36:00</InAtAgen>
+        <FiAtAgen>14/05/2018 15:31:00</FiAtAgen>
+        <InMaAgen>14/05/2018 14:30:00</InMaAgen>
+        <FiMaAgen>14/05/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>11/04/2018 07:01:00</DtMaAgen>
+        <ObseAgen>Realizou cirurgia com Dr. Duarte em 2017
+*********************************************
+confirmado pela a própria paciente
+Daniela Barion em 10/05/2018 11:25:21
+*********************************************</ObseAgen>
+        <CreatedOn>11/04/2018 07:01:00</CreatedOn>
+        <ModifiedOn>14/05/2018 13:35:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>911</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>374448</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/05/2018 13:45:00</InMaAgen>
+        <FiMaAgen>16/05/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>15/05/2018 14:21:00</DtMaAgen>
+        <ObseAgen>Ligar para Ana Regina Domingues</ObseAgen>
+        <CreatedOn>15/05/2018 14:21:00</CreatedOn>
+        <ModifiedOn>15/05/2018 14:21:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>365227</ID>
+        <Description>Alessandra Bernardete Saboia Drummond Fonseca</Description>
+        <Patient_ID>57027</Patient_ID>
+        <Attendances_Code>507208</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>21/05/2018 14:58:00</InAtAgen>
+        <FiAtAgen>21/05/2018 15:17:00</FiAtAgen>
+        <InMaAgen>21/05/2018 14:30:00</InMaAgen>
+        <FiMaAgen>21/05/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>20/03/2018 13:12:00</DtMaAgen>
+        <ObseAgen>Ciente do Valor.
+*********************************************
+confirmado pela a própria paciente
+Daniela Barion em 17/05/2018 09:47:03
+*********************************************</ObseAgen>
+        <CreatedOn>20/03/2018 13:12:00</CreatedOn>
+        <ModifiedOn>17/05/2018 09:47:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>366449</ID>
+        <Description>Maria Angélica de Morais Ferreira</Description>
+        <Patient_ID>60409</Patient_ID>
+        <Attendances_Code>509150</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>22/05/2018 13:00:00</InMaAgen>
+        <FiMaAgen>22/05/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>27/03/2018 11:16:00</DtMaAgen>
+        <ObseAgen>ciente do valor, pdf ok.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+não poderá comparecer disse que ligará para remarcar
+00.00.000-0-1ª Consulta Reprodução Humana (Particular - Particular - Integral)
+cancelado por Daniela Barion em 17/05/2018 14:52:00
+*********************************************</ObseAgen>
+        <CreatedOn>27/03/2018 11:18:00</CreatedOn>
+        <ModifiedOn>17/05/2018 14:52:00</ModifiedOn>
+        <CanceledOn>17/05/2018 14:52:00</CanceledOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375090</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>29/06/2018 15:30:00</InMaAgen>
+        <FiMaAgen>29/06/2018 15:45:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 15:43:00</DtMaAgen>
+        <ObseAgen>NÃO AGENDAR NESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 15:44:00</CreatedOn>
+        <ModifiedOn>18/05/2018 15:44:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375094</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>14/09/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:06:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:07:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375096</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>21/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>21/09/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:07:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:07:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375097</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>28/09/2018 14:30:00</InMaAgen>
+        <FiMaAgen>28/09/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:07:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:08:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375098</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>19/10/2018 14:30:00</InMaAgen>
+        <FiMaAgen>19/10/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:08:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:08:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:08:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375099</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>26/10/2018 14:30:00</InMaAgen>
+        <FiMaAgen>26/10/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:09:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:09:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:09:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375100</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>09/11/2018 14:30:00</InMaAgen>
+        <FiMaAgen>09/11/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:09:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:09:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:09:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375101</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>07/12/2018 14:30:00</InMaAgen>
+        <FiMaAgen>07/12/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:09:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:09:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:09:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375102</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/12/2018 14:30:00</InMaAgen>
+        <FiMaAgen>14/12/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:10:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:10:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:10:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375103</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>21/12/2018 14:30:00</InMaAgen>
+        <FiMaAgen>21/12/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 16:10:00</DtMaAgen>
+        <ObseAgen>NÃO ATENDE A PARTIR DESTE HORÁRIO</ObseAgen>
+        <CreatedOn>18/05/2018 16:10:00</CreatedOn>
+        <ModifiedOn>18/05/2018 16:10:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375130</ID>
+        <Description>Helena oliveira da silva</Description>
+        <Patient_ID>54225</Patient_ID>
+        <Attendances_Code>523122</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>24/05/2018 06:15:00</InMaAgen>
+        <FiMaAgen>24/05/2018 06:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 18:06:00</DtMaAgen>
+        <ObseAgen>ANATOMOPATOLÓGICO - FLEURYLARE     ID:HUNTINGTON-FL   S: HUNTI@01</ObseAgen>
+        <CreatedOn>18/05/2018 18:08:00</CreatedOn>
+        <ModifiedOn>18/05/2018 18:08:00</ModifiedOn>
+        <CreatedBy>179</CreatedBy>
+        <ModifiedBy>179</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>369815</ID>
+        <Description>Tifanny Zelante Alonso Krejici</Description>
+        <Patient_ID>18022</Patient_ID>
+        <Attendances_Code>514578</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>22/05/2018 14:40:00</InAtAgen>
+        <FiAtAgen>22/05/2018 15:17:00</FiAtAgen>
+        <InMaAgen>22/05/2018 14:30:00</InMaAgen>
+        <FiMaAgen>22/05/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>17/04/2018 11:08:00</DtMaAgen>
+        <ObseAgen>Ciente do valor.  
+*********************************************
+confirmado pela a própria paciente por telefone.
+Aline Crispim Rios em 21/05/2018 10:09:31
+*********************************************</ObseAgen>
+        <CreatedOn>17/04/2018 11:09:00</CreatedOn>
+        <ModifiedOn>21/05/2018 10:09:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>952</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>372885</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>23/05/2018 10:30:00</InMaAgen>
+        <FiMaAgen>23/05/2018 13:30:00</FiMaAgen>
+        <DtMaAgen>07/05/2018 11:04:00</DtMaAgen>
+        <ObseAgen>AUDIENCIA CASO
+23/5, às 10:50 (nossos advogados pediram para chegarmos 1 hora antes) será no seguinte endereço
+
+Poder Judiciário Federal
+Tribunal Regional do Trabalho da 2ª Região
+10ª Vara do Trabalho de São Paulo
+Avenida Marquês de São Vicente, 235 - Várzea da Barra Funda
+São Paulo, SP
+</ObseAgen>
+        <CreatedOn>07/05/2018 11:04:00</CreatedOn>
+        <ModifiedOn>22/05/2018 08:36:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>376056</ID>
+        <Description>Andrezza Rosalem Vieira</Description>
+        <Patient_ID>61823</Patient_ID>
+        <Attendances_Code>524542</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>17/08/2018 13:00:00</InMaAgen>
+        <FiMaAgen>17/08/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>24/05/2018 10:07:00</DtMaAgen>
+        <ObseAgen>Ciente do valor, pdf ok.</ObseAgen>
+        <CreatedOn>24/05/2018 10:10:00</CreatedOn>
+        <ModifiedOn>24/05/2018 10:10:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>952</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375077</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/05/2018 14:30:00</InMaAgen>
+        <FiMaAgen>25/05/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>18/05/2018 15:09:00</DtMaAgen>
+        <CreatedOn>18/05/2018 15:10:00</CreatedOn>
+        <ModifiedOn>24/05/2018 11:25:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>376066</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>30/05/2018 16:00:00</InMaAgen>
+        <FiMaAgen>30/05/2018 17:00:00</FiMaAgen>
+        <DtMaAgen>24/05/2018 10:56:00</DtMaAgen>
+        <ObseAgen>REUNIÃO CIENTIFICA
+Quando: 30/05/2018
+Horário: das 16h às 18h
+Local: Ed. Octávio de Carvalho, sala 152 - 1º andar.
+Endereço: Rua Botucatu, 740.
+
+A pauta da nossa reunião será:
+
+1)      Rekovelle - Palestra Dr. Rodrigo Mirisola Rodrigues, Medical Manager (Ferring)
+2)      Espermatogênese e dados da Urologia (Gustavo Bordenali)
+</ObseAgen>
+        <CreatedOn>24/05/2018 10:56:00</CreatedOn>
+        <ModifiedOn>24/05/2018 12:09:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>376191</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>04/06/2018 07:30:00</InMaAgen>
+        <FiMaAgen>04/06/2018 08:30:00</FiMaAgen>
+        <DtMaAgen>25/05/2018 08:10:00</DtMaAgen>
+        <ObseAgen>REUNIÃO COM PROF. BARACAT E DR. RAFAEL LACORDIA</ObseAgen>
+        <CreatedOn>25/05/2018 08:11:00</CreatedOn>
+        <ModifiedOn>25/05/2018 08:11:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>376820</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>31/07/2018 13:00:00</InMaAgen>
+        <FiMaAgen>31/07/2018 14:30:00</FiMaAgen>
+        <DtMaAgen>29/05/2018 11:51:00</DtMaAgen>
+        <CreatedOn>29/05/2018 11:51:00</CreatedOn>
+        <ModifiedOn>29/05/2018 11:51:00</ModifiedOn>
+        <CreatedBy>263</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>340784</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>14/06/2018 15:30:00</InMaAgen>
+        <FiMaAgen>14/06/2018 18:30:00</FiMaAgen>
+        <DtMaAgen>16/10/2017 16:20:00</DtMaAgen>
+        <CreatedOn>16/10/2017 16:20:00</CreatedOn>
+        <ModifiedOn>30/05/2018 11:55:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>377041</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>06/06/2018 11:30:00</InMaAgen>
+        <FiMaAgen>06/06/2018 12:30:00</FiMaAgen>
+        <DtMaAgen>30/05/2018 13:45:00</DtMaAgen>
+        <ObseAgen>Dra. Luciana Chamié</ObseAgen>
+        <CreatedOn>30/05/2018 13:46:00</CreatedOn>
+        <ModifiedOn>30/05/2018 13:46:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>377478</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>23/07/2018 14:30:00</InMaAgen>
+        <FiMaAgen>23/07/2018 14:45:00</FiMaAgen>
+        <DtMaAgen>04/06/2018 08:30:00</DtMaAgen>
+        <ObseAgen>reservado: Tais Zenezi Scarpin</ObseAgen>
+        <CreatedOn>04/06/2018 08:30:00</CreatedOn>
+        <ModifiedOn>04/06/2018 08:30:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378126</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>07/06/2018 14:30:00</InMaAgen>
+        <FiMaAgen>07/06/2018 15:30:00</FiMaAgen>
+        <DtMaAgen>06/06/2018 15:38:00</DtMaAgen>
+        <ObseAgen>REUNIÃO DR. RODRIGO - FERRING E DANIELA MANOLE</ObseAgen>
+        <CreatedOn>06/06/2018 15:39:00</CreatedOn>
+        <ModifiedOn>06/06/2018 15:39:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>375512</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>15/06/2018 14:30:00</InMaAgen>
+        <FiMaAgen>15/06/2018 16:30:00</FiMaAgen>
+        <DtMaAgen>21/05/2018 16:13:00</DtMaAgen>
+        <ObseAgen>NÃO AGENDAR NESTE HORÁRIO</ObseAgen>
+        <CreatedOn>21/05/2018 16:13:00</CreatedOn>
+        <ModifiedOn>07/06/2018 09:37:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378247</ID>
+        <Description>Fernanda murachovsky</Description>
+        <Patient_ID>62158</Patient_ID>
+        <Attendances_Code>527989</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>08/06/2018 13:33:00</InAtAgen>
+        <FiAtAgen>08/06/2018 14:31:00</FiAtAgen>
+        <InMaAgen>08/06/2018 13:00:00</InMaAgen>
+        <FiMaAgen>08/06/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>07/06/2018 09:40:00</DtMaAgen>
+        <ObseAgen>A pedido de Daniela. Ind. Dra. Ana Carina Bertin
+*********************************************
+confirmado pela a própria paciente, ciente que consulta foi antecipada para 08.06 às 13h00
+Silmara Silvestre da Silva em 07/06/2018 18:13:19
+*********************************************</ObseAgen>
+        <CreatedOn>07/06/2018 09:41:00</CreatedOn>
+        <ModifiedOn>07/06/2018 18:13:00</ModifiedOn>
+        <CreatedBy>952</CreatedBy>
+        <ModifiedBy>263</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378845</ID>
+        <Description>Ticiana Tanajura Villas Boas</Description>
+        <Patient_ID>26716</Patient_ID>
+        <Attendances_Code>528772</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>10/06/2018 10:15:00</InMaAgen>
+        <FiMaAgen>10/06/2018 10:30:00</FiMaAgen>
+        <DtMaAgen>10/06/2018 09:52:00</DtMaAgen>
+        <ObseAgen> a pedido da Dra. Claudia.
+*********************************************
+**** CANCELAMENTO DE AGENDAMENTO ****
+erro de agendamento.
+40985756-3º US - Ciclo  (Particular - Particular - Integral)
+cancelado por Fabiola Souza Guimaraes em 10/06/2018 09:55:54
+*********************************************</ObseAgen>
+        <CreatedOn>10/06/2018 09:54:00</CreatedOn>
+        <ModifiedOn>10/06/2018 09:55:00</ModifiedOn>
+        <CanceledOn>10/06/2018 09:55:00</CanceledOn>
+        <CreatedBy>968</CreatedBy>
+        <ModifiedBy>968</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378893</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>23/05/2019 08:00:00</InMaAgen>
+        <FiMaAgen>23/05/2019 16:00:00</FiMaAgen>
+        <DtMaAgen>11/06/2018 08:56:00</DtMaAgen>
+        <ObseAgen>PRÉ CONGRESSO - DIA DESTINADO PARA SE PREPARAR</ObseAgen>
+        <CreatedOn>11/06/2018 08:57:00</CreatedOn>
+        <ModifiedOn>11/06/2018 08:57:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378894</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>24/05/2019 08:00:00</InMaAgen>
+        <FiMaAgen>24/05/2019 16:00:00</FiMaAgen>
+        <DtMaAgen>11/06/2018 08:57:00</DtMaAgen>
+        <ObseAgen>CONGRESSO HUNTINGTON - 24 E 25 DE MAIO</ObseAgen>
+        <CreatedOn>11/06/2018 08:57:00</CreatedOn>
+        <ModifiedOn>11/06/2018 08:57:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378895</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>25/05/2019 08:00:00</InMaAgen>
+        <FiMaAgen>25/05/2019 12:00:00</FiMaAgen>
+        <DtMaAgen>11/06/2018 08:57:00</DtMaAgen>
+        <ObseAgen>CONGRESSO HUNTINGTON 24 E 25 DE MAIO</ObseAgen>
+        <CreatedOn>11/06/2018 08:58:00</CreatedOn>
+        <ModifiedOn>11/06/2018 08:58:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>378069</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/06/2018 13:00:00</InMaAgen>
+        <FiMaAgen>13/06/2018 14:00:00</FiMaAgen>
+        <DtMaAgen>06/06/2018 12:59:00</DtMaAgen>
+        <ObseAgen>DRA. HANNA - Reunião clinica dia 13/06 às 13h- Embriodoação</ObseAgen>
+        <CreatedOn>06/06/2018 13:00:00</CreatedOn>
+        <ModifiedOn>12/06/2018 12:59:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+    <Appointment>
+        <ID>361481</ID>
+        <Description>***** BLOQUEADO *****</Description>
+        <Patient_ID>0</Patient_ID>
+        <Attendances_Code>0</Attendances_Code>
+        <Organizer_ID>1</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>13/06/2018 10:00:00</InMaAgen>
+        <FiMaAgen>13/06/2018 10:20:00</FiMaAgen>
+        <DtMaAgen>26/02/2018 12:07:00</DtMaAgen>
+        <ObseAgen>GROUP CLINICAL SESSIONS 
+
+</ObseAgen>
+        <CreatedOn>26/02/2018 12:07:00</CreatedOn>
+        <ModifiedOn>13/06/2018 07:49:00</ModifiedOn>
+        <CreatedBy>330</CreatedBy>
+        <ModifiedBy>330</ModifiedBy>
+    </Appointment>
+</ArrayOfAppointment>

@@ -1,0 +1,1 @@
+"Nome de coluna 'NomeCorretoraPlanilha' inválido.\r\nNome de coluna 'NomeCorretoraPlanilha' inválido.\r\nNome de coluna 'NomeCorretoraI4PRO' inválido.\r\nNome de coluna 'CNPJI4PRO' inválido."

@@ -1,0 +1,3 @@
+O URL do Database Control é https://DESKTOP-M5OUIJV.mshome.net:1158/em
+
+O Repositório de Gerenciamento está no modo seguro, no qual os dados do Enterprise Manager serão criptografados. A chave de criptografia se encontra no arquivo: C:/app/miche/product/11.2.0/dbhome_1/DESKTOP-M5OUIJV.mshome.net_mica_db/sysman/config/emkey.ora. Certifique-se de que esse arquivo tem back up, pois os dados criptografados não poderão mais ser utilizados se o arquivo se perder. 

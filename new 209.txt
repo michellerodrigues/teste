@@ -1,0 +1,31 @@
+2 - Obter Endereço - CEP - Serviço Precificador
+
+REQUEST
+Request URL: https://impeto.markelseguros.com.br/WebApi/api/Dropdown/ObterEndereco?cep=20740180
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 194.69.42.216:443
+Referrer Policy: no-referrer-when-downgrade
+Content-Length: 396
+Content-Type: application/json; charset=utf-8
+Date: Thu, 10 May 2018 20:42:58 GMT
+Server: Microsoft-IIS/8.5
+X-Frame-Options: DENY
+X-Powered-By: ASP.NET
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: lv-LV,lv;q=0.9,pt-BR;q=0.8,pt;q=0.7,en;q=0.6
+Authorization: Bearer cRxQ-yMg9r5AhvkAa1Y6BQvIJ5nDUrjUTLO-U6eFhsv2yGzRMuH3Yl4MUXja-OsJJiQaBCXgyYO7ZhLsf2vgTNWBezlPEhNB62h6mkdkNuNtYHw35bFBVj9VRJpWuouEEpQ9_8Ybsxd4Y1WW9Do8XX4o0ePsHa5L8wLOqttLnYRF-CX-s4-iBbXBMF410UmD0OSrYyq3DtocB951hYjGZkX48ScLndo3lIe-MLXsIbBqO37UTt0s99A0gdW2tisqilpaU6Jwj5-kDzw987UZGzSWOmxMXyhC_2NABCGyCYof0P0XwlokX6mW-KE3Q_pPdEfyd5OrurRVHR8hNHI9W_tczRLPlyPHDp8baiwV-GLFU88_5JGRxaaYocEfCQckqLGVqh0WPrMSYyijPJUS1A
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: BIGipServermarkelseguros.com.br.app~markelseguros.com.br_pool=604141834.20480.0000
+Host: impeto.markelseguros.com.br
+If-Modified-Since: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+Referer: https://impeto.markelseguros.com.br/
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Mobile Safari/537.36
+X-Frame-Options: DENY
+cpfCnpj: 14665407703
+
+RESPONSE
+{"idEndereco":0,"nomeDoSegurado":null,"cpfCnpj":null,"logradouro":"Sílvia","numero":null,"complemento":"","bairro":"Piedade","uf":{"cd_uf":2,"nm_uf":"RJ","nm_estado":"Rio de Janeiro","cd_pais":1},"municipio":{"idMunicipio":877,"nomeMunicipio":"Rio de Janeiro","idMicrorregiao":"33018","idUf":2,"idMunicipioI4Pro":null},"cep":"20740180","ddd":null,"numeroTelefone":null}

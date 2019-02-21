@@ -1,0 +1,14 @@
+
+
+1a coisa - 
+
+CPF +
+
+testar: testar a inclusão de um paciente SEM CPF na medsoft
+busca: cpf ou documento
+cadastro: cpf, flag estrangeiro (if documento inicia com N, estrangeiro = true)
+integração: ao pesquisar o paciente: if cpf é vazio, pesquisa pelo documento (rg no medsoft)
+
+
+var email: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+pattern="    [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />

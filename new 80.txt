@@ -1,0 +1,135 @@
+public ActionResult ConsultarAgendaPrestadorFiltro(ProcedimentoModel model)
+        {
+            AgendamentoDAL dal = new AgendamentoDAL();
+            List<ProcedimentoAgendaModel> procedimentos = new List<ProcedimentoAgendaModel>();
+            model.DtInicio = Convert.ToDateTime(model.stDtInicio + " 00:00:00");
+            model.DtFim = Convert.ToDateTime(model.stDtFim + " 23:59:59");
+
+            string Nome = Request["Nome"];
+            string Cpf = Request["Cpf"];
+            string IgnorarData = Request["ChkIgnorarData"];
+            int Agrupamento = int.Parse(Request["Agrupamento"]);
+
+
+
+            AgendaDTOCollection lista = dal.ListarProcedimentosAgendas(model.CustomerId,
+                model.IdTipoProcedimento,
+                model.IdPrestador,
+                model.IdStatus,
+                model.DtInicio,
+                model.DtFim,
+                Nome,
+                Cpf.Replace(".", "").Replace("-", ""),
+                IgnorarData,
+                Agrupamento);
+
+            List<DateTime> allDates = new List<DateTime>();
+
+            if (string.IsNullOrEmpty(IgnorarData))
+            {
+                for (DateTime date = model.DtInicio; date <= model.DtFim; date = date.AddDays(1))
+                    allDates.Add(date);
+            }
+            else
+            {
+                var listaGroup = lista.GroupBy(x => x.DtAgendaSemHora);
+                foreach (var item in listaGroup)
+                {
+                    allDates.Add(item.Key);
+                }
+
+            }
+
+            int countDispo = 0;
+            int countAgd = 0;
+            int countAcomp = 0;
+            foreach (var dt in allDates)
+            {
+                ProcedimentoAgendaModel pVazio = new ProcedimentoAgendaModel() { DataAgendaSemHora = dt, Locais = new List<LocalModel>(), exibir = true };
+
+                pVazio.qtdDisponiveis = string.Format("({0}) Disponíveis", 0);
+                pVazio.qtdAgendados = string.Format("({0}) Agendados", 0);
+                pVazio.qtdAcompanhamentos = string.Format("({0}) Acompanhamentos", 0);
+
+                if (lista.Exists(x => x.DtAgendaSemHora == dt))
+                {
+                    #region procedimentos
+                    IEnumerable<string> tmpList = lista.FindAll(x => x.DtAgendaSemHora == dt).Select(x => x.TipoProcData).Distinct();
+                    foreach (string tmp in tmpList)
+                    {
+                        string[] arr = tmp.Split('|');
+
+                        ProcedimentoAgendaModel p = new ProcedimentoAgendaModel()
+                        {
+                            DsTipoProcedimento = arr[2].ToString(),
+                            IdTipoProcedimento = !string.IsNullOrEmpty(arr[1]) ? Convert.ToInt32(arr[1]) : 0,
+                            DataAgendaSemHora = !string.IsNullOrEmpty(arr[0]) ? Convert.ToDateTime(arr[0]) : DateTime.MinValue,
+                            Locais = new List<LocalModel>(),
+                            exibir = false
+                        };
+                        List<AgendaDTO> agendasTmp = lista.FindAll(x => x.TipoProcData == tmp);
+
+                        if (model.IdStatus != 2)
+                        {
+                            p.exibir = true;
+                            countDispo = 0;
+                            List<AgendaDTO> agendasDispo = agendasTmp.FindAll(x => x.IdStatus == 3 && x.FlAcompanhamento == "N");
+                            foreach (var ad in agendasDispo)
+                            {
+                                countDispo = countDispo + Convert.ToInt32(ad.QtdPrevAtendimentos);
+                            }
+                            countAgd = agendasTmp.FindAll(x => x.IdStatus == 1 && x.FlAcompanhamento == "N").Count;
+                            countAcomp = agendasTmp.FindAll(x => x.FlAcompanhamento == "S").Count;
+
+                            p.qtdDisponiveis = string.Format("({0}) Disponíveis", countDispo);
+                            p.qtdAgendados = string.Format("({0}) Agendados", countAgd);
+                            p.qtdAcompanhamentos = string.Format("({0}) Acompanhamentos", countAcomp);
+                        }
+
+
+                        for (int i = 0; i < agendasTmp.Count; i++)
+                        {
+                            LocalModel loc = new LocalModel()
+                            {
+                                CustomerId = agendasTmp[i].CustomerId,
+                                DsLocalizacao = agendasTmp[i].DsLocalizacao,
+                                IdLocalizacao = agendasTmp[i].IdLocalizacao
+                            };
+                            if (!p.Locais.Exists(x => x.IdLocalizacao == agendasTmp[i].IdLocalizacao))
+                            {
+                                loc.Agendas = new List<AgendaModel>();
+                                var agd = new AgendaModel(agendasTmp[i]);
+                                loc.Agendas.Add(agd);
+                                p.Locais.Add(loc);
+                            }
+                            else
+                            {
+                                int? idx = p.Locais.FindIndex(x => x.IdLocalizacao == agendasTmp[i].IdLocalizacao);
+                                var agd = new AgendaModel(agendasTmp[i]);
+                                p.Locais[idx.Value].Agendas.Add(agd);
+                            }
+                        }
+                        procedimentos.Add(p);
+                    }
+
+                    #endregion procedimentos
+                }
+                else
+                {
+                    procedimentos.Add(pVazio);
+                }
+            }
+
+
+            var prestador = new PrestadorModel();
+            if (Session["IdentificacaoCliente"] != null)
+                prestador = (PrestadorModel)Session["IdentificacaoCliente"];
+
+            ViewBag.DsCategoriaPrestador = prestador.DsCategoriaPrestador;
+
+            //Caso o médico logado seja diferente do selecionado
+            //Impedir que este remova a agenda do médico selecionado
+            ViewBag.PermiteExcluirAgenda = "S";//ainda não aplicar (model.IdPrestador != prestador.IdPrestador && prestador.IdCategoriaPrestador == 1) ? "N" : "S";
+
+            return PartialView(procedimentos);
+        }

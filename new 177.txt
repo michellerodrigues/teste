@@ -1,0 +1,17 @@
+
+
+[{"UsuId":364622,"Nome":"JESSIKA KELER","NomeMedico":null,"Cpf":"39654920808","Endereco":"RUA PARATI","EnderecoNumero":"136","Bairro":"JARDIM MOREIRA","Cidade":"GUARULHOS","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"60972","ClientId":null,"ClientGroupId":null,"MiscData":"21955840","MemberIdConjuge":null,"EffectiveDateOverride":20180419,"IdCliente":"60972","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+
+https://www.vidalink.com.br/PSP_Admin/Paciente/ProntuarioPaciente?UsuId=317607&SisId=21&SicHashCode=4C8056E2E8EE3969E053090A0A0AAE22&MemberId=28655353809&MemberIdConjuge=29518833826&IdCliente=56188&UsuIdConjuge=317608&Acao=ALTERACAO&_=1527611707099
+
+[{"UsuId":317607,"Nome":"LUCIMARA ANDRADE VIEIRA","NomeMedico":"ANA PAULA AQUINO","Cpf":"28655353809","Endereco":"AVENIDA ALEXIOS JAFET","EnderecoNumero":"1982","Bairro":"JARDIM AURORA (ZONA OESTE","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"28655353809","ClientId":null,"ClientGroupId":null,"MiscData":"17003310","MemberIdConjuge":"29518833826","EffectiveDateOverride":20171004,"IdCliente":"56188","DataInicioBeneficioCliente":null,"UsuIdConjuge":317608,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+https://www.vidalink.com.br/PSP_Admin/Paciente/ProntuarioPaciente?UsuId=364622&SisId=21&SicHashCode=4C8056E2E8EE3969E053090A0A0AAE22&MemberId=60972&MemberIdConjuge=&IdCliente=60972&UsuIdConjuge=0&Acao=ALTERACAO&_=1527611707103
+
+https://www.vidalink.com.br/PSP_Admin/Paciente/ListarPacientes?Cpf=&Nome=JESSIKA%20KELER&Medico=&FlSistema=P&_=1527611707102
+
+[{"UsuId":364622,"Nome":"JESSIKA KELER","NomeMedico":null,"Cpf":"39654920808","Endereco":"RUA PARATI","EnderecoNumero":"136","Bairro":"JARDIM MOREIRA","Cidade":"GUARULHOS","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"60972","ClientId":null,"ClientGroupId":null,"MiscData":"21955840","MemberIdConjuge":null,"EffectiveDateOverride":20180419,"IdCliente":"60972","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+

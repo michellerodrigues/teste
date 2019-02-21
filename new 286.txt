@@ -1,0 +1,52 @@
+Novo pedido de deleção: 52422 - Michele Ancelmo da Silva - Duplicidade_TITULAR_DADOS_MEDSOFT
+
+--Pelegrini, pode pedir pro dba executar o script abaixo?
+
+DELETE FROM acesso.usuario_perfil u
+WHERE u.USU_ID = 371713;
+
+DELETE FROM acesso.usuario_sistema u
+WHERE u.usu_id = 371713;
+
+SELECT * FROM acesso.usuario_sistema u
+WHERE u.USI_ID = 371026
+
+DELETE FROM acesso.usuario_member um
+WHERE um.customer_id = 'CT000519'
+AND um.member_id = 'SSID_61945';
+
+DELETE FROM acesso.usuario u
+WHERE u.customer_id = 'CT000519'
+AND um.member_id = 'SSID_61945';
+
+DELETE FROM acesso.member_optin m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM acesso.member_historico m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM acesso.member_adicional m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM IIS.MEMBER_GENERICO_MEDICAMENTO m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM DS.MEMBER_WEB_UPDATE m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM MEMBER_COVERAGE m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM MEMBER_GENERICO m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';
+
+DELETE FROM MEMBER m
+WHERE m.customer_id = 'CT000519'
+AND m.member_id ='SSID_61945';

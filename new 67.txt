@@ -1,0 +1,32 @@
+http://localhost:1040/WebAppAdminPSP/Paciente/ListarAgendamentosPaciente?IdCliente=50061&CPF=SSID_50061&_=1524184538921
+
+
+Request URL: http://localhost:1040/WebAppAdminPSP/Paciente/ListarAgendamentosPaciente?IdCliente=50061&CPF=SSID_50061&_=1524184538921
+
+190826
+
+SP_AGENDAMENTO_PACIENTE_SEL
+
+"CT000393"
+
+SP_AGENDAMENTO_PACIENTE_SEL
+
+SP_CANCELA_AGENDAMENTO
+
++		[0]	{P_CUSTOMER_ID}	object {Oracle.DataAccess.Client.OracleParameter}
++		[1]	{P_ID_AGENDA}	object {Oracle.DataAccess.Client.OracleParameter}
++		[2]	{P_USU_ID}	object {Oracle.DataAccess.Client.OracleParameter}
++		[3]	{P_ID_MOTIVO}	object {Oracle.DataAccess.Client.OracleParameter}
++		[4]	{P_ST_PROCEDIMENTO}	object {Oracle.DataAccess.Client.OracleParameter}
+
+
+		Value	"CT000393"	object {string}
+		Value	30328	object {decimal}
+		Value	184993	object {int}
+		Value	4	object {int}
+cancelamento do 328
+	
+	
+	SP_LOG_INS
+	
+	

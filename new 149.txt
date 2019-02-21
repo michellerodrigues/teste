@@ -1,0 +1,11 @@
+(CLOB) {"FileInfo":{"ID":null,"Name":null,"Role":null,"Version":null,"SourceSystemName":null,"SourceSystemVersion":null,"SourceSystemITSupportContactName":null,"SourceSystemITSupportContactEmail":null,"DataLanguage":null,"CreatedOn":null,"CreatedBy":null,"EditionStartedOn":null,"EditionConcludedOn":null},"SourceInstitution":{"IDType":null,"ID":null,"Name":null,"ITSupportContactName":null,"ITSupportContactEmail":null},"Patients":[{"Type":null,"IDs":[{"Type":"BRAZILIAN_CPF","Number":"40773236651"},{"Type":"DESTINATION_SYSTEM_ID","Number":"CT000393|40773236651"}],"Name":{"Title":"","FirstName":"RAFAELA","MiddleName":"GOMES","LastName":"DUCATI","FullName":"RAFAELA GOMES DUCATI"},"DateOfBirth":"1978-03-03T00:00:00.00Z","Race":"NONE","Sex":"FEMALE","Religion":"NONE","SexualOrientation":"NONE","Phones":[{"Type":"CELL1","Number":"21982266269"},{"Type":"HOME","Number":""},{"Type":"COMMERCIAL","Number":""}],"Addresses":[],"Emails":[{"Type":"PERSONAL1","Email":"RAFAELA.DUCATI@MAILINATOR.COM"}],"Occupations":[{"ID":"0"}],"PersonRelationships":[],"InstitutionRelationships":[{"Type":"IS_HEALTHCARE_SERVICE_PROVIDER_OF","IDs":[{"Type":"SOURCE_SYSTEM_ID","ID":"3"}],"Name":"UNIDADE VILA MARIANA","Phones":[{"Type":"WORK","Number":"11975394810"}],"Addresses":[{"Type":"LOCAL","AddressLine1":"PRAÇA EVANGELISTA, 169 - VILA SANTO ESTÉFANO","Number":"169","Complement":"SAÚDE","District":"SAO PAULO","City":"SAO PAULO","State":"SP","Zip":"04152020","Country":null}],"Emails":[]}]}],"FormFillingSurvey":{"Easiness":null},"DataSubmissionDate":"0001-01-01T00:00:00.00Z"}
+
+(CLOB) {"Message":"Authorization has been denied for this request."}
+
+(CLOB) QUANTIDADE DE AGENDAMENTOS NOVOS E ALTERADOS: 0. AGENDA: 27
+(CLOB) QUANTIDADE DE AGENDAMENTOS NOVOS E ALTERADOS: 0. AGENDA: 27
+(CLOB) QUANTIDADE DE AGENDAMENTOS NOVOS E ALTERADOS: 0. AGENDA: 27
+(CLOB) /Schedule/CreatedsNChangeds/142/2018-05-23 08!30/2018-05-23 08!50	(CLOB) "Appointments not found."
+
+(CLOB) QUANTIDADE DE AGENDAMENTOS NOVOS E ALTERADOS: 0. AGENDA: 22
+

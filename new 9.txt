@@ -1,0 +1,142 @@
+{  
+   "dt_cotacao" : "2018-04-02" , "id_usuario" : 372 , "cd_produto" : 331 , "id_pessoa_corretor" : 405779 , "InserirClientePropriedade" : {
+   
+   
+   
+     
+      "nm_pessoa":"Teste 27 03",
+      "nm_propriedade":"teste 02 04 v3",
+      "cd_tipo_pessoa":1,
+      "nr_rua_endereco":"44",
+      "nm_complemento":"",
+      "nm_cep":"21073440",
+      "cd_uf":22,
+      "id_local":104568,
+      "nr_area_risco":480.00,
+      "id_cod_unidade":null,
+      "id_cod_subscritor":null,
+      "nr_cnpj_cpf":"14665407703",
+      "nm_telefone_cliente":"22702079",
+      "nm_ddd_cliente":"21",
+      "id_tp_subvencao":2
+   },
+   "InserirDadosItem":{  
+      "id_fruta_grao":120,
+      "id_grp_cultivo":2,
+      "id_tp_solo":3,
+      "id_rural_nivel_cobertura_diferenciado":3,
+      "nr_area_risco":480.00,
+      "qt_produto_kilo_alqueire":5118.00,
+      "vl_reais_quilo":30.00,
+      "dt_inicio_plantacao":"2018-01-04",
+      "dt_fim_plantacao":"2018-04-30",
+      "vl_custo_producao":1500.00,
+      "cd_unidade":2,
+      "nr_area_total_propriedade" : 480,00 } , "InserirCoberturas" : [
+   
+     
+      {  
+         "id_produto_cobertura" : 1481 , "vl_is" : null , "vl_premio_liquido" : 12591.23 } , {
+         
+         
+      
+        
+         "id_produto_cobertura" : 1482 , "vl_is" : 5000000.00 , "vl_premio_liquido" : 1888.69 } ] , "InserirQuestoes" : [
+         
+         
+      
+   
+     
+      {  
+         "id_questao" : 1206 , "id_resposta" : 283 } , {
+         
+      
+        
+         "id_questao" : 1207 , "id_resposta" : 294 } , {
+         
+      
+        
+         "id_questao" : 1208 , "id_resposta" : 298 } , {
+         
+      
+        
+         "id_questao" : 1209 , "id_resposta" : 303 } , {
+         
+      
+        
+         "id_questao" : 1210 , "id_resposta" : 305 } , {
+         
+      
+        
+         "id_questao" : 1211 , "id_resposta" : 309 } , {
+         
+      
+        
+         "id_questao" : 1212 , "id_resposta" : 312 } , {
+         
+      
+        
+         "id_questao" : 1213 , "id_resposta" : 318 } , {
+         
+      
+        
+         "id_questao" : 1214 , "id_resposta" : 320 } , {
+         
+      
+        
+         "id_questao" : 1215 , "id_resposta" : 323 } , {
+         
+      
+        
+         "id_questao" : 1216 , "id_resposta" : 326 } , {
+         
+      
+        
+         "id_questao" : 1217 , "id_resposta" : 329 } , {
+         
+      
+        
+         "id_questao" : 1218 , "id_resposta" : 332 } , {
+         
+      
+        
+         "id_questao" : 1219 , "id_resposta" : 335 } , {
+         
+      
+        
+         "id_questao" : 1220 , "id_resposta" : 338 } , {
+         
+      
+        
+         "id_questao" : 1220 , "id_resposta" : 338 } , {
+         
+      
+        
+         "id_questao" : 1224 , "id_resposta" : 350 } , {
+         
+      
+        
+         "id_questao" : 1225 , "id_resposta" : 353 } , {
+         
+      
+        
+         "id_questao" : 1226 , "id_resposta" : 356 } , {
+         
+      
+        
+         "id_questao" : 1228 , "id_resposta" : 369 } , {
+         
+      
+        
+         "id_questao":1223,
+         "id_resposta":347
+      }
+   ],
+   "InserirParcelamento":{  
+      "id_produto_parc_premio":243,
+      "cd_forma_pagamento_pparcela":1000009,
+      "cd_forma_pagamento":1000009,
+      "dt_vencimento_parcela":"2018-08-04",
+      "nr_dia_cobranca":15
+   }
+}

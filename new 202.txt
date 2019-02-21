@@ -1,0 +1,42 @@
+AbsoluteUri = "http://localhost/Vidalink.API.Services/api/Seguranca/ValidarChaveSistema?hashCode=undefined"
+chave do sistema inváldias
+
+13:30AGENDADO[*]
+PATRICIA KELLER FAUSTINO MARGONI - 38 anos
+1ª CONSULTA DE REPRODUÇÃO HUMANA
+
+ segunda-feira, 18 de junho - 13:30
+ 
+ 17:00ACOMPANHAMENTO
+JEFERSON CESAR LOPES - 41 anos
+AVALIAÇÃO CLÍNICA (SEM COBRANÇA)
+
+segunda-feira, 11 de junho - (23) Disponíveis - (1) Agendados - (1) Acompanhamentos
+
+AGENDADO[*]
+JORGELAINE CRISTINA DE ALMEIDA SANTOS QU - 42 anos
+1ª CONSULTA DE REPRODUÇÃO HUMANA
+segunda-feira, 11 de junho - 
+
+
+ $(document).off("click", ".btnImprimirProtocolo");
+            $(document).on("click", ".btnImprimirProtocolo", function () {
+                ImprimirProtocolo();
+            });
+			
+var ImprimirProtocolo = function () {
+	var mywindow = window.open('', 'PRINT', 'height=600,width=800');
+
+	mywindow.document.write('<html><head><title> Protocolo de Agendamento </title>');
+	mywindow.document.write('</head><body >');
+	mywindow.document.write($("#divProtocoloImpressao").html());
+	mywindow.document.write('</body></html>');
+
+	mywindow.document.close(); // necessary for IE >= 10
+	mywindow.focus(); // necessary for IE >= 10*/
+
+	mywindow.print();
+	mywindow.close();
+
+	return true;
+}

@@ -1,0 +1,465 @@
+
+
+<input id="hdnUrlCadastroPaciente" name="hdnUrlCadastroPaciente" type="hidden" value="/VidalinkConnectApi/Paciente/CadastrarPaciente" />
+<input id="hdnCep" name="hdnCep" type="hidden" value="/VidalinkConnectApi/Paciente/BuscarPorCep" />
+<input id="hdnCRMMedico" name="hdnCRMMedico" type="hidden" value="/VidalinkConnectApi/Paciente/BuscarMedico" />
+<input id="hdnMsgSucessoContactCenter" name="hdnMsgSucessoContactCenter" type="hidden" value="/VidalinkConnectApi/Paciente/MensagemSucessoContactCenter?Acao=ALTERACAO" />
+<input id="hdnUrlRecuperaQuery" name="hdnUrlRecuperaQuery" type="hidden" value="/VidalinkConnectApi/Paciente/RecuperaQueryString" />
+<input id="hdnUrlRecuperarSenha" name="hdnUrlRecuperarSenha" type="hidden" value="/VidalinkConnectApi/Seguranca/RecuperarSenha" />
+<input id="hdnSisIdRecuperarSenha" name="hdnSisIdRecuperarSenha" type="hidden" value="21" />
+<input id="hdnAcao" name="hdnAcao" type="hidden" value="ALTERACAO" />
+<input id="hdnCampoLogin" name="hdnCampoLogin" type="hidden" value="USU_CPF" />
+
+<style>
+    .select2-dropdown, .ui-datepicker {
+        z-index: 9999 !important;
+    }
+
+    .indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background: transparent;
+        border: 1px solid #979797;
+        border-radius: 4px;
+    }
+
+    .checkbox input:checked ~ .indicator:after {
+        display: block;
+    }
+
+    .checkbox input:checked ~ .indicator {
+        background: #3071a9;
+        border-color: #3071a9;
+        border-radius: 4px;
+    }
+
+    .indicator:after {
+        left: 6px;
+        top: 3px;
+        width: 5px;
+        height: 10px;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+
+    .indicator:after {
+        content: '';
+        position: absolute;
+        display: none;
+    }
+
+    .checkbox input:disabled ~ .indicator {
+        background: #e6e6e6;
+        opacity: 0.6;
+        pointer-events: none;
+        border-color: #e6e6e6;
+    }
+
+    .checkbox {
+        display: block;
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+        .checkbox span {
+            font-weight: 300;
+            color: #34495e;
+            margin-left: 7px;
+        }
+
+        .checkbox input {
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+        }
+</style>
+    <form class="form" name="formPaciente" id="formPaciente">
+        <input type="hidden" id="0|Info" name="0|Info" value="QFljtYyJ9Oq2SlTPy05uL4zZ0gfZniwu297f7pqt989u/G81YfK3T6V8AB/5eiS71uHKj4vq1NMJT8yj2k/x5JyMf9dL2wUVJ5ObDba0J5miyVreRXG3ojhJL4ULIN2KahD0t79oIOpxm RmssGeJgmTRBYezEa/o9wIm3Js4ypYzUjMJB4zrCf633aINK7JO/64Mcs3SHCtUyu0mBwVYKu V0 JjpokmMpSfcRagzNDagSi5nL2xqORvoJOXxtxLfbXpDY56hsrO3pWo t AdZqOHnNmccw1APweGcfHylu1XqXHihk8RSqWbrE3wiPhderNDfSpLYEzbWGniq HdG8 TchBOH NMhh9iLYma7C4siWK1NJULTvVK5XFOdQVopAn2cwEWqBsh MKU2PpA==" class="info" />
+        <input type="hidden" id="0|TipoCampo" name="0|TipoCampo" value="T" />
+        <input type="hidden" name="IdentificacaoUsuarioExterno" value="WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS/0=" />
+
+        <div id="msgDivConfirmacao" class="alertmsg"></div>
+
+            <input type="hidden" data-attribute-id="394" data-attribute-name="RACE" attribute name="394|RACE" id="394|RACE" />
+            <input type="hidden" data-attribute-id="396" data-attribute-name="RELIGION" attribute name="396|RELIGION" id="396|RELIGION" />
+            <input type="hidden" data-attribute-id="392" data-attribute-name="MEDICO_HTML" attribute name="392|MEDICO_HTML" id="392|MEDICO_HTML" />
+            <input type="hidden" data-attribute-id="117" data-attribute-name="NOME_MEDICO" attribute name="117|NOME_MEDICO" id="117|NOME_MEDICO" />
+            <input type="hidden" data-attribute-id="115" data-attribute-name="CRM" attribute name="115|CRM" id="115|CRM" />
+            <input type="hidden" data-attribute-id="116" data-attribute-name="CRM_UF" attribute name="116|CRM_UF" id="116|CRM_UF" />
+            <input type="hidden" data-attribute-id="118" data-attribute-name="MEDICAMENTO" attribute name="118|MEDICAMENTO" id="118|MEDICAMENTO" value="-1" />
+            <input type="hidden" data-attribute-id="83" data-attribute-name="USU_LOGIN" attribute name="83|USU_LOGIN" id="83|USU_LOGIN" value="ALICE.GOMES@MAILINATOR.COM" />
+            <input type="hidden" data-attribute-id="143" data-attribute-name="USU_ID" attribute name="143|USU_ID" id="143|USU_ID" value="196607" />
+            <input type="hidden" data-attribute-id="112" data-attribute-name="COMBO_2" attribute name="112|COMBO_2" id="112|COMBO_2" value="-1" />
+            <input type="hidden" data-attribute-id="359" data-attribute-name="FONE_TIPO_2" attribute name="359|FONE_TIPO_2" id="359|FONE_TIPO_2" value="CEL" />
+            <input type="hidden" data-attribute-id="106" data-attribute-name="FONE_TIPO_1" attribute name="106|FONE_TIPO_1" id="106|FONE_TIPO_1" value="R" />
+            <input type="hidden" data-attribute-id="121" data-attribute-name="MISC_DATA" attribute name="121|MISC_DATA" id="121|MISC_DATA" value="10890634" />
+            <input type="hidden" data-attribute-id="105" data-attribute-name="ALT_MEMBER_ID" attribute name="105|ALT_MEMBER_ID" id="105|ALT_MEMBER_ID" value="37086469408" />
+            <input type="hidden" data-attribute-id="342" data-attribute-name="PATIENT_PIN_NUMBER" attribute name="342|PATIENT_PIN_NUMBER" id="342|PATIENT_PIN_NUMBER" />
+            <input type="hidden" data-attribute-id="96" data-attribute-name="MEMBER_FIRST_NAME" attribute name="96|MEMBER_FIRST_NAME" id="96|MEMBER_FIRST_NAME" value="ALICE AMARAL GOMES" />
+            <input type="hidden" data-attribute-id="95" data-attribute-name="MEMBER_LAST_NAME" attribute name="95|MEMBER_LAST_NAME" id="95|MEMBER_LAST_NAME" />
+            <input type="hidden" data-attribute-id="94" data-attribute-name="TERMINATION_DATE" attribute name="94|TERMINATION_DATE" id="94|TERMINATION_DATE" value="99991231" />
+            <input type="hidden" data-attribute-id="93" data-attribute-name="EFFECTIVE_DATE_OVERRIDE" attribute name="93|EFFECTIVE_DATE_OVERRIDE" id="93|EFFECTIVE_DATE_OVERRIDE" value="20180520" />
+            <input type="hidden" data-attribute-id="92" data-attribute-name="RELATIONSHIP" attribute name="92|RELATIONSHIP" id="92|RELATIONSHIP" value="1" />
+            <input type="hidden" data-attribute-id="91" data-attribute-name="PERSON_CODE" attribute name="91|PERSON_CODE" id="91|PERSON_CODE" value="001" />
+            <input type="hidden" data-attribute-id="90" data-attribute-name="MEMBER_ID" attribute name="90|MEMBER_ID" id="90|MEMBER_ID" value="37086469408" />
+            <input type="hidden" data-attribute-id="89" data-attribute-name="CLIENT_GROUP_ID" attribute name="89|CLIENT_GROUP_ID" id="89|CLIENT_GROUP_ID" value="INTIMAMENTE BEM" />
+            <input type="hidden" data-attribute-id="88" data-attribute-name="CLIENT_ID" attribute name="88|CLIENT_ID" id="88|CLIENT_ID" value="INTIMAMENTE BEM" />
+            <input type="hidden" data-attribute-id="87" data-attribute-name="CUSTOMER_ID" attribute name="87|CUSTOMER_ID" id="87|CUSTOMER_ID" value="CT000393" />
+            <input type="hidden" data-attribute-id="145" data-attribute-name="SENHA_OPER" attribute name="145|SENHA_OPER" id="145|SENHA_OPER" value="1IAjs7ZGOBQ=" />
+            <input type="hidden" data-attribute-id="142" data-attribute-name="SIS_ID" attribute name="142|SIS_ID" id="142|SIS_ID" value="21" />
+            <input type="hidden" data-attribute-id="144" data-attribute-name="LOGIN_OPER" attribute name="144|LOGIN_OPER" id="144|LOGIN_OPER" value="ADMVDLK" />
+
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-content mb-20" style="display:block">
+                            <h2 class="mb-40 text-center" data-grupoformid="1">Dados Pessoais</h2>
+                        <div class="row">
+                                <div class="col-md-6"><span data-itens="23"></span></div>
+                        </div>
+                        <div class="row">
+                                <div id="div-85" class="col-md-4 form-group" >
+                                            <label>Nome Completo</label>
+ <span id="span'85,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                            <input style="z-index:9999;" type="text" data-attribute-id="85" data-attribute-name="USU_NOME" id="85" name="85|USU_NOME" class="form-control required autotab  " maxlength="200,0" value="ALICE AMARAL GOMES"  data-replicar="" />
+                                </div>
+                                <div id="div-81" class="col-md-3 form-group" >
+                                            <label>CPF</label>
+ <span id="span'81,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                            <span style="display:none;color:red;" id="divCpfInvalido">
+                                                Inválido.
+                                            </span>
+                                            <input style="z-index:9999;" type="text" data-attribute-id="81" data-attribute-name="USU_CPF" id="81" name="81|USU_CPF" class="form-control required cpf autotab  " maxlength="11,0" value="37086469408" readonly=readonly data-replicar="" />
+                                </div>
+                                <div id="div-113" class="col-md-2 form-group" >
+                                            <label>G&#234;nero</label>
+ <span id="span'113,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                        <select class="form-control required changeCombo sexo" data-attribute-id="113" data-attribute-name="SEX_OF_PATIENT" id="113" name="113|SEX_OF_PATIENT" >
+                                                <option  value="">[Selecione]</option>
+                                                <option  value="1">Masculino</option>
+                                                <option selected value="2">Feminino</option>
+                                        </select>
+                                </div>
+                                <div id="div-103" class="col-md-3 form-group" >
+                                            <label>Data Nascimento</label>
+ <span id="span'103,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                            <span style="display:none;color:red;" id="divDataInvalida">
+                                                Inválida.
+                                            </span>
+                                            <input style="z-index:9999;" type="text" data-attribute-id="103" data-attribute-name="DATE_OF_BIRTH" id="103" name="103|DATE_OF_BIRTH" class="form-control required date autotab  " maxlength="10,0" value="21/01/1961"  data-replicar="" />
+                                </div>
+                                <div id="div-107" class="col-md-4 form-group" >
+                                            <label>Celular</label>
+ <span id="span'107,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                            <input style="z-index:9999;" type="text" data-attribute-id="107" data-attribute-name="TELEFONE_2" id="107" name="107|TELEFONE_2" class="form-control required sp_celphones celular autotab  " maxlength="20,0" value="21982266269"  data-replicar="" />
+                                </div>
+                                <div id="div-355" class="col-md-4 form-group" >
+                                            <label>Telefone (Residencial)</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="355" data-attribute-name="FONE_1" id="355" name="355|FONE_1" class="form-control  sp_phones autotab  " maxlength="20,0"  data-replicar="" />
+                                </div>
+                                <div id="div-357" class="col-md-4 form-group" >
+                                            <label>Telefone (Comercial)</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="357" data-attribute-name="TELEFONE_COM" id="357" name="357|TELEFONE_COM" class="form-control  sp_phones autotab  " maxlength="500,0"  data-replicar="" />
+                                </div>
+                                <div id="div-101" class="col-md-3 form-group" >
+                                            <label>CEP</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="101" data-attribute-name="ZIP_CODE" id="101" name="101|ZIP_CODE" class="form-control  cep autotab  " maxlength="10,0"  data-replicar="" />
+                                </div>
+                                <div id="div-97" class="col-md-7 form-group" >
+                                            <label>Endere&#231;o</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="97" data-attribute-name="ADDRESS_1" id="97" name="97|ADDRESS_1" class="form-control  autotab  " maxlength="100,0"  data-replicar="" />
+                                </div>
+                                <div id="div-82" class="col-md-2 form-group" >
+                                            <label>N&#250;mero</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="82" data-attribute-name="END_NUMERO" id="82" name="82|END_NUMERO" class="form-control  autotab  " maxlength="10,0"  data-replicar="" />
+                                </div>
+                                <div id="div-98" class="col-md-4 form-group" >
+                                            <label>Complemento</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="98" data-attribute-name="END_COMPLEMENTO" id="98" name="98|END_COMPLEMENTO" class="form-control  autotab  " maxlength="15,0"  data-replicar="" />
+                                </div>
+                                <div id="div-99" class="col-md-6 form-group" >
+                                            <label>Cidade</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="99" data-attribute-name="CITY" id="99" name="99|CITY" class="form-control  autotab  " maxlength="20,0"  data-replicar="" />
+                                </div>
+                                <div id="div-100" class="col-md-2 form-group" >
+                                            <label>UF</label>
+
+                                        <select class="form-control  changeCombo" data-attribute-id="100" data-attribute-name="STATE" id="100" name="100|STATE" >
+                                                <option  value="">[Selecione]</option>
+                                                <option  value="SP">SP</option>
+                                                <option  value="RJ">RJ</option>
+                                                <option  value="MG">MG</option>
+                                        </select>
+                                </div>
+                                <div id="div-114" class="col-md-4 form-group" >
+                                            <label>Bairro</label>
+
+                                            <input style="z-index:9999;" type="text" data-attribute-id="114" data-attribute-name="ADDRESS_2" id="114" name="114|ADDRESS_2" class="form-control  autotab  " maxlength="25,0"  data-replicar="" />
+                                </div>
+                                <div id="div-86" class="col-md-4 form-group" >
+                                            <label>E-mail</label>
+ <span id="span'86,0'" style="color:red;" data-toggle="tooltip" data-placement="top" title="Obrigatório">*</span> 
+                                            <input style="z-index:9999;" type="text" data-attribute-id="86" data-attribute-name="USU_EMAIL" id="86" name="86|USU_EMAIL" class="form-control required email autotab replicar " maxlength="200,0" value="ALICE.GOMES@MAILINATOR.COM"  data-replicar="83" />
+                                </div>
+                                <div id="div-111" class="col-md-4 form-group" >
+                                            <label>Orienta&#231;&#227;o Sexual</label>
+
+                                        <select class="form-control  changeCombo" data-attribute-id="111" data-attribute-name="OPCAO_SEXUAL" id="111" name="111|OPCAO_SEXUAL" >
+                                                <option  value="">[Selecione]</option>
+                                                <option  value="HETEROSEXUAL">HETEROSEXUAL</option>
+                                                <option  value="HOMOSEXUAL">HOMOSEXUAL</option>
+                                                <option  value="BISEXUAL">BISEXUAL</option>
+                                                <option  value="ASEXUAL">ASEXUAL</option>
+                                        </select>
+                                </div>
+                                <div id="div-84" class="col-md-4 form-group" >
+
+                                </div>
+                                <div id="div-122" class="col-md-12 form-group" style=clear:both>
+
+                                </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                                <div class="col-md-4 termos">
+                                    <div class="checkbox">
+                                        <span>
+                                            <input type="checkbox" value="S" checked data-attribute-id="321" data-attribute-name="OPTIN_1" id="321|OPTIN_1"  name="321|OPTIN_1" />
+                                            <div class="indicator"></div>
+                                            Concordo com os termos e condi&#231;&#245;es de uso
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="checkbox">
+                                        <span>
+                                            <input type="checkbox" value="S" checked data-attribute-id="109" data-attribute-name="OPTIN_2" id="109|OPTIN_2"  name="109|OPTIN_2" />
+                                            <div class="indicator"></div>
+                                            Aceito receber comunica&#231;&#227;o por SMS
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="checkbox">
+                                        <span>
+                                            <input type="checkbox" value="S" checked data-attribute-id="110" data-attribute-name="OPTIN_3" id="110|OPTIN_3"  name="110|OPTIN_3" />
+                                            <div class="indicator"></div>
+                                            Aceito receber comunica&#231;&#227;o por e-mail
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="checkbox">
+                                        <span>
+                                            <input type="checkbox" value="S" checked data-attribute-id="343" data-attribute-name="OPTIN_4" id="343|OPTIN_4"  name="343|OPTIN_4" />
+                                            <div class="indicator"></div>
+                                            Sou doadora de &#243;vulos
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="checkbox">
+                                        <span>
+                                            <input type="checkbox" value="S"  data-attribute-id="344" data-attribute-name="OPTIN_5" id="344|OPTIN_5"  name="344|OPTIN_5" />
+                                            <div class="indicator"></div>
+                                            Sou paciente oncol&#243;gico
+                                        </span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel-content mb-20" style="display:block">
+                            <h2 class="mb-40 text-center" data-grupoformid="3">Cadastro</h2>
+                        <div class="row">
+                                <div class="col-md-6"><span data-itens="0"></span></div>
+                        </div>
+                        <div class="row">
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                        </div>
+                    </div>
+                                <div id="div-medico-html" class="row">
+                                    <div class="col-md-4">
+                                        <label>Médico</label>
+                                        <div>
+                                            <select class="form-control text-box-vdlnk sel-pesquisa" id="IdPrestadorMedico" name="IdPrestadorMedico"><option value=""></option>
+<option value="181">12465053396 12465053396 (CRM 60 - SP)</option>
+<option value="464">244.075.821-38 (CRM 444 - PB)</option>
+<option value="202">39068534386 (CRM 60 - SP)</option>
+<option value="383">91266205292 (CRM 444 - SP)</option>
+<option value="105">ALAN INATIVO (CRM 600 - SP)</option>
+<option value="535">ALESSANDRA MACHADO DE MATOS (CRM 99125 - SP)</option>
+<option value="82">ALEXANDRE (CRM 600 - SP)</option>
+<option value="81">ALEXANDRE GGGG (CRM 600 - SP)</option>
+<option value="509">AMANDA BARRETO VOLPATO ALVAREZ (CRM 122447 - SP)</option>
+<option value="404">AMANDA CASSIA MORAES (CRM 1020 - SP)</option>
+<option value="472">ANA PAULA AQUINO (CRM 22468 - RJ)</option>
+<option value="534">ANA PAULA NUNES (CRM 76692 - SP)</option>
+<option value="469">ARNALDO SCHIZZI CAMBIAGHI (CRM 33692 - SP)</option>
+<option value="641">CAIO AVENLINO DE MATTOS (CRM 444 - SP)</option>
+<option value="473">CAROLINA TEREZA KIMATI (CRM 444 - SP)</option>
+<option value="523">CLAUDIA GOMES (CRM 129658 - SP)</option>
+<option value="512">DALMO DE BARROS E SILVA (CRM 81921 - SP)</option>
+<option value="468">DOUTOR EDSON (CRM 12345 - SP)</option>
+<option value="441">DOUTOR PAULO ROBERTO (CRM 444 - SP)</option>
+<option value="522">EDUARDO HIDEKI MIYADAHIRA (CRM 120256 - SP)</option>
+<option value="467">EDUARDO LEME ALVES DA MOTTA (CRM 58933 - SP)</option>
+<option value="530">EDUARDO LEME ALVES DA MOTTA (CRM 58933 - SP)</option>
+<option value="533">EDUARDO LEME ALVES DA MOTTA (CRM 58933 - SP)</option>
+<option value="561">ELEN FALCOCHIO COURA (CRM 156054 - SP)</option>
+<option value="511">FABIANE SABBAG CORREA (CRM 97858 - SP)</option>
+<option value="341">FELIPE LAZAR (CRM 444 - SP)</option>
+<option value="513">FERNANDA DE PAULA RODRIGUES (CRM 121922 - SP)</option>
+<option value="361">FLAVIO RAMIRES ROSARIO (CRM 46803 - SP)</option>
+<option value="642">FLORIANO BARBOSA (CRM 444 - PI)</option>
+<option value="581">GLAUCIA GOBIRA (CRM 60 - SP)</option>
+<option value="543">GUSTAVO TELES (CRM 133330 - SP)</option>
+<option value="542">HANNA PARK (CRM 151185 - SP)</option>
+<option value="2">JOS&#201; DA SILVA DSV 1234 (CRM 60 - SP)</option>
+<option value="471">KARLA GIUSTI ZACHARIAS (CRM 100967 - SP)</option>
+<option value="1">LEONARDO DA SILVA (CRM 66310 - SP)</option>
+<option value="42">LEONARDO MEDICO 1 (CRM 60 - SP)</option>
+<option value="43">LEONARDO MEDICO 2 (CRM 60 - SP)</option>
+<option value="44">LEONARDO MEDICO 3 (CRM 60 - SP)</option>
+<option value="41">LEONARDO MEDICO 5 (CRM 60 - SP)</option>
+<option value="475">LIVIA OLIVEIRA (CRM 444 - SP)</option>
+<option value="528">LUCIENE KANASHIRO TSUKUDA (CRM 60271 - SP)</option>
+<option value="643">MAISA MAYER (CRM 444 - SP)</option>
+<option value="3">MARCIA DA SILVA (CRM 16607 - MG)</option>
+<option value="501">MARIA MENDES (CRM 60 - SC)</option>
+<option value="476">MAURICIO BARBUOR (CRM 444 - SP)</option>
+<option value="401">MAURICIO CHEHIN (CRM 10861 - SP)</option>
+<option value="477">MAURO BIBANCOS (CRM 444 - SP)</option>
+<option value="514">MELISSA CAVAGNOLI (CRM 30821 - RS)</option>
+<option value="541">MICHELE QUARANTA PANZAN (CRM 88479 - SP)</option>
+<option value="470">MILTON REITZFELD (CRM 37803 - SP)</option>
+<option value="241">OSWALDO LANGE (CRM 444 - SP)</option>
+<option value="384">PAULA FETTBACK (CRM 444 - SP)</option>
+<option value="525">PAULO HOMEM DE MELLO BIANCHI (CRM 109072 - SP)</option>
+<option value="508">RADAMES DE FARIAS SOUSA (CRM 89196 - SP)</option>
+<option value="478">RAFAELA LACORDIA (CRM 444 - SP)</option>
+<option value="381">TALITA GUIMAR&#195;ES SOUZA DEVECCHI (CRM 444 - SP)</option>
+<option value="661">TESTE EM 3 (CRM 80 - SP)</option>
+<option value="622">TESTE INCLUS&#195;O (CRM 444 - SP)</option>
+<option value="681">TESTE MED&#205;CO INT/EXT (CRM 444 - SP)</option>
+<option value="141">TESTE SELECT2 (CRM 444 - MG)</option>
+<option value="382">THAIS SANCHES DOMINGUES (CRM 444 - SP)</option>
+</select>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel-content mb-20" style="display:block">
+                            <h2 class="mb-40 text-center" data-grupoformid="2">M&#233;dico</h2>
+                        <div class="row">
+                                <div class="col-md-6"><span data-itens="0"></span></div>
+                        </div>
+                        <div class="row">
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel-content mb-20" style="display:none">
+                            <h2 class="mb-40 text-center" data-grupoformid="4">Dados Integra&#231;&#227;o</h2>
+                        <div class="row">
+                                <div class="col-md-6"><span data-itens="0"></span></div>
+                        </div>
+                        <div class="row">
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row divButtons" style="margin-top:5px;">
+            <div class="col-md-12 text-center mb-20">
+
+                <button type="button" id="btnGravar" class="btn btn-primary">
+                    Criar Conta
+                </button>
+            </div>
+        </div>
+        <input id="Integracao" name="Integracao" type="hidden" value="S" />
+        <input id="NaoAtualizarToken" name="NaoAtualizarToken" type="hidden" value="N" />
+    </form>
+    <div class="modal fade" id="divCadastroMensagem" style="z-index:9999">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align:center;">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Cadastro do Paciente</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="divCadastroMensagemBody" class="alert" role="alert">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id="btnOkCadastroPaciente">
+                        <span class="glyphicon glyphicon-ok"></span> Ok
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="divInstrucaoRecuperarSenha" style="z-index:9999">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align:center;">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title"><span class="glyphicon glyphicon-question-sign"></span> Recuperação de Senha</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info" role="alert"> <span class="glyphicon glyphicon-question-sign"></span>  Um e-mail foi enviado para o cliente, o mesmo deve acessar o link que está no e-mail e cadastrar a senha.</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning btn-sm" data-dismiss="modal">
+                        <span class="glyphicon glyphicon glyphicon-ban-circle"></span> Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="divErroRecuperarSenha" style="z-index:9999">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align:center;">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title"><span class="glyphicon glyphicon-question-sign"></span> Recuperação de Senha</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-remove"></span> E-mail não enviado! verifique se o mesmo está preenchido corretamente!.</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning btn-sm" data-dismiss="modal">
+                        <span class="glyphicon glyphicon glyphicon-ban-circle"></span> Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+SP_VERIFICAR_DEPENDENTE_SEL
+
+{"ORA-06550: linha 1, coluna 7:\nPLS-00306: wrong number or types of arguments in call to 'SP_PACIENTE_SEL'\nORA-06550: linha 1, coluna 7:\nPL/SQL: Statement ignored"}
+
+ALICE AMARAL GOMES" />

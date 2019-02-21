@@ -1,0 +1,104 @@
+					
+Data	Descrição	Valor (US$)	Valor (R$)		
+Nº Cartão Final:					
+9167					
+Titular:					
+FELIPE O MARCIANO					
+16/04/2017	MERCPAGO-MERCADOLIVR(11/12)		8,9		
+21/02/2018	ANUIDADE DIFERENCIAD(06/12)		19		
+	SUBTOTAL		27,9		
+Nº Cartão Final:					
+6951					
+Titular:					
+FELIPE O MARCIANO					
+03/11/2017	BEL SALVADOR (04/05)		76,27		
+29/11/2017	CARREFOUR COM (03/10)		103,01		
+05/12/2017	ULTRAFARMA SAUDE (03/03)		130,81		
+25/01/2018	PAGAMENTO DE FATURA-INTERNE		-685,86		
+17/02/2018	NETFLIX.COM		27,9		
+	SUBTOTAL		337,99		
+Resumo de Despesas					
+					
+					
+Limites de Crédito					
+					
+					
+Encargos Financeiros					
+					
+					
+					
+Data	Descrição	Valor (US$)	Valor (R$)		
+Nº Cartão Final:					
+9167					
+Titular:					
+FELIPE O MARCIANO					
+16/04/2017	MERCPAGO-MERCADOLIVR(12/12)		8,9		
+	SUBTOTAL		8,9		
+Nº Cartão Final:					
+6951					
+Titular:					
+FELIPE O MARCIANO					
+03/11/2017	BEL SALVADOR (05/05)		76,27		
+18/11/2017	EBANX		-14,46		
+29/11/2017	CARREFOUR COM (04/10)		103,01		
+01/03/2018	PAGAMENTO DE FATURA-INTERNE		-365,89		
+	SUBTOTAL		179,28		
+Nº Cartão Final:					
+721					
+Titular:					
+@FELIPE O MARCIANO					
+18/11/2017	EBANX		-73,9		
+18/11/2017	EBANX		-19,96		
+19/11/2017	WWW.ALIEXPRESS.COM	-104,35			
+	SUBTOTAL		0		
+Resumo de Despesas					
+					
+					
+Limites de Crédito					
+					
+					
+Encargos Financeiros					
+					
+					
+Resumo da Fatura					
+Imagem da Fatura					
+Data de vencimento:06/04/2018					
+Total desta fatura:					
+-R$262,25					
+Pagamento mínimo:					
+					
+R$0,00					
+Total de Parcelas a vencer:					
+					
+R$618,06					
+Multa por atraso:					
+R$0,00					
+Juros de Mora:					
+R$0,00					
+					
+					
+ata	Descrição	Valor (US$)	Valor (R$)		
+Nº Cartão Final:					
+6951					
+Titular:					
+FELIPE O MARCIANO					
+29/11/2017	CARREFOUR COM (05/10)		103,01		
+26/03/2018	EC*ALIPAY		-10,87		
+02/04/2018	PAGAMENTO DE FATURA-INTERNE		-262,25		
+02/04/2018	DEVOLUCAO DO CREDITO A FATU		262,25		
+	SUBTOTAL		365,26		
+Nº Cartão Final:					
+721					
+Titular:					
+@FELIPE O MARCIANO					
+19/11/2017	WWW.ALIEXPRESS.COM	-11,92			
+19/11/2017	WWW.ALIEXPRESS.COM	-8,56			
+29/03/2018	EC*ALIPAY		-13,03		
+	SUBTOTAL		0		
+Resumo de Despesas					
+					
+					
+Limites de Crédito					
+					
+					
+Encargos Financeiros					

@@ -1,0 +1,19 @@
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010002605.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-14T03:44:09","dt_ocorrencia":null,"cd_uf":19,"id_local":108480,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"EVERSON MACEDO","cpfCnpj":"1650848986"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO SAO FRANCISCO","logradouro":"ESTRADA FAZENDINHA KM 04","complemento":"DE KAROLE SEGUIR ATE O DISTRITO JUSSIARA CHEGANDO LA PEGAR E","bairro":"ZONA RURAL","uf":"PR","cidade":"Kaloré","cep":"86920000"}}}
+
+{"cd_apolice":"10001010002605","cd_causa":"0","dt_comunicacao":"2018-06-14","dt_ocorrencia":"2018-06-12","relacao":"4","nm_descricao_itens":"35345435","nm_descricao_danos":"33442gfhgf","id_usuario":"378","nr_ramo":"1","nr_endosso":"0","id_produto_cobertura":"1481","vl_estimado":"1","cd_uf":"19","id_local":"108480","nm_observacao":"fhfh | Causa (Demais Causas):  | Responsável pelo Aviso de Sinistro: Michelle Rodrigues | Telefone do Responsável pelo Aviso de Sinistro (com DDD): (32) 3454-35435 | Relação do Responsável pelo Aviso de Sinistro com o Segurado (Outros):  | Data Estimada da Colheita: 2018-06-21 | Responsável por Acompanhar a Vistoria: Xuxa Meneguel | Telefone de Contato do Reponsável por Acompanhar a Vistoria (com DDD): (21) 3454-35435 | E-mail de Contato do Reponsável por Acompanhar a Vistoria: xmeneguel@mailinator.com.br"}
+apolice?numApolice=10001010002605&_=1529001813418	causas?idProdutoCobertura=1481&_=1529001813419	sinistro	icon_warning.png	
+
+
+
+cd_causa
+ $("#modal-mensagem-error .modal-body p").removeData();
+$('select[name=cd_causa]').val()
+
+{"cd_retorno":0,"nm_retorno":"Apólice Consultada com Sucesso","dadoSinistro":{"id_usuario":378,"cd_apolice":10001010000530.0,"nr_ramo":1,"nr_endosso":0,"nr_item":1,"id_produto_cobertura":1481,"cd_causa":0,"vl_estimado":1.0,"dt_comunicacao":"2018-06-14T07:56:11","dt_ocorrencia":null,"cd_uf":19,"id_local":108915,"nm_descricao_itens":null,"nm_descricao_danos":null,"nm_observacao":null,"dadosSegurado":{"nomeDoSegurado":"Adriano Antonio Lazaron","cpfCnpj":"1701695960"},"dadosPropriedadeItemApolice":{"nomeFazenda":"SITIO LAZARON","logradouro":"Linha São Lourenço","complemento":"SÃO MIGUEL COM DESTINO A LINHA SÃO LOURENÇO AO CHEGAR NA PRI","bairro":"Zona Rural","uf":"PR","cidade":"São Miguel do Iguaçu","cep":"85877000"}}}
+
+
+
+limpar campos de relações
+Nome do Segurado: Adriano Antonio Lazaron, CPF/CNPJ: 1701695960
+Fazenda: SITIO LAZARON 
+Localização: Linha São Lourenço - SÃO MIGUEL COM DESTINO A LINHA SÃO LOURENÇO AO CHEGAR NA PRI - Zona Rural - São Miguel do Iguaçu - PR - CEP: 85877000

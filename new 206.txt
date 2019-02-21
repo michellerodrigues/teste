@@ -1,0 +1,56 @@
+select M.PATIENT_PIN_NUMBER,
+M.RELATIONSHIP,
+M.MEMBER_ID,
+M.* from member m
+where m.customer_id = 'CT000519'
+AND M.ALT_MEMBER_ID = '00190964103';
+
+--56495 - PATIENT_PIN_NUMBER
+
+select M.PATIENT_PIN_NUMBER,
+M.RELATIONSHIP,
+M.MEMBER_ID,
+M.MEMBER_FIRST_NAME || M.Member_Last_Name AS NOME,
+M.*, rowid from member m
+where m.customer_id = 'CT000519'
+AND M.Patient_Pin_Number = '40033';
+
+-- http://www.vidalink.com.br/PSP_Admin/Home/Login?ReturnUrl=%2fpsp_admin
+-- adminpsp@vidalink.com.br Abc123*123
+
+
+
+
+
+
+
+
+
+-- cadatro do conjuge está duplicado
+--verificar se o paciente duplicado possui agendamento
+select um.usu_id, um.* from acesso.usuario_member um
+where um.member_id in ('SSID_40034'
+,'43682391134');
+
+--verificar se os pacientes duplicados tem agendamento
+select p.id_usu_paciente, p.* from psp.procedimentos p
+where p.id_usu_paciente in 
+(278946  --não possui agendamento
+,358561) --possui agendamento (paciente que será MANTIDO)
+;
+
+--colocar todos os agendamentos para o paciente que será MANTIDO
+update psp.procedimentos p
+set p.id_usu_paciente = 320621 --(paciente que será MANTIDO)
+where p.id_usu_paciente in 
+(338596  --não possui agendamento
+,320621) --possui agendamento (paciente que será MANTIDO)
+;
+
+--remover o cadastro SSID_58149
+update member m
+set M.PATIENT_PIN_NUMBER = M.PATIENT_PIN_NUMBER || '_EXC'
+where m.customer_id = 'CT000519'
+AND M.Member_Id = 'SSID_40034';
+
+--conferir no psp_admin se o cadastro do paciente deixou de estar duplicado

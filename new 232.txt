@@ -1,0 +1,72 @@
+{
+  "nm_tabela":"corp_pessoas",
+  "nm_campo_chave":"nr_cnpj_cpf",
+  "nm_campo_descricao": "nr_cnpj_cpf, nm_pessoa,id_pessoa",
+  "nm_campo_condicao1":"id_pessoa",
+  "nm_conteudo_condicao1":"'408537'",
+  "nm_campo_condicao2":"",
+  "nm_conteudo_condicao2":""
+}
+
+{
+    "cd_retorno": 0,
+    "nm_retorno": "Código 0: Processamento efetuado com sucesso",
+    "ConsultaDominioTable1": [
+        {
+            "nm_conteudo_chave": 1650848986,
+            "nm_conteudo_descricao": 1650848986,
+            "nm_pessoa": "EVERSON MACEDO                                                                            ",
+            "id_pessoa": 408537
+        }
+    ]
+}
+
+{
+  "nm_tabela":"corp_endereco",
+  "nm_campo_chave":"id_endereco",
+  "nm_campo_descricao": "id_endereco,nm_endereco, nr_rua_endereco,nm_complemento,nm_bairro,nm_cidade,nm_cep,nr_ddd,nr_fone",
+  "nm_campo_condicao1":"id_pessoa",
+  "nm_conteudo_condicao1":"'408537'",
+  "nm_campo_condicao2":"",
+  "nm_conteudo_condicao2":""
+}
+
+{
+    "cd_retorno": 0,
+    "nm_retorno": "Código 0: Processamento efetuado com sucesso",
+    "ConsultaDominioTable1": [
+        {
+            "nm_conteudo_chave": 2775,
+            "nm_conteudo_descricao": 2775,
+            "nm_endereco": "RUA JOSE MACEDO",
+            "nr_rua_endereco": "66",
+            "nm_bairro": "INTERIOR ",
+            "nm_cidade": "Kaloré",
+            "nm_cep": "86920000  "
+        }
+    ]
+}
+
+{
+  "nm_tabela":"cep_loc",
+  "nm_campo_chave":"CEP8_LOCAL",
+  "nm_campo_descricao": "ID_LOCAL,CEP8_LOCAL,NOME_LOCAL,UF_LOCAL,ID_LOCAL",
+  "nm_campo_condicao1":"CEP8_LOCAL",
+  "nm_conteudo_condicao1":"'86920000'",
+  "nm_campo_condicao2":"",
+  "nm_conteudo_condicao2":""
+}
+
+{
+    "cd_retorno": 0,
+    "nm_retorno": "Código 0: Processamento efetuado com sucesso",
+    "ConsultaDominioTable1": [
+        {
+            "nm_conteudo_chave": "86920000",
+            "nm_conteudo_descricao": "86920000",
+            "NOME_LOCAL": "Kaloré",
+            "UF_LOCAL": "PR"
+        }
+    ]
+}
+

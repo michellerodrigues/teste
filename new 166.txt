@@ -1,0 +1,17 @@
+<script>
+var pd = parent.document;
+
+var location = pd.location.protocol + "//" + pd.location.host;
+
+alert(location);
+</script>Germano, boa tarde.
+ 
+Pode me conceder permissão de Colaborador no azure?
+ 
+Grupo: markel-ambiente-testes-sys
+ 
+Obrigada,
+git reset --soft HEAD~1
+
+Alterar2018
+Sysmi2018

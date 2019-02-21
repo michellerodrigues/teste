@@ -1,0 +1,42 @@
+quebrar atividade:
+
+Product Backlog Item 57574:Double check das entregas após merges
+
+
+=========
+Os nossos ambientes de desenvolvimento são:
+
+
+
+Duas aplicações (homolog e tst) que usa o mesmo banco (homolog) apontando para a api de homologação http://186.201.50.139:5001
+Uma aplicação desenv que usa um banco (desenv)  apontando para a api de homologação http://186.201.50.139:5001
+
+
+Com esse setup encontramos dois problemas que parecem estar relacionados:
+
+==>banco de produção vai descer para homologação (amanhã o dia inteiro) 
+
+Os patient_pin_number dos pacientes criados pela aplicação de homolog são bem pequenos e quando integrados no PSP ocasionam colisões, o que faz com que esses pacientes sejam automaticamente associados com um cônjuge já existente com o mesmo  patient_pin_number.
+Exemplo:
+
+ 
+
+TESTE FABRICIO 5
+
+PATIENT_PIN_NUMBER = 54217  (MEDSOFT)
+
+RESULTADO: Acontece o problema da associação automática com um cônjuge já existente.
+
+Os patient_pin_number dos pacientes criados pela aplicação de tst são bem grandes e quando integrados no PSP não ocasionam colisões, mas pelo fato de serem muito grandes causam erro no integração de agendamento. Veja abaixo o exemplo de paciente e o JSON de agendamento que ocasiona o erro:
+MARY JANE 3
+
+PATIENT_PIN_NUMBER = 13843414122  
+
+(GRUPO FAMILIAR--> CRIA ASSOCIAÇÃO ENTRE AS VIDAS)--> GERADOS NA MEDSOFT, 
+
+RESULTADO: Não acontece o problema da associação automática com um cônjuge já existente, mas dá erro no agendamento.
+
+VERIRICAR ENDPOINTS, BANCOS, DOS AMBIENTES PARA QUE O ID ESTEJA SENDO GERADO DE MANEIRA DIFERENTE
+
+{"TimeSlotLists":[{"IDs":[{"Type":"PLAYER","ID":"47","Description":null}],"Owner":{"Name":"ANA PAULA AQUINO","ID":"129306"},"Type":null,"Label":null,"Name":null,"StartedOn":null,"EndedOn":null,"TimeSlotLists":[{"IDs":[{"Type":"NONE","ID":"","Description":null}],"Owner":null,"Type":"TIME_FRAME","Label":"Day:13/05/2018","Name":null,"StartedOn":"2018-05-13T00:00:00","EndedOn":"2018-05-13T23:59:59","TimeSlotLists":null,"TimeSlots":[{"TimeSlotListID":{"Type":"NONE","ID":null,"Description":null},"Type":"APPOINTMENT","ScheduleStartOnDate":"2018-05-13","ScheduleStartOnTime":"09:57","AccomplishmentStartedOn":null,"AccomplishmentEndedOn":null,"Duration":"60","AppointmentStatus":"CONFIRMED","Patients":[{"Type":null,"IDs":[{"Type":"SOURCE_SYSTEM_ID","Number":"13843414122"}],"Name":null,"DateOfBirth":null,"EnrolledOn":null,"Race":null,"Religion":null,"SexualOrientation":null,"Sex":null,"Phones":null,"Addresses":null,"Emails":null,"PersonRelationships":null,"InstitutionRelationships":null}],"Resources":[{"Type":"ROOM","ID":"119184","Description":null},{"Type":"PLAYER","ID":"129306","Description":null}],"Attendances":[{"Description":"Criado pelo agendamento de 13/05/2018, Agenda: ANA PAULA AQUINO","Type":"NOT_APPLICABLE","Events":[{"Type":"APPOINTMENT","StartOnDate":"2018-05-13T09:57:00","EndOnDate":"2018-05-13T10:57:00","InterventionInstances":[{"Quantity":"1","InterventionClinicalTerms":[{"ClinicalTerm":{"IDs":[{"Type":"SOURCE_SYSTEM","ID":"105159","Description":null}],"FullySpecifiedName":null}}],"Participations":[{"PlayerId":"129306","PlayerName":"ANA PAULA AQUINO","Task":"PRINCIPAL","StartedOn":"2018-05-13T09:57:00"}]}]}],"CheckinOn":"2018-05-13T09:57:00","CheckinOutOn":"2018-05-13T10:57:00"}],"Comments":null,"Description":null}]}],"TimeSlots":null}],"FileInfo":{"ID":null,"Name":null,"Role":null,"Version":null,"SourceSystemName":null,"SourceSystemVersion":null,"SourceSystemITSupportContactName":null,"SourceSystemITSupportContactEmail":null,"DataLanguage":null,"CreatedOn":null,"CreatedBy":null,"EditionStartedOn":null,"EditionConcludedOn":null},"SourceInstitution":{"IDType":null,"ID":null,"Name":null,"ITSupportContactName":null,"ITSupportContactEmail":null},"FormFillingSurvey":{"Easiness":null}}
+

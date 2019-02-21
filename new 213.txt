@@ -1,0 +1,7 @@
+[{"idMunicipio":2599,"nomeMunicipio":"Brasília","idMicrorregiao":"53001","idUf":15,"idMunicipioI4Pro":null}]
+
+Unidade segurada (ha)	
+Importância segurada	
+Tipo de Solo	
+Nível de Cobertura
+

@@ -1,0 +1,14 @@
+"{\"cd_retorno\":0,\"nm_retorno\":\"Código 0: Processamento efetuado com sucesso\",\"ConsultaDominioTable1\":[{\"nm_conteudo_chave\":10001010000001.0,\"nm_conteudo_descricao\":\"2017-08-16T00:00:00\",\"cd_produto\":330,\"id_ramo\":42,\"id_pessoa_cliente\":405888,\"id_apolice\":286,\"dt_emissao\":\"2017-08-16T00:00:00\",\"cd_apolice\":10001010000001.0}]}"
+
+
+"{\"cd_retorno\":0,\"nm_retorno\":\"Código 0: Processamento efetuado com sucesso\",\"ConsultaDominioTable1\":[{\"nm_conteudo_chave\":10001010000001.0,\"nm_conteudo_descricao\":\"2017-08-16T00:00:00\",\"cd_produto\":330,\"id_ramo\":42,\"id_pessoa_cliente\":405888,\"id_apolice\":286,\"dt_emissao\":\"2017-08-16T00:00:00\",\"cd_apolice\":10001010000001.0}]}"
+
+
+{
+    "cd_retorno": 10139,
+    "nm_retorno": "Código 10139: Data de comunicação não pode ser menor do que a data de ocorrência"
+}
+{
+    "cd_retorno": 1,
+    "nm_retorno": "Data de comunicação não pode ser maior que a data de ocorrência."
+}

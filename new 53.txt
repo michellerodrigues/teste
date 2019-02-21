@@ -1,0 +1,36 @@
+1>------ Rebuild All started: Project: VidalinkWebApi.DTO, Configuration: Debug Any CPU ------
+1>  Restaurando pacotes NuGet ...
+1>  Para evitar que o NuGet baixe pacotes durante a construção, abra a caixa de diálogo Opções do Visual Studio, clique no nó Gerenciador de Pacotes e desmarque a opção 'Allow NuGet to download missing packages'.
+1>  Feeds used:
+1>    C:\Users\miche\.nuget\packages\
+1>    https://api.nuget.org/v3/index.json
+1>    \\10.10.10.250\Tecnologia\Sistemas\Desenvolvimento\Paths e Dicas\DOTNET\NuGet
+1>    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+1>    C:\Program Files\Microsoft SDKs\Service Fabric\packages\
+1>  
+1>  Todos os pacotes listados em C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DTO\packages.config já estão instalados.
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+1>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DTO\AgendaDTO.cs(110,24,110,41): warning CS0169: The field 'AgendaDTO._dataAgendaString' is never used
+1>  VidalinkWebApi.DTO -> C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DTO\bin\Debug\VidalinkWebApi.DTO.dll
+2>------ Rebuild All started: Project: VidalinkWebApi.DAL, Configuration: Debug Any CPU ------
+2>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\ArquivoDAL.cs(111,29,111,30): warning CS0219: The variable 'i' is assigned but its value is never used
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\LogDAL.cs(36,25,36,33): warning CS0219: The variable 'idAgenda' is assigned but its value is never used
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\ArquivoDAL.cs(159,29,159,30): warning CS0219: The variable 'i' is assigned but its value is never used
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\LogDAL.cs(168,34,168,36): warning CS0168: The variable 'ex' is declared but never used
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\AgendamentoDAL.cs(156,42,156,44): warning CS0168: The variable 'ex' is declared but never used
+2>C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\PrestadorDAL.cs(43,83,43,100): warning CS0472: The result of the expression is always 'false' since a value of type 'decimal' is never equal to 'null' of type 'decimal?'
+2>  VidalinkWebApi.DAL -> C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\VidalinkWebApi.DAL\bin\Debug\VidalinkWebApi.DAL.dll
+3>------ Rebuild All started: Project: WebAppAdminPSP, Configuration: Debug Any CPU ------
+3>  Restaurando pacotes NuGet ...
+3>  Para evitar que o NuGet baixe pacotes durante a construção, abra a caixa de diálogo Opções do Visual Studio, clique no nó Gerenciador de Pacotes e desmarque a opção 'Allow NuGet to download missing packages'.
+3>  Feeds used:
+3>    C:\Users\miche\.nuget\packages\
+3>    https://api.nuget.org/v3/index.json
+3>    \\10.10.10.250\Tecnologia\Sistemas\Desenvolvimento\Paths e Dicas\DOTNET\NuGet
+3>    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+3>    C:\Program Files\Microsoft SDKs\Service Fabric\packages\
+3>  
+3>  Todos os pacotes listados em C:\Users\miche\Desktop\mica\vidalink\desenvolvimento\VidalinkWebApi_PSP\WebAppAdminPSP\packages.config já estão instalados.
+3>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+========== Rebuild All: 2 succeeded, 1 failed, 0 skipped ==========

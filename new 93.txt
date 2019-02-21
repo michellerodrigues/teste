@@ -1,0 +1,63 @@
+create or replace PROCEDURE     SP_VERIFICAR_DEPENDENTE_SEL(P_CUSTOMER_ID IN VARCHAR2,
+                                                            P_SIS_ID      IN NUMBER,
+                                                            P_USU_ID      IN NUMBER,
+                                                            P_OUT_CURSOR           OUT SYS_REFCURSOR)
+/*---------------------------------------------------------------------------------------------------------------------------
+          AUTOR:         LEONARDO VIANA AMERICANO
+          DATA CRIACAO:  02/06/2017
+          OBJETIVO:      recuperar o dependente do paciente
+          ULTIMAS ALTERACOES:
+          DATA       NOME              OBJETIVO
+    ----------------------------------------------------------------------------------------------------------------------------
+  */
+ IS
+BEGIN
+ OPEN P_OUT_CURSOR FOR
+  SELECT USU.USU_ID
+        ,USU.USU_NOME AS NOME
+        ,MEM.ALT_MEMBER_ID
+        ,UM.SIS_ID
+        ,UM.MEMBER_ID
+        ,UM.CLIENT_ID
+        ,UM.CLIENT_GROUP_ID
+        ,UM.MISC_DATA
+        ,SIC.SIC_HASH_CODE
+        ,MEM.Relationship
+    FROM MEMBER MEM
+   INNER JOIN ACESSO.USUARIO_MEMBER UM
+      ON UM.CUSTOMER_ID = MEM.CUSTOMER_ID
+     AND UM.CLIENT_ID = MEM.CLIENT_ID
+     AND UM.CLIENT_GROUP_ID = MEM.CLIENT_GROUP_ID
+     AND UM.MEMBER_ID = MEM.MEMBER_ID
+   INNER JOIN acesso.usuario USU
+      ON USU.USU_ID = UM.USU_ID
+     AND USU.CUSTOMER_ID = UM.CUSTOMER_ID
+   INNER JOIN member_coverage mec
+      ON mec.CUSTOMER_ID = MEM.CUSTOMER_ID
+     AND mec.CLIENT_ID = MEM.CLIENT_ID
+     AND mec.CLIENT_GROUP_ID = MEM.CLIENT_GROUP_ID
+     AND mec.MEMBER_ID = MEM.MEMBER_ID
+   INNER JOIN DS.SISTEMA_CUSTOMER SIC
+      ON SIC.SIS_ID = UM.SIS_ID
+     AND SIC.CUSTOMER_ID = UM.CUSTOMER_ID
+   WHERE (MEM.CUSTOMER_ID, MEM.CLIENT_ID, MEM.CLIENT_GROUP_ID, MEM.PATIENT_PIN_NUMBER)
+      IN (SELECT M.CUSTOMER_ID,
+                 M.CLIENT_ID,
+                 M.CLIENT_GROUP_ID,
+                 M.PATIENT_PIN_NUMBER
+            FROM ACESSO.USUARIO_MEMBER UM
+           INNER JOIN MEMBER M
+              ON M.CUSTOMER_ID = UM.CUSTOMER_ID
+             AND M.CLIENT_ID = UM.CLIENT_ID
+             AND M.CLIENT_GROUP_ID = UM.CLIENT_GROUP_ID
+             AND M.MEMBER_ID = UM.MEMBER_ID
+           WHERE UM.SIS_ID = P_SIS_ID
+             AND UM.CUSTOMER_ID = P_CUSTOMER_ID
+             AND UM.USU_ID = P_USU_ID
+             )
+             AND MEM.Relationship = '4' --dependente
+             AND MEC.TERMINATION_DATE >= TO_NUMBER(to_char(SYSDATE,'YYYYMMDD'))
+             AND ROWNUM<=1
+        ;
+
+END SP_VERIFICAR_DEPENDENTE_SEL;

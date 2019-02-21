@@ -1,0 +1,13 @@
+
+
+
+1 - linha 10 número da cotação: remover
+1 - linha 10 número da proposta: remover
+3 - Linha 10 - Vigência - 180 dias  (Exibir de acordo com a listagem de inicio e fim dos plantio (Perguntar aos usuários do cotação tabelão como é considerada a vigência)
+4 - linha 14  -Acrescetnar o campo cpf e deixar o usuário digiytar para obtre o nome e dos demais dados do Proponete (que estão nas outras abas)
+18 - Acrescentar a opção de CEP para buscar os dados da proriedade
+18 - Acrescentar uma combo de Cultivo, pois só com ele , poderei ter a produtividade Referência
+
+
+---MUDAR O FOCO---
+P

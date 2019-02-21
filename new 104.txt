@@ -1,0 +1,4 @@
+StackTrace = "   em Framework.Vidalink.Acessos.Utilitarios.ValidacoesAcessos.AutenticaUsuario(String login, String senha, Int32 SisId)\r\n   em Vidalink.API.Services.Providers.ApplicationOAuthProvider.GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsConte...
+
+Message = "Usuário e/ou Senha Inválidos."
+

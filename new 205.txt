@@ -1,0 +1,4 @@
+AND p.plc_status IN (SELECT column_value
+                       FROM TABLE( plcListchar ))
+					   
+					   

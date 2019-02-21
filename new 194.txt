@@ -1,0 +1,34 @@
+
+
+MAPA MENTAL - DATAIKU
+
+	INSTALAÇÃO
+	
+	MÁQUINA VIRTUAL
+		REQUISITOS:
+	LINUX
+		REQUISITOS:
+	MAC OS
+		EQUISITOS:
+	ONLINE
+	     Trial online for 14 days, linkedIn accoutn
+	
+	
+	
+	
+
+	
+	
+	
+	
+Contatar Markel apra envio da Cotação: código 24
+
+	precificador
+	
+	<!--
+	
+	Consultar Markel Código 19
+	
+	Request URL: https://impeto.markelseguros.com.br/WebApi/api/Cotacao/CalcularCotacao
+Request Method: POST
+

@@ -1,0 +1,13 @@
+(SELECT COUNT(AGR.ID_RECURSO)
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE (','||'45'||',' like '%,'||AGR.ID_RECURSO||',%')
+                          AND AGR.ID_AGENDA = A.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = A.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO)>0)

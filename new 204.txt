@@ -1,0 +1,8 @@
+1.1 - PBI: 57574:Double check das entregas após merges
+	Task 57848:55831 - Liberação indevida de agenda
+		   Bug 55831:Liberação indevida de agenda		   
+	Task 57851:55849 - Melhorias consultar agenda - Cancelar agenda
+			PBI 55849:Melhorias consultar agenda - Cancelar agenda
+	Task 57852:55832 - Orientações ao paciente não é exibida - Tela de confirmação de agendamento sob demanda
+		PBI 55832 - Bug 55832:Orientações ao paciente não é exibida - Tela de confirmação de agendamento sob demand
+1.2 -Product Backlog Item 57577 - Spike - Investigação sequences patient_pin_number

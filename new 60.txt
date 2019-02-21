@@ -1,0 +1,20 @@
+Message = "ORA-12154: TNS:não foi possível resolver o identificador de conexão especificado"
+
+
+
+Ïñîõèãäñ¼ÌÒÃÀÎÑÀ-°ºÏàòòöîñã¼÷ïóîºÔòäñŸÈÃ¼ÔÒÄÑÓÈºÃàóàŸÒîôñâä¼ÃÄÒÄÍÕºÏäñòèòóŸÒäâôñèóøŸÈíåî¼Óñôä
+Password=xpto;User ID=USERTI;Data Source=DESENV;Persist Security Info=True
+
+Ïñîõèãäñ¼ÌÒÃÀÎÑÀ-°ºÏàòòöîñã¼÷ïóîºÔòäñŸÈÃ¼ÔÒÄÑÓÈºÃàóàŸÒîôñâä¼ÃÄÒÄÍÕºÏäñòèòóŸÒäâôñèóøŸÈíåî¼Óñôä
+
+Provider=MSDAORAﾮ1;Password=4CEDP15WQ;User ID=acesso_psp;Data Source=HOMOLOG;Persist Security Info=True
+
+
+
+
+
+Rundll32.exe "c:\Program Files (x86)\Common Files\System\Ole DB\oledb32.dll",OpenDSLFile C:\Users\miche\Desktop\providers.udl
+Rundll32.exe "c:\Program Files (x86)\Common Files\System\Ole DB\msdaora.dll",OpenDSLFile C:\Users\miche\Desktop\providers.udl
+Rundll32.exe "c:\Program Files (x86)\Common Files\System\Ole DB\msdaorar.dll",OpenDSLFile C:\Users\miche\Desktop\providers.udl
+msdaora
+ora12569

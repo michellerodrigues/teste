@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfAppointment>
+    <Appointment>
+        <ID>374251</ID>
+        <Description>dhiovanna pinheiro oliveira</Description>
+        <Patient_ID>61521</Patient_ID>
+        <Attendances_Code>521715</Attendances_Code>
+        <Organizer_ID>66</Organizer_ID>
+        <InAtAgen>01/01/1900 00:00:00</InAtAgen>
+        <FiAtAgen>01/01/1900 00:00:00</FiAtAgen>
+        <InMaAgen>16/05/2018 11:00:00</InMaAgen>
+        <FiMaAgen>16/05/2018 11:30:00</FiMaAgen>
+        <DtMaAgen>14/05/2018 16:21:00</DtMaAgen>
+        <CreatedOn>14/05/2018 16:26:00</CreatedOn>
+        <ModifiedOn>14/05/2018 16:26:00</ModifiedOn>
+        <CreatedBy>967</CreatedBy> (Roseli aparecida)
+        <ModifiedBy>967</ModifiedBy>
+    </Appointment>
+</ArrayOfAppointment>

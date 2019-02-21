@@ -1,0 +1,5 @@
+    //limpa codRetrono Apolice modal
+
+    $('.modal-dialog button span').click(function () {
+        $('.modal-body .codRetorno').remove();
+    });

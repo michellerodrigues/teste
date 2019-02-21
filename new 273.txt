@@ -1,0 +1,20 @@
+{http://localhost/Vidalink.API.Services/api/Paciente/}
+
+		string.Format("RecuperarPaciente?SisId={0}&CustomerId={1}&MiscData=0&UsuId=0", sisId, CustomerId)	"RecuperarPaciente?SisId=21&CustomerId=CT000519&MiscData=0&UsuId=0"	string
+
+		
+				UriServiceApi + "/api/Paciente/CadastrarPaciente"	"http://localhost/Vidalink.API.Services/api/Paciente/CadastrarPaciente"	string
+
+				
+				Headers = {Accept: application/json
+Authorization: Bearer KPAZpNoKPSGJSx86-5oJfDsvlr1iLU1Oa9TiFdnZhacxCh4VHC6I4-cEle8s2U3GMqwqXH10KVA-5fdPBMXgeNKe0nHjgWkcDrJbFBVSQWbBW1TQZ0K0osKFqauORgvqufwU-B9Tb95pjbFR6vUIAWXKBuwq2xVtoizIn6qkWQ_2RmYBQ-uRwnLezLPmvqntt-rkfammDI3BoJc3...
+
+
+		
+		listar paciente
+		"{\"Field\":null,\"Content\":null,\"Match\":0,\"SearchParameters\":[{\"Field\":\"CPFClie\",\"Content\":\"97388155090\",\"Match\":0,\"SearchParameters\":null}]}"
+		{http://186.201.50.139:5001/Patient/search}
+
+		"{\"Field\":null,\"Content\":null,\"Match\":0,\"SearchParameters\":[{\"Field\":\"CPFClie\",\"Content\":\"97388155090\",\"Match\":0,\"SearchParameters\":null}]}"
+		
+incluir um cônjuge

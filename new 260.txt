@@ -1,0 +1,898 @@
+create or replace
+PROCEDURE     SP_PROCEDIMENTO_REL(P_CUSTOMER_ID          IN VARCHAR2,
+                                                    P_ID_PRESTADOR_EMISSAO IN VARCHAR2,
+                                                    P_ID_PRESTADOR         IN VARCHAR2,
+                                                    P_ID_CATEGORIA         IN VARCHAR2,
+                                                    P_ID_TIPO_PROCEDIMENTO IN VARCHAR2,
+                                                    P_DATA_INICIO          IN DATE,
+                                                    P_DATA_FIM             IN DATE,
+                                                    P_NOME                 IN VARCHAR2,
+                                                    P_CPF                  IN VARCHAR2,
+                                                    P_ID_LOCALIZACAO       IN VARCHAR2,
+                                                    P_ID_RECURSO           IN VARCHAR2, --VER DEPOIS
+                                                    P_ID_STATUS            IN VARCHAR2,
+                                                    P_OUT_CURSOR           OUT SYS_REFCURSOR)
+/*---------------------------------------------------------------------------------------------------------------------------
+        AUTOR:         LEONARDO VIANA AMERICANO
+        DATA CRIACAO:  08/05/2017
+        OBJETIVO:      RECUPERAR A PROCEDIMENTOS AGENDADOS
+        ULTIMAS ALTERACOES:
+        DATA       NOME              OBJETIVO
+  ----------------------------------------------------------------------------------------------------------------------------
+  */
+ IS
+BEGIN
+  --IF (P_ID_STATUS IS NULL OR (P_ID_STATUS NOT IN (2,9))) THEN
+   IF (P_ID_STATUS is null OR ((','||P_ID_STATUS||',' not like '%,'||2||',%') and (','||P_ID_STATUS||',' not like '%,'||9||',%')) ) THEN
+    OPEN P_OUT_CURSOR FOR
+      SELECT F.*,
+              CASE WHEN LGP.USU_ID = 0 THEN 'MEDSOFT'
+                ELSE NVL(UEX2.USU_NOME, UEX.USU_NOME) END AS USU_NOME
+        FROM (SELECT A.ID_AGENDA,
+                     PRO.ID_PROCEDIMENTO,
+                     A.DT_AGENDA DT_AGENDA,
+                     TRUNC(A.DT_AGENDA) AS DT_AGENDA_SEM_HORA,
+                     A.CUSTOMER_ID,
+                     A.ID_PRESTADOR,
+                     PRO.ID_TIPO_PROCEDIMENTO,
+                     TO_CHAR(A.DT_AGENDA, 'HH24:MI') HHMM,
+                     A.ID_LOCALIZACAO,
+                     CP.DS_CATEGORIA_PRESTADOR,
+                     P.DS_NOME_PRESTADOR,
+                     L.DS_LOCALIZACAO,
+                     TPR.DS_NOME_PROCEDIMENTO,
+                     PRO.DT_PROCEDIMENTO,
+                     PRO.DT_CONFIRMACAO,
+                     PRO.DT_CANCELAMENTO,
+                     nvl2(PRO.OBSERVACAO_AGENDAMENTO,
+                          '<b>Agendamento:</b> ' ||
+                          PRO.OBSERVACAO_AGENDAMENTO,
+                          '') || NVL2(PRO.OBSERVACAO_AGENDAMENTO,
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           ' <br/><b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           ''),
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           '<b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           '')) AS OBSERVACAO_AGENDAMENTO,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        'AGENDADO' --1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        'PENDENTE CONFIRMAÇÃO' --6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        'CANCELADO SMS' --9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        'CANCELADO' --2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        'PRESENTE' --4-- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        'AUSENTE' --5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        'EXPIRADO' --8
+
+                       ELSE
+
+                        'PRESENTE' --4
+
+                     END AS DS_STATUS,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        4 -- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        8
+
+                       ELSE
+
+                        4
+                     END AS ID_STATUS,
+                     A.QTDE_PREV_ATENDIMENTOS,
+                     ID_USU_PACIENTE,
+                     TRUNC(MONTHS_BETWEEN(TRUNC(SYSDATE),
+                                          TO_DATE(TO_CHAR(M.DATE_OF_BIRTH),
+                                                  'YYYYMMDD')) / 12) AS IDADE_PACIENTE,
+                     M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME AS DS_NOME_PACIENTE,
+                     (SELECT LISTAGG(DS_RECURSO, ' / ') WITHIN GROUP(ORDER BY DS_RECURSO) AS DS_RECURSO
+                        FROM (SELECT DISTINCT AGR.CUSTOMER_ID,
+                                              AGR.ID_AGENDA,
+                                              RCR.ID_TIPO_RECURSO,
+                                              RCR.DS_RECURSO
+                                FROM PSP.AGENDA_RECURSOS AGR
+                               INNER JOIN PSP.RECURSOS RCR
+                                  ON RCR.ID_RECURSO = AGR.ID_RECURSO
+
+                              ) X
+                       INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                          ON TPR.ID_TIPO_RECURSO = X.ID_TIPO_RECURSO
+                       WHERE X.ID_AGENDA = A.ID_AGENDA
+                         AND X.CUSTOMER_ID = A.CUSTOMER_ID
+                         AND TPR.ID_TIPO_PROCEDIMENTO =
+                             PRO.ID_TIPO_PROCEDIMENTO
+                       GROUP BY ID_AGENDA) AS RECURSOS
+
+                FROM PSP.AGENDA A
+               INNER JOIN PSP.PRESTADORES P
+                  ON A.ID_PRESTADOR = P.ID_PRESTADOR
+                 AND A.CUSTOMER_ID = P.CUSTOMER_ID
+               INNER JOIN PSP.CATEGORIA_PRESTADOR CP
+                  ON CP.ID_CATEGORIA_PRESTADOR = P.ID_CATEGORIA_PRESTADOR
+               INNER JOIN PSP.LOCAIS L
+                  ON L.ID_LOCALIZACAO = A.ID_LOCALIZACAO
+                 AND L.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.PROCEDIMENTOS PRO
+                  ON PRO.ID_AGENDA = A.ID_AGENDA
+                 AND PRO.DT_CANCELAMENTO IS NULL
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.TIPO_PROCEDIMENTO TPR
+                  ON TPR.ID_TIPO_PROCEDIMENTO = PRO.ID_TIPO_PROCEDIMENTO
+                 AND TPR.CUSTOMER_ID = PRO.CUSTOMER_ID
+               INNER JOIN MEMBER M
+                  ON M.MEMBER_ID = PRO.MEMBER_ID
+                 AND M.CLIENT_GROUP_ID = PRO.CLIENT_ID_GROUP
+                 AND M.CLIENT_ID = PRO.CLIENT_ID
+                 AND M.CUSTOMER_ID = PRO.CUSTOMER_ID
+               WHERE ((TRUNC(A.DT_AGENDA) >= P_DATA_INICIO OR
+                     P_DATA_INICIO IS NULL) AND
+                     (TRUNC(A.DT_AGENDA) <= P_DATA_FIM OR
+                     P_DATA_FIM IS NULL))
+                 AND (P_ID_TIPO_PROCEDIMENTO IS NULL OR
+                     (','||P_ID_TIPO_PROCEDIMENTO||',' like '%,'||PRO.ID_TIPO_PROCEDIMENTO||',%'))
+                 AND (P_ID_PRESTADOR IS NULL OR
+                     (','||P_ID_PRESTADOR||',' like '%,'||A.ID_PRESTADOR||',%'))
+                 AND (M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME LIKE
+                     '%' || P_NOME || '%' OR P_NOME IS NULL)
+                 AND (M.ALT_MEMBER_ID LIKE '%' || P_CPF || '%' OR
+                     P_CPF IS NULL)
+                 AND A.CUSTOMER_ID = P_CUSTOMER_ID
+                 AND A.DT_CANCELAMENTO IS NULL
+                 AND ((','||P_ID_CATEGORIA||',' like '%,'||TPR.ID_CAT_TIPO_PROCEDIMENTO||',%') OR
+                     P_ID_CATEGORIA IS NULL)
+                 AND ((','||P_ID_LOCALIZACAO||',' like '%,'||A.ID_LOCALIZACAO||',%') OR
+                     P_ID_LOCALIZACAO IS NULL)
+                 AND (P_ID_RECURSO IS NULL OR
+                     P_ID_RECURSO IN
+                     (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = A.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = A.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO))
+                 AND (EXISTS
+                      (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = A.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = A.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             AGR.ID_RECURSO) = 'S'
+
+                       ) OR NVL(P_ID_PRESTADOR, '0') = P_ID_PRESTADOR_EMISSAO)
+              UNION
+              SELECT A.ID_AGENDA,
+                     PRO.ID_PROCEDIMENTO,
+                     A.DT_AGENDA AS DT_AGENDA,
+                     TRUNC(A.DT_AGENDA) AS DT_AGENDA_SEM_HORA,
+                     A.CUSTOMER_ID,
+                     A.ID_PRESTADOR,
+                     PRO.ID_TIPO_PROCEDIMENTO,
+                     TO_CHAR(A.DT_AGENDA, 'HH24:MI') HHMM,
+                     A.ID_LOCALIZACAO,
+                     CP.DS_CATEGORIA_PRESTADOR,
+                     P.DS_NOME_PRESTADOR,
+                     L.DS_LOCALIZACAO,
+                     TPR.DS_NOME_PROCEDIMENTO,
+                     PRO.DT_PROCEDIMENTO,
+                     PRO.DT_CONFIRMACAO,
+                     PRO.DT_CANCELAMENTO,
+                     nvl2(PRO.OBSERVACAO_AGENDAMENTO,
+                          '<b>Agendamento:</b> ' ||
+                          PRO.OBSERVACAO_AGENDAMENTO,
+                          '') || NVL2(PRO.OBSERVACAO_AGENDAMENTO,
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           ' <br/><b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           ''),
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           '<b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           '')) AS OBSERVACAO_AGENDAMENTO,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        'AGENDADO' --1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        'PENDENTE CONFIRMAÇÃO' --6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        'CANCELADO SMS' --9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        'CANCELADO' --2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        'PRESENTE' --4-- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        'AUSENTE' --5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        'EXPIRADO' --8
+
+                       ELSE
+
+                        'PRESENTE' --4
+
+                     END AS DS_STATUS,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        4 -- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        8
+
+                       ELSE
+
+                        4
+                     END AS ID_STATUS,
+                     A.QTDE_PREV_ATENDIMENTOS,
+                     ID_USU_PACIENTE,
+                     TRUNC(MONTHS_BETWEEN(TRUNC(SYSDATE),
+                                          TO_DATE(TO_CHAR(M.DATE_OF_BIRTH),
+                                                  'YYYYMMDD')) / 12) AS IDADE_PACIENTE,
+                     M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME AS DS_NOME_PACIENTE,
+                     (SELECT LISTAGG(DS_RECURSO, ' / ') WITHIN GROUP(ORDER BY DS_RECURSO) AS DS_RECURSO
+                        FROM (SELECT DISTINCT AGR.CUSTOMER_ID,
+                                              AGR.ID_AGENDA,
+                                              RCR.ID_TIPO_RECURSO,
+                                              RCR.DS_RECURSO
+                                FROM PSP.AGENDA_RECURSOS AGR
+                               INNER JOIN PSP.RECURSOS RCR
+                                  ON RCR.ID_RECURSO = AGR.ID_RECURSO
+
+                              ) X
+                       INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                          ON TPR.ID_TIPO_RECURSO = X.ID_TIPO_RECURSO
+                       WHERE X.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                         AND X.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                         AND TPR.ID_TIPO_PROCEDIMENTO =
+                             PRO.ID_TIPO_PROCEDIMENTO
+                       GROUP BY ID_AGENDA) AS RECURSOS
+
+                FROM PSP.AGENDA A
+               INNER JOIN PSP.PRESTADORES P
+                  ON A.ID_PRESTADOR = P.ID_PRESTADOR
+                 AND A.CUSTOMER_ID = P.CUSTOMER_ID
+               INNER JOIN PSP.CATEGORIA_PRESTADOR CP
+                  ON CP.ID_CATEGORIA_PRESTADOR = P.ID_CATEGORIA_PRESTADOR
+               INNER JOIN PSP.LOCAIS L
+                  ON L.ID_LOCALIZACAO = A.ID_LOCALIZACAO
+                 AND L.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.AGENDA_PROCEDIMENTO AP
+                  ON AP.ID_AGENDA = A.ID_AGENDA
+               INNER JOIN PSP.PROCEDIMENTOS PRO
+                  ON PRO.ID_PROCEDIMENTO = AP.ID_PROCEDIMENTO
+                 AND PRO.DT_CANCELAMENTO IS NULL
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.AGENDA AG_ORIGINAL
+                  ON PRO.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.TIPO_PROCEDIMENTO TPR
+                  ON TPR.ID_TIPO_PROCEDIMENTO = PRO.ID_TIPO_PROCEDIMENTO
+                 AND TPR.CUSTOMER_ID = PRO.CUSTOMER_ID
+               INNER JOIN MEMBER M
+                  ON M.MEMBER_ID = PRO.MEMBER_ID
+                 AND M.CLIENT_GROUP_ID = PRO.CLIENT_ID_GROUP
+                 AND M.CLIENT_ID = PRO.CLIENT_ID
+                 AND M.CUSTOMER_ID = PRO.CUSTOMER_ID
+               WHERE ((TRUNC(A.DT_AGENDA) >= P_DATA_INICIO OR
+                     P_DATA_INICIO IS NULL) AND
+                     (TRUNC(A.DT_AGENDA) <= P_DATA_FIM OR
+                     P_DATA_FIM IS NULL))
+                 AND (P_ID_TIPO_PROCEDIMENTO IS NULL OR
+                     (','||P_ID_TIPO_PROCEDIMENTO||',' like '%,'||PRO.ID_TIPO_PROCEDIMENTO||',%'))
+                 AND (P_ID_PRESTADOR IS NULL OR
+                     (','||P_ID_PRESTADOR||',' like '%,'||A.ID_PRESTADOR||',%'))
+                 AND (M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME LIKE
+                     '%' || P_NOME || '%' OR P_NOME IS NULL)
+                 AND (M.ALT_MEMBER_ID LIKE '%' || P_CPF || '%' OR
+                     P_CPF IS NULL)
+                 AND A.CUSTOMER_ID = P_CUSTOMER_ID
+                 AND A.DT_CANCELAMENTO IS NULL
+                 AND ((','||P_ID_CATEGORIA||',' like '%,'||TPR.ID_CAT_TIPO_PROCEDIMENTO||',%') OR
+                     P_ID_CATEGORIA IS NULL)
+                 AND ((','||P_ID_LOCALIZACAO||',' like '%,'||A.ID_LOCALIZACAO||',%') OR
+                     P_ID_LOCALIZACAO IS NULL)
+                 AND (P_ID_RECURSO IS NULL OR
+                     P_ID_RECURSO IN
+                     (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO))
+                 AND (EXISTS
+                      (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             AGR.ID_RECURSO) = 'S'
+                       UNION
+                       SELECT PR.ID_RECURSO
+                         FROM PSP.PROCEDIMENTOS_RECURSOS PR
+                        WHERE PR.CUSTOMER_ID = PRO.CUSTOMER_ID
+                          AND PR.ID_PROCEDIMENTO = PRO.ID_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             PR.ID_RECURSO) = 'S'
+
+                       )
+
+                      OR NVL(P_ID_PRESTADOR, '0') = P_ID_PRESTADOR_EMISSAO)
+
+              ) F
+    LEFT JOIN PSP.PROCEDIMENTOS PRO
+           ON PRO.ID_PROCEDIMENTO = F.ID_PROCEDIMENTO
+          AND PRO.CUSTOMER_ID = F.CUSTOMER_ID
+    LEFT JOIN PSP.LOG LGP
+      ON LGP.LOG_ID_REGISTRO = PRO.ID_AGENDA
+     AND LGP.CUSTOMER_ID = F.CUSTOMER_ID
+     AND LGP.LOG_OPERACAO IN('AGENDAMENTO_SOB_DEMANDA','SINCRONIZACAO')
+     AND LGP.LOG_TP_REGISTRO = 'AGENDA'
+    LEFT JOIN PSP.LOG LGP2
+      ON LGP2.LOG_ID_REGISTRO = F.ID_PROCEDIMENTO
+     AND LGP2.CUSTOMER_ID = F.CUSTOMER_ID
+     AND LGP2.LOG_OPERACAO = 'AGENDAMENTO'
+
+    LEFT JOIN ACESSO.USUARIO UEX
+      ON UEX.USU_ID = LGP.USU_ID
+     AND UEX.CUSTOMER_ID = F.CUSTOMER_ID
+
+    LEFT JOIN ACESSO.USUARIO UEX2
+      ON UEX2.USU_ID = LGP2.USU_ID
+     AND UEX2.CUSTOMER_ID = F.CUSTOMER_ID
+
+
+
+
+       WHERE (P_ID_STATUS IS NULL OR (','||P_ID_STATUS||',' like '%,'||F.ID_STATUS||',%'))
+
+       ORDER BY DT_AGENDA, DS_NOME_PRESTADOR, DS_LOCALIZACAO;
+  ELSE
+    -- retorna os cancelados   P_ID_STATUS = 2
+    -- e os cancelados por SMS P_ID_STATUS = 9
+    OPEN P_OUT_CURSOR FOR
+      SELECT F.*,
+              CASE WHEN LGP.USU_ID = 0 THEN 'MEDSOFT'
+                ELSE NVL(UEX2.USU_NOME, UEX.USU_NOME) END AS USU_NOME
+        FROM (SELECT A.ID_AGENDA,
+                     PRO.ID_PROCEDIMENTO,
+                     A.DT_AGENDA DT_AGENDA,
+                     TRUNC(A.DT_AGENDA) AS DT_AGENDA_SEM_HORA,
+                     A.CUSTOMER_ID,
+                     A.ID_PRESTADOR,
+                     PRO.ID_TIPO_PROCEDIMENTO,
+                     TO_CHAR(A.DT_AGENDA, 'HH24:MI') HHMM,
+                     A.ID_LOCALIZACAO,
+                     CP.DS_CATEGORIA_PRESTADOR,
+                     P.DS_NOME_PRESTADOR,
+                     L.DS_LOCALIZACAO,
+                     TPR.DS_NOME_PROCEDIMENTO,
+                     PRO.DT_PROCEDIMENTO,
+                     PRO.DT_CONFIRMACAO,
+                     PRO.DT_CANCELAMENTO,
+                     nvl2(PRO.OBSERVACAO_AGENDAMENTO,
+                          '<b>Agendamento:</b> ' ||
+                          PRO.OBSERVACAO_AGENDAMENTO,
+                          '') || NVL2(PRO.OBSERVACAO_AGENDAMENTO,
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           ' <br/><b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           ''),
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           '<b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           '')) AS OBSERVACAO_AGENDAMENTO,
+
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR
+                            PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        'AGENDADO' --1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND
+                            PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        'PENDENTE CONFIRMAÇÃO' --6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        'CANCELADO SMS' --9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        'CANCELADO' --2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        'PRESENTE' --4-- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        'AUSENTE' --5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        'EXPIRADO' --8
+
+                       ELSE
+
+                        'PRESENTE' --4
+
+                     END AS DS_STATUS,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR
+                            PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND
+                            PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        4 -- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        8
+
+                       ELSE
+
+                        4
+                     END AS ID_STATUS,
+                     A.QTDE_PREV_ATENDIMENTOS,
+                     ID_USU_PACIENTE,
+                     TRUNC(MONTHS_BETWEEN(TRUNC(SYSDATE),
+                                          TO_DATE(TO_CHAR(M.DATE_OF_BIRTH),
+                                                  'YYYYMMDD')) / 12) AS IDADE_PACIENTE,
+                     M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME AS DS_NOME_PACIENTE,
+                     (SELECT LISTAGG(DS_RECURSO, ' / ') WITHIN GROUP(ORDER BY DS_RECURSO) AS DS_RECURSO
+                        FROM (SELECT DISTINCT AGR.CUSTOMER_ID,
+                                              AGR.ID_AGENDA,
+                                              RCR.ID_TIPO_RECURSO,
+                                              RCR.DS_RECURSO
+                                FROM PSP.AGENDA_RECURSOS AGR
+                               INNER JOIN PSP.RECURSOS RCR
+                                  ON RCR.ID_RECURSO = AGR.ID_RECURSO
+
+                              ) X
+                       INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                          ON TPR.ID_TIPO_RECURSO = X.ID_TIPO_RECURSO
+                       WHERE X.ID_AGENDA = A.ID_AGENDA
+                         AND X.CUSTOMER_ID = A.CUSTOMER_ID
+                         AND TPR.ID_TIPO_PROCEDIMENTO =
+                             PRO.ID_TIPO_PROCEDIMENTO
+                       GROUP BY ID_AGENDA) AS RECURSOS
+
+                FROM PSP.AGENDA A
+               INNER JOIN PSP.PRESTADORES P
+                  ON A.ID_PRESTADOR = P.ID_PRESTADOR
+                 AND A.CUSTOMER_ID = P.CUSTOMER_ID
+               INNER JOIN PSP.CATEGORIA_PRESTADOR CP
+                  ON CP.ID_CATEGORIA_PRESTADOR = P.ID_CATEGORIA_PRESTADOR
+               INNER JOIN PSP.LOCAIS L
+                  ON L.ID_LOCALIZACAO = A.ID_LOCALIZACAO
+                 AND L.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.PROCEDIMENTOS PRO
+                  ON PRO.ID_AGENDA = A.ID_AGENDA
+                 AND PRO.DT_CANCELAMENTO IS NOT NULL
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.TIPO_PROCEDIMENTO TPR
+                  ON TPR.ID_TIPO_PROCEDIMENTO = PRO.ID_TIPO_PROCEDIMENTO
+                 AND TPR.CUSTOMER_ID = PRO.CUSTOMER_ID
+               INNER JOIN MEMBER M
+                  ON M.MEMBER_ID = PRO.MEMBER_ID
+                 AND M.CLIENT_GROUP_ID = PRO.CLIENT_ID_GROUP
+                 AND M.CLIENT_ID = PRO.CLIENT_ID
+                 AND M.CUSTOMER_ID = PRO.CUSTOMER_ID
+               WHERE ((TRUNC(A.DT_AGENDA) >= P_DATA_INICIO OR
+                     P_DATA_INICIO IS NULL) AND
+                     (TRUNC(A.DT_AGENDA) <= P_DATA_FIM OR
+                     P_DATA_FIM IS NULL))
+                 AND (P_ID_TIPO_PROCEDIMENTO IS NULL OR
+                     (','||P_ID_TIPO_PROCEDIMENTO||',' like '%,'||PRO.ID_TIPO_PROCEDIMENTO||',%'))
+                 AND (P_ID_PRESTADOR IS NULL OR
+                     (','||P_ID_PRESTADOR||',' like '%,'||A.ID_PRESTADOR||',%'))
+                 AND (M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME LIKE
+                     '%' || P_NOME || '%' OR P_NOME IS NULL)
+                 AND (M.ALT_MEMBER_ID LIKE '%' || P_CPF || '%' OR
+                     P_CPF IS NULL)
+                 AND A.CUSTOMER_ID = P_CUSTOMER_ID
+
+                 AND PRO.DT_CANCELAMENTO IS NOT NULL -- ALTERADO
+
+                 AND ((','||P_ID_CATEGORIA||',' like '%,'||TPR.ID_CAT_TIPO_PROCEDIMENTO||',%') OR
+                     P_ID_CATEGORIA IS NULL)
+                 AND ((','||P_ID_LOCALIZACAO||',' like '%,'||A.ID_LOCALIZACAO||',%') OR
+                     P_ID_LOCALIZACAO IS NULL)
+                 AND (P_ID_RECURSO IS NULL OR
+                     P_ID_RECURSO IN
+                     (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = A.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = A.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO))
+                 AND (EXISTS
+                      (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = A.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = A.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             AGR.ID_RECURSO) = 'S'
+
+                       ) OR NVL(P_ID_PRESTADOR, '0') = P_ID_PRESTADOR_EMISSAO
+              UNION
+              SELECT A.ID_AGENDA,
+                     PRO.ID_PROCEDIMENTO,
+                     A.DT_AGENDA AS DT_AGENDA,
+                     TRUNC(A.DT_AGENDA) AS DT_AGENDA_SEM_HORA,
+                     A.CUSTOMER_ID,
+                     A.ID_PRESTADOR,
+                     PRO.ID_TIPO_PROCEDIMENTO,
+                     TO_CHAR(A.DT_AGENDA, 'HH24:MI') HHMM,
+                     A.ID_LOCALIZACAO,
+                     CP.DS_CATEGORIA_PRESTADOR,
+                     P.DS_NOME_PRESTADOR,
+                     L.DS_LOCALIZACAO,
+                     TPR.DS_NOME_PROCEDIMENTO,
+                     PRO.DT_PROCEDIMENTO,
+                     PRO.DT_CONFIRMACAO,
+                     PRO.DT_CANCELAMENTO,
+                     nvl2(PRO.OBSERVACAO_AGENDAMENTO,
+                          '<b>Agendamento:</b> ' ||
+                          PRO.OBSERVACAO_AGENDAMENTO,
+                          '') || NVL2(PRO.OBSERVACAO_AGENDAMENTO,
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           ' <br/><b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           ''),
+                                      nvl2(PRO.OBSERVACAO_CANCELAMENTO,
+                                           '<b>Cancelamento:</b> ' ||
+                                           PRO.OBSERVACAO_CANCELAMENTO,
+                                           '')) AS OBSERVACAO_AGENDAMENTO,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR
+                            PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        'AGENDADO' --1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND
+                            PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        'PENDENTE CONFIRMAÇÃO' --6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        'CANCELADO SMS' --9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        'CANCELADO' --2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        'PRESENTE' --4-- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        'AUSENTE' --5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        'EXPIRADO' --8
+
+                       ELSE
+
+                        'PRESENTE' --4
+
+                     END AS DS_STATUS,
+                     CASE
+                       WHEN (TPR.FL_HABILITA_CONFIRMACAO != 'S' OR
+                            PRO.ST_PROCEDIMENTO = 'V' --médico confirmou o agendamento
+                            ) AND (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA >= SYSDATE) THEN
+                        1
+
+                       WHEN TPR.FL_HABILITA_CONFIRMACAO = 'S' AND
+                            PRO.ST_PROCEDIMENTO IS NULL AND --agendamento não confirmado pelo médico
+                            (PRO.DT_CONFIRMACAO IS NULL AND
+                            PRO.DT_CANCELAMENTO IS NULL AND
+                            A.DT_AGENDA > SYSDATE) THEN
+                        6
+
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL AND PRO.FL_RETORNO_POR_SMS = 'S' THEN -- cancelado pelo paciente via sms
+                        9
+                       WHEN PRO.DT_CANCELAMENTO IS NOT NULL THEN -- cancelado pelo paciente
+                        2
+                       WHEN PRO.DT_CONFIRMACAO IS NOT NULL AND
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL THEN
+                        4 -- passou pela consulta
+                       WHEN PRO.ID_MOTIVO_AUSENCIA IS NOT NULL THEN -- não passou pela consulta
+                        5
+
+                       WHEN PRO.DT_CONFIRMACAO IS NULL AND --não confirmou a presensa
+                            PRO.DT_CANCELAMENTO IS NULL AND --não cancelou o paciente
+                            PRO.ID_MOTIVO_AUSENCIA IS NULL AND --não confirmou a ausencia
+                            A.DT_AGENDA < SYSDATE --já passou
+                        THEN
+                        8
+
+                       ELSE
+
+                        4
+                     END AS ID_STATUS,
+                     A.QTDE_PREV_ATENDIMENTOS,
+                     ID_USU_PACIENTE,
+                     TRUNC(MONTHS_BETWEEN(TRUNC(SYSDATE),
+                                          TO_DATE(TO_CHAR(M.DATE_OF_BIRTH),
+                                                  'YYYYMMDD')) / 12) AS IDADE_PACIENTE,
+                     M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME AS DS_NOME_PACIENTE,
+                     (SELECT LISTAGG(DS_RECURSO, ' / ') WITHIN GROUP(ORDER BY DS_RECURSO) AS DS_RECURSO
+                        FROM (SELECT DISTINCT AGR.CUSTOMER_ID,
+                                              AGR.ID_AGENDA,
+                                              RCR.ID_TIPO_RECURSO,
+                                              RCR.DS_RECURSO
+                                FROM PSP.AGENDA_RECURSOS AGR
+                               INNER JOIN PSP.RECURSOS RCR
+                                  ON RCR.ID_RECURSO = AGR.ID_RECURSO
+
+                              ) X
+                       INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                          ON TPR.ID_TIPO_RECURSO = X.ID_TIPO_RECURSO
+                       WHERE X.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                         AND X.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                         AND TPR.ID_TIPO_PROCEDIMENTO =
+                             PRO.ID_TIPO_PROCEDIMENTO
+                       GROUP BY ID_AGENDA) AS RECURSOS
+
+                FROM PSP.AGENDA A
+               INNER JOIN PSP.PRESTADORES P
+                  ON A.ID_PRESTADOR = P.ID_PRESTADOR
+                 AND A.CUSTOMER_ID = P.CUSTOMER_ID
+               INNER JOIN PSP.CATEGORIA_PRESTADOR CP
+                  ON CP.ID_CATEGORIA_PRESTADOR = P.ID_CATEGORIA_PRESTADOR
+               INNER JOIN PSP.LOCAIS L
+                  ON L.ID_LOCALIZACAO = A.ID_LOCALIZACAO
+                 AND L.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.AGENDA_PROCEDIMENTO AP
+                  ON AP.ID_AGENDA = A.ID_AGENDA
+               INNER JOIN PSP.PROCEDIMENTOS PRO
+                  ON PRO.ID_PROCEDIMENTO = AP.ID_PROCEDIMENTO
+                 AND PRO.DT_CANCELAMENTO IS NOT NULL
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.AGENDA AG_ORIGINAL
+                  ON PRO.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                 AND PRO.CUSTOMER_ID = A.CUSTOMER_ID
+               INNER JOIN PSP.TIPO_PROCEDIMENTO TPR
+                  ON TPR.ID_TIPO_PROCEDIMENTO = PRO.ID_TIPO_PROCEDIMENTO
+                 AND TPR.CUSTOMER_ID = PRO.CUSTOMER_ID
+               INNER JOIN MEMBER M
+                  ON M.MEMBER_ID = PRO.MEMBER_ID
+                 AND M.CLIENT_GROUP_ID = PRO.CLIENT_ID_GROUP
+                 AND M.CLIENT_ID = PRO.CLIENT_ID
+                 AND M.CUSTOMER_ID = PRO.CUSTOMER_ID
+               WHERE ((TRUNC(A.DT_AGENDA) >= P_DATA_INICIO OR
+                     P_DATA_INICIO IS NULL) AND
+                     (TRUNC(A.DT_AGENDA) <= P_DATA_FIM OR
+                     P_DATA_FIM IS NULL))
+                 AND (P_ID_TIPO_PROCEDIMENTO IS NULL OR
+                     (','||P_ID_TIPO_PROCEDIMENTO||',' like '%,'||PRO.ID_TIPO_PROCEDIMENTO||',%'))
+                 AND (P_ID_PRESTADOR IS NULL OR
+                     (','||P_ID_PRESTADOR||',' like '%,'||A.ID_PRESTADOR||',%'))
+                 AND (M.MEMBER_FIRST_NAME || M.MEMBER_LAST_NAME LIKE
+                     '%' || P_NOME || '%' OR P_NOME IS NULL)
+                 AND (M.ALT_MEMBER_ID LIKE '%' || P_CPF || '%' OR
+                     P_CPF IS NULL)
+                 AND A.CUSTOMER_ID = P_CUSTOMER_ID
+
+                 AND PRO.DT_CANCELAMENTO IS NOT NULL -- ALTERADO
+
+                 AND ((','||P_ID_CATEGORIA||',' like '%,'||TPR.ID_CAT_TIPO_PROCEDIMENTO||',%') OR
+                     P_ID_CATEGORIA IS NULL)
+                 AND ((','||P_ID_LOCALIZACAO||',' like '%,'||A.ID_LOCALIZACAO||',%') OR
+                     P_ID_LOCALIZACAO IS NULL)
+                 AND (P_ID_RECURSO IS NULL OR
+                     P_ID_RECURSO IN
+                     (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO))
+                 AND (EXISTS
+                      (SELECT AGR.ID_RECURSO
+                         FROM PSP.AGENDA_RECURSOS AGR
+                        INNER JOIN PSP.RECURSOS RCR
+                           ON RCR.ID_RECURSO = AGR.ID_RECURSO
+                          AND RCR.CUSTOMER_ID = AGR.CUSTOMER_ID
+                        INNER JOIN PSP.TIPO_PROCEDIM_RECURSOS TPR
+                           ON TPR.ID_TIPO_RECURSO = RCR.ID_TIPO_RECURSO
+                          AND TPR.CUSTOMER_ID = RCR.CUSTOMER_ID
+                        WHERE AGR.ID_AGENDA = AG_ORIGINAL.ID_AGENDA
+                          AND AGR.CUSTOMER_ID = AG_ORIGINAL.CUSTOMER_ID
+                          AND TPR.ID_TIPO_PROCEDIMENTO =
+                              PRO.ID_TIPO_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             AGR.ID_RECURSO) = 'S'
+                       UNION
+                       SELECT PR.ID_RECURSO
+                         FROM PSP.PROCEDIMENTOS_RECURSOS PR
+                        WHERE PR.CUSTOMER_ID = PRO.CUSTOMER_ID
+                          AND PR.ID_PROCEDIMENTO = PRO.ID_PROCEDIMENTO
+                          AND PSP.FN_VERIF_PREST_RECURSO_LIST(P_CUSTOMER_ID,
+                                                             P_ID_PRESTADOR_EMISSAO,
+                                                             PR.ID_RECURSO) = 'S'
+
+                       )
+
+                      OR NVL(P_ID_PRESTADOR, '0') = P_ID_PRESTADOR_EMISSAO)
+
+              ) F
+
+
+    LEFT JOIN PSP.PROCEDIMENTOS PRO
+           ON PRO.ID_PROCEDIMENTO = F.ID_PROCEDIMENTO
+          AND PRO.CUSTOMER_ID = F.CUSTOMER_ID
+    LEFT JOIN PSP.LOG LGP
+      ON LGP.LOG_ID_REGISTRO = PRO.ID_AGENDA
+     AND LGP.CUSTOMER_ID = F.CUSTOMER_ID
+     AND LGP.LOG_OPERACAO IN ('AGENDAMENTO_SOB_DEMANDA','SINCRONIZACAO')
+     AND LGP.LOG_TP_REGISTRO = 'AGENDA'
+    LEFT JOIN PSP.LOG LGP2
+      ON LGP2.LOG_ID_REGISTRO = F.ID_PROCEDIMENTO
+     AND LGP2.CUSTOMER_ID = F.CUSTOMER_ID
+     AND LGP2.LOG_OPERACAO = 'AGENDAMENTO'
+
+    LEFT JOIN ACESSO.USUARIO UEX
+      ON UEX.USU_ID = LGP.USU_ID
+     AND UEX.CUSTOMER_ID = F.CUSTOMER_ID
+
+    LEFT JOIN ACESSO.USUARIO UEX2
+      ON UEX2.USU_ID = LGP2.USU_ID
+     AND UEX2.CUSTOMER_ID = F.CUSTOMER_ID
+
+
+       WHERE (P_ID_STATUS IS NULL OR (','||P_ID_STATUS||',' like '%,'||F.ID_STATUS||',%'))
+
+       ORDER BY DT_AGENDA, DS_NOME_PRESTADOR, DS_LOCALIZACAO;
+  END IF;
+END;

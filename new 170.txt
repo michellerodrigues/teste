@@ -1,0 +1,94 @@
+PROCEDURE         SP_AUTENTICA_USUARIO
+/* ---------------------------------------------------------------------------------------------------------------------------
+  Autor:         MARCELO MAGALH?ES DE OLIVEIRA
+  Data Criac?o:  12/12/2014
+  Objetivo:      Busca as informac?es do usuario para acesso ao pre-pago
+  Ultimas Alterac?es:
+  Data           Nome                   Objetivo
+----------------------------------------------------------------------------------------------------------------------------- */
+(
+  IN_USU_LOGIN IN  VARCHAR2,
+  IN_USU_SENHA IN  VARCHAR2,
+  OUT_RESULT   OUT NUMBER,
+  OUT_MENSAGEM OUT VARCHAR2,
+  OUT_CURSOR   OUT UTL_TYPE.TCURSOR
+)
+AS
+BEGIN
+  OPEN OUT_CURSOR FOR
+  SELECT USU.USU_ID,
+         USU.USU_LOGIN,
+         USU.USU_NOME,
+         USU.USU_EMAIL,
+         USU.USU_SENHA,
+         USU.USU_DT_CRIACAO,
+         USU.COR_ID,
+         COR.COR_RAZAO_SOCIAL,
+         USU.PER_ID,
+         USU.USU_DT_DESATIVACAO,
+         COR.COR_NOME_LOGO
+    FROM PREPAGO.PRPG_USUARIOS         USU
+    INNER JOIN PREPAGO.PRPG_CORRETORAS COR ON (USU.COR_ID = COR.COR_ID)
+    WHERE (UPPER(USU.USU_LOGIN) = UPPER(IN_USU_LOGIN))
+      AND (USU.USU_SENHA        = IN_USU_SENHA)
+      AND (USU.USU_DT_DESATIVACAO IS NULL OR TO_DATE(USU.USU_DT_DESATIVACAO, 'DD/MM/YYYY') > TO_DATE(SYSDATE, 'DD/MM/YYYY'));
+  OUT_RESULT   := 1;
+  OUT_MENSAGEM := '';
+EXCEPTION
+  WHEN OTHERS THEN
+    OUT_RESULT   := -1;
+    OUT_MENSAGEM := 'ERRO EM PREPAGO.SP_AUTENTICA_USUARIO' || CHR(13) ||
+                    'COD. ERRO     : ' || TO_CHAR(SQLCODE) || CHR(13) ||
+                    'MENSAGEM. ERRO: ' || SQLERRM          || CHR(13) ||
+                    'PARAMETROS: '                         || CHR(13) ||
+                    'IN_USU_LOGIN = ' || IN_USU_LOGIN      || CHR(13) ||
+                    'IN_USU_SENHA = ' || IN_USU_SENHA;
+    RAISE_APPLICATION_ERROR(-20000, OUT_MENSAGEM);
+END;
+PROCEDURE        SP_AUTENTICA_USUARIO
+/* ---------------------------------------------------------------------------------------------------------------------------
+  Autor:         MARCELO MAGALH?ES DE OLIVEIRA
+  Data Criac?o:  14/04/2015
+  Objetivo:      Realiza a Autenticac?o do Usuario nos sistemas da Vidalink
+  Ultimas Alterac?es:
+  Data           Nome                   Objetivo
+----------------------------------------------------------------------------------------------------------------------------- */
+(
+  IN_USU_LOGIN   IN  VARCHAR2,
+  IN_USU_SENHA   IN  VARCHAR2,
+  IN_SIS_ID      IN  NUMBER,
+  OUT_RESULT     OUT NUMBER,
+  OUT_MENSAGEM   OUT VARCHAR2
+)
+AS
+  vUSU_DT_INATIVACAO ACESSO.USUARIO.USU_DT_INATIVACAO%TYPE;
+BEGIN
+  OUT_RESULT   := 1;
+  OUT_MENSAGEM := '';
+  BEGIN
+    SELECT NVL(USU.USU_DT_INATIVACAO, (SYSDATE + 1)) INTO vUSU_DT_INATIVACAO
+      FROM       ACESSO.USUARIO         USU
+      INNER JOIN ACESSO.USUARIO_SISTEMA USI ON (USU.USU_ID = USI.USU_ID) AND (USI.SIS_ID = IN_SIS_ID)
+      WHERE (USU.USU_LOGIN = IN_USU_LOGIN)
+        AND (USU.USU_SENHA = IN_USU_SENHA);
+  EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+      OUT_RESULT   := 0;
+      OUT_MENSAGEM := 'Usuario e/ou Senha Invalidos.';
+  END;
+  IF (OUT_RESULT > 0 AND vUSU_DT_INATIVACAO < SYSDATE) THEN
+    OUT_RESULT   := 0;
+    OUT_MENSAGEM := 'Usuario Encontra-se Inativo.';
+  END IF;
+EXCEPTION
+  WHEN OTHERS THEN
+    OUT_RESULT   := -1;
+    OUT_MENSAGEM := 'ERRO EM ACESSO.SP_AUTENTICA_USUARIO'    || CHR(13) ||
+                    'COD. ERRO     : ' || TO_CHAR(SQLCODE)   || CHR(13) ||
+                    'MENSAGEM. ERRO: ' || SQLERRM            || CHR(13) ||
+                    'PARAMETROS: '                           || CHR(13) ||
+                    'IN_USU_LOGIN = ' || IN_USU_LOGIN        || CHR(13) ||
+                    'IN_USU_SENHA = ' || IN_USU_SENHA        || CHR(13) ||
+                    'IN_SIS_ID    = ' || TO_CHAR(IN_SIS_ID);
+    RAISE_APPLICATION_ERROR(-20000, OUT_MENSAGEM);
+END;

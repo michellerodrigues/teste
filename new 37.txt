@@ -1,0 +1,1 @@
+{"teveErro":true,"mensagemErro":"Não é possível duas perguntas com a mesma descrição, na mesma vigência.","dataHoraServidor":"2018-04-12T14:47:32.5095106-03:00"}

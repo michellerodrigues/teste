@@ -1,0 +1,25 @@
+Request URL: http://localhost/VidalinkConnectApi/Seguranca/Login?CodigoCustomer=4C8056E2E8EE3969E053090A0A0AAE22&_=1525461459781
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 7914
+Content-Type: text/html; charset=utf-8
+Date: Fri, 04 May 2018 19:18:18 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTZWd1cmFuY2FcTG9naW4=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: ASP.NET_SessionId=03hbpydqaj0zijyq4lvmvfxn
+Host: localhost
+Referer: http://localhost/PSP.UI/Home?ReturnUrl=%2fPSP.UI%2f
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+X-Requested-With: XMLHttpRequest
+CodigoCustomer: 4C8056E2E8EE3969E053090A0A0AAE22
+_: 1525461459781

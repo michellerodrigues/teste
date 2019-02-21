@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>O sistema n&#227;o pode encontrar o arquivo especificado</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Erro de Servidor no Aplicativo '/Markel.Cotacao.Site/WebApi'.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>O sistema n&#227;o pode encontrar o arquivo especificado</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Descrição: </b>Ocorreu uma exceção sem tratamento durante a execução da atual solicitação da Web. Examine o rastreamento de pilha para obter mais informações sobre o erro e onde foi originado no código.
+
+            <br><br>
+
+            <b> Detalhes da Exceção: </b>System.ComponentModel.Win32Exception: O sistema n&#227;o pode encontrar o arquivo especificado<br><br>
+
+            <b>Erro de Origem:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+Linha 129:        public IQueryable&lt;TEntity&gt; AsQueryable()
+Linha 130:        {
+<font color=red>Linha 131:            return DbContext.Set&lt;TEntity&gt;().AsNoTracking();
+</font>Linha 132:        }
+Linha 133:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b> Arquivo de Origem: </b> C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Infrastructure\Repository\Repository.cs<b> &nbsp;&nbsp; Linha: </b> 131
+            <br><br>
+
+            <b>Rastreamento de Pilha:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[Win32Exception (0x80004005): O sistema n&#227;o pode encontrar o arquivo especificado]
+
+[SqlException (0x80131904): Erro de rede ou espec&#237;fico &#224; inst&#226;ncia ao estabelecer conex&#227;o com o SQL Server. O servidor n&#227;o foi encontrado ou n&#227;o estava acess&#237;vel. Verifique se o nome da inst&#226;ncia est&#225; correto e se o SQL Server est&#225; configurado para permitir conex&#245;es remotas. (provider: Named Pipes Provider, error: 40 - N&#227;o foi poss&#237;vel abrir uma conex&#227;o com o SQL Server)]
+   System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling) +821
+   System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions) +332
+   System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions) +38
+   System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection) +699
+   System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection) +89
+   System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection) +426
+   System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection) +78
+   System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection) +191
+   System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions) +154
+   System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions) +21
+   System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry) +90
+   System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry) +209
+   System.Data.SqlClient.SqlConnection.Open() +96
+   System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.&lt;Open&gt;b__36(DbConnection t, DbConnectionInterceptionContext c) +12
+   System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch(TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed) +467
+   System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext) +405
+   System.Data.Entity.SqlServer.&lt;&gt;c__DisplayClass33.&lt;UsingConnection&gt;b__32() +459
+   System.Data.Entity.SqlServer.&lt;&gt;c__DisplayClass1.&lt;Execute&gt;b__0() +15
+   System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Func`1 operation) +190
+   System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation) +82
+   System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act) +194
+   System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act) +603
+   System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript) +87
+   System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection) +158
+   System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection) +73
+   System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase() +124
+   System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection) +112
+   System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase) +141
+   System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration) +79
+   System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext) +88
+   System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState) +132
+   System.Data.Entity.Database.Create(DatabaseExistenceState existenceState) +215
+   System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context) +159
+   System.Data.Entity.Internal.&lt;&gt;c__DisplayClassf`1.&lt;CreateInitializationAction&gt;b__e() +76
+   System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action) +60
+   System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization() +395
+   System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c) +11
+   System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input) +110
+   System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action) +214
+   System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase() +97
+   System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType) +28
+   System.Data.Entity.Internal.Linq.InternalSet`1.Initialize() +53
+   System.Data.Entity.Internal.Linq.InternalSet`1.AsNoTracking() +18
+   System.Data.Entity.Infrastructure.DbQuery`1.AsNoTracking() +46
+   Markel.Cotacao.Infrastructure.Repository.Repository`1.AsQueryable() in C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Infrastructure\Repository\Repository.cs:131
+   Markel.Cotacao.Infrastructure.Repository.UsuarioRepository.ObterPorLogin(String login) in C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Infrastructure\Repository\UsuarioRepository.cs:19
+   Markel.Cotacao.Domain.Service.UsuarioAppService.Logar(LoginDTO login, Boolean&amp; bloqueadoPorTentativas) in C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Domain\Service\UsuarioAppService.cs:26
+   Markel.Cotacao.WebApi.Providers.&lt;GrantResourceOwnerCredentials&gt;d__1.MoveNext() in C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.WebApi\Providers\ApplicationOAuthProvider.cs:58
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   Microsoft.Owin.Security.OAuth.&lt;InvokeTokenEndpointResourceOwnerPasswordCredentialsGrantAsync&gt;d__3f.MoveNext() +466
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task) +25
+   Microsoft.Owin.Security.OAuth.&lt;InvokeTokenEndpointAsync&gt;d__22.MoveNext() +1556
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task) +25
+   Microsoft.Owin.Security.OAuth.&lt;InvokeAsync&gt;d__0.MoveNext() +1103
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   Microsoft.Owin.Security.Infrastructure.&lt;Invoke&gt;d__0.MoveNext() +435
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   System.Runtime.CompilerServices.TaskAwaiter.GetResult() +26
+   Markel.Cotacao.WebApi.Providers.&lt;Invoke&gt;d__1.MoveNext() in C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.WebApi\Providers\ApplicationOAuthProvider.cs:29
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.&lt;RunApp&gt;d__5.MoveNext() +182
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +99
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +61
+   Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.&lt;DoFinalWork&gt;d__2.MoveNext() +180
+   Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) +69
+   Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar) +64
+   System.Web.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +380
+   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +48
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) +159
+</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Informações sobre a Versão:</b>&nbsp;Microsoft .NET Framework Versão:4.0.30319; Versão do ASP.NET:4.7.2633.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[Win32Exception]: O sistema n&#227;o pode encontrar o arquivo especificado
+[SqlException]: Erro de rede ou espec&#237;fico &#224; inst&#226;ncia ao estabelecer conex&#227;o com o SQL Server. O servidor n&#227;o foi encontrado ou n&#227;o estava acess&#237;vel. Verifique se o nome da inst&#226;ncia est&#225; correto e se o SQL Server est&#225; configurado para permitir conex&#245;es remotas. (provider: Named Pipes Provider, error: 40 - N&#227;o foi poss&#237;vel abrir uma conex&#227;o com o SQL Server)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   em System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   em System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   em System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   em System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   em System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   em System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   em System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   em System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   em System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   em System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   em System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   em System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   em System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   em System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   em System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   em System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   em System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   em System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   em System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   em System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   em System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   em System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   em System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.AsNoTracking()
+   em System.Data.Entity.Infrastructure.DbQuery`1.AsNoTracking()
+   em Markel.Cotacao.Infrastructure.Repository.Repository`1.AsQueryable() na C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Infrastructure\Repository\Repository.cs:linha 131
+   em Markel.Cotacao.Infrastructure.Repository.UsuarioRepository.ObterPorLogin(String login) na C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Infrastructure\Repository\UsuarioRepository.cs:linha 19
+   em Markel.Cotacao.Domain.Service.UsuarioAppService.Logar(LoginDTO login, Boolean& bloqueadoPorTentativas) na C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.Domain\Service\UsuarioAppService.cs:linha 26
+   em Markel.Cotacao.WebApi.Providers.ApplicationOAuthProvider.<GrantResourceOwnerCredentials>d__1.MoveNext() na C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.WebApi\Providers\ApplicationOAuthProvider.cs:linha 58
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Microsoft.Owin.Security.OAuth.OAuthAuthorizationServerHandler.<InvokeTokenEndpointResourceOwnerPasswordCredentialsGrantAsync>d__3f.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   em Microsoft.Owin.Security.OAuth.OAuthAuthorizationServerHandler.<InvokeTokenEndpointAsync>d__22.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   em Microsoft.Owin.Security.OAuth.OAuthAuthorizationServerHandler.<InvokeAsync>d__0.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   em Markel.Cotacao.WebApi.Providers.AuthenticationMiddleware.<Invoke>d__1.MoveNext() na C:\Users\miche\projetos\precificador\Precificador-Impeto-Markel\Markel.Cotacao.WebApi\Providers\ApplicationOAuthProvider.cs:linha 29
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__2.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)
+   em Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar)
+   em System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-->

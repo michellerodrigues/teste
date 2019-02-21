@@ -1,0 +1,8 @@
+[{"UsuId":0,"Nome":"JONAS MARQUES VIEIRA","NomeMedico":null,"Cpf":"29518833826","Endereco":"AVENIDA ALEXIOS JAFET","EnderecoNumero":"1982","Bairro":"JARDIM AURORA (ZONA OESTE","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"29518833826","ClientId":null,"ClientGroupId":null,"MiscData":"17003311","MemberIdConjuge":"29518833826","EffectiveDateOverride":20171004,"IdCliente":"56188","DataInicioBeneficioCliente":null,"UsuIdConjuge":317608,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+[{"UsuId":317607,"Nome":"JONAS MARQUES VIEIRA","NomeMedico":null,"Cpf":"29518833826","Endereco":"AVENIDA ALEXIOS JAFET","EnderecoNumero":"1982","Bairro":"JARDIM AURORA (ZONA OESTE","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"29518833826","ClientId":null,"ClientGroupId":null,"MiscData":"17003311","MemberIdConjuge":"29518833826","EffectiveDateOverride":20171004,"IdCliente":"56188","DataInicioBeneficioCliente":null,"UsuIdConjuge":317608,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+[{"UsuId":350600,"Nome":"MARIO SOUZA RIBEIRO ||","NomeMedico":null,"Cpf":"80611125587","Endereco":"JACI SANTOS FLORES","EnderecoNumero":"12","Bairro":"CANDEIAS","Cidade":"VITORIA DA CONQUISTA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"80611125587","ClientId":null,"ClientGroupId":null,"MiscData":"20906567","MemberIdConjuge":"80611125587","EffectiveDateOverride":20180219,"IdCliente":"59409","DataInicioBeneficioCliente":null,"UsuIdConjuge":356704,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+

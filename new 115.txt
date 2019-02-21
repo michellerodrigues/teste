@@ -1,0 +1,25 @@
+update CamposCotacao set NomeCampoCotacao='nm_cep_proprietario', DescricaoCorrecao='Cep do Proprietário' where NomeCampoCotacao=='nm_cep'
+
+INSERT [dbo].[CampoCotacao] ([NomeCampoCotacao], [DescricaoNegocioCampo], [DescricaoCorrecao], [TamanhoMinimoCampo], [TamanhoMaximo]) VALUES (N'nm_cep_propriedade', N'endereco.CepPropriedade', N'cep da propriedade', 8, 8)
+
+DECLARE idCampoCotacao = SELECT SCOPE_IDENTITY()
+update set LabelCampo='Cep do Proprietário' where CampoCotacaoId=(select CampoCotacaoId where nomeCampo='nm_cep_proprietario')
+
+
+INSERT [dbo].[CampoCotacao] ([CampoCotacaoId], [NomeCampoCotacao], [DescricaoNegocioCampo], [DescricaoCorrecao], [TamanhoMinimoCampo], [TamanhoMaximo]) VALUES (6, N'nm_cep', N'endereco.Cep', N'cep da propriedade', 8, 8)
+
+
+
+
+
+
+INSERT [dbo].[Celulas] ([EnderecoCelula], [NomeObjeto], [LabelCampo], [MapaId], [CampoCotacaoId], [SubstringTamanho], [ObjetoOLE], [Obrigatorio], [SomenteNumeros], [CelulaAlternativa], [LimparCaracteresEspeciais], [PermitirZero]) VALUES (N'K18', N'CelulaComum', N'Cobertura scs/hectare', 2, 14, 0, 0, 1, 0, NULL, 0, 0)
+
+INSERT [dbo].[Celulas] ([EnderecoCelula], [NomeObjeto], [LabelCampo], [MapaId], [CampoCotacaoId], [SubstringTamanho], [ObjetoOLE], [Obrigatorio], [SomenteNumeros], [CelulaAlternativa], [LimparCaracteresEspeciais], [PermitirZero]) VALUES (N'K18', N'CelulaComum', N'Cep', 2, 6, 0, 0, 1, 0, NULL, 0, 0)
+
+INSERT [dbo].[Celulas] ([CelulaId], [EnderecoCelula], [NomeObjeto], [LabelCampo], [MapaId], [CampoCotacaoId], [SubstringTamanho], [ObjetoOLE], [Obrigatorio], [SomenteNumeros], [CelulaAlternativa], [LimparCaracteresEspeciais], [PermitirZero]) VALUES (24, N'H15', N'CelulaComum', N'Cep', 2, 6, 0, 0, 1, 0, NULL, 0, 0)
+INSERT [dbo].[Celulas] ([CelulaId], [EnderecoCelula], [NomeObjeto], [LabelCampo], [MapaId], [CampoCotacaoId], [SubstringTamanho], [ObjetoOLE], [Obrigatorio], [SomenteNumeros], [CelulaAlternativa], [LimparCaracteresEspeciais], [PermitirZero]) VALUES (50, N'AL15', N'CelulaComum', N'Cep', 1, 6, 0, 0, 1, 0, NULL, 0, 0)
+INSERT [dbo].[Celulas] ([CelulaId], [EnderecoCelula], [NomeObjeto], [LabelCampo], [MapaId], [CampoCotacaoId], [SubstringTamanho], [ObjetoOLE], [Obrigatorio], [SomenteNumeros], [CelulaAlternativa], [LimparCaracteresEspeciais], [PermitirZero]) VALUES (119, N'G13', N'CelulaComum', N'Cep', 3, 6, 0, 0, 1, 0, NULL, 0, 0)
+ 
+ 
+ 

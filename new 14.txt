@@ -1,0 +1,302 @@
+Request URL: http://localhost/WebAppAdminPSP/Paciente/ProntuarioPaciente?Acao=INCLUSAO&_=1526780074625
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 7398
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 May 2018 01:34:39 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFdlYkFwcEFkbWluUFNQXFBhY2llbnRlXFByb250dWFyaW9QYWNpZW50ZQ==?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Acao: INCLUSAO
+_: 1526780074625
+
+
+
+-Request URL: http://localhost/VidalinkConnectApi/Scripts/paciente/register-paciente.js?t=636623660792859800
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 706
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "b1de8d3b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:45 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXHBhY2llbnRlXHJlZ2lzdGVyLXBhY2llbnRlLmpz?=
+Accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+t: 636623660792859800
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Scripts/base/require.config.js?t=1526780079400
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 1729
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "5317393b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:44 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXGJhc2VccmVxdWlyZS5jb25maWcuanM=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+t: 1526780079400
+
+--
+Request URL: http://localhost/WebAppAdminPSP/Scripts/app/paciente/tratamento.js?t=636623660793304899
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 7990
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "405588422e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:56 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFdlYkFwcEFkbWluUFNQXFNjcmlwdHNcYXBwXHBhY2llbnRlXHRyYXRhbWVudG8uanM=?=
+Accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+t: 636623660793304899
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Scripts/require.js?t=1526780079506
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 88608
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "d6ee263b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:44 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXHJlcXVpcmUuanM=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+t: 1526780079506
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Scripts/paciente/register-paciente-module.js?t=1526780079604
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 30902
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "e9a18e3b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:45 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXHBhY2llbnRlXHJlZ2lzdGVyLXBhY2llbnRlLW1vZHVsZS5qcw==?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+t: 1526780079604
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Scripts/base/component.require.js?t=1526780079604
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 2950
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "a0ff3a3b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:44 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXGJhc2VcY29tcG9uZW50LnJlcXVpcmUuanM=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+t: 1526780079604
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Scripts/requireJsModules/bootstrap/amd/main.js?t=1526780079604
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Accept-Ranges: bytes
+Content-Length: 67557
+Content-Type: application/javascript
+Date: Sun, 20 May 2018 01:34:39 GMT
+ETag: "e27aaa3b2e3d31:0"
+Last-Modified: Thu, 03 May 2018 17:14:45 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxTY3JpcHRzXHJlcXVpcmVKc01vZHVsZXNcYm9vdHN0cmFwXGFtZFxtYWluLmpz?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+t: 1526780079604
+
+
+--
+
+Request URL: http://localhost/VidalinkConnectApi/Paciente/CadastrarPaciente?codigoCustomer=4C8056E2E8EE3969E053090A0A0AAE22&code=0&info=QFljtYyJ9Oq2SlTPy05uL+J7WIK2EIbMmF1ltvglMdh9mXAiXd8fV2v6+Tf8KrRG4QXsMb8jx6OT/+VVPGqsetyXAcgQaLnwWOr+DLMsNzq5WEhDv+7t4zr4kDElLRihGK+0F3KS9gJPew2dtKsreWM/TAvsVLIqrOTIUxt/UxdUqJ5CcTD8KxvxOyv6XI3ECvTX36BraB3qsGizgpnWso9HNoGB5eA7NEq+MdpucqutCTGT9o1V5m+oFA1ZIIO1brUkvd64BCqFC58LPh4/HuOhk6oxE9q1/FV5jPLLZM0IrheKklpgpk0aNAsS9c5I&integracao=S&acao=INCLUSAO&exibeInfoIntegracao=undefined&TipoCampo=T&cadastrofast=N&exibetitulos=S&identificacaoUsuarioExterno=WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS/0=&_=1526780081191
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 31678
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 May 2018 01:35:06 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxQYWNpZW50ZVxDYWRhc3RyYXJQYWNpZW50ZQ==?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+codigoCustomer: 4C8056E2E8EE3969E053090A0A0AAE22
+code: 0
+info: QFljtYyJ9Oq2SlTPy05uL J7WIK2EIbMmF1ltvglMdh9mXAiXd8fV2v6 Tf8KrRG4QXsMb8jx6OT/ VVPGqsetyXAcgQaLnwWOr DLMsNzq5WEhDv 7t4zr4kDElLRihGK 0F3KS9gJPew2dtKsreWM/TAvsVLIqrOTIUxt/UxdUqJ5CcTD8KxvxOyv6XI3ECvTX36BraB3qsGizgpnWso9HNoGB5eA7NEq MdpucqutCTGT9o1V5m oFA1ZIIO1brUkvd64BCqFC58LPh4/HuOhk6oxE9q1/FV5jPLLZM0IrheKklpgpk0aNAsS9c5I
+integracao: S
+acao: INCLUSAO
+exibeInfoIntegracao: undefined
+TipoCampo: T
+cadastrofast: N
+exibetitulos: S
+identificacaoUsuarioExterno: WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS/0=
+_: 1526780081191
+
+--
+Request URL: http://localhost/VidalinkConnectApi/Paciente/CadastrarPaciente
+Request Method: POST
+Status Code: 200 OK
+Remote Address: [::1]:80
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 1044
+Content-Type: application/json; charset=utf-8
+Date: Sun, 20 May 2018 01:39:33 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXFBzcC5PRklDSUFMXFZpZGFsaW5rQ29ubmVjdEFwaVxQYWNpZW50ZVxDYWRhc3RyYXJQYWNpZW50ZQ==?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Content-Length: 1582
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: .PSPADMINCOOKIE=8BA27C81972C33EC9E26D247C2528223A9022D85896B70C11D0C58CAB7F82127B9D5AC35FB847A05F7ADFC3D0A2CD2D3AF46F0D99C4955125AAF338ABD3D19585107197B5D5091215A3FA7F754E1C114646DBBDF81010A9AE580BA5BEC960AFA; ASP.NET_SessionId=3thoqn01egseqdgv3ct4o0wm
+Host: localhost
+Origin: http://localhost
+Referer: http://localhost/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+0%7CInfo=QFljtYyJ9Oq2SlTPy05uL+J7WIK2EIbMmF1ltvglMdh9mXAiXd8fV2v6+Tf8KrRG4QXsMb8jx6OT%2F+VVPGqsetyXAcgQaLnwWOr+DLMsNzq5WEhDv+7t4zr4kDElLRihGK+0F3KS9gJPew2dtKsreWM%2FTAvsVLIqrOTIUxt%2FUxdUqJ5CcTD8KxvxOyv6XI3ECvTX36BraB3qsGizgpnWso9HNoGB5eA7NEq+MdpucqutCTGT9o1V5m+oFA1ZIIO1brUkvd64BCqFC58LPh4%2FHuOhk6oxE9q1%2FFV5jPLLZM0IrheKklpgpk0aNAsS9c5I&0%7CTipoCampo=T&IdentificacaoUsuarioExterno=WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS%2F0%3D&394%7CRACE=&396%7CRELIGION=&392%7CMEDICO_HTML=&117%7CNOME_MEDICO=&115%7CCRM=&116%7CCRM_UF=&118%7CMEDICAMENTO=-1&83%7CUSU_LOGIN=MICA.MSR%40GMAIL.COM&143%7CUSU_ID=&112%7CCOMBO_2=-1&359%7CFONE_TIPO_2=CEL&106%7CFONE_TIPO_1=RES&121%7CMISC_DATA=&105%7CALT_MEMBER_ID=&342%7CPATIENT_PIN_NUMBER=&96%7CMEMBER_FIRST_NAME=&95%7CMEMBER_LAST_NAME=&94%7CTERMINATION_DATE=99991231&93%7CEFFECTIVE_DATE_OVERRIDE=&92%7CRELATIONSHIP=1&91%7CPERSON_CODE=001&90%7CMEMBER_ID=&89%7CCLIENT_GROUP_ID=INTIMAMENTE+BEM&88%7CCLIENT_ID=INTIMAMENTE+BEM&87%7CCUSTOMER_ID=CT000393&145%7CSENHA_OPER=1IAjs7ZGOBQ%3D&142%7CSIS_ID=21&144%7CLOGIN_OPER=ADMVDLK&85%7CUSU_NOME=MICHELLE+RODRIGUES&81%7CUSU_CPF=654.496.027-66&113%7CSEX_OF_PATIENT=2&103%7CDATE_OF_BIRTH=18%2F05%2F1978&107%7CTELEFONE_2=(21)+98226-6269&355%7CFONE_1=&357%7CTELEFONE_COM=&101%7CZIP_CODE=&97%7CADDRESS_1=&82%7CEND_NUMERO=&98%7CEND_COMPLEMENTO=&99%7CCITY=&100%7CSTATE=&114%7CADDRESS_2=&86%7CUSU_EMAIL=MICA.MSR%40GMAIL.COM&111%7COPCAO_SEXUAL=&84%7CUSU_SENHA=Abc123*123&122%7CCONFIRMACAO_SENHA=Abc123*123&321%7COPTIN_1=S&109%7COPTIN_2=S&110%7COPTIN_3=S&343%7COPTIN_4=S&IdPrestadorMedico=&Integracao=S&NaoAtualizarToken=N
+
+
+{"IsValid":false,"Message":"An error has occurred.","Token":"bRSaJdr82gF9ydGGxQaM7Gh_5L343XISTbQnz3259lGsiCyzxsObs2E-7gwYLlupFALx_IBIc7tQWGIQ-9H3IpYOnMnLK_Z5_WalYzm8xwvDEAAfJCgUsUcPQWm5MSNjykwEE1SkmkeYBx6xBbl-olRNi39AMptZceBGEkftZzaldxfZh-gMJiO24Mu5BQ6tXARBSXlqcW__atbaLh8I-GNsC8tGrEvaoGgteCzOhsnTeAP5oy6e6TgWxxTdyU2zYZJxYftrF17eGhrlbfmENKNBVc3F43pLQXmAYwESWHhgK12ipdq0Sf25bQTZOB3xNxZrKuOGWNv1WnShmqvR1Yk1cCSMeE11m7LC0S6Qp_8","CodigoUsuario":"","TokenLogin":"EFpiempCV/NgGU09HVX8FhswAM55hCzCURJdB04T0/wunHcVXvCDhNF85qihPk8qnf6HdtF47rRXDB0w4cPowSdJNn92lA8ry7rqSmToi+c2+JGzWttAYZTmBOFb8/TtDoJ6NCizfwC+PV8erdCbNAXqqVSmMj932XsGQ3Mj1oDjpwrpMPhNOG+o+uiEPp/dDyVLS2mWVOysaFcRsIs+LvY8uHqdjWbLXsZAsP0fBbOtaKYpZyJKlcIdZev7K0VGVtO7MzUhwfjuPlZAd8NBI247D53scdbgI5Pj1Lur0g9JdonhzRuuYaBPj+n0qOvv5FuYPyyfjdrxE69MP4xnnooIaPiSU9Izz8Xh9KWTrWcWXf0+sMePFwsGqlWxhIgTif3Uz78CTFwMYQ4jl5dZvnbzUUXLD7qBVb0Bj28eZepeU2FHoySS6naI1HNI91gG/HoL//XoTjZQX/pJ6vYyB8vaW7keNaqcRLOgQXsZqS46byBpyI+by3Gbocp3kA3iLCX/pWXDhLGLjCVho549kg==","PatientPinNumber":"65449602766","MiscData":""}
+
+
+-		usu	{Vidalink.API.Services.Models.UsuarioModel}	Vidalink.API.Services.Models.UsuarioModel
+		Cnpj	null	string
+		Code	null	string
+		CodigoCustomer	null	string
+		Cpf	null	string
+		CustomerId	"CT000393"	string
+		Email	null	string
+		Login	null	string
+		MemberIdConjuge	null	string
+		MemberIdTitular	null	string
+		MiscData	null	string
+		Nome	null	string
+		Senha	null	string
+		SisId	21	decimal
+		UsuId	0	decimal
+		UsuIdConjuge	0	decimal
+		UsuIdTitular	0	decimal
+
+		
+		CT000558
+		
+--
+-		retDto	{{"CODIGO":1,"MENSAGEM":"Vida cadastrada\/alterada com sucesso.","NUM_CARTAO":"46263840994"}}	VidalinkWebApi.DTO.RetornoDTO {VidalinkWebApi.DTO.RetornoVidaDTO}
+		CODIGO	1	int
+		MENSAGEM	"Vida cadastrada/alterada com sucesso."	string
+		NUM_CARTAO	"46263840994"	string
+

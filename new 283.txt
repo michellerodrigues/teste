@@ -1,0 +1,41 @@
+14/06/2018	"""Favor executar orientações do MED_SOFT abaixo; Sem as mesmas, não é possível prosseguir.
+
+Fiz a pesquisa e os passos de correção ainda estão pendentes:
+
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/84807866044
+
+<?xml version=""""1.0""""?>
+<string>Patient not found</string>"""
+
+10/06/2018
+
+Favor executar orientações do MED_SOFT abaixo; Sem as mesmas, não é possível prosseguir.
+
+Fiz a pesquisa e os passos de correção ainda estão pendentes:
+
+http://186.201.50.139:5000/Patient/ByPersonId/BRAZILIAN_CPF/84807866044
+
+<?xml version=""""1.0""""?>
+<string>Patient not found</string>"""
+	"Michele Rodrigues (Assignee) added a comment
+
+	
+30-05-2018 at 16:24:54
+
+Natália, para correção do Paciente 
+1.1 - Acrescentar o NRE do paciente no seu cadastro, no campo RG, MED_SOFT. 
+1.2 - Acrescentar ao PSP o CPF fake para este paciente: 84807866044 
+1.3 - Solicitar ajuste no PSP através do CPF: 84807866044"
+	"PACIENTE: Antonia Gisela Coelho de Freitas Id MedSoft: 33822 ; Ticket: 51527 
+Nathália, verifiquei aqui e temos um paleativo até a solução definitiva de identificação única para o paciente estrangeiro. 
+
+1 - Incluiremos um IDENTIFICADOR ÚNICO no PSP (semelhante a um CPF). 
+2 - Incluiremos este número no lugar do CPF paciente no PSP. 
+3 - Será necessário atualizar a MEDSOFT com este número. 
+4 - Este número passará a ser a chave do nosso lado aqui. Até termos uma outra forma de identificar o paciente estrangeiro junto à MEDSOFT. 
+
+5 - Você autoriza este procedimento? 
+
+no Aguardo 
+
+Michelle Rodrigues"

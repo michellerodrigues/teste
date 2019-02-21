@@ -1,0 +1,21 @@
+
+
+1 - Precificador
+
+contrato de entrada
+cacula
+devolve o valor calculado
+
+2 - Outro serviço pdf da cotação
+cotação gerada, e devolve o pdf
+
+1----------- ALTERAR O LAYOUT DO PRECIFICADOR-----------
+
+2----------- TRANSFORMAR O PRECIFICADOR EM SERVIÇO------
+
+
+3 - PERGUNTAS:
+
+SE PARA UMA COTAÇÃO, O CARA PRECISA PASSAR
+
+SEPARAR SERVIÇOS QUE PODEM IR DIRETO NO I4PRO ---TOKEN POR EXEMPLO.

@@ -1,0 +1,22 @@
+  IF (P_ID_STATUS IS NULL OR ((select column_name from table(P_ID_STATUS)) not in (2,9))) THEN
+  
+Erro(25,32): PLS-00103: Encountered the symbol "SELECT" when expecting one of the following:     ( - + case mod novo not nulo <um identificador>    <um identificador delimitado por aspas duplas>    <uma variável de ligação> continuar média contagem atual    existe máx min prior sql stddev soma variance executar forall    intercalar tempo timestamp interval data    <um literal de string com especificação de conjunto de caracteres>    <um número> <uma string SQL com aspas simples> pipe    <um literal de string alternativ
+
+
+
+ (','||P_ID_STATUS||',' not like '%,'||9||',%')) )
+ 
+                  AND (P_ID_TIPO_PROCEDIMENTO IS NULL OR
+                     PRO.ID_TIPO_PROCEDIMENTO = P_ID_TIPO_PROCEDIMENTO)
+					 
+				  AND  (P_ID_TIPO_PROCEDIMENTO IS NULL OR (','||P_ID_TIPO_PROCEDIMENTO||',' like '%,'||PRO.ID_TIPO_PROCEDIMENTO||',%'))
+				  
+				                   AND (P_ID_PRESTADOR IS NULL OR
+                     A.ID_PRESTADOR = P_ID_PRESTADOR)
+					 
+				   AND  (P_ID_PRESTADOR IS NULL OR (','||P_ID_PRESTADOR||',' like '%,'||A.ID_PRESTADOR|',%'))	 
+				   
+				                    AND (A.ID_LOCALIZACAO = P_ID_LOCALIZACAO OR
+                     P_ID_LOCALIZACAO IS NULL)
+					 
+					  AND  (P_ID_LOCALIZACAO IS NULL OR (','||P_ID_LOCALIZACAO||',' like '%,'||A.ID_LOCALIZACAO|',%'))	  

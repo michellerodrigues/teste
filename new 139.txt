@@ -1,0 +1,98 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		Unable to copy file "C:\Users\miche\Desktop\mica\SIC\packages\Microsoft.Net.Compilers.2.6.1\tools\System.ValueTuple.dll" to "bin\roslyn\System.ValueTuple.dll". Access to the path 'bin\roslyn\System.ValueTuple.dll' is denied.	SIC			
+
+
+180522053492
+
+Aviso de Sinistro
+
+Michelle De Souza Rodrigues
+Consulta Prévia: 2018092980
+Status: Alvará em análise
+
+
+CAE 	CNAE's 
+Visualizar2.31.50.9 - PROGRAMADOR DE COMPUTADOR
+
+
+"Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;"
+
+Aviso de Sinistro enviado no arquivo {0} não foi processado
+
+"Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;"
+
+
+Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de inclusão de cotação.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe uma cotação válida e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;
+Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{3}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;
+
+
+"Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{3}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;"
+
+
+
+
+
+"Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{3}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;"
+
+
+
+
+E-mail de comunicação em caso de erro na validação da planilha de cotação
+E-mail de comunicação em caso de erro na validação da planilha de sinistro
+
+Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de inclusão de cotação.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe uma cotação válida e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;
+Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;
+
+
+
+
+parametros:{"subject_email_erro_cliente_planilha":"","body_email_erro_cliente_planilha":"",},
+
+
+
+{"nomeArquivo":"C:\\temp\\20180523115527_Formulario Aviso de Sinistro_DataComunicacao.xlsx","dataRecebimento":"2018-05-23","assuntoEmail":"sinistro data Comunicacao","from":"mica.msr@gmail.com","nomeAnexo":"20180523115527_Formulario Aviso de Sinistro_DataComunicacao.xlsx"}"),
+    FromJson<ParametrosMessage>("{"body_email_erro_cliente_anexo":"Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos o aviso de sinistro número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;","body_email_erro_cliente_planilha":"Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt; Nome Anexo Enviado:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Mensagem Retornada:&lt;i&gt;&lt;b&gt;{2}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;","body_email_erro_leitura":"Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processado . Motivo : &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;","body_email_sucesso_leitura":"Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos o aviso de sinistro número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;","cd_forma_pagamento_pparcela":null,"cd_produto":0,"cd_unidade":0,"enviar_somente_cobertura_basica":null,"id_fruta_grao":0,"id_grp_cultivo":0,"id_produto_parc_premio":0,"id_tp_subvencao":0,"id_usuario":1,"lista_destinatarios_bc":"destinatario1bc@mailinator.com|destinatario2bc@mailinator.com","lista_destinatarios_bc_job":"falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com","lista_destinatarios_cc":"destinatario1cc@mailinator.com","lista_destinatarios_cc_job":"falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com","nome_cobertura_basica":null,"nome_cobertura_replantio":null,"Password":"Alterar2018","replyTo_job":"replyto_job@mailinator.com","subject_email_erro_cliente_anexo":"Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.","subject_email_erro_cliente_planilha":"Aviso de Sinistro enviado no arquivo {0} não foi processado","subject_email_erro_leitura":"Aviso de Sinistro enviado no arquivo '{0}' não foi processado.","subject_email_sucesso_leitura":"Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.","user_email":"michelle.rodrigues@sysmi.com.br","server_url":"https://outlook.office365.com/EWS/Exchange.asmx","usuario_email":"teste","nome_planilha":"sinistro"}"));
+
+
+["{\"queryString\":null,\"receivedBy\":null,\"sender\":null,\"from\":null,\"replyTo\":\"mica.msr@gmail.com\",\"idCotacao\":null,\"bodyEmail\":\"O anexo 'sinistro', recebido no email 'teste sinistro' não foi processado. Motivo Erro '1 - Data de comunicação não pode ser maior que a data do módulo de sinistro.'\",\"subjectEmail\":\"Pedido de Cotação Não Processado, arquivo : sinistro\"}"]
+
+
+
+{"Type":"SIC.WebApi.EWSBaseApiService, SIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","Method":"NotificarCliente","ParameterTypes":"[\"SIC.WebApi.Messages.BaseEmailMessageRequest, SIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"]","Arguments":"[\"{\\\"queryString\\\":null,\\\"receivedBy\\\":null,\\\"sender\\\":null,\\\"from\\\":null,\\\"replyTo\\\":\\\"mica.msr@gmail.com\\\",\\\"idCotacao\\\":null,\\\"bodyEmail\\\":\\\"O anexo 'sinistro', recebido no email 'teste sinistro' não foi processado. Motivo Erro '1 - Data de comunicação não pode ser maior que a data do módulo de sinistro.'\\\",\\\"subjectEmail\\\":\\\"Pedido de Cotação Não Processado, arquivo : sinistro\\\"}\"]"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

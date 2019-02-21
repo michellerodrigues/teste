@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class InserirClientePropriedade
+{
+    public string nm_pessoa { get; set; }
+    public string nm_propriedade { get; set; }
+    public int cd_tipo_pessoa { get; set; }
+    public string nr_rua_endereco { get; set; }
+    public string nm_complemento { get; set; }
+    public string nm_cep { get; set; }
+    public int cd_uf { get; set; }
+    public int id_local { get; set; }
+    public double nr_area_risco { get; set; }
+    public object id_cod_unidade { get; set; }
+    public object id_cod_subscritor { get; set; }
+    public string nr_cnpj_cpf { get; set; }
+    public string nm_telefone_cliente { get; set; }
+    public string nm_ddd_cliente { get; set; }
+    public int id_tp_subvencao { get; set; }
+}
+
+public class InserirDadosItem
+{
+    public int id_fruta_grao { get; set; }
+    public int id_grp_cultivo { get; set; }
+    public int id_tp_solo { get; set; }
+    public object id_rural_nivel_cobertura { get; set; }
+    public double nr_area_risco { get; set; }
+    public double qt_produto_kilo_alqueire { get; set; }
+    public double vl_reais_quilo { get; set; }
+    public string dt_inicio_plantacao { get; set; }
+    public string dt_fim_plantacao { get; set; }
+    public double vl_custo_producao { get; set; }
+    public int cd_unidade { get; set; }
+    public double nr_area_total_propriedade { get; set; }
+}
+
+public class InserirCobertura
+{
+    public int id_produto_cobertura { get; set; }
+    public object vl_is { get; set; }
+    public double vl_premio_liquido { get; set; }
+}
+
+public class InserirQuesto
+{
+    public int id_questao { get; set; }
+    public int id_resposta { get; set; }
+}
+
+public class InserirParcelamento
+{
+    public int id_produto_parc_premio { get; set; }
+    public int cd_forma_pagamento_pparcela { get; set; }
+    public int cd_forma_pagamento { get; set; }
+    public string dt_vencimento_parcela { get; set; }
+    public int nr_dia_cobranca { get; set; }
+}
+
+public class RootObject
+{
+    public string dt_cotacao { get; set; }
+    public int id_usuario { get; set; }
+    public int cd_produto { get; set; }
+    public int id_pessoa_corretor { get; set; }
+    public InserirClientePropriedade InserirClientePropriedade { get; set; }
+    public InserirDadosItem InserirDadosItem { get; set; }
+    public List<InserirCobertura> InserirCoberturas { get; set; }
+    public List<InserirQuesto> InserirQuestoes { get; set; }
+    public InserirParcelamento InserirParcelamento { get; set; }
+}

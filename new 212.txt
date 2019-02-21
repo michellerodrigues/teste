@@ -1,0 +1,31 @@
+34 - REQUEST
+
+Request URL: https://impeto.markelseguros.com.br/WebApi/api/Dropdown/ObterCultivos/
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 194.69.42.216:443
+Referrer Policy: no-referrer-when-downgrade
+Content-Length: 926
+Content-Type: application/json; charset=utf-8
+Date: Thu, 10 May 2018 21:13:40 GMT
+Server: Microsoft-IIS/8.5
+X-Frame-Options: DENY
+X-Powered-By: ASP.NET
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: lv-LV,lv;q=0.9,pt-BR;q=0.8,pt;q=0.7,en;q=0.6
+Authorization: Bearer Tp_uVnb9VtqM-vqmIK2CegAugkaN98yf4wGwkz37963B3flhdHmrqYACHf1hmnTSCbYcl4skaFp72_DD2flSWRce0clEYXqlGuTF26Wy-l5vem-hi3R8ZbNTXsbpjO1qXVHtBm_L5P6dtqcYAPD4dzlFTq4r8VhuilFy5k2zhmDk24Lz7Q7-OHdurKe2ZDt_BGlErkDnVbGVhKIYaL7BPOK3Io0pT-HD2Q_fVxq85hgO2cLrA8UzuD5VGfBN-03GAM2A3Ei2SW_8SNCN5kDtiUITUVB7hLeJlFsHAx3NtLBQWn_ZW_NuM4NySMNVPxl1JbvfgR_dwaYaue0SQ4jeCEB_bfcNSGTz-_-0I9VRlnvqOGVvQi-UYG5usc_VZZDClXO6TjxoecctKmtiXtSqgm6jiOoj0KVGteAemRil9BQTl9Hd7cEnaNybxr_SzCGRuvlbnYZsOp2Td_b0LgdaKNiEcVOtckPcF_wZeuHDZ-ZerHNkqMHP6-pNdvG0-6lfnoozVrcrwCKCz0JiCSfOOA
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: BIGipServermarkelseguros.com.br.app~markelseguros.com.br_pool=604141834.20480.0000
+Host: impeto.markelseguros.com.br
+If-Modified-Since: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+Referer: https://impeto.markelseguros.com.br/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+X-Frame-Options: DENY
+
+
+RESPONSE
+
+[{"id_fruta_grao":80,"nm_fruta_grao":"ALGODÃO","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":82,"nm_fruta_grao":"AVEIA","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":111,"nm_fruta_grao":"CANA-DE-AÇÚCAR","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":86,"nm_fruta_grao":"MILHO","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":118,"nm_fruta_grao":"MILHO SAFRINHA","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":120,"nm_fruta_grao":"MILHO SEGUNDA SAFRA","id_grp_cultivo":2,"dv_ativo":true},{"id_fruta_grao":23,"nm_fruta_grao":"SOJA","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":121,"nm_fruta_grao":"SOJA IRRIGADO","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":89,"nm_fruta_grao":"SORGO","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":3,"nm_fruta_grao":"TRIGO","id_grp_cultivo":1,"dv_ativo":true},{"id_fruta_grao":91,"nm_fruta_grao":"UVA","id_grp_cultivo":1,"dv_ativo":true}]

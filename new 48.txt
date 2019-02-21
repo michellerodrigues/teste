@@ -1,0 +1,3 @@
+
+0 - VPN - OK
+1 - http://186.201.50.139:5001/docs/index#/  ==>swagger da medaSoft

@@ -1,0 +1,34 @@
+[11:59, 23/3/2018] +55 21 98711-5845: 
+
+1 - Substituição da proriedade : id_rural_nivel_cobertura pela propriedade: id_rural_nivel_cobertura_diferenciado
+
+2 - Volta com a propriedade qt_produto_kilo_alqueire_estimado: (mantendo o mesmo cálculo já existente)
+
+
+
+https://notacarioca.rio.gov.br/senhaweb/senha.aspx?id=16752139000121
+7
+
+593Ofs90zp
+
+SysManager2017
+SysManager@2018
+
+
+TÍTULO: Microsoft SQL Server Management Studio
+------------------------------
+
+Não é possível executar o script.
+
+------------------------------
+INFORMAÇÕES ADICIONAIS:
+
+Exceção do tipo 'System.OutOfMemoryException' foi acionada. (mscorlib)
+
+------------------------------
+BOTÕES:
+
+OK
+------------------------------
+
+

@@ -1,0 +1,112 @@
+Request URL: http://localhost:1040/VidalinkConnectApi/Agendamento/Agendar?codigoCustomer=4C8054008D8E3301E053090A0A0ACA5C&code=-jAtq_Ol0pc8HNtXRWsRMLKzW4c4zuBdiBmQ56GsrYWCQWDkoyqhTuYq-cP5CwgvuAtaNhAHaRlVH-dpTy0qd5gOkrgDXWt7JwNHqNS6LvhsH2fmqXpGnb5kudOdDZ1UFWFk6BHUWS15HzpqtWZdi5FlDQRpEudlS4lHTuZLV_HnaTKInpEREC5j2LTA_VAg5aCf9Hu07sODpH39XQQRIc2z8JtgdfEE-YJi73u_fMKaq-0bheGFA1_chwt1JvA-7yqy_XsbBG8eM-O1gr0cJwdbja_rTnBylQRQ9cD8tngdeUoa26NDFScoNcg-Qctgov6C5qZn6QBiomdiH7XqICjTETePn3mVv7GHLcwx9ds8AJD9pRQ2gmy1-bDoSvK8LLPBJdYm4VaG0bSTyRGjuSVNEPjwrAZ2wcI-pArmFDawdsnQsCic1Gn2kek89J-0aBpdZzK2dI2ILv6SrOil_Q&info=QFljtYyJ9Oq2SlTPy05uL4zZ0gfZniwu297f7pqt989u/G81YfK3T6V8AB/5eiS71uHKj4vq1NMJT8yj2k/x5JyMf9dL2wUVJ5ObDba0J5miyVreRXG3ojhJL4ULIN2KahD0t79oIOpxm+RmssGeJgmTRBYezEa/o9wIm3Js4ypYzUjMJB4zrCf633aINK7JO/64Mcs3SHCtUyu0mBwVYKu+V0+JjpokmMpSfcRagzNDagSi5nL2xqORvoJOXxtxLfbXpDY56hsrO3pWo+t+AdZqOHnNmccw2HnZiQv2wJj/TwUOAV2IPlhULd06rFg7ttk79w6kLff/oDBrFHv3aV/WIkVSTpfEsQK9NXcfdvt7GQGAsoqdX0+rTs0YWyPH2hjur81zOFI=&integracao=S&sistemaExterno=N&exibeInfoIntegracao=N&usuarioExterno=WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS/0=&IdProcedimentoAnterior=&_=1524169756245
+Request Method: GET
+Status Code: 200 OK
+Remote Address: [::1]:1040
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 45618
+Content-Type: text/html; charset=utf-8
+Date: Thu, 19 Apr 2018 20:30:34 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXGRlc2Vudm9sdmltZW50b1xWaWRhbGlua1dlYkFwaV9QU1BcVmlkYWxpbmtDb25uZWN0QXBpXEFnZW5kYW1lbnRvXEFnZW5kYXI=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: .PSPADMINCOOKIE=53949EEF4E77894273B6B73E28CFBF250C03F1AA708D43D785345811C2C74B2B7A4912FC797B6578B42B3C274C43E55E08465703CD5E2C2702E23FA1B0927CA135312887002343FB595A6E89077116E5DDBD2AA3AA284E23CC7599D21FDE9C0B; ASP.NET_SessionId=1liq5srkos1gypuqzo0st4fd
+Host: localhost:1040
+Referer: http://localhost:1040/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+codigoCustomer: 4C8054008D8E3301E053090A0A0ACA5C
+code: -jAtq_Ol0pc8HNtXRWsRMLKzW4c4zuBdiBmQ56GsrYWCQWDkoyqhTuYq-cP5CwgvuAtaNhAHaRlVH-dpTy0qd5gOkrgDXWt7JwNHqNS6LvhsH2fmqXpGnb5kudOdDZ1UFWFk6BHUWS15HzpqtWZdi5FlDQRpEudlS4lHTuZLV_HnaTKInpEREC5j2LTA_VAg5aCf9Hu07sODpH39XQQRIc2z8JtgdfEE-YJi73u_fMKaq-0bheGFA1_chwt1JvA-7yqy_XsbBG8eM-O1gr0cJwdbja_rTnBylQRQ9cD8tngdeUoa26NDFScoNcg-Qctgov6C5qZn6QBiomdiH7XqICjTETePn3mVv7GHLcwx9ds8AJD9pRQ2gmy1-bDoSvK8LLPBJdYm4VaG0bSTyRGjuSVNEPjwrAZ2wcI-pArmFDawdsnQsCic1Gn2kek89J-0aBpdZzK2dI2ILv6SrOil_Q
+info: QFljtYyJ9Oq2SlTPy05uL4zZ0gfZniwu297f7pqt989u/G81YfK3T6V8AB/5eiS71uHKj4vq1NMJT8yj2k/x5JyMf9dL2wUVJ5ObDba0J5miyVreRXG3ojhJL4ULIN2KahD0t79oIOpxm RmssGeJgmTRBYezEa/o9wIm3Js4ypYzUjMJB4zrCf633aINK7JO/64Mcs3SHCtUyu0mBwVYKu V0 JjpokmMpSfcRagzNDagSi5nL2xqORvoJOXxtxLfbXpDY56hsrO3pWo t AdZqOHnNmccw2HnZiQv2wJj/TwUOAV2IPlhULd06rFg7ttk79w6kLff/oDBrFHv3aV/WIkVSTpfEsQK9NXcfdvt7GQGAsoqdX0 rTs0YWyPH2hjur81zOFI=
+integracao: S
+sistemaExterno: N
+exibeInfoIntegracao: N
+usuarioExterno: WjvH0KMDvJNpq6ykBPRjNMjB8wup69IJz8AhgfoRS/0=
+IdProcedimentoAnterior: 
+_: 1524169756245
+
+
+
+
+
+
+
+Request URL: http://localhost:1040/VidalinkConnectApi/Agendamento/ListarMedicos
+Request Method: POST
+Status Code: 200 OK
+Remote Address: [::1]:1040
+Referrer Policy: no-referrer-when-downgrade
+Cache-Control: private
+Content-Length: 5268
+Content-Type: application/json; charset=utf-8
+Date: Thu, 19 Apr 2018 20:30:57 GMT
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcbWljaGVcRGVza3RvcFxtaWNhXHZpZGFsaW5rXGRlc2Vudm9sdmltZW50b1xWaWRhbGlua1dlYkFwaV9QU1BcVmlkYWxpbmtDb25uZWN0QXBpXEFnZW5kYW1lbnRvXExpc3Rhck1lZGljb3M=?=
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Content-Length: 65
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: .PSPADMINCOOKIE=53949EEF4E77894273B6B73E28CFBF250C03F1AA708D43D785345811C2C74B2B7A4912FC797B6578B42B3C274C43E55E08465703CD5E2C2702E23FA1B0927CA135312887002343FB595A6E89077116E5DDBD2AA3AA284E23CC7599D21FDE9C0B; ASP.NET_SessionId=1liq5srkos1gypuqzo0st4fd
+Host: localhost:1040
+Origin: http://localhost:1040
+Referer: http://localhost:1040/WebAppAdminPSP/Paciente/ConsultaPaciente
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+CustomerId: CT000393
+Especialidades: 1,2,3,5
+SistemaExterno: N
+
+
+
+Request URL: http://localhost:1040/WebAppAdminPSP/Agenda/ReplicarAgenda?dtIni=19/04/2018&dtFim=19/05/2018&replicar=SEG|TER|QUA|QUI|SEX|
+Referrer Policy: no-referrer-when-downgrade
+Provisional headers are shown
+Accept: */*
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://localhost:1040
+Referer: http://localhost:1040/WebAppAdminPSP/Agenda
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+dtIni: 19/04/2018
+dtFim: 19/05/2018
+replicar: SEG|TER|QUA|QUI|SEX|
+ActJsonActionUrl: /WebAppAdminPSP/
+ActJsonCarregarEspecialidades: /WebAppAdminPSP/Agenda/CarregarEspecialidades?customerId=CT000393&idPrestador=-1
+ActJsonCarregarTipoProcedimentos: /WebAppAdminPSP/Agenda/CarregarTipoProcedimentos?customerId=CT000393&idPrestador=-1&idEspecialidade=-2
+ActJsonListarHorarios: /WebAppAdminPSP/Agenda/ListarHorarios?customerId=CT000393&IdPrestador=-2&idTipoProcedimento=-1&periodo=-3
+ActRecuperarLocalizacao: /WebAppAdminPSP/Agenda/RecuperarLocalizacao?customerId=CT000393&TiposProcedimentos=-1&dtInicio=-2&dtFim=-3&prestadorId=-4&periodo=-5
+ActJsonGravarAgenda: /WebAppAdminPSP/Agenda/GravarAgenda
+ActJsonReplicarAgenda: /WebAppAdminPSP/Agenda/ReplicarAgenda?dtIni=-1&dtFim=-2&replicar=-3
+QtdPrestadores: 90
+CustomerId: CT000393
+FimJornada: 
+IniJornada: 
+UsuId: 0
+DtAgenda: 19/04/2018
+IdPrestador: 472
+IdEspecialidade: 
+IdTipoProcedimento: 747
+IdTipoProcedimento: 748
+IdTipoProcedimento: 749
+IdTipoProcedimento: 860
+IdTipoProcedimento: 752
+IdTipoProcedimento: 753
+TiposProcedimentos: 747,748,749,860,752,753
+RangeHorario: 08:00|08:30|09:00|09:30|10:00|10:30|11:00|11:30|12:00|12:30|13:00|13:30|14:00|14:30|15:00|15:30|16:00|16:30|17:00|17:30|18:00|18:30|19:00|19:30|20:00|20:30|21:00|21:30|22:00|22:30|23:00|
+DsOrientacaoesPaciente: 
+Periodo: 30
+QtdPrevAtendimentos: 1
+Recursos: 341;161;321;302;
+IdLocalizacao: 161
+

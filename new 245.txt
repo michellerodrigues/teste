@@ -1,0 +1,23 @@
+Médico de outras unidade na Ibirapuera, atendendo na Vila Mariana,
+
+EDUARDO LEME ALVES DA MOTTA
+onde ele está cadastrado
+
+DESCONGELAMENTO DE ÓVULOS
+
+-->fazer uma disponibilidade de agenda no medsoft
+sincronicar 
+ver se vai aparecer o recurso associado
+se sim, agendar um paciente neste hor´pario
+se não: temos um problema
+
+a agenda disponibilizadsa está sem recurso associado. verficar. 
+
+<label id="lblAssetName" name="lblAssetName"></label>
+$(document).ready(
+  function() {   
+        $('#lblAssetName').text('Gold');      
+  }
+  );
+  
+  

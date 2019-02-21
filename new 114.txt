@@ -1,0 +1,37 @@
+Informações para o PBI da duplicidade de cadastro por ID medsoft:
+Problema: 
+Existem alguns cadastros que quando alterados na MedSoft, o cadastro é duplicado na vidalink. Isso acontece pois o IdMedSoft que é único, não tem um vinculo com a vida no ambiente vidalink. Então, quando chega uma alteração, os cadastros duplicam. 
+
+Solução:
+Para resolver esse problema, minha proposta é criarmos uma tabela para fazer um DE/PARA com id do parceiro e a vida dentro do ambiente vidalink.
+
+Sugestão de implementação:
+- Vamos criar uma tabela de controle, fazendo DE/PARA entre ID medsoft e o ID usado nas tabelas da vidalink (provavelmente member_id). A tabela também pode ter um CT.
+- Campos, ID_Parceiro, Member_Id, Customer_Id, Client_Id, ClientGroup_Id
+- As operações devem olhar essa tabela, buscar o Member_id e Customer_Id com base no ID_Parceiro (nesse caso, Id_Medsoft) e só então fazer as operações nas tabelas da vidalink.
+- Quando um registro novo é criado, ele deve ser inserido nessa tabela de controle para só então fazer operações nas tabelas da vidalink.
+- Não deve existir nenhuma operação amarrando ID_parceiro com as tabelas da vidalink. O ID_Parceiro serve apenas para descobrir quem é a vida dentro do ambiente vidalink.
+
+tabela member: 
+psp.background: integração medsoft  (vidalink webapi)
+
+********************************************
+
+Alterar a chave do nosso sistema de CPF para o ID MEDSOFT.
+ 
+Com esta alteração será possível sanar grande parte dos problemas de integração que acontecem hoje.
+
+SOLUÇÃO
+
+Atualizar o MEMBER_ID com base no PATIENT_PIN_NUMBER do TITULAR;
+ Atualizar o MEMBER_ID com base no SSID dos CÔNJUGES;
+ Nas mesmas tabelas do TITULAR;
+ok - Criar robo de busca na Medsoft por CPF  dos CÔNJUGES não atualizados (18909) utilizando método Patient/ByPersonId/{BRASILIAN_CPF}/{CPF};
+ok - Incluir os dados em tabela temporária com o MEMBER_ID e o ID_MEDSOFT;
+ Atualizar as mesmas tabela dos cenários anteriores;
+Alterar a ordem da inclusão gravando primeiro na Medsoft e depois no PSP (Titular/Cônjuge);
+ Alterar o serviço de integração (Atualização) de Paciente (Titular/Cônjuge) para utilizar o MEMBER_ID;
+ Alterar o serviço de integração (Inclusão) para salvar o ID_MEDSOFT na coluna MEMBER_ID;
+ (novos pacientes vindos da Medsoft)
+Alterar o serviço de integração de Agendamento (Titular/Cônjuge) para utilizar o MEMBER_ID;
+Alterar o serviço de integração de questionário (Titular/Cônjuge) para utilizar o MEMBER_ID;

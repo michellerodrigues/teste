@@ -1,0 +1,46 @@
+ParametrosId	NomeParametro	DescricaoParametro	ValorParametro	TipoPlanilhaId
+1	id_usuario	Id do Usuário Excel que fará a inserção de Cotação no I4PRO	370	1
+2	id_fruta_grao	MILHO SEGUNDA SAFRA	120	1
+3	id_grp_cultivo	AGRICOLA II	2	1
+4	cd_unidade	sACA 60 KG	2	1
+5	cd_forma_pagamento_pparcela	    <!--FICHA COMPENSAÇÃO - BRADESCO-->	1000009	1
+6	id_produto_parc_premio	    <!--À VISTA-->	247	1
+7	id_tp_subvencao	    <!--COM NOVA REGRA, ESTE NÃO SERÁ UTILIZADO-->	1	1
+8	cd_produto	    <!--PLANTE TRANQUILO - SUBVENCIONÁVEL-->	331	1
+9	nome_cobertura_basica	    <!--UTILIZADA PARA BUSCAR O CODIGO DA COBERTURA NO SERVIÇO-->	Cobertura Básica - Custo de Produção	1
+10	nome_cobertura_replantio	    <!--UTILIZADA PARA BUSCAR O CODIGO DA COBERTURA NO SERVIÇO-->	Cobertura Opcional de Replantio	1
+11	enviar_somente_cobertura_basica	    <!--UTILIZADA PARA INCLUIR 2 COBERTURAS(Básica e Replantio) OU SOMENTE A COBERTURA BÁSICA. USAR 'N' PARA INSERIR AS 2 COBERTURAS-->	N	1
+12	body_email_erro_cliente_planilha		Prezado(a), &lt;P&gt;sua cotação enviada no arquivo &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processada.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{2}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	1
+13	subject_email_erro_cliente_planilha		Cotação enviada no arquivo '{0}' não foi processada	1
+14	body_email_erro_cliente_planilha		Prezado(a), &lt;P&gt;sua cotação enviada no arquivo &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processada.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{2}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt	1
+15	subject_email_erro_cliente_planilha		Cotação enviada no arquivo '{0}' não foi processada	1
+16	body_email_erro_cliente_anexo		Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de cotação.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Motivo:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe uma cotação válida e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	1
+17	subject_email_erro_cliente_anexo		Seu email foi descartado pelo motivo:{0}	1
+18	body_email_sucesso_leitura		Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos a cotação número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	1
+19	subject_email_sucesso_leitura		Cotação enviada no arquivo '{0}' processada com sucesso.	1
+20	body_email_erro_leitura		Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processado . Motivo : &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	1
+21	subject_email_erro_leitura		Cotação enviada no arquivo '{0}' não foi processada.	1
+22	body_email_erro_cliente_planilha		Prezado(a), &lt;P&gt;sua Prezado(a), &lt;P&gt;seu aviso de sinistro enviado no arquivo &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processado.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{2}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt; enviada no arquivo &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processada.&lt;P&gt;Verificamos que a informação de &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;, na célula &lt;i&gt;&lt;b&gt;{2}&lt;/b&gt;&lt;/i&gt; encontra-se vazia ou incorreta.&lt;p&gt;Por favor corrija a informação e reenvie o novo arquivo.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	2
+23	subject_email_erro_cliente_planilha		Aviso de Sinistro enviado no arquivo '{0}' não foi processado"	2
+24	body_email_erro_cliente_planilha		Prezado(a), &lt;P&gt;seu email foi rejeitado pelo nosso sistema de aviso de sinistro.&lt;p&gt; Assunto Email Enviado:&lt;i&gt;&lt;b&gt;{0}&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Motivo:&lt;i&gt;&lt;b&gt;{1}&lt;/i&gt;&lt;/b&gt;&lt;p&gt;Por favor anexe um aviso válido e reenvie o email.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	2
+25	subject_email_erro_cliente_planilha		Seu email foi descartado pelo motivo:{0}	2
+26	body_email_erro_cliente_anexo		Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos o aviso de sinistro número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	2
+27	subject_email_erro_cliente_anexo		Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.	2
+28	body_email_sucesso_leitura		Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; foi processado com sucesso e geramos o aviso de sinistro número: &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	2
+29	subject_email_sucesso_leitura		Aviso de Sinistro enviado no arquivo '{0}' processado com sucesso.	2
+30	body_email_erro_leitura		Prezado(a), &lt;P&gt;seu pedido enviado no arquivo: &lt;i&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/i&gt; não foi processado . Motivo : &lt;i&gt;&lt;b&gt;{1}&lt;/b&gt;&lt;/i&gt;.&lt;p&gt;Atenciosamente,&lt;br&gt;&lt;b&gt;Markel Seguros&lt;/b&gt;	2
+31	subject_email_erro_leitura		Aviso de Sinistro enviado no arquivo '{0}' não foi processado.	2
+32	lista_destinatarios_cc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1cc@mailinator.com	1
+33	lista_destinatarios_bc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1bc@mailinator.com|destinatario2bc@mailinator.com	1
+34	replyTo_job	<!--Emails que receberão as comunicações de Falha do Job-->	replyto_job@mailinator.com	1
+35	lista_destinatarios_cc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com	1
+36	lista_destinatarios_bc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com	1
+37	lista_destinatarios_cc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1cc@mailinator.com	2
+38	lista_destinatarios_bc	 <!--Esses emails serão enviados somente quando houver comunicação com o Cliente. Ou seja, a cópia do email do Cliente-->	destinatario1bc@mailinator.com|destinatario2bc@mailinator.com	2
+39	replyTo_job	<!--Emails que receberão as comunicações de Falha do Job-->	replyto_job@mailinator.com	2
+40	lista_destinatarios_cc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobCC1@mailinator.com|falhaJobCC2@mailinator.com|falhaJobCC3@mailinator.com	2
+41	lista_destinatarios_bc_job	<!--Emails que receberão as comunicações de Falha do Job-->	falhaJobBC1@mailinator.com|falhaJobBC2@mailinator.com	2
+42	user_email		michelle.rodrigues@sysmi.com.br	1
+43	password		Alterar@2018	1
+44	user_email		michelle.rodrigues@sysmi.com.br	2
+45	Password		Alterar@2018	2

@@ -1,0 +1,3 @@
+Message = "ORA-12154: TNS:não foi possível resolver o identificador de conexão especificado"
+StackTrace = "   em Framework.Vidalink.Acessos.Utilitarios.ValidacoesAcessos.AutenticaUsuario(String login, String senha, Int32 SisId)\r\n   em WebAppAdminPSP.Controllers.HomeController.LoginGet(String Login, String Senha) na C:\\Users\\miche\\Desktop\\mica\\vidalink\\d...
+

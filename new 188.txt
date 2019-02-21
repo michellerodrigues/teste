@@ -1,0 +1,51 @@
+
+
+1 - Temos no PSP, na tabela ACESSO.USUARIO o CPF cadastrado para 2 pacientes:
+
+Roseli Aparecida Leite - CPF: 12920104870
+Roseli Aparecida Leite - CPF: 12920104870
+
+2 - Preciso de um print da tela da Roseli (qual o cpf dela?). Porque não consta na MEDSOFT esta informação:
+
+VIDE ARQUIVO: 51738 - Roseli Aparecida Leite - DADOS_MEDSOFT.txt
+
+
+3 - Nas demais tabelas de relacionamento, este CPF (12920104870) pertence a 
+
+MICHELE ANDRADE MOREIRA - CPF: 12920104870
+
+VIDE ARQUIVO: 51738 - MICHELE ANDRADE MOREIRA - DADOS_MEDSOFT.txt
+
+4 - O ticket 51738, sugere uma alteração da:
+
+MICHELE ANDRADE MOREIRA - CPF: 12920104870
+
+para 
+
+MICHELE ANDRADE MOREIRA - CPF: 39933553852
+
+Entretanto:
+
+5 - O CPF: 39933553852 percente a outra paciente na MED_SOFT:
+
+CAROLINE LOPES AUGUSTO - CPF: 39933553852
+
+VIDE ARQUIVO: 51738 - CAROLINE LOPES AUGUSTO - DADOS_MEDSOFT.txt
+
+Para acertarmos no PSP, precisamos:
+
+1.1 - Correção do Cadastro da Roseli Aparecida Leite, está sem CPF na MED_SOFT (print da tela do MEDSOFT)
+
+2.1 - Print da tela da Paciente Roseli, no MEDSOFT
+
+3.1 - Print da tela da Paciente Michelle
+
+4.1 - Informar um CPF correto para a Michelle
+
+5.1 - Em caso do item 4.1 ser o cpf correto, enviar o cpf da Paciente CAROLINE LOPES AUGUSTO
+
+
+
+
+
+

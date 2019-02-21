@@ -1,0 +1,11 @@
+Markel_SIC_Modelo_Planilhas
+
+Markel_SIC_Modelo_Planilhas.edmx
+
+Markel_SIC_Modelo_Planilhas.edmx
+
+http://escritorio.i4pro.com.br:8013/markel/erpws/run/InserirSinistro
+http://escritorio.i4pro.com.br:8013/markel/erpws/run/EmissaoPortalRural
+http://escritorio.i4pro.com.br:8013/markel/erpws/Run/ConsultaDominio/ConsultaDominio
+[11:24, 9/5/2018] Paulo SisManager: http://escritorio.i4pro.com.br:8013/markel/erpws/Run/ConsultaDominio/ConsultaDominio
+[11:25, 9/5/2018] Paulo SisManager: http://escritorio.i4pro.com.br:8013/markel/erpws/Run/InserirAviso/InserirAviso

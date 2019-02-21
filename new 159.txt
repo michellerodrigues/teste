@@ -1,0 +1,49 @@
+51558 - PSP: prontuário com BUG
+-->
+[{"UsuId":0,"Nome":"LUCIMARA ANDRADE VIEIRA","NomeMedico":"ANA PAULA AQUINO","Cpf":"28655353809","Endereco":"AVENIDA ALEXIOS JAFET","EnderecoNumero":"1982","Bairro":"JARDIM AURORA (ZONA OESTE","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"28655353809","ClientId":null,"ClientGroupId":null,"MiscData":"17003310","MemberIdConjuge":null,"EffectiveDateOverride":20171004,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+51320 - PSP: verificar cadastro com acesso indisponível
+-->
+{"UsuId":0,"Nome":"JESSIKA KELER","NomeMedico":null,"Cpf":"39654920808","Endereco":"RUA PARATI","EnderecoNumero":"136","Bairro":"JARDIM MOREIRA","Cidade":"GUARULHOS","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"39654920808","ClientId":null,"ClientGroupId":null,"MiscData":"21955840","MemberIdConjuge":null,"EffectiveDateOverride":20180419,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}
+ 
+ 
+50906 - PSP: BUG no acesso ao prontuário do paciente
+-->
+[{"UsuId":0,"Nome":"DIANA ALVEZ DE ALMEIDA OLIVEIRA","NomeMedico":null,"Cpf":"08464460732","Endereco":"RUA GENOLFO VIEIRA AFONSO","EnderecoNumero":null,"Bairro":"JARDIM BELVEDERE","Cidade":"VOLTA REDONDA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"08464460732","ClientId":null,"ClientGroupId":null,"MiscData":"16144560","MemberIdConjuge":null,"EffectiveDateOverride":20150127,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+
+-->Estamos aguardando a equalizaçãpo dos bancos e ambiente. Erro na Integração, UsuId não gerado.
+Foi feita uma correção no spyke 'Product Backlog Item 57577:Spike - Investigação sequences patient_pin_number', gerando uma correção na procedure 'SP_PACIENTE_SEL',
+entretanto, a subida desta correção está suspensa para que possamos investigar se após a equalização dos bancos, este problema persistirá
+
+Penso que deveremos ter uma ação com relação a esses pacientes para 
+1 - correção do passado
+2 - Prevenir este comportamento no futuro:
+O que fazer se a integração estiver fora no momento de criação de pacientes? 
+Impacto: O paciente quando criado, recebe da integração o patient_pin_number, que é igual ao MEMBER_ID (em caso de titular). Logo, sem integração, não seria possível prosseguir com o prontuário (UsuId=0), mas uma resposta melhor deveria ser dada ao usuário do psp, pois somente após a integração este prontuário estaria hábil para visualização.
+
+
+51557 - PSP: falha na integração com Medsoft
+-->Estamos aguardando a equalizaçãpo dos bancos e ambiente. Suspeita CT configurado errado.
+	 
+
+51502 - PSP: verificar erro que impede a conclusão no agendamento (MARIO SOUZA RIBEIRO)
+--> Aguardando resposta da Ariane Ferreira da Silva. Solicitado que a mesma repita o procedimento de agendamento , pois o da tela anterior, apesar deste erro de print, foi copncluído com sucesso.
+
+Como estamos aguardando a equalização dos ambientes, com os dados de produção nos bancos de desenv, consiguirei simular o probllema.
+
+51476 - PSP: separar cadastros de paciente e cônjuge
+Aguardando mais detalhes sobre o ticket.
+
+ 
+51188 - PSP: corrigir CPF de cadastro
+Investigado com Fabrício, foi percebido que quando o CPF não chega da integração (por uma falha de integração ou simplesmente registro vazio) o MEMBER_ID enviado pela integração assume a posição de member ID E CPF, com a string "SSID_"
+
+1 - O que fazer com o passado, (query de update no CPF e member ID)
+2 - Como prevenir o futuro (penso que podemos ou remover esse SSID e tratar a inconsistência durante a integração)
+3 - Existe algum serviço de integração no qual se possa buscar dados do paciente pelo MEMBERID na MED_SOFT?
+	
+[{"UsuId":334316,"Nome":"CASSANDRA SARMANHO DE DEUS","NomeMedico":null,"Cpf":"SSID_57973","Endereco":"RUA FREI CANECA","EnderecoNumero":"972","Bairro":"PARQUE RIZZO","Cidade":"COTIA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"SSID_57973","ClientId":null,"ClientGroupId":null,"MiscData":"18940401","MemberIdConjuge":null,"EffectiveDateOverride":20171219,"IdCliente":"57973","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+PS: existem mais uns 15 casos desse no banco de dados de produção, é apenas uma questão de tempo para que abram novos 15 chamados desta espécie.

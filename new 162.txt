@@ -1,0 +1,9 @@
+
+
+
+
+
+[{"UsuId":360916,"Nome":"SILEUZA ALVES RIBEIRO","NomeMedico":null,"Cpf":"34949786890","Endereco":"RUA PADRE CHICO","EnderecoNumero":"551","Bairro":"VILA POMPEIA","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"34949786890","ClientId":null,"ClientGroupId":null,"MiscData":"22874299","MemberIdConjuge":"34949786890","EffectiveDateOverride":20180522,"IdCliente":"60497","DataInicioBeneficioCliente":null,"UsuIdConjuge":370235,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+[{"UsuId":360916,"Nome":"MARIANA KLINKE PANDOLFO","NomeMedico":"MAURICIO BARBOUR CHEHIN","Cpf":"31026967830","Endereco":"RUA PADRE CHICO","EnderecoNumero":"551","Bairro":"VILA POMPEIA","Cidade":"SAO PAULO","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"31026967830","ClientId":null,"ClientGroupId":null,"MiscData":"21465594","MemberIdConjuge":"34949786890","EffectiveDateOverride":20180402,"IdCliente":"60497","DataInicioBeneficioCliente":null,"UsuIdConjuge":370235,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+

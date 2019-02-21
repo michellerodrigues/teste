@@ -1,0 +1,9 @@
+padronizar o espaço entre os campos do formulário
+
+[EM ANÁLISE]  Carregar o nome do segurado e o endereço da área segurada (campos não digitáveis) ao clicar no campo “Validar Apólice” (desta forma poderá ser confirmado se o sinistro está sendo registrado para a apólice correta)
+
+Colocar o endereço da área assegurada e não o endereço do segurado, conforme está o backend hoje
+
+[EM ANÁLISE]  Se houver erro no registro do aviso de sinistro, caso clique no campo “Apólice”  não apagar a validação já realizada.
+(ainda está apagando a apólice), testar com apólice inválida
+

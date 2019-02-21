@@ -1,0 +1,26 @@
+INSERT [dbo].[Corretoras] ([CorretoraId], [NomeCorretora], [MapaId], [Ativa]) VALUES (2, N'JDM - CORRETORA DE SEGUROS', 1, 1)
+INSERT [dbo].[Corretoras] ([CorretoraId], [NomeCorretora], [MapaId], [Ativa]) VALUES (3, N'SEGURO RURAL CORRETORA DE SEGUROS', 2, 1)
+INSERT [dbo].[Corretoras] ([CorretoraId], [NomeCorretora], [MapaId], [Ativa]) VALUES (4, N'Verde Rural Corretora de Seguros', 1, 1)
+INSERT [dbo].[Corretoras] ([CorretoraId], [NomeCorretora], [MapaId], [Ativa]) VALUES (6, N'SEGURAGRO CORRETORA DE SEGUROS', 3, 1)
+INSERT [dbo].[Corretoras] ([CorretoraId], [NomeCorretora], [MapaId], [Ativa]) VALUES (7, N'Aviso de Sinistro ', 4, 1)
+SET IDENTITY_INSERT [dbo].[Corretoras] OFF
+SET IDENTITY_INSERT [dbo].[Questionario] ON 
+
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (2, 1, 1, N'JDM - Corretora de Seguros', N'JDM - JORGE DANIEL ADMINISTRADORA E CORRETORA DE SEGUROS LTDA - EP', N'2187917000172')
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (3, 2, 1, N'SEGURO RURAL CORRETORA DE SEGUROS', N'SEGURO RURAL CORRETORA DE SEGUROS LTDA', N'17904396000102')
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (4, 1, 1, N'Verde Rural Corretora de Seguros', N'VERDE RURAL ADMINISTRADORA E CORRETORA DE SEGUROS S/S LTDA - EPP', N'4350332000157')
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (6, 3, 1, N'SEGURAGRO CORRETORA DE SEGUROS', N'SEGURAGRO CORRETORA DE SEGUROS LTDA', N'12446684000139')
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (7, 1, 1, N'Corretor Vip Dinamica', N'VIP DINAMICA CORRETORA DE SEGUROS LTDA', N'23956273000100')
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (8, 1, 1, N'Do Futuro Corretora de Seguros', N'DO FUTURO MS CORRETORA DE SEGUROS EIRELI ME', N'10996521000102')
+
+
+INSERT [dbo].[Corretoras] ([CorretoraId], [MapaId], [Ativa], [NomeCorretoraPlanilha], [NomeCorretoraI4PRO], [CNPJI4PRO]) VALUES (8, 1, 1, N'Aviso de Sisnistro', N'Aviso de Sinistro', N'')
+
+
+SET IDENTITY_INSERT [dbo].[MapaBase] ON 
+
+INSERT [dbo].[MapaBase] ([MapaBaseId], [DescricaoMapaBase], [TipoPlanilhaId]) VALUES (1, N'Primeiro Mapa Base A1', 1)
+INSERT [dbo].[MapaBase] ([MapaBaseId], [DescricaoMapaBase], [TipoPlanilhaId]) VALUES (2, N'Segundo Mapa Base B2', 1)
+INSERT [dbo].[MapaBase] ([MapaBaseId], [DescricaoMapaBase], [TipoPlanilhaId]) VALUES (3, N'Terceiro Mapa Base D4 - Sinistro', 2)
+SET IDENTITY_INSERT [dbo].[MapaBase] OFF
+SET IDENTITY_INSERT [dbo].[CelulasBase] ON 

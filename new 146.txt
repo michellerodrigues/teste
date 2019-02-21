@@ -1,0 +1,26 @@
+[{"UsuId":365496,"Nome":"JESSIKA TAKAKI","NomeMedico":null,"Cpf":"27843692851","Endereco":"RUA ANTÔNIO ALVES","EnderecoNumero":"36","Bairro":"CENTRO","Cidade":"ITATIBA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"27843692851","ClientId":null,"ClientGroupId":null,"MiscData":"22067530","MemberIdConjuge":"27843692851","EffectiveDateOverride":20180424,"IdCliente":"61105","DataInicioBeneficioCliente":null,"UsuIdConjuge":365497,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},
+{"UsuId":0,"Nome":"JESSIKA KELER","NomeMedico":null,"Cpf":"39654920808","Endereco":"RUA PARATI","EnderecoNumero":"136","Bairro":"JARDIM MOREIRA","Cidade":"GUARULHOS","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"39654920808","ClientId":null,"ClientGroupId":null,"MiscData":"21955840","MemberIdConjuge":null,"EffectiveDateOverride":20180419,"IdCliente":null,"DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},{"UsuId":363159,"Nome":"JESSIKA TAKAKI","NomeMedico":null,"Cpf":"SSID_60790","Endereco":"RUA AVELINO RODRIGUES","EnderecoNumero":"176","Bairro":"SERRINHA","Cidade":"ITATIBA","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"SSID_60790","ClientId":null,"ClientGroupId":null,"MiscData":"21799371","MemberIdConjuge":null,"EffectiveDateOverride":20180412,"IdCliente":"60790","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null},{"UsuId":359844,"Nome":"JESSIKA YUKIE IWASSAKI","NomeMedico":"ROGERIO LEAO","Cpf":"41966221860","Endereco":"AVENIDA ANTON PHILIPS","EnderecoNumero":"219","Bairro":"VILA HERMÍNIA","Cidade":"GUARULHOS","SisId":21,"SicHashCode":"4C8056E2E8EE3969E053090A0A0AAE22","MemberId":"41966221860","ClientId":null,"ClientGroupId":null,"MiscData":"21309692","MemberIdConjuge":null,"EffectiveDateOverride":20180327,"IdCliente":"60408","DataInicioBeneficioCliente":null,"UsuIdConjuge":0,"Relationship":null,"Race":null,"Religion":null,"OpcaoSexual":null}]
+
+SELECT UMT.USU_ID
+                      FROM MEMBER MT
+                     INNER JOIN ACESSO.USUARIO_MEMBER UMT
+                        ON UMT.MEMBER_ID = MT.MEMBER_ID
+                       AND UMT.CLIENT_GROUP_ID = MT.CLIENT_GROUP_ID
+                       AND UMT.CLIENT_ID = MT.CLIENT_ID
+                       AND UMT.CUSTOMER_ID = MT.CUSTOMER_ID
+                     WHERE MT.PATIENT_PIN_NUMBER = M.PATIENT_PIN_NUMBER
+                       AND MT.CUSTOMER_ID = M.CUSTOMER_ID
+                       AND MT.RELATIONSHIP = 1
+                       AND ROWNUM <= 1
+					   
+					   
+					   
+   SELECT DECODE(A.USU_ID, A.USU_ID_TITULAR, A.USU_ID, A.USU_ID_TITULAR) AS USU_ID,
+   
+   if A.USU_ID, == A.USU_ID_TITULAR
+   A.USU_ID
+   else
+   A.USU_ID_TITULAR
+   
+   
+   

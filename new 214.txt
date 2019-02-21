@@ -1,0 +1,13 @@
+Srs, segue minha daily (6/6/2018)
+1. O que eu fiz ontem (ou desde a última reunião); (5/6/2018) 
+[não houve atuação]
+
+2. O que eu vou fazer hoje; (6/6/2018)
+-> Verificar Remoção de Impedimento de Criação de Tipo em DESENV (Usar Usuário USERTI/xpto, cfe orientações Celebrone)
+-> Retormar 56583:Melhorias Relatórios de Procedimento 
+
+[->operando em baixa disponibilidade de atuação nos pbis]
+
+
+3. Algum impedimento que está impossibilitando prosseguir com as atividades
+-> até o momento não

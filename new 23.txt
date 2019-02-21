@@ -1,0 +1,220 @@
+-		command	{Oracle.DataAccess.Client.OracleCommand}	Oracle.DataAccess.Client.OracleCommand
+		AddRowid	false	bool
+		AddToStatementCache	true	bool
+		ArrayBindCount	0	int
+		BindByName	false	bool
+		CanRaiseEvents	true	bool
+		CommandText	"ACESSO.SP_BUSCA_INFO_USU"	string
+		CommandTimeout	0	int
+		CommandType	StoredProcedure	System.Data.CommandType
++		Connection (System.Data.Common.DbCommand)	{Oracle.DataAccess.Client.OracleConnection}	System.Data.Common.DbConnection {Oracle.DataAccess.Client.OracleConnection}
++		Connection	{Oracle.DataAccess.Client.OracleConnection}	Oracle.DataAccess.Client.OracleConnection
+		Container	null	System.ComponentModel.IContainer
++		DbConnection	{Oracle.DataAccess.Client.OracleConnection}	System.Data.Common.DbConnection {Oracle.DataAccess.Client.OracleConnection}
++		DbParameterCollection	{Oracle.DataAccess.Client.OracleParameterCollection}	System.Data.Common.DbParameterCollection {Oracle.DataAccess.Client.OracleParameterCollection}
+		DbTransaction	null	System.Data.Common.DbTransaction
+		DesignMode	false	bool
+		DesignTimeVisible	true	bool
++		Events	{System.ComponentModel.EventHandlerList}	System.ComponentModel.EventHandlerList
+		FetchSize	131072	long
+		InitialLOBFetchSize	0	int
+		InitialLONGFetchSize	0	int
++		Notification	null	Oracle.DataAccess.Client.OracleNotificationRequest
+		NotificationAutoEnlist	true	bool
++		Parameters (System.Data.Common.DbCommand)	{Oracle.DataAccess.Client.OracleParameterCollection}	System.Data.Common.DbParameterCollection {Oracle.DataAccess.Client.OracleParameterCollection}
+-		Parameters	{Oracle.DataAccess.Client.OracleParameterCollection}	Oracle.DataAccess.Client.OracleParameterCollection
+		Count	7	int
+		IsFixedSize	false	bool
+		IsReadOnly	false	bool
+		IsSynchronized	false	bool
+		SyncRoot	{object}	object
++		Non-Public members		
++		Results View	Expanding the Results View will enumerate the IEnumerable	
+		RowSize	0	long
+		Site	null	System.ComponentModel.ISite
+		Transaction (System.Data.Common.DbCommand)	null	System.Data.Common.DbTransaction
+		Transaction	null	Oracle.DataAccess.Client.OracleTransaction
+		UpdatedRowSource	Both	System.Data.UpdateRowSource
+		XmlCommandType	None	Oracle.DataAccess.Client.OracleXmlCommandType
++		XmlQueryProperties	{Oracle.DataAccess.Client.OracleXmlQueryProperties}	Oracle.DataAccess.Client.OracleXmlQueryProperties
++		XmlSaveProperties	{Oracle.DataAccess.Client.OracleXmlSaveProperties}	Oracle.DataAccess.Client.OracleXmlSaveProperties
++		Static members		
++		Non-Public members		
+
+
+-		command.Parameters	{Oracle.DataAccess.Client.OracleParameterCollection}	Oracle.DataAccess.Client.OracleParameterCollection
+		Count	7	int
+		IsFixedSize	false	bool
+		IsReadOnly	false	bool
+		IsSynchronized	false	bool
+		SyncRoot	{object}	object
++		Non-Public members		
+-		Results View	Expanding the Results View will enumerate the IEnumerable	
+-		[0]	{IN_USU_LOGIN}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	String	System.Data.DbType
+		Direction	Input	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"IN_USU_LOGIN"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	""	object {string}
++		Static members		
++		Non-Public members		
+-		[1]	{IN_USU_SENHA}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	String	System.Data.DbType
+		Direction	Input	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"IN_USU_SENHA"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	"NFvw8BjCamo="	object {string}
++		Static members		
++		Non-Public members		
+-		[2]	{IN_SIS_ID}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	Int32	System.Data.DbType
+		Direction	Input	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Int32	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Int32	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"IN_SIS_ID"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	21	object {int}
++		Static members		
++		Non-Public members		
+-		[3]	{IN_USU_ID}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	Int32	System.Data.DbType
+		Direction	Input	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Int32	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Int32	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"IN_USU_ID"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	0	object {decimal}
++		Static members		
++		Non-Public members		
+-		[4]	{OUT_RESULT}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	Int32	System.Data.DbType
+		Direction	Output	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Int32	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Int32	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"OUT_RESULT"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	30	object {int}
++		Static members		
++		Non-Public members		
+-		[5]	{OUT_MENSAGEM}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	String	System.Data.DbType
+		Direction	Output	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	Varchar2	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"OUT_MENSAGEM"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	4000	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	null	object
++		Static members		
++		Non-Public members		
+-		[6]	{OUT_CURSOR}	object {Oracle.DataAccess.Client.OracleParameter}
+		ArrayBindSize	null	int[]
+		ArrayBindStatus	null	Oracle.DataAccess.Client.OracleParameterStatus[]
+		CollectionType	None	Oracle.DataAccess.Client.OracleCollectionType
+		DbType	Object	System.Data.DbType
+		Direction	Output	System.Data.ParameterDirection
+		IsNullable	false	bool
+		Offset	0	int
+		OracleDbType	RefCursor	Oracle.DataAccess.Client.OracleDbType
+		OracleDbTypeEx	RefCursor	Oracle.DataAccess.Client.OracleDbType
+		ParameterName	"OUT_CURSOR"	string
+		Precision (System.Data.Common.DbParameter)	0	byte
+		Precision	0	byte
+		Scale (System.Data.Common.DbParameter)	0	byte
+		Scale	0	byte
+		Size	0	int
+		SourceColumn	""	string
+		SourceColumnNullMapping	false	bool
+		SourceVersion	Current	System.Data.DataRowVersion
+		Status	Success	Oracle.DataAccess.Client.OracleParameterStatus
+		UdtTypeName	""	string
+		Value	null	object
++		Static members		
++		Non-Public members		

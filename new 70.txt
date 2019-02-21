@@ -1,0 +1,35 @@
+História
+
+Como admin quero poder cancelar apenas o agendamento para poder manter a escala após realizar o cancelamento.
+
+Dicionário
+
+Escala: Horários disponibilizados.
+Agendamentos: Pode ser agendamento comum ou encaixe (agendamento sob demanda).
+
+Descrição
+
+Na tela Prestadores | Consultar Agenda existe apenas o botão "Excluir Agenda" atualmente. Este botão ao ser selecionado remove a escala e o agendamento.
+
+No lugar do botão "Excluir Agenda" devemos ter o botão "Cancelar Agenda" e deve ser adicionado o botão "Indisponibilizar Escala" a sua direita.
+
+O comportamento esperado quando cada botão é selecionado deve ser o seguinte:
+ok - Cancelar agendamento
+ok - Escala: Não faz nada.
+ok - Agendamento: Mantém a escala e remove o agendamento.
+
+O botão "Cancelar Agenda" só é habilitado quando pelo menos um agendamento é selecionado. 
+
+Caso seja selecionado o popup de confirmação deve exibir o texto: "Confirma o cancelamento do(s ) agendamento(s) selecionado(s)?".
+Indisponibilizar escala
+Escala: Remove a escala.
+Agendamento: Remove o agendamento e a escala.
+O botão "Indispobnibilizar Agenda" só é habilitado quando pelo menos uma escala ou agendamento é selecionado. 
+Caso seja selecionado o popup de confirmação deve exibir o texto: "Confirma a indisponibilização do(s ) agendamento(s) e/ou escala(s) selecionado(s)?".
+
+IMPORTANTE: Os agendamentos cancelados devem ser integrados na Medsoft. Nesse caso, devem ser usados processos para cancelamento em batch dos agendamentos.
+
+Deve ser possível cancelar pelo menos 20 agendamentos de uma vez só em menos de 30 segundos com sucesso.
+
+Premissas
+ As escalas não são integradas com a Medsoft.
